@@ -246,14 +246,23 @@ class FittedPipeline:
 
 
 def _fit_label_model(M: np.ndarray, y_dev: np.ndarray | None, epochs: int):
-    k = M.shape[1]
-    if k >= 3:
-        lm = LabelModel(cardinality=SNORKEL_CARDINALITY, verbose=False)
-        fit_kwargs = dict(L_train=M, n_epochs=epochs, l2=SNORKEL_L2, lr=SNORKEL_LR, seed=SNORKEL_SEED)
-        if y_dev is not None:
-            fit_kwargs["Y_dev"] = y_dev
-        lm.fit(**fit_kwargs)
-        return lm
+    """Fit a Snorkel LabelModel robustly.
+
+    Snorkel can throw "Loss is NaN" on near-degenerate label matrices; retry at
+    progressively lower learning rates, then fall back to MajorityLabelVoter.
+    """
+    if M.shape[1] < 3:
+        return MajorityLabelVoter(cardinality=SNORKEL_CARDINALITY)
+    for lr in (SNORKEL_LR, 0.001, 0.0001):
+        try:
+            lm = LabelModel(cardinality=SNORKEL_CARDINALITY, verbose=False)
+            fit_kwargs = dict(L_train=M, n_epochs=epochs, l2=SNORKEL_L2, lr=lr, seed=SNORKEL_SEED)
+            if y_dev is not None:
+                fit_kwargs["Y_dev"] = y_dev
+            lm.fit(**fit_kwargs)
+            return lm
+        except Exception:  # noqa: BLE001
+            continue
     return MajorityLabelVoter(cardinality=SNORKEL_CARDINALITY)
 
 
@@ -280,10 +289,13 @@ def fit(
     # Top-k sweep: pick the k with best covered val agreement.
     best_k, best_agree = max(len(ranked_surv), 1), -1.0
     for k in range(1, len(ranked_surv) + 1):
-        cols = ranked_surv[:k]
-        M_k = build_label_matrix(val_norm, cols, best_thresholds, band)
-        lm_k = _fit_label_model(M_k, y_val if k >= 3 else None, epochs=200)
-        yh = lm_k.predict(L=M_k, tie_break_policy="random")
+        try:
+            cols = ranked_surv[:k]
+            M_k = build_label_matrix(val_norm, cols, best_thresholds, band)
+            lm_k = _fit_label_model(M_k, y_val if k >= 3 else None, epochs=200)
+            yh = lm_k.predict(L=M_k, tie_break_policy="random")
+        except Exception:  # noqa: BLE001
+            continue
         v = yh != -1
         if v.sum() > 0:
             agree = accuracy_score(y_val[v], yh[v])

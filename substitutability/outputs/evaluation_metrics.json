@@ -1,32 +1,59 @@
 {
   "fit_summary": {
     "task": "substitutability",
-    "n_total_programs": 4,
-    "n_surviving_programs": 4,
-    "best_k": 3,
+    "n_total_programs": 80,
+    "n_surviving_programs": 80,
+    "best_k": 12,
     "band": 0.0,
-    "val_best_agreement": 0.9279,
+    "val_best_agreement": 0.955,
     "selected_program_ids": [
-      3,
-      1,
-      4
+      54,
+      11,
+      19,
+      6,
+      9,
+      41,
+      69,
+      25,
+      10,
+      14,
+      64,
+      78
     ],
     "selected_thresholds": [
-      0.45,
-      0.5,
-      0.5
+      0.75,
+      0.25,
+      0.35,
+      0.2,
+      0.1,
+      0.2,
+      0.15,
+      0.4,
+      0.15,
+      0.75,
+      0.6,
+      0.65
     ],
     "selected_val_accuracies": [
-      0.8784,
-      0.864,
-      0.8514
+      0.9271,
+      0.9269,
+      0.9099,
+      0.9054,
+      0.9054,
+      0.9023,
+      0.8919,
+      0.8919,
+      0.8874,
+      0.8874,
+      0.8874,
+      0.8874
     ]
   },
   "test_metrics": {
-    "accuracy": 0.7712,
-    "precision": 0.8515,
-    "recall": 0.8124,
-    "f1": 0.8315,
+    "accuracy": 0.749,
+    "precision": 0.803,
+    "recall": 0.8463,
+    "f1": 0.8241,
     "coverage": 1.0
   },
   "majority_baseline": 0.6949,
@@ -34,19 +61,46 @@
   "n_test_covered": 721,
   "program_diagnostics": {
     "selected_program_ids": [
-      3,
-      1,
-      4
+      54,
+      11,
+      19,
+      6,
+      9,
+      41,
+      69,
+      25,
+      10,
+      14,
+      64,
+      78
     ],
     "coverage": [
+      0.5936,
+      0.9612,
       1.0,
-      0.7476,
-      0.9986
+      1.0,
+      1.0,
+      0.9792,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
     ],
     "conflicts": [
-      0.4202,
-      0.3259,
-      0.4189
+      0.3107,
+      0.5534,
+      0.5922,
+      0.5922,
+      0.5922,
+      0.5714,
+      0.5922,
+      0.5922,
+      0.5922,
+      0.5922,
+      0.5922,
+      0.5922
     ]
   }
 }

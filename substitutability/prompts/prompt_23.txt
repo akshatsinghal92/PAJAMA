@@ -1,0 +1,97 @@
+You are an expert Python developer and food-informatics evaluation researcher.
+
+Your task: Write a Python function that judges whether a USDA food-database entry is a
+SUBSTITUTABLE match for a recipe ingredient. Return a numeric score where HIGHER means
+the USDA entry is a BETTER (more substitutable) stand-in for the ingredient.
+
+DEFINITION OF SUBSTITUTABLE:
+The USDA entry is substitutable if BOTH hold: (1) it could be used in place of the
+ingredient without changing how the dish is prepared, and (2) a person eating the dish
+would not notice any difference in taste, texture, or appearance.
+
+INPUT SHAPE:
+- `ingredient` is recipe text, e.g. "200g frozen chicken breast, thawed", "30g olive oil",
+  "10g garlic paste (from tube)". It may carry a leading gram weight, prep words, a
+  post-comma state, and parentheticals.
+- `usda_match` is a USDA description, e.g. "Olive oil", "Chicken patty, frozen, uncooked",
+  "Spices, ginger, ground" (primary food first, comma-separated descriptors after).
+
+EVALUATION STRATEGY — focus STRICTLY on this dimension:
+Preservation and Form Match: Judge agreement on how the food is preserved or physically delivered: fresh, frozen, canned, dried, jarred, paste, powder. Reward matching or recoverable forms (e.g. 'frozen blueberries, thawed' vs 'Blueberries, frozen'); penalize mismatches that alter water content, concentration, or handling (e.g. a plain broth vs a ready-to-serve soup, fresh herb vs dried spice when it changes the dish).
+
+DIVERSITY REQUIREMENT:
+This is variant 7/8. Use a meaningfully different
+algorithm, feature set, and scoring formula than other variants for this heuristic.
+
+FAILURE AVOIDANCE:
+Avoid constant outputs, fragile code, heavy dependencies, and trivial length-only scoring.
+
+Here are real labeled examples so you understand what substitutable vs not looks like:
+
+--- Example 1 ---
+Ingredient: 300g penne pasta
+USDA match:  Pasta, cooked
+Ground-truth: NOT substitutable
+
+--- Example 2 ---
+Ingredient: 40g balsamic vinegar
+USDA match:  Vinegar, balsamic
+Ground-truth: substitutable
+
+--- Example 3 ---
+Ingredient: 100g granola
+USDA match:  Cereal, granola
+Ground-truth: substitutable
+
+--- Example 4 ---
+Ingredient: 20g fish sauce
+USDA match:  Fish sauce
+Ground-truth: substitutable
+
+--- Example 5 ---
+Ingredient: 200g canned green beans, drained
+USDA match:  Green beans, canned, cooked with oil
+Ground-truth: NOT substitutable
+
+--- Example 6 ---
+Ingredient: 150g canned whole cherry tomatoes, drained
+USDA match:  Tomatoes, canned, cooked
+Ground-truth: NOT substitutable
+
+--- Example 7 ---
+Ingredient: 50g tahini sauce
+USDA match:  Tahini
+Ground-truth: NOT substitutable
+
+--- Example 8 ---
+Ingredient: 400g canned diced tomatoes, drained
+USDA match:  Tomatoes, canned, cooked
+Ground-truth: NOT substitutable
+
+--- Example 9 ---
+Ingredient: 5g salt
+USDA match:  Salt, table
+Ground-truth: substitutable
+
+--- Example 10 ---
+Ingredient: 200g shredded cabbage
+USDA match:  Cabbage, raw
+Ground-truth: substitutable
+
+
+IMPORTANT REQUIREMENTS:
+- Output ONLY valid, executable Python code inside ```python ... ``` blocks. No explanation.
+- The function signature must be exactly: def judging_function(ingredient, usda_match):
+- Return a single numeric score (int or float). HIGHER = MORE substitutable.
+- Use standard Python string/math operations for speed.
+- You may use common libraries (re, math, collections, string, statistics) but NO heavy ML/NLP libraries.
+- This is variant 7/8 — use a MEANINGFULLY DIFFERENT algorithm than other variants.
+- Include comprehensive error handling (try/except) so the function never crashes.
+- Handle edge cases (empty strings, missing qualifiers, gram-weight prefixes like '30g', parentheticals).
+- Return scores in a reasonable numeric range (e.g., 0-10 or 0-100).
+- Make the function DISCRIMINATIVE: clearly different scores for good vs bad matches.
+
+```python
+def judging_function(ingredient, usda_match):
+    # Your implementation here
+```
