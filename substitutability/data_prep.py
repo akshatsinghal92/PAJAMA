@@ -25,6 +25,7 @@ import argparse
 import csv
 import json
 import random
+import re
 from pathlib import Path
 
 SCRIPT_DIR = Path(__file__).resolve().parent
@@ -63,19 +64,40 @@ def load_rows(csv_path: Path) -> list[dict]:
     return rows
 
 
+def _group_key(row: dict) -> tuple[str, str]:
+    """Leak-safe grouping key = what a judge program actually sees.
+
+    Strips the leading gram weight so near-duplicates like '150g onion' and
+    '200g onion' (identical program input) share a group and never straddle splits.
+    """
+    ing = row["ingredient"].strip().lower()
+    ing = re.sub(r"^\s*\d+(\.\d+)?\s*g\b", "", ing).strip()
+    return (ing, row["usda_match"].strip().lower())
+
+
 def stratified_split(rows: list[dict], val_frac: float, seed: int) -> tuple[list[dict], list[dict]]:
+    """Grouped, label-stratified split: all rows sharing a group key go to one side."""
     rng = random.Random(seed)
-    by_label: dict[int, list[dict]] = {0: [], 1: []}
+
+    groups: dict[tuple[str, str], list[dict]] = {}
     for r in rows:
-        by_label[r["label"]].append(r)
+        groups.setdefault(_group_key(r), []).append(r)
+
+    # Each group's label (duplicates share a label; majority-vote on the rare chance they don't).
+    by_label: dict[int, list[list[dict]]] = {0: [], 1: []}
+    for grp in groups.values():
+        lbl = round(sum(x["label"] for x in grp) / len(grp))
+        by_label[lbl].append(grp)
 
     val: list[dict] = []
     test: list[dict] = []
-    for label, group in by_label.items():
-        rng.shuffle(group)
-        n_val = max(1, round(len(group) * val_frac)) if group else 0
-        val.extend(group[:n_val])
-        test.extend(group[n_val:])
+    for label, grps in by_label.items():
+        rng.shuffle(grps)
+        n_val_groups = max(1, round(len(grps) * val_frac)) if grps else 0
+        for g in grps[:n_val_groups]:
+            val.extend(g)
+        for g in grps[n_val_groups:]:
+            test.extend(g)
     rng.shuffle(val)
     rng.shuffle(test)
     return val, test

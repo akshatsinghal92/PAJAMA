@@ -5,48 +5,48 @@
     "n_surviving_programs": 4,
     "best_k": 3,
     "band": 0.0,
-    "val_best_agreement": 0.8457,
+    "val_best_agreement": 0.9279,
     "selected_program_ids": [
-      1,
       3,
+      1,
       4
     ],
     "selected_thresholds": [
+      0.45,
       0.5,
-      0.35,
-      0.4
+      0.5
     ],
     "selected_val_accuracies": [
-      0.8636,
-      0.7819,
-      0.7766
+      0.8784,
+      0.864,
+      0.8514
     ]
   },
   "test_metrics": {
-    "accuracy": 0.7775,
-    "precision": 0.8348,
-    "recall": 0.8566,
-    "f1": 0.8456,
+    "accuracy": 0.7712,
+    "precision": 0.8515,
+    "recall": 0.8124,
+    "f1": 0.8315,
     "coverage": 1.0
   },
-  "majority_baseline": 0.7113,
-  "n_test": 755,
-  "n_test_covered": 755,
+  "majority_baseline": 0.6949,
+  "n_test": 721,
+  "n_test_covered": 721,
   "program_diagnostics": {
     "selected_program_ids": [
-      1,
       3,
+      1,
       4
     ],
     "coverage": [
-      0.7046,
       1.0,
-      1.0
+      0.7476,
+      0.9986
     ],
     "conflicts": [
-      0.3073,
-      0.3907,
-      0.3907
+      0.4202,
+      0.3259,
+      0.4189
     ]
   }
 }

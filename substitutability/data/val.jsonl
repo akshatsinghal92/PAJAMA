@@ -1,188 +1,222 @@
-{"ingredient": "15g lemon juice", "usda_match": "Lemon juice, raw", "label": 1}
-{"ingredient": "20g lemon juice", "usda_match": "Lemon juice, raw", "label": 1}
-{"ingredient": "200g linguine", "usda_match": "Pasta, cooked", "label": 0}
 {"ingredient": "5g salt", "usda_match": "Salt, table", "label": 1}
-{"ingredient": "80g canned black beans, drained", "usda_match": "Beans, black, canned, sodium added, drained and rinsed", "label": 1}
-{"ingredient": "30g olive oil", "usda_match": "Olive oil", "label": 1}
-{"ingredient": "500g fresh broccoli florets", "usda_match": "Broccoli, raw", "label": 1}
 {"ingredient": "5g salt", "usda_match": "Salt, table", "label": 1}
-{"ingredient": "250g fresh prawns, peeled", "usda_match": "Shrimp, grilled", "label": 0}
-{"ingredient": "60g bamboo shoots", "usda_match": "Bamboo shoots, raw", "label": 1}
-{"ingredient": "20g jarred minced garlic", "usda_match": "Garlic, raw", "label": 0}
-{"ingredient": "10g onion powder", "usda_match": "Spices, onion powder", "label": 1}
-{"ingredient": "5g thyme", "usda_match": "Spices, thyme, dried", "label": 0}
-{"ingredient": "60g mayonnaise", "usda_match": "Mayonnaise, regular", "label": 1}
-{"ingredient": "300g spaghetti", "usda_match": "Spaghetti, spinach, dry", "label": 0}
-{"ingredient": "400g coconut milk", "usda_match": "Coconut milk", "label": 1}
-{"ingredient": "20g fresh garlic cloves", "usda_match": "Garlic, raw", "label": 1}
-{"ingredient": "30g dried wakame seaweed", "usda_match": "Seaweed, wakame, raw", "label": 0}
-{"ingredient": "500g vegetable broth", "usda_match": "Soup, vegetable broth, ready to serve", "label": 0}
-{"ingredient": "20g olive oil", "usda_match": "Oil, olive, salad or cooking", "label": 1}
-{"ingredient": "40g soy sauce", "usda_match": "Soy sauce", "label": 1}
-{"ingredient": "10g fresh thyme", "usda_match": "Thyme, fresh", "label": 1}
-{"ingredient": "100g walnuts", "usda_match": "Nuts, walnuts, english", "label": 1}
-{"ingredient": "15g garlic paste (from tube)", "usda_match": "Garlic sauce", "label": 0}
-{"ingredient": "30g fresh cilantro", "usda_match": "Cilantro, raw", "label": 1}
-{"ingredient": "3g Salt and pepper (to taste)", "usda_match": "Spices, pepper, black", "label": 0}
-{"ingredient": "5g toasted coconut flakes", "usda_match": "Nuts, coconut meat, dried (desiccated), toasted", "label": 1}
-{"ingredient": "40g olive oil", "usda_match": "Oil, olive, salad or cooking", "label": 1}
-{"ingredient": "5g vanilla extract", "usda_match": "Vanilla extract", "label": 1}
-{"ingredient": "5g salt", "usda_match": "Salt, table", "label": 1}
-{"ingredient": "400g canned crushed tomatoes", "usda_match": "Tomatoes, crushed, canned", "label": 1}
-{"ingredient": "40g tamarind paste", "usda_match": "Tamarind, dried", "label": 0}
-{"ingredient": "100g heavy cream", "usda_match": "Cream, fluid, heavy whipping", "label": 1}
-{"ingredient": "400g beet", "usda_match": "Beet juice", "label": 0}
-{"ingredient": "30g fresh basil", "usda_match": "Basil, fresh", "label": 1}
-{"ingredient": "150g cucumber", "usda_match": "Cucumber, raw", "label": 1}
-{"ingredient": "5g salt", "usda_match": "Salt, table", "label": 1}
-{"ingredient": "300g fresh mozzarella", "usda_match": "Cheese, mozzarella, low sodium", "label": 0}
-{"ingredient": "500g frozen chicken thighs, thawed", "usda_match": "Chicken, thigh, boneless, skinless, raw", "label": 0}
-{"ingredient": "100g red cabbage", "usda_match": "Cabbage, red, raw", "label": 1}
-{"ingredient": "400g firm tofu", "usda_match": "HOUSE FOODS Premium Firm Tofu", "label": 1}
-{"ingredient": "80g cucumber", "usda_match": "Cucumber, raw", "label": 1}
-{"ingredient": "300g frozen mango chunks, thawed", "usda_match": "Mango, frozen", "label": 1}
-{"ingredient": "200g shredded cabbage", "usda_match": "Cabbage, raw", "label": 1}
-{"ingredient": "60g soy sauce", "usda_match": "Soy sauce", "label": 1}
-{"ingredient": "600g fresh chicken thighs", "usda_match": "Chicken, thigh, boneless, skinless, raw", "label": 0}
-{"ingredient": "10g fresh ginger root", "usda_match": "Ginger root, raw", "label": 1}
-{"ingredient": "30g capers", "usda_match": "Capers, canned", "label": 1}
-{"ingredient": "5g thyme", "usda_match": "Thyme, fresh", "label": 0}
-{"ingredient": "3g salt", "usda_match": "Salt, table", "label": 1}
-{"ingredient": "200g dried chickpeas, soaked and cooked", "usda_match": "Chickpeas, (garbanzo beans, bengal gram), dry", "label": 1}
-{"ingredient": "5g sesame oil", "usda_match": "Sesame oil", "label": 1}
-{"ingredient": "60g parmesan cheese", "usda_match": "Cheese, parmesan, grated", "label": 1}
-{"ingredient": "400g fresh white fish fillet", "usda_match": "Fish, whitefish, mixed species, raw", "label": 1}
-{"ingredient": "10g garlic paste (from tube)", "usda_match": "Garlic sauce", "label": 0}
-{"ingredient": "50g Canadian bacon", "usda_match": "Canadian bacon, unprepared", "label": 1}
-{"ingredient": "200g cooked white rice", "usda_match": "Rice, white, cooked, no added fat", "label": 1}
-{"ingredient": "10g chives", "usda_match": "Chives, raw", "label": 1}
-{"ingredient": "900g warm vegetable broth", "usda_match": "Soup, vegetable broth, ready to serve", "label": 0}
-{"ingredient": "25g vegetable oil", "usda_match": "Vegetable oil, NFS", "label": 1}
-{"ingredient": "10g Italian seasoning", "usda_match": "Spices, poultry seasoning", "label": 0}
-{"ingredient": "400g beef broth", "usda_match": "Fish broth", "label": 0}
-{"ingredient": "4g salt", "usda_match": "Salt, table", "label": 1}
-{"ingredient": "40g parmesan cheese", "usda_match": "Cheese, parmesan, grated", "label": 1}
-{"ingredient": "10g lime juice", "usda_match": "Lime juice, raw", "label": 1}
-{"ingredient": "150g peas", "usda_match": "Peas, green, raw", "label": 1}
-{"ingredient": "200g fresh mushrooms", "usda_match": "Fried mushrooms", "label": 0}
-{"ingredient": "20g lemon juice", "usda_match": "Lemon juice, raw", "label": 1}
-{"ingredient": "30g tahini", "usda_match": "Tahini", "label": 1}
-{"ingredient": "70g chia seeds", "usda_match": "Seeds, flaxseed", "label": 0}
-{"ingredient": "50g tahini sauce", "usda_match": "Tahini", "label": 0}
-{"ingredient": "5g black pepper", "usda_match": "Spices, pepper, black", "label": 1}
-{"ingredient": "480g dried kidney beans, soaked and cooked", "usda_match": "Kidney beans, from dried, fat added", "label": 0}
-{"ingredient": "5g smoked paprika", "usda_match": "Spices, paprika", "label": 0}
-{"ingredient": "150g fresh diced onion", "usda_match": "Onions, raw", "label": 1}
-{"ingredient": "60g olive oil", "usda_match": "Oil, olive, salad or cooking", "label": 1}
-{"ingredient": "400g cooked white rice", "usda_match": "Rice, white, cooked, no added fat", "label": 1}
-{"ingredient": "100g red onion", "usda_match": "Onions, red, raw", "label": 1}
-{"ingredient": "200g canned diced tomatoes, drained", "usda_match": "Tomatoes, canned, cooked", "label": 0}
-{"ingredient": "60g sour cream", "usda_match": "Sour cream, regular", "label": 1}
-{"ingredient": "100g canned peas and carrots, drained", "usda_match": "Carrots, cooked, boiled, drained, without salt", "label": 0}
-{"ingredient": "100g shredded purple cabbage", "usda_match": "Cabbage, raw", "label": 0}
-{"ingredient": "100g shredded mozzarella", "usda_match": "Cheese, mozzarella, low moisture, part-skim, shredded", "label": 1}
-{"ingredient": "15g lemon juice", "usda_match": "Lemon juice, raw", "label": 1}
-{"ingredient": "3g black pepper", "usda_match": "Spices, pepper, black", "label": 1}
-{"ingredient": "10g fresh dill", "usda_match": "Dill weed, fresh", "label": 1}
-{"ingredient": "80g frozen corn kernels", "usda_match": "Corn, frozen, cooked, no added fat", "label": 1}
-{"ingredient": "20g balsamic vinegar", "usda_match": "Vinegar, balsamic", "label": 1}
-{"ingredient": "80g sour cream", "usda_match": "Sour cream, regular", "label": 1}
-{"ingredient": "10g garam masala", "usda_match": "Spices, curry powder", "label": 0}
-{"ingredient": "5g cornstarch", "usda_match": "Cornstarch", "label": 1}
-{"ingredient": "20g fresh basil", "usda_match": "Basil, fresh", "label": 1}
-{"ingredient": "15g honey", "usda_match": "Honey", "label": 1}
-{"ingredient": "150g frozen pork belly, thawed", "usda_match": "Pork, belly", "label": 1}
-{"ingredient": "40g butter", "usda_match": "Butter, stick", "label": 1}
-{"ingredient": "200g shredded cheddar cheese", "usda_match": "Cheese, parmesan, shredded", "label": 0}
-{"ingredient": "40g soy sauce", "usda_match": "Soy sauce", "label": 1}
-{"ingredient": "400g dried chickpeas, soaked and cooked", "usda_match": "Chickpeas, (garbanzo beans, bengal gram), dry", "label": 1}
-{"ingredient": "500g fresh chicken breast", "usda_match": "Chicken, breast, boneless, skinless, raw", "label": 1}
-{"ingredient": "400g dried chickpeas, soaked and cooked", "usda_match": "Noodles, cooked", "label": 0}
-{"ingredient": "40g parmesan cheese", "usda_match": "Cheese, parmesan, grated", "label": 1}
-{"ingredient": "150g fresh peas", "usda_match": "Snowpeas, raw", "label": 0}
-{"ingredient": "15g jarred minced garlic", "usda_match": "Garlic, raw", "label": 0}
-{"ingredient": "200g heavy cream", "usda_match": "Cream, fluid, heavy whipping", "label": 1}
-{"ingredient": "3g black pepper", "usda_match": "Spices, pepper, black", "label": 1}
-{"ingredient": "200g roasted fingerling potatoes", "usda_match": "Potato, roasted, from fresh, peel eaten, made with oil", "label": 0}
-{"ingredient": "100g fresh diced onion", "usda_match": "Onions, raw", "label": 1}
-{"ingredient": "100g diced celery", "usda_match": "Celery, raw", "label": 1}
-{"ingredient": "5g cayenne pepper", "usda_match": "Spices, pepper, red or cayenne", "label": 1}
-{"ingredient": "200g canned diced tomatoes, drained", "usda_match": "Tomatoes, canned, cooked", "label": 0}
-{"ingredient": "50g green onion", "usda_match": "Onions, green, raw", "label": 1}
-{"ingredient": "150g silken tofu", "usda_match": "Vitasoy USA Nasoya, Lite Silken Tofu", "label": 1}
-{"ingredient": "5g salt", "usda_match": "Salt, table", "label": 1}
-{"ingredient": "20g olive oil", "usda_match": "Oil, olive, salad or cooking", "label": 1}
-{"ingredient": "150g dry white wine", "usda_match": "Alcoholic beverage, wine, table, white, Pinot Gris (Grigio)", "label": 1}
-{"ingredient": "90g shredded cheddar cheese", "usda_match": "Cheese, cheddar", "label": 1}
-{"ingredient": "30g honey", "usda_match": "Honey", "label": 1}
-{"ingredient": "30g fresh parsley", "usda_match": "Parsley, fresh", "label": 1}
-{"ingredient": "100g shredded carrot", "usda_match": "Carrot, dehydrated", "label": 0}
-{"ingredient": "50g frozen shelled edamame, cooked", "usda_match": "Edamame, cooked", "label": 1}
-{"ingredient": "80g frozen diced onion", "usda_match": "Onions, frozen, whole, unprepared", "label": 0}
-{"ingredient": "480g canned white beans, drained", "usda_match": "White beans, from canned, no added fat", "label": 1}
-{"ingredient": "80g roasted red pepper", "usda_match": "Red pepper, cooked, as ingredient", "label": 0}
-{"ingredient": "120g romaine lettuce", "usda_match": "Romaine lettuce, raw", "label": 1}
-{"ingredient": "10g fresh ginger root", "usda_match": "Ginger root, raw", "label": 1}
-{"ingredient": "10g chili flakes", "usda_match": "Spices, chili powder", "label": 0}
-{"ingredient": "5g dried oregano", "usda_match": "Spices, oregano, dried", "label": 1}
-{"ingredient": "100g diced celery", "usda_match": "Celery, raw", "label": 1}
-{"ingredient": "200g fresh mushrooms", "usda_match": "Mushroom, crimini", "label": 1}
-{"ingredient": "900g vegetable broth", "usda_match": "Soup, vegetable broth, ready to serve", "label": 0}
-{"ingredient": "80g red onion", "usda_match": "Onions, red, raw", "label": 1}
-{"ingredient": "200g mixed greens", "usda_match": "Mixed salad greens, raw", "label": 1}
-{"ingredient": "200g sushi-grade tuna", "usda_match": "Fish, tuna, fresh, bluefin, raw", "label": 1}
-{"ingredient": "200g fresh cherry tomatoes", "usda_match": "Tomatoes, raw", "label": 0}
-{"ingredient": "20g dried basil", "usda_match": "Spices, basil, dried", "label": 1}
-{"ingredient": "30g olive oil", "usda_match": "Oil, olive, salad or cooking", "label": 1}
-{"ingredient": "5g thyme", "usda_match": "Spices, thyme, dried", "label": 0}
-{"ingredient": "300g cucumber", "usda_match": "Cucumber, raw", "label": 1}
-{"ingredient": "200g frozen chopped spinach, thawed and squeezed", "usda_match": "Margarine-like spread, SMART BEAT Smart Squeeze", "label": 0}
-{"ingredient": "400g frozen shrimp, thawed", "usda_match": "Crustaceans, shrimp, cooked", "label": 0}
-{"ingredient": "3g black pepper", "usda_match": "Spices, pepper, black", "label": 1}
-{"ingredient": "15g fresh ginger root", "usda_match": "Ginger root, raw", "label": 1}
-{"ingredient": "240g canned tuna", "usda_match": "Fish, tuna, canned", "label": 1}
-{"ingredient": "300g beef meatballs", "usda_match": "Meatballs, frozen, Italian style", "label": 0}
-{"ingredient": "200g marinara sauce", "usda_match": "Spaghetti sauce", "label": 0}
-{"ingredient": "150g coconut milk", "usda_match": "Coconut milk", "label": 1}
-{"ingredient": "30g vegetable oil", "usda_match": "Vegetable oil, NFS", "label": 1}
-{"ingredient": "400g fresh ground beef", "usda_match": "Beef, ground, raw", "label": 1}
-{"ingredient": "150g red grapes", "usda_match": "Grapes, red, seedless, raw", "label": 1}
-{"ingredient": "300g cooked white rice", "usda_match": "Rice, white, cooked, no added fat", "label": 1}
-{"ingredient": "15g fresh garlic cloves", "usda_match": "Garlic, raw", "label": 1}
-{"ingredient": "100g bean sprouts", "usda_match": "Bean sprouts, raw", "label": 1}
-{"ingredient": "20g sesame oil", "usda_match": "Oil, sesame, salad or cooking", "label": 1}
-{"ingredient": "200g frozen diced bell peppers", "usda_match": "Peppers, sweet, green, frozen, chopped, unprepared", "label": 0}
-{"ingredient": "5g celery seed", "usda_match": "Spices, celery seed", "label": 1}
-{"ingredient": "3g black pepper", "usda_match": "Spices, pepper, black", "label": 1}
-{"ingredient": "30g green onion", "usda_match": "Onions, green, raw", "label": 1}
-{"ingredient": "10g salt", "usda_match": "Salt, table", "label": 1}
-{"ingredient": "30g all-purpose flour", "usda_match": "Flour, wheat, all-purpose, unenriched, unbleached", "label": 1}
-{"ingredient": "20g garlic paste (from tube)", "usda_match": "Garlic sauce", "label": 0}
-{"ingredient": "15g frozen grated ginger", "usda_match": "Ginger root, raw", "label": 0}
-{"ingredient": "100g fresh diced tomato", "usda_match": "Tomatoes, raw", "label": 1}
-{"ingredient": "200g mixed berries", "usda_match": "Crisp, berry", "label": 0}
-{"ingredient": "15g fresh mint", "usda_match": "Spearmint, fresh", "label": 1}
-{"ingredient": "300g frozen chicken breast", "usda_match": "Chicken patty, frozen, uncooked", "label": 0}
 {"ingredient": "20g vinegar", "usda_match": "Vinegar", "label": 1}
-{"ingredient": "10g fresh parsley", "usda_match": "Parsley, fresh", "label": 1}
-{"ingredient": "480g dried kidney beans, soaked and cooked", "usda_match": "Noodles, cooked", "label": 0}
-{"ingredient": "15g fresh garlic cloves", "usda_match": "Garlic, raw", "label": 1}
-{"ingredient": "60g kalamata olives", "usda_match": "Olives, ripe, canned (small-extra large)", "label": 0}
-{"ingredient": "60g honey", "usda_match": "Honey", "label": 1}
-{"ingredient": "150g eggplant", "usda_match": "Eggplant, raw", "label": 1}
-{"ingredient": "50g tomato paste", "usda_match": "Tomato, paste, canned, without salt added", "label": 1}
-{"ingredient": "10g jalapeno", "usda_match": "Peppers, jalapeno, raw", "label": 1}
-{"ingredient": "150g frozen diced onion, thawed", "usda_match": "Onions, frozen, chopped, unprepared", "label": 1}
-{"ingredient": "80g mayonnaise", "usda_match": "Mayonnaise, regular", "label": 1}
-{"ingredient": "150g canned diced tomatoes, drained", "usda_match": "Tomatoes, canned, cooked", "label": 0}
+{"ingredient": "5g salt", "usda_match": "Salt, table", "label": 1}
+{"ingredient": "15g garam masala", "usda_match": "Spices, curry powder", "label": 0}
+{"ingredient": "5g salt", "usda_match": "Salt, table", "label": 1}
+{"ingredient": "30g mayo", "usda_match": "Mayonnaise, regular", "label": 1}
+{"ingredient": "20g parmesan cheese", "usda_match": "Cheese, parmesan, grated", "label": 1}
+{"ingredient": "500g frozen chicken thighs, thawed", "usda_match": "Chicken, thigh, boneless, skinless, raw", "label": 0}
+{"ingredient": "150g canned whole cherry tomatoes, drained", "usda_match": "Tomatoes, canned, cooked", "label": 0}
+{"ingredient": "3g white pepper", "usda_match": "Spices, pepper, white", "label": 1}
+{"ingredient": "30g all-purpose flour", "usda_match": "Flour, wheat, all-purpose, unenriched, unbleached", "label": 1}
+{"ingredient": "200g mixed berries", "usda_match": "Crisp, berry", "label": 0}
+{"ingredient": "30g green onion", "usda_match": "Onions, green, raw", "label": 1}
+{"ingredient": "20g lemon juice", "usda_match": "Lemon juice, raw", "label": 1}
+{"ingredient": "60g Nicoise dressing", "usda_match": "French or Catalina dressing", "label": 0}
+{"ingredient": "30g oyster sauce", "usda_match": "Oyster sauce", "label": 1}
+{"ingredient": "500g fresh chicken breast", "usda_match": "Chicken, breast, boneless, skinless, raw", "label": 1}
+{"ingredient": "50g butter", "usda_match": "Butter, stick", "label": 1}
+{"ingredient": "200g canned diced tomatoes, drained", "usda_match": "Tomatoes, canned, cooked", "label": 0}
+{"ingredient": "4g salt", "usda_match": "Salt, table", "label": 1}
+{"ingredient": "900g beef broth", "usda_match": "Beef broth, without tomato, home recipe", "label": 1}
+{"ingredient": "150g frozen diced onion, thawed", "usda_match": "Onions, frozen, whole, unprepared", "label": 0}
+{"ingredient": "5g salt", "usda_match": "Salt, table", "label": 1}
+{"ingredient": "5g salt", "usda_match": "Salt, table", "label": 1}
+{"ingredient": "200g shredded cabbage", "usda_match": "Cabbage, raw", "label": 1}
+{"ingredient": "800g yellow onion", "usda_match": "Onions, yellow, raw", "label": 1}
+{"ingredient": "5g paprika", "usda_match": "Spices, paprika", "label": 1}
+{"ingredient": "20g olive oil", "usda_match": "Olive oil", "label": 1}
+{"ingredient": "700g frozen beef chuck, thawed", "usda_match": "Beef, chuck for stew, separable lean and fat, choice, raw", "label": 1}
+{"ingredient": "5g salt", "usda_match": "Salt, table", "label": 1}
+{"ingredient": "50g parmesan cheese", "usda_match": "Cheese, parmesan, grated", "label": 1}
+{"ingredient": "50g parmesan cheese", "usda_match": "Cheese, parmesan, grated", "label": 1}
+{"ingredient": "250g fresh chicken breast", "usda_match": "Chicken, breast, boneless, skinless, raw", "label": 1}
+{"ingredient": "60g lemon juice", "usda_match": "Lemon juice, raw", "label": 1}
+{"ingredient": "150g shredded cabbage", "usda_match": "Cabbage, raw", "label": 1}
+{"ingredient": "80g parmesan cheese", "usda_match": "Cheese, parmesan, grated", "label": 1}
 {"ingredient": "30g butter", "usda_match": "Butter, stick", "label": 1}
 {"ingredient": "30g butter", "usda_match": "Butter, stick", "label": 1}
+{"ingredient": "100g shredded cheddar cheese", "usda_match": "Cheese, cheddar", "label": 1}
+{"ingredient": "150g shredded cabbage", "usda_match": "Cabbage, raw", "label": 1}
+{"ingredient": "4g salt", "usda_match": "Salt, table", "label": 1}
+{"ingredient": "20g dried basil", "usda_match": "Spices, basil, dried", "label": 1}
+{"ingredient": "400g frozen beef sirloin, thawed", "usda_match": "Beef, top sirloin, steak, separable lean and fat, trimmed to 1/8\" fat, select, raw", "label": 1}
+{"ingredient": "200g frozen diced onion, thawed", "usda_match": "Onions, frozen, whole, unprepared", "label": 0}
+{"ingredient": "4g salt", "usda_match": "Salt, table", "label": 1}
+{"ingredient": "5g salt", "usda_match": "Salt, table", "label": 1}
+{"ingredient": "5g salt", "usda_match": "Salt, table", "label": 1}
+{"ingredient": "200g spaghetti", "usda_match": "Spaghetti, spinach, dry", "label": 0}
+{"ingredient": "40g butter", "usda_match": "Butter, stick", "label": 1}
+{"ingredient": "10g lemon juice", "usda_match": "Lemon juice, raw", "label": 1}
+{"ingredient": "25g lemon juice", "usda_match": "Lemon juice, raw", "label": 1}
 {"ingredient": "30g butter", "usda_match": "Butter, stick", "label": 1}
+{"ingredient": "30g dried wakame seaweed", "usda_match": "Seaweed, wakame, raw", "label": 0}
+{"ingredient": "80g granola", "usda_match": "Cereal, granola", "label": 1}
+{"ingredient": "80g shredded cheddar cheese", "usda_match": "Cheese, cheddar", "label": 0}
+{"ingredient": "50g breadcrumbs", "usda_match": "Popover", "label": 0}
+{"ingredient": "30g breadcrumbs", "usda_match": "Cookie, shortbread", "label": 0}
+{"ingredient": "5g thyme", "usda_match": "Spices, thyme, dried", "label": 0}
 {"ingredient": "3g salt", "usda_match": "Salt, table", "label": 1}
-{"ingredient": "150g tomato salsa", "usda_match": "Salsa, pico de gallo", "label": 0}
+{"ingredient": "3g salt", "usda_match": "Salt, table", "label": 1}
+{"ingredient": "5g paprika", "usda_match": "Spices, paprika", "label": 1}
+{"ingredient": "30g lemon juice", "usda_match": "Lemon juice, raw", "label": 1}
+{"ingredient": "50g parmesan cheese", "usda_match": "Cheese, parmesan, grated", "label": 1}
+{"ingredient": "30g all-purpose flour", "usda_match": "Flour, wheat, all-purpose, unenriched, unbleached", "label": 1}
+{"ingredient": "150g canned whole cherry tomatoes, drained", "usda_match": "Tomatoes, canned, cooked", "label": 0}
+{"ingredient": "10g butter", "usda_match": "Butter, stick", "label": 1}
+{"ingredient": "5g salt", "usda_match": "Salt, table", "label": 1}
+{"ingredient": "3g Salt and pepper (to taste)", "usda_match": "Salt, table", "label": 0}
+{"ingredient": "120g tzatziki", "usda_match": "Tzatziki dip", "label": 1}
+{"ingredient": "40g balsamic vinegar", "usda_match": "Vinegar, balsamic", "label": 1}
+{"ingredient": "30g olive oil", "usda_match": "Olive oil", "label": 1}
+{"ingredient": "15g lemon juice", "usda_match": "Lemon juice, raw", "label": 1}
+{"ingredient": "10g balsamic vinegar", "usda_match": "Vinegar, balsamic", "label": 1}
+{"ingredient": "50g shredded cheddar cheese", "usda_match": "Cheese, cheddar", "label": 1}
+{"ingredient": "5g salt", "usda_match": "Salt, table", "label": 1}
+{"ingredient": "5g salt", "usda_match": "Salt, table", "label": 1}
 {"ingredient": "30g butter", "usda_match": "Butter, stick", "label": 1}
-{"ingredient": "200g fresh diced onion", "usda_match": "Onions, raw", "label": 1}
+{"ingredient": "400g beef broth", "usda_match": "Beef broth, without tomato, home recipe", "label": 1}
+{"ingredient": "5g salt", "usda_match": "Salt, table", "label": 1}
+{"ingredient": "50g parmesan cheese", "usda_match": "Cheese, parmesan, grated", "label": 1}
+{"ingredient": "10g garam masala", "usda_match": "Spices, curry powder", "label": 0}
+{"ingredient": "5g salt", "usda_match": "Salt, table", "label": 1}
+{"ingredient": "3g salt", "usda_match": "Salt, table", "label": 1}
+{"ingredient": "5g cinnamon", "usda_match": "Spices, cinnamon, ground", "label": 1}
+{"ingredient": "30g olive oil", "usda_match": "Olive oil", "label": 1}
+{"ingredient": "20g fresh dill", "usda_match": "Dill weed, fresh", "label": 1}
 {"ingredient": "30g granola", "usda_match": "Cereal, granola", "label": 1}
-{"ingredient": "100g zucchini", "usda_match": "Squash, summer, zucchini, includes skin, raw", "label": 1}
-{"ingredient": "100g peanut butter", "usda_match": "Peanut butter", "label": 1}
-{"ingredient": "60g avocado", "usda_match": "Avocado, raw", "label": 1}
+{"ingredient": "30g parmesan cheese", "usda_match": "Cheese, parmesan, grated", "label": 1}
+{"ingredient": "30g olive oil", "usda_match": "Olive oil", "label": 1}
+{"ingredient": "100g frozen diced onion, thawed", "usda_match": "Onions, frozen, whole, unprepared", "label": 0}
+{"ingredient": "200g canned green beans, drained", "usda_match": "Green beans, canned, cooked with oil", "label": 0}
+{"ingredient": "4g salt", "usda_match": "Salt, table", "label": 1}
+{"ingredient": "500g fresh ground lamb", "usda_match": "Lamb, New Zealand, imported, ground lamb, raw", "label": 1}
+{"ingredient": "400g canned diced tomatoes, drained", "usda_match": "Tomatoes, canned, cooked", "label": 0}
+{"ingredient": "100g granola", "usda_match": "Cereal, granola", "label": 1}
+{"ingredient": "5g salt", "usda_match": "Salt, table", "label": 1}
+{"ingredient": "40g parmesan cheese", "usda_match": "Cheese, parmesan, grated", "label": 1}
+{"ingredient": "480g canned black beans, drained", "usda_match": "Black beans, from canned, no added fat", "label": 1}
+{"ingredient": "5g salt", "usda_match": "Salt, table", "label": 1}
+{"ingredient": "5g thyme", "usda_match": "Spices, thyme, dried", "label": 0}
+{"ingredient": "10g chives", "usda_match": "Chives, raw", "label": 1}
+{"ingredient": "30g butter", "usda_match": "Butter, stick", "label": 1}
+{"ingredient": "400g firm tofu", "usda_match": "HOUSE FOODS Premium Firm Tofu", "label": 1}
+{"ingredient": "20g lemon juice", "usda_match": "Lemon juice, raw", "label": 1}
+{"ingredient": "200g canned whole cherry tomatoes, drained", "usda_match": "Tomatoes, canned, cooked", "label": 0}
+{"ingredient": "50g tahini sauce", "usda_match": "Tahini", "label": 0}
+{"ingredient": "60g candied walnuts", "usda_match": "Nuts, walnuts, glazed", "label": 1}
+{"ingredient": "700g marinara sauce", "usda_match": "Sauce, pasta, spaghetti/marinara, ready-to-serve", "label": 1}
+{"ingredient": "3g salt", "usda_match": "Salt, table", "label": 1}
+{"ingredient": "60g frozen chopped spinach, thawed and squeezed", "usda_match": "Margarine-like spread, SMART BEAT Smart Squeeze", "label": 0}
+{"ingredient": "15g lemon juice", "usda_match": "Lemon juice, raw", "label": 1}
+{"ingredient": "100g jarred roasted red bell pepper", "usda_match": "Red pepper, cooked, as ingredient", "label": 0}
+{"ingredient": "5g salt", "usda_match": "Salt, table", "label": 1}
+{"ingredient": "4g salt", "usda_match": "Salt, table", "label": 1}
+{"ingredient": "20g olive oil", "usda_match": "Olive oil", "label": 1}
+{"ingredient": "20g butter", "usda_match": "Butter, stick", "label": 1}
+{"ingredient": "3g salt", "usda_match": "Salt, table", "label": 1}
+{"ingredient": "50g green onion", "usda_match": "Onions, green, raw", "label": 1}
+{"ingredient": "5g salt", "usda_match": "Salt, table", "label": 1}
+{"ingredient": "5g thyme", "usda_match": "Spices, thyme, dried", "label": 0}
+{"ingredient": "4g salt", "usda_match": "Salt, table", "label": 1}
+{"ingredient": "20g olive oil", "usda_match": "Olive oil", "label": 1}
+{"ingredient": "300g spaghetti", "usda_match": "Spaghetti, spinach, dry", "label": 0}
+{"ingredient": "200g canned whole cherry tomatoes, drained", "usda_match": "Tomatoes, canned, cooked", "label": 0}
+{"ingredient": "30g green onion", "usda_match": "Onions, green, raw", "label": 1}
+{"ingredient": "15g lemon juice", "usda_match": "Lemon juice, raw", "label": 1}
+{"ingredient": "5g thyme", "usda_match": "Spices, thyme, dried", "label": 0}
+{"ingredient": "30g butter", "usda_match": "Butter, stick", "label": 1}
+{"ingredient": "5g paprika", "usda_match": "Spices, paprika", "label": 1}
+{"ingredient": "20g fish sauce", "usda_match": "Fish sauce", "label": 1}
+{"ingredient": "5g salt", "usda_match": "Salt, table", "label": 1}
+{"ingredient": "3g salt", "usda_match": "Salt, table", "label": 1}
+{"ingredient": "15g lemon juice", "usda_match": "Lemon juice, raw", "label": 1}
+{"ingredient": "10g fresh dill", "usda_match": "Dill weed, fresh", "label": 1}
+{"ingredient": "50g green onion", "usda_match": "Onions, green, raw", "label": 1}
+{"ingredient": "4g salt", "usda_match": "Salt, table", "label": 1}
+{"ingredient": "30g olive oil", "usda_match": "Olive oil", "label": 1}
+{"ingredient": "5g salt", "usda_match": "Salt, table", "label": 1}
+{"ingredient": "150g red grapes", "usda_match": "Grapes, red, seedless, raw", "label": 1}
+{"ingredient": "100g frozen diced onion, thawed", "usda_match": "Onions, frozen, whole, unprepared", "label": 0}
+{"ingredient": "800g dashi broth", "usda_match": "Fish broth", "label": 0}
+{"ingredient": "5g salt", "usda_match": "Salt, table", "label": 1}
+{"ingredient": "30g chopped walnuts", "usda_match": "Nuts, walnuts, english", "label": 0}
+{"ingredient": "5g dried oregano", "usda_match": "Spices, oregano, dried", "label": 1}
+{"ingredient": "200g cooked brown rice", "usda_match": "Rice, brown, cooked, no added fat", "label": 1}
+{"ingredient": "150g frozen diced onion, thawed", "usda_match": "Onions, frozen, whole, unprepared", "label": 0}
+{"ingredient": "20g lemon juice", "usda_match": "Lemon juice, raw", "label": 1}
+{"ingredient": "40g tamarind paste", "usda_match": "Tamarind, dried", "label": 0}
+{"ingredient": "200g frozen chopped spinach, thawed and squeezed", "usda_match": "Margarine-like spread, SMART BEAT Smart Squeeze", "label": 0}
+{"ingredient": "200g canned diced tomatoes, drained", "usda_match": "Tomatoes, canned, cooked", "label": 0}
+{"ingredient": "15g lemon juice", "usda_match": "Lemon juice, raw", "label": 1}
+{"ingredient": "40g olive oil", "usda_match": "Olive oil", "label": 1}
+{"ingredient": "5g salt", "usda_match": "Salt, table", "label": 1}
+{"ingredient": "60g fish sauce", "usda_match": "Fish sauce", "label": 1}
+{"ingredient": "5g salt", "usda_match": "Salt, table", "label": 1}
+{"ingredient": "5g thyme", "usda_match": "Spices, thyme, dried", "label": 0}
+{"ingredient": "15g lemon juice", "usda_match": "Lemon juice, raw", "label": 1}
+{"ingredient": "350g marinara sauce", "usda_match": "Sauce, pasta, spaghetti/marinara, ready-to-serve", "label": 1}
+{"ingredient": "20g balsamic vinegar", "usda_match": "Vinegar, balsamic", "label": 1}
+{"ingredient": "250g canned whole cherry tomatoes, drained", "usda_match": "Tomatoes, canned, cooked", "label": 0}
+{"ingredient": "150g frozen diced onion, thawed", "usda_match": "Onions, frozen, whole, unprepared", "label": 0}
+{"ingredient": "400g canned coconut milk", "usda_match": "Nuts, coconut milk, canned (liquid expressed from grated meat and water)", "label": 1}
+{"ingredient": "5g salt", "usda_match": "Salt, table", "label": 1}
+{"ingredient": "30g butter", "usda_match": "Butter, stick", "label": 1}
+{"ingredient": "400g spaghetti", "usda_match": "Spaghetti sauce", "label": 0}
+{"ingredient": "5g garam masala", "usda_match": "Spices, curry powder", "label": 0}
+{"ingredient": "20g fresh dill", "usda_match": "Dill weed, fresh", "label": 1}
+{"ingredient": "5g salt", "usda_match": "Salt, table", "label": 1}
+{"ingredient": "250g canned shredded chicken, drained", "usda_match": "Chicken, canned, no broth", "label": 1}
+{"ingredient": "10g lemon juice", "usda_match": "Lemon juice, raw", "label": 1}
+{"ingredient": "50g parmesan cheese", "usda_match": "Cheese, parmesan, grated", "label": 1}
+{"ingredient": "30g diced red onion", "usda_match": "Onions, red, raw", "label": 1}
+{"ingredient": "15g balsamic vinegar", "usda_match": "Vinegar, balsamic", "label": 1}
+{"ingredient": "400g canned mushrooms, drained", "usda_match": "Mushrooms, canned, drained solids", "label": 1}
+{"ingredient": "40g parmesan cheese", "usda_match": "Cheese, parmesan, grated", "label": 1}
+{"ingredient": "200g cooked brown rice", "usda_match": "Rice, brown, cooked, no added fat", "label": 1}
+{"ingredient": "5g cinnamon", "usda_match": "Spices, cinnamon, ground", "label": 1}
+{"ingredient": "300g penne pasta", "usda_match": "Pasta, cooked", "label": 0}
+{"ingredient": "20g lemon juice", "usda_match": "Lemon juice, raw", "label": 1}
+{"ingredient": "200g canned diced tomatoes, drained", "usda_match": "Tomatoes, canned, cooked", "label": 0}
+{"ingredient": "150g canned diced tomatoes, drained", "usda_match": "Tomatoes, canned, cooked", "label": 0}
+{"ingredient": "80g frozen corn kernels", "usda_match": "Corn, frozen, cooked, no added fat", "label": 1}
+{"ingredient": "100g canned peas and carrots, drained", "usda_match": "Green peas, canned, cooked, no added fat", "label": 0}
+{"ingredient": "400g canned diced tomatoes, drained", "usda_match": "Tomatoes, canned, cooked", "label": 0}
+{"ingredient": "50g green onion", "usda_match": "Onions, green, raw", "label": 1}
+{"ingredient": "40g butter", "usda_match": "Butter, stick", "label": 1}
+{"ingredient": "30g olive oil", "usda_match": "Olive oil", "label": 1}
+{"ingredient": "30g green onion", "usda_match": "Onions, green, raw", "label": 1}
+{"ingredient": "40g butter", "usda_match": "Butter, stick", "label": 1}
+{"ingredient": "30g olive oil", "usda_match": "Olive oil", "label": 1}
+{"ingredient": "5g green onion", "usda_match": "Onions, green, raw", "label": 1}
+{"ingredient": "60g parmesan cheese", "usda_match": "Cheese, parmesan, grated", "label": 1}
+{"ingredient": "500g fresh ground turkey", "usda_match": "Turkey, Ground, raw", "label": 1}
+{"ingredient": "240g canned black beans, drained", "usda_match": "Black beans, from canned, no added fat", "label": 1}
+{"ingredient": "15g olive oil", "usda_match": "Olive oil", "label": 1}
+{"ingredient": "5g salt", "usda_match": "Salt, table", "label": 1}
+{"ingredient": "600g cauliflower rice", "usda_match": "Cauliflower, raw", "label": 0}
+{"ingredient": "30g all-purpose flour", "usda_match": "Flour, wheat, all-purpose, unenriched, unbleached", "label": 1}
+{"ingredient": "4g salt", "usda_match": "Salt, table", "label": 1}
+{"ingredient": "8g paprika", "usda_match": "Spices, paprika", "label": 1}
+{"ingredient": "300g jasmine rice", "usda_match": "Rice, white, cooked, glutinous", "label": 0}
+{"ingredient": "10g salt", "usda_match": "Salt, table", "label": 1}
+{"ingredient": "30g butter", "usda_match": "Butter, stick", "label": 1}
+{"ingredient": "150g eggplant", "usda_match": "Eggplant, raw", "label": 1}
+{"ingredient": "5g salt", "usda_match": "Salt, table", "label": 1}
+{"ingredient": "90g shredded cheddar cheese", "usda_match": "Cheese, cheddar", "label": 1}
+{"ingredient": "30g olive oil", "usda_match": "Olive oil", "label": 1}
+{"ingredient": "10g butter", "usda_match": "Butter, stick", "label": 1}
+{"ingredient": "200g canned diced tomatoes, drained", "usda_match": "Tomatoes, canned, cooked", "label": 0}
+{"ingredient": "30g olive oil", "usda_match": "Olive oil", "label": 1}
+{"ingredient": "60g parmesan cheese", "usda_match": "Cheese, parmesan, grated", "label": 1}
+{"ingredient": "40g butter", "usda_match": "Butter, stick", "label": 1}
+{"ingredient": "200g canned whole cherry tomatoes, drained", "usda_match": "Tomatoes, canned, cooked", "label": 0}
+{"ingredient": "200g jasmine rice", "usda_match": "Rice, white, cooked, glutinous", "label": 0}
+{"ingredient": "30g lemon juice", "usda_match": "Lemon juice, raw", "label": 1}
+{"ingredient": "80g tzatziki", "usda_match": "Tzatziki dip", "label": 1}
+{"ingredient": "5g salt", "usda_match": "Salt, table", "label": 1}
+{"ingredient": "200g sushi-grade tuna", "usda_match": "Fish, tuna, fresh, bluefin, raw", "label": 1}
+{"ingredient": "180g quinoa", "usda_match": "Quinoa, uncooked", "label": 1}
+{"ingredient": "50g green onion", "usda_match": "Onions, green, raw", "label": 1}
+{"ingredient": "200g shredded cheddar cheese", "usda_match": "Cheese, parmesan, shredded", "label": 0}
