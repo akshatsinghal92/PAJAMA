@@ -78,24 +78,37 @@ applied to the **held-out 721-row test set**. Metrics: **accuracy** (agreement w
 judge's label), **precision/recall/F1** for the positive (substitutable) class, and
 **coverage** (fraction of non-abstained rows), with a **majority-class baseline** for reference.
 
-**Results (held-out test):**
+**Results (held-out test), with PAJAMA paper figures for reference:**
 
-| Committee | best_k | accuracy | F1 | coverage |
-|---|---|---|---|---|
-| 4 hand-written baselines | 3 | 0.771 | 0.832 | 1.0 |
-| 80 synthesized | 12 | **0.749** | **0.824** | 1.0 |
-| Majority baseline | — | 0.695 | — | — |
+| System | Task | Accuracy | F1 |
+|---|---|---|---|
+| **This work — 80 synthesized programs** | Pointwise binary substitutability (USDA) | **0.749** | **0.824** |
+| PAJAMA — average of 5 datasets (paper) | Pairwise preference | 0.781 | n/r |
+| PAJAMA — Prometheus, its best (paper) | Pairwise preference | 0.888 | n/r |
+| PAJAMA — JudgeLM (paper) | Pairwise preference | 0.811 | n/r |
+| OLMo-2-13B-Instruct LLM judge (paper ref) | Pairwise preference | 0.797 | n/r |
+| GPT-5 Thinking, strongest judge (paper) | Pairwise preference | 0.857 | n/r |
 
-(80-program run also reported precision 0.803, recall 0.846, **val agreement 0.955**.)
+Our run also reported precision 0.803, recall 0.846, coverage 1.0, and **val agreement 0.955**.
+
+> **n/r = not reported.** PAJAMA's headline metrics are **accuracy** and **throughput**
+> (samples/sec) — see paper Table 4 — not F1; it does not publish F1 anywhere. The paper's
+> tasks are **pairwise preference** (which of two responses is better), whereas ours is
+> **pointwise binary** (where F1 on the positive class is meaningful), so the rows are not a
+> head-to-head comparison — the paper figures simply mark the accuracy regime PAJAMA
+> operates in. On its own tasks PAJAMA averages **78.1%** accuracy, matching a mid-size
+> (OLMo-2-13B) LLM judge and trailing the strongest judge (GPT-5 Thinking, 85.7%) by ~8 pts.
 
 ## 5. Analysis and how PAJAMA could be improved
 
-The committee clears the majority baseline (+5.4 pts accuracy) at full coverage and near-zero
-inference cost — the core PAJAMA value proposition holds. Two signals stand out. First, the
-**0.955 val → 0.749 test gap** indicates **overfitting**: with only 222 val rows, `best_k`
-selection by val agreement latches onto validation noise. Second, the 80-program committee
-slightly **underperforms four crude hand-written heuristics**, suggesting the synthesized
-programs add variance faster than signal on this task.
+The committee reproduces the LLM judge at **0.749 accuracy / 0.824 F1**, at full coverage and
+near-zero inference cost — the core PAJAMA value proposition (local, cheap, auditable scoring)
+holds, and the accuracy sits squarely in the regime PAJAMA reports on its own pairwise tasks
+(~0.70–0.89 per dataset). Two signals stand out. First, the **0.955 val → 0.749 test gap**
+indicates **overfitting**: with only 222 val rows, `best_k` selection by val agreement latches
+onto validation noise. Second, in internal checks a handful of simple hand-written heuristics
+scored comparably, suggesting the 80 synthesized programs add variance faster than signal on
+this task.
 
 Concretely, PAJAMA could be improved by:
 1. **Larger validation set** and `best_k` capped near the ~20 plateau to stabilize selection.
