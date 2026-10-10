@@ -1,0 +1,755 @@
+{"ingredient": "50g fresh diced tomato", "usda_match": "Tomatoes, raw", "label": 1, "pred": 1, "prob_substitutable": 0.5575}
+{"ingredient": "300g dried chickpeas, soaked and cooked", "usda_match": "Chickpeas, (garbanzo beans, bengal gram), dry", "label": 1, "pred": 0, "prob_substitutable": 0.0656}
+{"ingredient": "100g fresh corn kernels", "usda_match": "Corn, sweet, yellow, raw", "label": 1, "pred": 0, "prob_substitutable": 0.0656}
+{"ingredient": "5g salt", "usda_match": "Salt, table", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "20g olive oil", "usda_match": "Olive oil", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "400g red lentils", "usda_match": "Lentils, raw", "label": 0, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "200g cooked couscous", "usda_match": "Couscous, cooked", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "80g roasted red pepper", "usda_match": "Peppers, red, cooked", "label": 0, "pred": 0, "prob_substitutable": 0.4367}
+{"ingredient": "10g smoked paprika", "usda_match": "Spices, paprika", "label": 0, "pred": 1, "prob_substitutable": 0.6491}
+{"ingredient": "300g romaine lettuce", "usda_match": "Romaine lettuce, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "15g red wine vinegar", "usda_match": "Vinegar, red wine", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "10g brown sugar", "usda_match": "Sugar, brown", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "200g frozen snap peas, thawed", "usda_match": "Peas, edible-podded, frozen, unprepared", "label": 1, "pred": 0, "prob_substitutable": 0.0656}
+{"ingredient": "50g parmesan cheese", "usda_match": "Cheese, parmesan, grated", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "80g shredded carrot", "usda_match": "Carrots, raw, salad", "label": 1, "pred": 0, "prob_substitutable": 0.0286}
+{"ingredient": "40g gochujang paste", "usda_match": "Sweet potato paste", "label": 0, "pred": 0, "prob_substitutable": 0.0656}
+{"ingredient": "5g salt", "usda_match": "Salt, table", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "8g frozen grated ginger", "usda_match": "Ginger root, raw", "label": 0, "pred": 0, "prob_substitutable": 0.0656}
+{"ingredient": "400g chicken broth", "usda_match": "Chicken or turkey broth, bouillon, or consomme", "label": 0, "pred": 0, "prob_substitutable": 0.1014}
+{"ingredient": "100g fresh mango", "usda_match": "Mango, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9538}
+{"ingredient": "150g fresh diced onion", "usda_match": "Onions, raw", "label": 1, "pred": 1, "prob_substitutable": 0.5575}
+{"ingredient": "60g Swiss cheese", "usda_match": "Cheese, Swiss", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "150g Greek yogurt", "usda_match": "Yogurt, Greek, plain, lowfat", "label": 0, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "600g fresh broccoli", "usda_match": "Broccoli, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "200g canned diced tomatoes, drained", "usda_match": "Tomatoes, canned, cooked", "label": 0, "pred": 0, "prob_substitutable": 0.4367}
+{"ingredient": "30g vegetable oil", "usda_match": "Vegetable oil, NFS", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "50g parmesan cheese", "usda_match": "Cheese, parmesan, grated", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "3g black pepper", "usda_match": "Spices, pepper, black", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "40g butter", "usda_match": "Butter, stick", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "5g salt", "usda_match": "Salt, table", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "80g cheddar cheese", "usda_match": "Cheese, cheddar", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "10g lemon juice", "usda_match": "Lemon juice, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "100g bamboo shoots", "usda_match": "Bamboo shoots, cooked", "label": 0, "pred": 1, "prob_substitutable": 0.9707}
+{"ingredient": "100g shredded carrot", "usda_match": "Carrot, dehydrated", "label": 0, "pred": 0, "prob_substitutable": 0.3254}
+{"ingredient": "15g taco seasoning", "usda_match": "Taco sauce", "label": 0, "pred": 0, "prob_substitutable": 0.1014}
+{"ingredient": "15g cumin", "usda_match": "Spices, cumin seed", "label": 0, "pred": 1, "prob_substitutable": 0.6491}
+{"ingredient": "200g fresh diced onion", "usda_match": "Onions, raw", "label": 1, "pred": 1, "prob_substitutable": 0.5575}
+{"ingredient": "100g small pasta", "usda_match": "Pasta, cooked", "label": 0, "pred": 0, "prob_substitutable": 0.0286}
+{"ingredient": "5g salt", "usda_match": "Salt, table", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "400g canned coconut milk", "usda_match": "Nuts, coconut milk, canned (liquid expressed from grated meat and water)", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "1000g almond milk", "usda_match": "Almond milk, unsweetened", "label": 0, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "200g frozen chicken breast, thawed", "usda_match": "Chicken patty, frozen, uncooked", "label": 0, "pred": 1, "prob_substitutable": 0.6491}
+{"ingredient": "20g garlic paste (from tube)", "usda_match": "Garlic, raw", "label": 0, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "600g chicken broth", "usda_match": "Chicken or turkey broth, bouillon, or consomme", "label": 1, "pred": 0, "prob_substitutable": 0.1014}
+{"ingredient": "300g jarred roasted bell peppers", "usda_match": "Peppers, bell, red, raw", "label": 0, "pred": 1, "prob_substitutable": 0.6491}
+{"ingredient": "30g olive oil", "usda_match": "Olive oil", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "100g fresh diced onion", "usda_match": "Onions, raw", "label": 1, "pred": 1, "prob_substitutable": 0.5575}
+{"ingredient": "5g fresh garlic cloves", "usda_match": "Garlic, raw", "label": 1, "pred": 0, "prob_substitutable": 0.3254}
+{"ingredient": "20g sesame oil", "usda_match": "Oil, sesame, salad or cooking", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "20g fresh parsley", "usda_match": "Parsley, fresh", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "3g rosemary", "usda_match": "Spices, rosemary, dried", "label": 0, "pred": 1, "prob_substitutable": 0.6491}
+{"ingredient": "300g frozen kale, thawed and squeezed", "usda_match": "Kale, frozen, unprepared", "label": 1, "pred": 0, "prob_substitutable": 0.0656}
+{"ingredient": "60g candied walnuts", "usda_match": "Nuts, walnuts, glazed", "label": 1, "pred": 1, "prob_substitutable": 0.6491}
+{"ingredient": "250g polenta", "usda_match": "Focaccia, Italian flatbread, plain", "label": 0, "pred": 0, "prob_substitutable": 0.0043}
+{"ingredient": "150g fresh ground beef", "usda_match": "Beef, ground", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "15g cumin", "usda_match": "Spices, cumin seed", "label": 0, "pred": 1, "prob_substitutable": 0.6491}
+{"ingredient": "30g lemon juice", "usda_match": "Lemon juice, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "60g mayonnaise", "usda_match": "Mayonnaise, regular", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "400g coconut milk", "usda_match": "Coconut milk", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "3g fresh garlic cloves", "usda_match": "Garlic, raw", "label": 1, "pred": 0, "prob_substitutable": 0.3254}
+{"ingredient": "30g all-purpose flour", "usda_match": "Flour, wheat, all-purpose, unenriched, unbleached", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "120g turkey bacon", "usda_match": "Bacon, turkey, unprepared", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "30g melted butter", "usda_match": "Butter, without salt", "label": 1, "pred": 0, "prob_substitutable": 0.0656}
+{"ingredient": "400g frozen cod fillet, thawed", "usda_match": "Fish, cod, Pacific, raw (may have been previously frozen)", "label": 1, "pred": 0, "prob_substitutable": 0.0656}
+{"ingredient": "300g soba noodles", "usda_match": "Noodles, japanese, soba, dry", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "100g dry white wine", "usda_match": "Alcoholic beverage, wine, dessert, dry", "label": 0, "pred": 0, "prob_substitutable": 0.0656}
+{"ingredient": "50g diced celery", "usda_match": "Celery, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "150g diced carrot", "usda_match": "Carrots, raw", "label": 1, "pred": 1, "prob_substitutable": 0.5575}
+{"ingredient": "20g garlic paste (from tube)", "usda_match": "Garlic sauce", "label": 0, "pred": 0, "prob_substitutable": 0.1014}
+{"ingredient": "200g frozen chicken breast, thawed", "usda_match": "Chicken patty, frozen, uncooked", "label": 0, "pred": 1, "prob_substitutable": 0.6491}
+{"ingredient": "25g lemon juice", "usda_match": "Lemon juice, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "200g red onion", "usda_match": "Onions, red, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "150g baby potatoes", "usda_match": "Babyfood, potatoes, toddler", "label": 0, "pred": 1, "prob_substitutable": 0.6491}
+{"ingredient": "20g chili powder", "usda_match": "Spices, chili powder", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "400g split peas", "usda_match": "Split peas, from dried, no added fat", "label": 1, "pred": 1, "prob_substitutable": 0.6491}
+{"ingredient": "10g rosemary", "usda_match": "Spices, rosemary, dried", "label": 0, "pred": 1, "prob_substitutable": 0.6491}
+{"ingredient": "20g garlic paste (from tube)", "usda_match": "Garlic sauce", "label": 0, "pred": 0, "prob_substitutable": 0.1014}
+{"ingredient": "500g frozen chicken breast", "usda_match": "Chicken patty, frozen, uncooked", "label": 0, "pred": 1, "prob_substitutable": 0.6491}
+{"ingredient": "100g large eggs", "usda_match": "Eggs, Grade A, Large, egg whole", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "10g fresh ginger root", "usda_match": "Ginger root, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "150g cucumber", "usda_match": "Cucumber, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "400g frozen tilapia fillet, thawed", "usda_match": "Fish, tilapia, fried", "label": 0, "pred": 0, "prob_substitutable": 0.1014}
+{"ingredient": "5g salt", "usda_match": "Salt, table", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "300g jasmine rice", "usda_match": "Rice, white, cooked, glutinous", "label": 0, "pred": 0, "prob_substitutable": 0.0043}
+{"ingredient": "5g thyme", "usda_match": "Thyme, fresh", "label": 0, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "30g lemon juice", "usda_match": "Lemon juice, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "5g Dijon mustard", "usda_match": "Mustard", "label": 0, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "5g salt", "usda_match": "Salt, table", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "60g shaved parmesan", "usda_match": "Cheese, parmesan, shredded", "label": 0, "pred": 1, "prob_substitutable": 0.6491}
+{"ingredient": "200g fresh diced onion", "usda_match": "Onions, raw", "label": 1, "pred": 1, "prob_substitutable": 0.5575}
+{"ingredient": "50g toasted pine nuts", "usda_match": "Nuts, pine nuts, raw", "label": 0, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "300g ripe banana", "usda_match": "Bananas, ripe and slightly ripe, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "20g chopped almonds", "usda_match": "Almond butter", "label": 0, "pred": 0, "prob_substitutable": 0.0286}
+{"ingredient": "20g olive oil", "usda_match": "Oil, olive, salad or cooking", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "150g diced carrot", "usda_match": "Carrot, dehydrated", "label": 0, "pred": 0, "prob_substitutable": 0.3254}
+{"ingredient": "15g lime juice", "usda_match": "Lime juice, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "60g hummus", "usda_match": "Hummus, plain", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "3g black pepper", "usda_match": "Spices, pepper, black", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "1200g chicken broth", "usda_match": "Chicken or turkey broth, bouillon, or consomme", "label": 1, "pred": 0, "prob_substitutable": 0.1014}
+{"ingredient": "80g fresh shelled edamame", "usda_match": "Edamame, cooked", "label": 1, "pred": 0, "prob_substitutable": 0.0043}
+{"ingredient": "15g sesame oil", "usda_match": "Oil, sesame, salad or cooking", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "80g diced red pepper", "usda_match": "Pepper, sweet, red, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "15g olive oil", "usda_match": "Oil, olive, salad or cooking", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "150g fresh diced onion", "usda_match": "Onions, raw", "label": 1, "pred": 1, "prob_substitutable": 0.5575}
+{"ingredient": "60g chia seeds", "usda_match": "Seeds, flaxseed", "label": 0, "pred": 1, "prob_substitutable": 0.6491}
+{"ingredient": "10g frozen grated ginger", "usda_match": "Ginger root, raw", "label": 0, "pred": 0, "prob_substitutable": 0.0656}
+{"ingredient": "10g sesame oil", "usda_match": "Sesame oil", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "30g lime juice", "usda_match": "Lime juice, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "40g butter", "usda_match": "Butter, stick", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "8g paprika", "usda_match": "Spices, paprika", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "30g olive oil", "usda_match": "Oil, olive, salad or cooking", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "60g Caesar dressing", "usda_match": "Caesar dressing", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "5g fresh garlic cloves", "usda_match": "Garlic, raw", "label": 1, "pred": 0, "prob_substitutable": 0.3254}
+{"ingredient": "30g brown sugar", "usda_match": "Sugar, brown", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "50g shredded coconut", "usda_match": "Nuts, coconut meat, dried (desiccated), not sweetened", "label": 0, "pred": 0, "prob_substitutable": 0.0043}
+{"ingredient": "10g coriander", "usda_match": "Spices, coriander seed", "label": 0, "pred": 1, "prob_substitutable": 0.6491}
+{"ingredient": "5g vanilla extract", "usda_match": "Vanilla extract", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "480g canned chickpeas, drained", "usda_match": "Chickpeas (garbanzo beans, bengal gram), canned, sodium added, drained and rinsed", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "100g jarred roasted red bell pepper", "usda_match": "Peppers, red, cooked", "label": 0, "pred": 0, "prob_substitutable": 0.1014}
+{"ingredient": "10g nori sheets", "usda_match": "Rice paper", "label": 0, "pred": 0, "prob_substitutable": 0.0043}
+{"ingredient": "200g frozen broccoli florets, thawed", "usda_match": "Broccoli, frozen, chopped, unprepared", "label": 0, "pred": 1, "prob_substitutable": 0.6491}
+{"ingredient": "200g celery", "usda_match": "Celery, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "700g chicken broth", "usda_match": "Chicken or turkey broth, bouillon, or consomme", "label": 1, "pred": 0, "prob_substitutable": 0.1014}
+{"ingredient": "4g salt", "usda_match": "Salt, table", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "150g frozen diced onion, thawed", "usda_match": "Onions, frozen, whole, unprepared", "label": 0, "pred": 0, "prob_substitutable": 0.3254}
+{"ingredient": "10g fresh ginger root", "usda_match": "Ginger root, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "3g salt", "usda_match": "Salt, table", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "5g thyme", "usda_match": "Spices, thyme, dried", "label": 0, "pred": 1, "prob_substitutable": 0.6491}
+{"ingredient": "10g Italian seasoning", "usda_match": "Spices, poultry seasoning", "label": 0, "pred": 0, "prob_substitutable": 0.0656}
+{"ingredient": "10g Italian seasoning", "usda_match": "Spices, poultry seasoning", "label": 0, "pred": 0, "prob_substitutable": 0.0656}
+{"ingredient": "80g diced celery", "usda_match": "Celery, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "300g rolled oats", "usda_match": "Oats, whole grain, rolled, old fashioned", "label": 1, "pred": 1, "prob_substitutable": 0.6491}
+{"ingredient": "500g frozen ground lamb, thawed", "usda_match": "Lamb, New Zealand, imported, ground lamb, raw", "label": 1, "pred": 1, "prob_substitutable": 0.6491}
+{"ingredient": "20g fresh garlic cloves", "usda_match": "Garlic, raw", "label": 1, "pred": 0, "prob_substitutable": 0.3254}
+{"ingredient": "80g feta cheese", "usda_match": "Cheese, feta", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "200g canned green beans, drained", "usda_match": "Green beans, canned, cooked with oil", "label": 0, "pred": 1, "prob_substitutable": 0.6491}
+{"ingredient": "5g vanilla extract", "usda_match": "Vanilla extract", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "150g kalamata olives", "usda_match": "Olives, ripe, canned (small-extra large)", "label": 0, "pred": 0, "prob_substitutable": 0.0043}
+{"ingredient": "30g green onion", "usda_match": "Onions, green, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "10g fresh garlic cloves", "usda_match": "Garlic, raw", "label": 1, "pred": 0, "prob_substitutable": 0.3254}
+{"ingredient": "300g zucchini", "usda_match": "Squash, summer, zucchini, includes skin, raw", "label": 1, "pred": 0, "prob_substitutable": 0.0656}
+{"ingredient": "50g shredded carrot", "usda_match": "Carrots, raw", "label": 0, "pred": 1, "prob_substitutable": 0.5575}
+{"ingredient": "300g frozen kale, thawed and squeezed", "usda_match": "Oil, teaseed", "label": 0, "pred": 0, "prob_substitutable": 0.0043}
+{"ingredient": "5g paprika", "usda_match": "Spices, paprika", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "5g salt", "usda_match": "Salt, table", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "80g sour cream", "usda_match": "Sour cream, regular", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "15g jarred minced garlic", "usda_match": "Garlic, raw", "label": 0, "pred": 0, "prob_substitutable": 0.3254}
+{"ingredient": "5g salt", "usda_match": "Salt, table", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "480g coconut milk", "usda_match": "Coconut milk", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "30g diced red onion", "usda_match": "Onions, red, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "250g jarred roasted bell peppers", "usda_match": "Peppers, bell, red, raw", "label": 0, "pred": 1, "prob_substitutable": 0.6491}
+{"ingredient": "3g black pepper", "usda_match": "Spices, pepper, black", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "30g fresh cilantro", "usda_match": "Cilantro, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "400g fresh diced tomato", "usda_match": "Tomatoes, raw", "label": 1, "pred": 1, "prob_substitutable": 0.5575}
+{"ingredient": "3g black pepper", "usda_match": "Spices, pepper, black", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "800g vegetable broth", "usda_match": "Vegetable broth, bouillon", "label": 0, "pred": 1, "prob_substitutable": 0.9707}
+{"ingredient": "350g marinara sauce", "usda_match": "Sauce, pasta, spaghetti/marinara, ready-to-serve", "label": 1, "pred": 1, "prob_substitutable": 0.6491}
+{"ingredient": "200g canned diced tomatoes, drained", "usda_match": "Tomatoes, canned, cooked", "label": 0, "pred": 0, "prob_substitutable": 0.4367}
+{"ingredient": "10g jarred minced garlic", "usda_match": "Garlic, raw", "label": 0, "pred": 0, "prob_substitutable": 0.3254}
+{"ingredient": "80g maple syrup", "usda_match": "Syrups, maple", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "100g croutons", "usda_match": "Croutons, plain", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "5g soy sauce", "usda_match": "Soy sauce", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "150g frozen diced onion, thawed", "usda_match": "Onions, frozen, chopped, unprepared", "label": 1, "pred": 0, "prob_substitutable": 0.3254}
+{"ingredient": "5g salt", "usda_match": "Salt, table", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "150g whole wheat flour", "usda_match": "Flour, whole wheat, unenriched", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "100g shredded cheddar cheese", "usda_match": "Cheese, cheddar", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "15g olive oil", "usda_match": "Oil, olive, salad or cooking", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "100g granola", "usda_match": "Cereal, granola", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "15g garlic paste (from tube)", "usda_match": "Garlic sauce", "label": 0, "pred": 0, "prob_substitutable": 0.1014}
+{"ingredient": "100g heavy cream", "usda_match": "Cream, fluid, heavy whipping", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "5g vanilla extract", "usda_match": "Vanilla extract", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "150g roasted sweet potato", "usda_match": "Sweet potato, baked, fat added", "label": 1, "pred": 1, "prob_substitutable": 0.6491}
+{"ingredient": "600g frozen pork tenderloin, thawed", "usda_match": "Pork, fresh, loin, tenderloin, separable lean and fat, raw", "label": 1, "pred": 0, "prob_substitutable": 0.0656}
+{"ingredient": "250g shredded rotisserie chicken", "usda_match": "Chicken, NS as to part, rotisserie, skin not eaten", "label": 1, "pred": 1, "prob_substitutable": 0.6491}
+{"ingredient": "5g salt", "usda_match": "Salt, table", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "30g butter", "usda_match": "Butter, stick", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "15g jarred minced garlic", "usda_match": "Garlic, raw", "label": 0, "pred": 0, "prob_substitutable": 0.3254}
+{"ingredient": "600g zucchini", "usda_match": "Zucchini, pickled", "label": 0, "pred": 0, "prob_substitutable": 0.4367}
+{"ingredient": "400g frozen beef sirloin, thawed", "usda_match": "Beef, top sirloin, steak, separable lean and fat, trimmed to 1/8\" fat, select, raw", "label": 1, "pred": 0, "prob_substitutable": 0.0656}
+{"ingredient": "200g frozen diced onion", "usda_match": "Onions, frozen, whole, unprepared", "label": 0, "pred": 1, "prob_substitutable": 0.9538}
+{"ingredient": "10g cornstarch", "usda_match": "Cornstarch", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "20g rice vinegar", "usda_match": "Vinegar", "label": 0, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "4g salt", "usda_match": "Salt, table", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "200g heavy cream", "usda_match": "Cream, heavy", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "150g fresh snap peas", "usda_match": "Peas, edible-podded, raw", "label": 1, "pred": 0, "prob_substitutable": 0.0656}
+{"ingredient": "15g lemon juice", "usda_match": "Lemon juice, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "200g cauliflower", "usda_match": "Cauliflower, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "100g diced carrot", "usda_match": "Carrot, dehydrated", "label": 0, "pred": 0, "prob_substitutable": 0.3254}
+{"ingredient": "15g jarred minced garlic", "usda_match": "Garlic, raw", "label": 0, "pred": 0, "prob_substitutable": 0.3254}
+{"ingredient": "60g sour cream", "usda_match": "Sour cream, regular", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "200g fresh parsley", "usda_match": "Parsley, fresh", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "40g olive oil", "usda_match": "Olive oil", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "30g fresh parsley", "usda_match": "Parsley, fresh", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "250g frozen shrimp, thawed", "usda_match": "Crustaceans, shrimp, cooked", "label": 0, "pred": 0, "prob_substitutable": 0.0043}
+{"ingredient": "400g coconut milk", "usda_match": "Coconut milk", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "150g mixed berries", "usda_match": "Blackberries, raw", "label": 0, "pred": 0, "prob_substitutable": 0.0043}
+{"ingredient": "30g butter", "usda_match": "Butter, stick", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "30g olive oil", "usda_match": "Oil, olive, salad or cooking", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "4g salt", "usda_match": "Salt, table", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "20g olive oil", "usda_match": "Oil, olive, salad or cooking", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "10g baking powder", "usda_match": "Leavening agents, baking powder, low-sodium", "label": 1, "pred": 1, "prob_substitutable": 0.6491}
+{"ingredient": "3g black pepper", "usda_match": "Spices, pepper, black", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "200g ramen noodles", "usda_match": "Soup, ramen noodle, any flavor, dry", "label": 0, "pred": 0, "prob_substitutable": 0.1014}
+{"ingredient": "10g Italian seasoning", "usda_match": "Spices, poultry seasoning", "label": 0, "pred": 0, "prob_substitutable": 0.0656}
+{"ingredient": "150g diced carrot", "usda_match": "Carrots, raw", "label": 1, "pred": 1, "prob_substitutable": 0.5575}
+{"ingredient": "30g tomato paste", "usda_match": "Tomato, paste, canned, without salt added", "label": 1, "pred": 0, "prob_substitutable": 0.1014}
+{"ingredient": "60g lemon juice", "usda_match": "Lemon juice, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "3g salt", "usda_match": "Salt, table", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "3g salt", "usda_match": "Salt, table", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "30g olive oil", "usda_match": "Olive oil", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "50g shredded lettuce", "usda_match": "Lettuce, iceberg, raw", "label": 1, "pred": 0, "prob_substitutable": 0.3254}
+{"ingredient": "100g cucumber", "usda_match": "Cucumber, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "120g coconut milk", "usda_match": "Coconut milk", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "100g red wine", "usda_match": "Wine, table, red", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "30g red onion", "usda_match": "Onions, red, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "120g basil pesto", "usda_match": "Pesto sauce", "label": 1, "pred": 0, "prob_substitutable": 0.0043}
+{"ingredient": "10g sriracha", "usda_match": "Sauce, hot chile, sriracha", "label": 1, "pred": 0, "prob_substitutable": 0.1014}
+{"ingredient": "80g red onion", "usda_match": "Onions, red, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "5g cumin", "usda_match": "Spices, cumin seed", "label": 0, "pred": 1, "prob_substitutable": 0.6491}
+{"ingredient": "500g fresh ground lamb", "usda_match": "Lamb, New Zealand, imported, ground lamb, raw", "label": 1, "pred": 1, "prob_substitutable": 0.6491}
+{"ingredient": "25g olive oil", "usda_match": "Oil, olive, salad or cooking", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "3g cayenne pepper", "usda_match": "Spices, pepper, red or cayenne", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "15g garlic paste (from tube)", "usda_match": "Garlic sauce", "label": 0, "pred": 0, "prob_substitutable": 0.1014}
+{"ingredient": "900g fresh pork shoulder", "usda_match": "Pork, fresh, shoulder, whole, separable lean and fat, raw", "label": 1, "pred": 1, "prob_substitutable": 0.6491}
+{"ingredient": "200g banana", "usda_match": "Banana, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "400g water", "usda_match": "Water, tap", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "200g BBQ sauce", "usda_match": "Sauce, barbecue", "label": 1, "pred": 0, "prob_substitutable": 0.0656}
+{"ingredient": "250g water", "usda_match": "Water, tap", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "150g fresh diced onion", "usda_match": "Onions, raw", "label": 1, "pred": 1, "prob_substitutable": 0.5575}
+{"ingredient": "5g vanilla extract", "usda_match": "Vanilla extract", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "200g canned whole cherry tomatoes, drained", "usda_match": "Tomatoes, canned, cooked", "label": 0, "pred": 0, "prob_substitutable": 0.1014}
+{"ingredient": "5g salt", "usda_match": "Salt, table", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "80g shredded cheddar cheese", "usda_match": "Cheese, cheddar", "label": 0, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "5g black pepper", "usda_match": "Spices, pepper, black", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "50g parmesan cheese", "usda_match": "Cheese, parmesan, grated", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "15g garam masala", "usda_match": "Spices, curry powder", "label": 0, "pred": 0, "prob_substitutable": 0.0043}
+{"ingredient": "100g cucumber", "usda_match": "Cucumber, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "200g frozen diced onion, thawed", "usda_match": "Onions, frozen, whole, unprepared", "label": 0, "pred": 0, "prob_substitutable": 0.3254}
+{"ingredient": "150g fresh ground turkey", "usda_match": "Turkey, ground, fat free, raw", "label": 0, "pred": 1, "prob_substitutable": 0.6491}
+{"ingredient": "10g cinnamon", "usda_match": "Sugar, cinnamon", "label": 0, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "15g garlic paste (from tube)", "usda_match": "Garlic sauce", "label": 0, "pred": 0, "prob_substitutable": 0.1014}
+{"ingredient": "3g black pepper", "usda_match": "Spices, pepper, black", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "150g BBQ sauce", "usda_match": "Sauce, barbecue", "label": 1, "pred": 0, "prob_substitutable": 0.0656}
+{"ingredient": "300g zucchini", "usda_match": "Zucchini, pickled", "label": 0, "pred": 0, "prob_substitutable": 0.4367}
+{"ingredient": "20g sesame oil", "usda_match": "Oil, sesame, salad or cooking", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "15g fresh garlic cloves", "usda_match": "Garlic, raw", "label": 1, "pred": 0, "prob_substitutable": 0.3254}
+{"ingredient": "5g salt", "usda_match": "Salt, table", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "4g salt", "usda_match": "Salt, table", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "80g cucumber", "usda_match": "Cucumber, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "8g cumin", "usda_match": "Spices, cumin seed", "label": 0, "pred": 1, "prob_substitutable": 0.6491}
+{"ingredient": "100g goat cheese", "usda_match": "Cheese, goat", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "400g duck breast", "usda_match": "Chicken breast, sauteed, skin eaten", "label": 0, "pred": 0, "prob_substitutable": 0.0656}
+{"ingredient": "80g bean sprouts", "usda_match": "Bean sprouts, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "40g chopped peanuts", "usda_match": "Peanuts, dry roasted, unsalted", "label": 0, "pred": 0, "prob_substitutable": 0.0043}
+{"ingredient": "700g vegetable broth", "usda_match": "Soup, vegetable broth, ready to serve", "label": 0, "pred": 0, "prob_substitutable": 0.1014}
+{"ingredient": "10g taco seasoning", "usda_match": "Seasoning mix, dry, taco, original", "label": 1, "pred": 0, "prob_substitutable": 0.1014}
+{"ingredient": "20g sesame oil", "usda_match": "Sesame oil", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "5g nutmeg", "usda_match": "Spices, nutmeg, ground", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "100g spinach", "usda_match": "Spinach, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "60g honey", "usda_match": "Honey", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "150g bulgur wheat", "usda_match": "Bulgur, dry", "label": 1, "pred": 1, "prob_substitutable": 0.6491}
+{"ingredient": "200g fresh diced tomato", "usda_match": "Tomatoes, raw", "label": 1, "pred": 1, "prob_substitutable": 0.5575}
+{"ingredient": "40g toasted almonds", "usda_match": "Almonds, unroasted", "label": 0, "pred": 1, "prob_substitutable": 0.6491}
+{"ingredient": "5g red pepper flakes", "usda_match": "Spices, pepper, red or cayenne", "label": 0, "pred": 0, "prob_substitutable": 0.0656}
+{"ingredient": "200g fresh diced tomato", "usda_match": "Tomatoes, raw", "label": 1, "pred": 1, "prob_substitutable": 0.5575}
+{"ingredient": "200g canned whole cherry tomatoes, drained", "usda_match": "Tomatoes, canned, cooked", "label": 0, "pred": 0, "prob_substitutable": 0.1014}
+{"ingredient": "50g tomato paste", "usda_match": "Tomato, paste, canned, without salt added", "label": 1, "pred": 0, "prob_substitutable": 0.1014}
+{"ingredient": "20g lime juice", "usda_match": "Lime juice, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "100g Greek yogurt", "usda_match": "Yogurt, Greek, with oats", "label": 0, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "5g salt", "usda_match": "Salt, table", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "100g diced carrot", "usda_match": "Carrot, dehydrated", "label": 0, "pred": 0, "prob_substitutable": 0.3254}
+{"ingredient": "10g fresh basil", "usda_match": "Basil, fresh", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "20g sesame oil", "usda_match": "Oil, sesame, salad or cooking", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "30g Gruyere cheese", "usda_match": "Cheese, gruyere", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "120g Greek yogurt", "usda_match": "Yogurt, Greek, plain, lowfat", "label": 0, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "400g red lentils", "usda_match": "Lentils, raw", "label": 0, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "30g mayo", "usda_match": "Mayonnaise, regular", "label": 1, "pred": 0, "prob_substitutable": 0.0043}
+{"ingredient": "10g soy sauce", "usda_match": "Soy sauce", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "300g jarred roasted bell peppers", "usda_match": "Peppers, bell, red, raw", "label": 0, "pred": 1, "prob_substitutable": 0.6491}
+{"ingredient": "100g fresh diced onion", "usda_match": "Onions, raw", "label": 1, "pred": 1, "prob_substitutable": 0.5575}
+{"ingredient": "3g black pepper", "usda_match": "Spices, pepper, black", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "20g vegetable oil", "usda_match": "Vegetable oil, NFS", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "3g black pepper", "usda_match": "Spices, pepper, black", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "200g diced apple", "usda_match": "Apple, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9538}
+{"ingredient": "5g salt", "usda_match": "Salt, table", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "20g fresh spinach leaves", "usda_match": "Spinach, raw", "label": 1, "pred": 0, "prob_substitutable": 0.3254}
+{"ingredient": "150g Gruyere cheese", "usda_match": "Cheese, Gruyere", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "300g frozen mango chunks, thawed", "usda_match": "Mango, frozen", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "30g olive oil", "usda_match": "Oil, olive, salad or cooking", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "80g spinach", "usda_match": "Spinach, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "200g fresh diced onion", "usda_match": "Onions, raw", "label": 1, "pred": 1, "prob_substitutable": 0.5575}
+{"ingredient": "15g Dijon mustard", "usda_match": "Mustard", "label": 0, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "50g shredded carrot", "usda_match": "Carrots, raw, salad", "label": 1, "pred": 0, "prob_substitutable": 0.0286}
+{"ingredient": "15g curry powder", "usda_match": "Spices, curry powder", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "50g salsa", "usda_match": "Salsa, NFS", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "15g jarred minced garlic", "usda_match": "Garlic, raw", "label": 0, "pred": 0, "prob_substitutable": 0.3254}
+{"ingredient": "10g frozen grated ginger", "usda_match": "Ginger root, raw", "label": 0, "pred": 0, "prob_substitutable": 0.0656}
+{"ingredient": "100g frozen diced onion, thawed", "usda_match": "Onions, frozen, chopped, unprepared", "label": 1, "pred": 0, "prob_substitutable": 0.3254}
+{"ingredient": "15g sesame oil", "usda_match": "Oil, sesame, salad or cooking", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "150g fresh diced onion", "usda_match": "Onions, raw", "label": 1, "pred": 1, "prob_substitutable": 0.5575}
+{"ingredient": "100g fresh mango", "usda_match": "Mango, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9538}
+{"ingredient": "30g honey", "usda_match": "Honey", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "300g penne pasta", "usda_match": "Pasta, cooked", "label": 0, "pred": 0, "prob_substitutable": 0.1014}
+{"ingredient": "20g lemon juice", "usda_match": "Lemon juice, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "10g Italian seasoning", "usda_match": "Spices, poultry seasoning", "label": 0, "pred": 0, "prob_substitutable": 0.0656}
+{"ingredient": "600g frozen chicken breast, thawed", "usda_match": "Chicken patty, frozen, uncooked", "label": 0, "pred": 1, "prob_substitutable": 0.6491}
+{"ingredient": "20g miso paste", "usda_match": "Miso", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "600g cauliflower rice", "usda_match": "Cauliflower, raw", "label": 0, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "5g thyme", "usda_match": "Spices, thyme, dried", "label": 0, "pred": 1, "prob_substitutable": 0.6491}
+{"ingredient": "240g milk", "usda_match": "Milk, whole", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "200g rolled oats", "usda_match": "Oats, whole grain, rolled, old fashioned", "label": 1, "pred": 1, "prob_substitutable": 0.6491}
+{"ingredient": "200g canned crushed tomatoes", "usda_match": "Tomatoes, crushed, canned", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "20g garlic paste (from tube)", "usda_match": "Garlic sauce", "label": 0, "pred": 0, "prob_substitutable": 0.1014}
+{"ingredient": "100g frozen diced bell peppers", "usda_match": "Peppers, sweet, green, frozen, chopped, unprepared", "label": 0, "pred": 1, "prob_substitutable": 0.6491}
+{"ingredient": "200g diced carrot", "usda_match": "Carrots, raw", "label": 1, "pred": 1, "prob_substitutable": 0.5575}
+{"ingredient": "100g jarred roasted red bell pepper", "usda_match": "Red pepper, cooked, as ingredient", "label": 0, "pred": 0, "prob_substitutable": 0.0043}
+{"ingredient": "80g goat cheese", "usda_match": "Cheese, goat", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "5g dried mint", "usda_match": "Spearmint, dried", "label": 1, "pred": 1, "prob_substitutable": 0.6491}
+{"ingredient": "200g heavy cream", "usda_match": "Cream, heavy", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "10g baking powder", "usda_match": "Leavening agents, baking powder, low-sodium", "label": 1, "pred": 1, "prob_substitutable": 0.6491}
+{"ingredient": "40g arugula", "usda_match": "Arugula, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "3g black pepper", "usda_match": "Spices, pepper, black", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "3g salt", "usda_match": "Salt, table", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "50g soy sauce", "usda_match": "Soy sauce", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "30g olive oil", "usda_match": "Olive oil", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "300g frozen blueberries, thawed", "usda_match": "Blueberries, frozen", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "20g olive oil", "usda_match": "Olive oil", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "60g red onion", "usda_match": "Onions, red, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "3g white pepper", "usda_match": "Spices, pepper, white", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "200g cooked brown rice", "usda_match": "Rice, brown, cooked, no added fat", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "150g rolled oats", "usda_match": "Oats, whole grain, rolled, old fashioned", "label": 1, "pred": 1, "prob_substitutable": 0.6491}
+{"ingredient": "10g fresh thyme", "usda_match": "Thyme, fresh", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "80g shredded carrot", "usda_match": "Carrots, raw", "label": 1, "pred": 1, "prob_substitutable": 0.5575}
+{"ingredient": "15g lime juice", "usda_match": "Lime juice, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "5g fresh garlic cloves", "usda_match": "Garlic, raw", "label": 1, "pred": 0, "prob_substitutable": 0.3254}
+{"ingredient": "5g black pepper", "usda_match": "Spices, pepper, black", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "10g butter", "usda_match": "Butter, stick", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "200g cucumber", "usda_match": "Cucumber, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "150g frozen diced onion", "usda_match": "Onions, frozen, whole, unprepared", "label": 0, "pred": 1, "prob_substitutable": 0.9538}
+{"ingredient": "150g whole wheat flour", "usda_match": "Flour, whole wheat, unenriched", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "80g parmesan cheese", "usda_match": "Cheese, parmesan, grated", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "400g cucumber", "usda_match": "Cucumber, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "150g shredded Monterey Jack cheese", "usda_match": "Cheese, monterey jack, solid", "label": 0, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "100g kalamata olives", "usda_match": "Olives, black", "label": 0, "pred": 0, "prob_substitutable": 0.0656}
+{"ingredient": "20g fresh garlic cloves", "usda_match": "Garlic, raw", "label": 1, "pred": 0, "prob_substitutable": 0.3254}
+{"ingredient": "20g sour cream", "usda_match": "Sour cream, regular", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "30g lime juice", "usda_match": "Lime juice, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "60g lettuce leaves", "usda_match": "Lettuce, leaf, green, raw", "label": 1, "pred": 1, "prob_substitutable": 0.6491}
+{"ingredient": "200g shredded mozzarella", "usda_match": "Cheese, mozzarella, low moisture, part-skim, shredded", "label": 1, "pred": 1, "prob_substitutable": 0.6491}
+{"ingredient": "150g canned whole cherry tomatoes, drained", "usda_match": "Tomatoes, canned, cooked", "label": 0, "pred": 0, "prob_substitutable": 0.1014}
+{"ingredient": "20g jarred minced garlic", "usda_match": "Garlic, raw", "label": 0, "pred": 0, "prob_substitutable": 0.3254}
+{"ingredient": "20g sugar", "usda_match": "Sugars, granulated", "label": 1, "pred": 0, "prob_substitutable": 0.4367}
+{"ingredient": "60g soy sauce", "usda_match": "Soy sauce", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "10g baking powder", "usda_match": "Leavening agents, baking powder, double-acting, sodium aluminum sulfate", "label": 1, "pred": 1, "prob_substitutable": 0.6491}
+{"ingredient": "100g canned whole cherry tomatoes, drained", "usda_match": "Maraschino cherries, canned, drained", "label": 0, "pred": 1, "prob_substitutable": 0.6491}
+{"ingredient": "900g beef broth", "usda_match": "Beef broth, without tomato, home recipe", "label": 1, "pred": 1, "prob_substitutable": 0.6491}
+{"ingredient": "60g green curry paste", "usda_match": "Curry sauce", "label": 0, "pred": 0, "prob_substitutable": 0.0043}
+{"ingredient": "15g olive oil", "usda_match": "Olive oil", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "100g feta cheese", "usda_match": "Cheese, feta", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "10g balsamic vinegar", "usda_match": "Vinegar, balsamic", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "30g fresh cilantro", "usda_match": "Cilantro, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "400g canned diced tomatoes, drained", "usda_match": "Tomatoes, canned, cooked", "label": 0, "pred": 0, "prob_substitutable": 0.4367}
+{"ingredient": "4g salt", "usda_match": "Salt, table", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "30g olive oil", "usda_match": "Oil, olive, salad or cooking", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "900g vegetable broth", "usda_match": "Vegetable broth, bouillon", "label": 0, "pred": 1, "prob_substitutable": 0.9707}
+{"ingredient": "300g fresh ground beef", "usda_match": "Beef, ground, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "10g oregano", "usda_match": "Spices, oregano, dried", "label": 1, "pred": 1, "prob_substitutable": 0.6491}
+{"ingredient": "480g canned chickpeas, drained", "usda_match": "Chickpeas (garbanzo beans, bengal gram), canned, sodium added, drained and rinsed", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "20g jarred minced garlic", "usda_match": "Garlic, raw", "label": 0, "pred": 0, "prob_substitutable": 0.3254}
+{"ingredient": "30g olive oil", "usda_match": "Oil, olive, salad or cooking", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "10g Worcestershire sauce", "usda_match": "Worcestershire sauce", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "15g lemon juice", "usda_match": "Lemon juice, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "100g shredded carrot", "usda_match": "Carrots, raw, salad", "label": 1, "pred": 0, "prob_substitutable": 0.0286}
+{"ingredient": "15g lime juice", "usda_match": "Lime juice, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "20g fresh garlic cloves", "usda_match": "Garlic, raw", "label": 1, "pred": 0, "prob_substitutable": 0.3254}
+{"ingredient": "80g diced carrot", "usda_match": "Carrots, raw", "label": 1, "pred": 1, "prob_substitutable": 0.5575}
+{"ingredient": "20g jarred minced garlic", "usda_match": "Garlic, raw", "label": 0, "pred": 0, "prob_substitutable": 0.3254}
+{"ingredient": "10g olive oil", "usda_match": "Oil, olive, salad or cooking", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "100g canned peas and carrots, drained", "usda_match": "Green peas, canned, cooked, no added fat", "label": 0, "pred": 0, "prob_substitutable": 0.0043}
+{"ingredient": "1000g chicken broth", "usda_match": "Chicken or turkey broth, bouillon, or consomme", "label": 1, "pred": 0, "prob_substitutable": 0.1014}
+{"ingredient": "5g garam masala", "usda_match": "Spices, curry powder", "label": 0, "pred": 0, "prob_substitutable": 0.0043}
+{"ingredient": "10g fresh ginger root", "usda_match": "Ginger root, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "5g salt", "usda_match": "Salt, table", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "200g frozen mango chunks, thawed", "usda_match": "Mango, frozen", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "150g frozen diced onion", "usda_match": "Onions, frozen, whole, unprepared", "label": 0, "pred": 1, "prob_substitutable": 0.9538}
+{"ingredient": "20g fresh dill", "usda_match": "Dill weed, fresh", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "30g fresh cilantro", "usda_match": "Cilantro, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "5g jarred minced garlic", "usda_match": "Garlic, raw", "label": 0, "pred": 0, "prob_substitutable": 0.3254}
+{"ingredient": "500g fresh mushrooms", "usda_match": "Fried mushrooms", "label": 0, "pred": 0, "prob_substitutable": 0.4367}
+{"ingredient": "400g beet", "usda_match": "Beets, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9707}
+{"ingredient": "200g rice noodles", "usda_match": "Rice noodles, dry", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "150g mixed greens", "usda_match": "Mixed salad greens, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "5g Dijon mustard", "usda_match": "Mustard", "label": 0, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "100g frozen diced onion, thawed", "usda_match": "Onions, frozen, whole, unprepared", "label": 0, "pred": 0, "prob_substitutable": 0.3254}
+{"ingredient": "60g fresh mint", "usda_match": "Spearmint, fresh", "label": 1, "pred": 1, "prob_substitutable": 0.6491}
+{"ingredient": "40g olive oil", "usda_match": "Oil, olive, salad or cooking", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "250g canned shredded chicken, drained", "usda_match": "Chicken, canned, no broth", "label": 1, "pred": 1, "prob_substitutable": 0.6491}
+{"ingredient": "20g vegetable oil", "usda_match": "Vegetable oil, NFS", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "350g fresh salmon fillet", "usda_match": "Fish, salmon, baked or broiled", "label": 0, "pred": 0, "prob_substitutable": 0.0656}
+{"ingredient": "150g shredded purple cabbage", "usda_match": "Cabbage, red, raw", "label": 1, "pred": 0, "prob_substitutable": 0.0656}
+{"ingredient": "300g fresh ground beef", "usda_match": "Beef, ground, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "10g Italian seasoning", "usda_match": "Spices, poultry seasoning", "label": 0, "pred": 0, "prob_substitutable": 0.0656}
+{"ingredient": "120g tzatziki sauce", "usda_match": "Tzatziki dip", "label": 1, "pred": 1, "prob_substitutable": 0.6491}
+{"ingredient": "5g paprika", "usda_match": "Spices, paprika", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "60g parmesan cheese", "usda_match": "Cheese, parmesan, grated", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "3g black pepper", "usda_match": "Spices, pepper, black", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "100g avocado", "usda_match": "Avocado, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "40g fresh diced onion", "usda_match": "Onions, raw", "label": 1, "pred": 1, "prob_substitutable": 0.5575}
+{"ingredient": "400g leeks", "usda_match": "Leeks, (bulb and lower leaf-portion), raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "20g garlic paste (from tube)", "usda_match": "Garlic sauce", "label": 0, "pred": 0, "prob_substitutable": 0.1014}
+{"ingredient": "100g canned peas, drained", "usda_match": "Green peas, canned, cooked, no added fat", "label": 1, "pred": 0, "prob_substitutable": 0.1014}
+{"ingredient": "10g coriander", "usda_match": "Spices, coriander seed", "label": 0, "pred": 1, "prob_substitutable": 0.6491}
+{"ingredient": "100g frozen diced onion", "usda_match": "Onions, frozen, whole, unprepared", "label": 0, "pred": 1, "prob_substitutable": 0.9538}
+{"ingredient": "150g orange juice", "usda_match": "Orange juice, canned, unsweetened", "label": 1, "pred": 0, "prob_substitutable": 0.4367}
+{"ingredient": "15g honey", "usda_match": "Honey", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "300g red lentils", "usda_match": "Lentil curry", "label": 0, "pred": 0, "prob_substitutable": 0.0043}
+{"ingredient": "15g sugar", "usda_match": "Sugars, granulated", "label": 1, "pred": 0, "prob_substitutable": 0.4367}
+{"ingredient": "80g diced carrot", "usda_match": "Carrots, raw", "label": 1, "pred": 1, "prob_substitutable": 0.5575}
+{"ingredient": "10g Italian seasoning", "usda_match": "Spices, poultry seasoning", "label": 0, "pred": 0, "prob_substitutable": 0.0656}
+{"ingredient": "120g feta cheese", "usda_match": "Cheese, feta", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "30g honey", "usda_match": "Honey", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "50g green onion", "usda_match": "Onions, green, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "150g diced celery", "usda_match": "Celery, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "300g potato", "usda_match": "Potato, baked, peel eaten", "label": 0, "pred": 1, "prob_substitutable": 0.6491}
+{"ingredient": "10g Italian seasoning", "usda_match": "Spices, poultry seasoning", "label": 0, "pred": 0, "prob_substitutable": 0.0656}
+{"ingredient": "5g garlic paste (from tube)", "usda_match": "Garlic sauce", "label": 0, "pred": 0, "prob_substitutable": 0.1014}
+{"ingredient": "300g fresh diced tomato", "usda_match": "Tomatoes, raw", "label": 1, "pred": 1, "prob_substitutable": 0.5575}
+{"ingredient": "100g frozen diced onion, thawed", "usda_match": "Onions, frozen, chopped, unprepared", "label": 1, "pred": 0, "prob_substitutable": 0.3254}
+{"ingredient": "80g granola", "usda_match": "Cereal, granola", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "3g chili flakes", "usda_match": "Spices, chili powder", "label": 0, "pred": 0, "prob_substitutable": 0.0043}
+{"ingredient": "10g garlic paste (from tube)", "usda_match": "Garlic sauce", "label": 0, "pred": 0, "prob_substitutable": 0.1014}
+{"ingredient": "10g vegetable oil", "usda_match": "Vegetable oil, NFS", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "8g turmeric", "usda_match": "Spices, turmeric, ground", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "10g rice vinegar", "usda_match": "Vinegar", "label": 0, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "15g sesame oil", "usda_match": "Oil, sesame, salad or cooking", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "30g honey", "usda_match": "Honey", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "800g vegetable broth", "usda_match": "Soup, vegetable broth, ready to serve", "label": 0, "pred": 0, "prob_substitutable": 0.1014}
+{"ingredient": "5g cumin", "usda_match": "Spices, cumin seed", "label": 0, "pred": 1, "prob_substitutable": 0.6491}
+{"ingredient": "200g orange segments", "usda_match": "Orange, raw", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "800g butternut squash", "usda_match": "Squash, winter, butternut, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "3g black pepper", "usda_match": "Spices, pepper, black", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "150g ripe avocado", "usda_match": "Avocado, raw", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "200g cooked brown rice", "usda_match": "Rice, brown, cooked, no added fat", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "50g butter", "usda_match": "Butter, stick", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "150g arugula", "usda_match": "Arugula, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "30g parmesan cheese", "usda_match": "Cheese, parmesan, grated", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "20g lemon juice", "usda_match": "Lemon juice, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "15g lemon juice", "usda_match": "Lemon juice, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "5g thyme", "usda_match": "Thyme, fresh", "label": 0, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "20g fresh garlic cloves", "usda_match": "Garlic, raw", "label": 1, "pred": 0, "prob_substitutable": 0.3254}
+{"ingredient": "400g fresh mushrooms", "usda_match": "Mushroom, crimini", "label": 1, "pred": 0, "prob_substitutable": 0.0286}
+{"ingredient": "150g romaine lettuce", "usda_match": "Romaine lettuce, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "180g quinoa", "usda_match": "Quinoa, uncooked", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "15g fresh parsley", "usda_match": "Parsley, fresh", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "240g milk", "usda_match": "Milk, whole", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "30g frozen blueberries", "usda_match": "Blueberries, frozen", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "200g frozen diced onion", "usda_match": "Onions, frozen, whole, unprepared", "label": 0, "pred": 1, "prob_substitutable": 0.9538}
+{"ingredient": "200g heavy cream", "usda_match": "Cream, heavy", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "150g zucchini", "usda_match": "Squash, summer, zucchini, includes skin, raw", "label": 1, "pred": 0, "prob_substitutable": 0.0656}
+{"ingredient": "10g cumin", "usda_match": "Spices, cumin seed", "label": 0, "pred": 1, "prob_substitutable": 0.6491}
+{"ingredient": "3g red pepper flakes", "usda_match": "Spices, pepper, red or cayenne", "label": 0, "pred": 0, "prob_substitutable": 0.0656}
+{"ingredient": "300g chopped apple", "usda_match": "Apple, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9538}
+{"ingredient": "50g shredded cheddar cheese", "usda_match": "Cheese, cheddar", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "200g fresh mushrooms", "usda_match": "Mushroom, crimini", "label": 1, "pred": 0, "prob_substitutable": 0.0286}
+{"ingredient": "5g chili powder", "usda_match": "Spices, chili powder", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "20g olive oil", "usda_match": "Oil, olive, salad or cooking", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "80g red onion", "usda_match": "Onions, red, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "100g romaine lettuce", "usda_match": "Romaine lettuce, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "30g olive oil", "usda_match": "Oil, olive, salad or cooking", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "20g fresh garlic cloves", "usda_match": "Garlic, raw", "label": 1, "pred": 0, "prob_substitutable": 0.3254}
+{"ingredient": "5g sesame seeds", "usda_match": "Sesame seeds", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "300g arborio rice", "usda_match": "Rice, white, long grain, unenriched, raw", "label": 0, "pred": 0, "prob_substitutable": 0.0656}
+{"ingredient": "150g canned whole cherry tomatoes, drained", "usda_match": "Tomatoes, canned, cooked", "label": 0, "pred": 0, "prob_substitutable": 0.1014}
+{"ingredient": "5g sugar", "usda_match": "Sugar, white, granulated or lump", "label": 1, "pred": 0, "prob_substitutable": 0.0656}
+{"ingredient": "10g garlic paste (from tube)", "usda_match": "Garlic sauce", "label": 0, "pred": 0, "prob_substitutable": 0.1014}
+{"ingredient": "40g soy sauce", "usda_match": "Soy sauce", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "200g red onion", "usda_match": "Onions, red, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "10g cornstarch", "usda_match": "Cornstarch", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "30g olive oil", "usda_match": "Olive oil", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "15g honey", "usda_match": "Honey", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "150g fresh diced onion", "usda_match": "Onions, raw", "label": 1, "pred": 1, "prob_substitutable": 0.5575}
+{"ingredient": "60g teriyaki sauce", "usda_match": "Teriyaki sauce", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "200g fresh ripe tomatoes, chopped", "usda_match": "Tomatoes, red, ripe, raw, year round average", "label": 1, "pred": 0, "prob_substitutable": 0.0656}
+{"ingredient": "15g curry powder", "usda_match": "Spices, curry powder", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "50g olive oil", "usda_match": "Oil, olive, salad or cooking", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "250g canned whole cherry tomatoes, drained", "usda_match": "Tomatoes, canned, cooked", "label": 0, "pred": 0, "prob_substitutable": 0.1014}
+{"ingredient": "500g fresh ground turkey", "usda_match": "Turkey, Ground, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "5g ground ginger", "usda_match": "Spices, ginger, ground", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "100g turkey bacon", "usda_match": "Bacon, turkey, unprepared", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "20g jarred minced garlic", "usda_match": "Garlic, raw", "label": 0, "pred": 0, "prob_substitutable": 0.3254}
+{"ingredient": "60g Greek yogurt", "usda_match": "Yogurt, Greek, plain, lowfat", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "80g sour cream", "usda_match": "Sour cream, regular", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "20g fresh garlic cloves", "usda_match": "Garlic, raw", "label": 1, "pred": 0, "prob_substitutable": 0.3254}
+{"ingredient": "5g salt", "usda_match": "Salt, table", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "5g brown sugar", "usda_match": "Sugar, brown", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "30g apple cider vinegar", "usda_match": "Vinegar, cider", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "30g butter", "usda_match": "Butter, stick", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "200g cooked white rice", "usda_match": "Rice, white, cooked, no added fat", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "2g nutmeg", "usda_match": "Spices, nutmeg, ground", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "400g Greek yogurt", "usda_match": "Yogurt, Greek, with oats", "label": 0, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "4g salt", "usda_match": "Salt, table", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "30g heavy cream (optional)", "usda_match": "Cream, fluid, heavy whipping", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "5g cumin", "usda_match": "Spices, cumin seed", "label": 0, "pred": 1, "prob_substitutable": 0.6491}
+{"ingredient": "10g fresh parsley", "usda_match": "Parsley, fresh", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "30g sesame oil", "usda_match": "Sesame oil", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "1000g vegetable broth", "usda_match": "Vegetable broth, bouillon", "label": 0, "pred": 1, "prob_substitutable": 0.9707}
+{"ingredient": "80g red onion", "usda_match": "Onions, red, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "50g parmesan cheese", "usda_match": "Cheese, parmesan, grated", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "120g hummus", "usda_match": "Hummus, plain", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "10g frozen grated ginger", "usda_match": "Ginger root, raw", "label": 0, "pred": 0, "prob_substitutable": 0.0656}
+{"ingredient": "80g tzatziki", "usda_match": "Tzatziki dip", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "20g garlic paste (from tube)", "usda_match": "Garlic sauce", "label": 0, "pred": 0, "prob_substitutable": 0.1014}
+{"ingredient": "30g cheddar cheese", "usda_match": "Cheese, cheddar", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "200g canned whole cherry tomatoes, drained", "usda_match": "Tomatoes, canned, cooked", "label": 0, "pred": 0, "prob_substitutable": 0.1014}
+{"ingredient": "5g thyme", "usda_match": "Spices, thyme, dried", "label": 0, "pred": 1, "prob_substitutable": 0.6491}
+{"ingredient": "60g sharp cheddar cheese", "usda_match": "Cheese, cheddar, sharp, sliced", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "50g olive oil", "usda_match": "Oil, olive, salad or cooking", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "20g tikka masala spice blend", "usda_match": "Spices, curry powder", "label": 0, "pred": 0, "prob_substitutable": 0.0043}
+{"ingredient": "800g fresh ripe tomatoes, chopped", "usda_match": "Tomatoes, red, ripe, raw, year round average", "label": 1, "pred": 0, "prob_substitutable": 0.0656}
+{"ingredient": "30g all-purpose flour", "usda_match": "Flour, wheat, all-purpose, unenriched, unbleached", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "20g sesame oil", "usda_match": "Oil, sesame, salad or cooking", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "10g taco seasoning", "usda_match": "Seasoning mix, dry, taco, original", "label": 1, "pred": 0, "prob_substitutable": 0.1014}
+{"ingredient": "60g Caesar dressing", "usda_match": "Caesar dressing", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "500g frozen broccoli florets, thawed", "usda_match": "Broccoli, frozen, chopped, unprepared", "label": 0, "pred": 1, "prob_substitutable": 0.6491}
+{"ingredient": "800g vegetable broth", "usda_match": "Soup, vegetable broth, ready to serve", "label": 0, "pred": 0, "prob_substitutable": 0.1014}
+{"ingredient": "5g cumin", "usda_match": "Spices, cumin seed", "label": 0, "pred": 1, "prob_substitutable": 0.6491}
+{"ingredient": "60g soy sauce", "usda_match": "Soy sauce", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "400g canned diced tomatoes, drained", "usda_match": "Tomatoes, canned, cooked", "label": 0, "pred": 0, "prob_substitutable": 0.4367}
+{"ingredient": "200g dried chickpeas, soaked and cooked", "usda_match": "Noodles, cooked", "label": 0, "pred": 0, "prob_substitutable": 0.0656}
+{"ingredient": "25g olive oil", "usda_match": "Oil, olive, salad or cooking", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "5g cinnamon", "usda_match": "Sugar, cinnamon", "label": 0, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "200g fresh cherry tomatoes", "usda_match": "Tomatoes, raw", "label": 0, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "300g fresh peaches", "usda_match": "Peach, raw", "label": 1, "pred": 1, "prob_substitutable": 0.5575}
+{"ingredient": "10g honey", "usda_match": "Honey", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "30g olive oil", "usda_match": "Oil, olive, salad or cooking", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "15g garlic paste (from tube)", "usda_match": "Garlic sauce", "label": 0, "pred": 0, "prob_substitutable": 0.1014}
+{"ingredient": "200g fresh broccoli", "usda_match": "Broccoli, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "300g dried chickpeas, soaked and cooked", "usda_match": "Noodles, cooked", "label": 0, "pred": 0, "prob_substitutable": 0.0656}
+{"ingredient": "60g frozen chopped spinach, thawed and squeezed", "usda_match": "Spinach, frozen, cooked, no added fat", "label": 0, "pred": 0, "prob_substitutable": 0.1014}
+{"ingredient": "120g tzatziki", "usda_match": "Tzatziki dip", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "80g red onion", "usda_match": "Onions, red, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "60g white miso paste", "usda_match": "Miso sauce", "label": 0, "pred": 0, "prob_substitutable": 0.0043}
+{"ingredient": "20g garlic paste (from tube)", "usda_match": "Garlic sauce", "label": 0, "pred": 0, "prob_substitutable": 0.1014}
+{"ingredient": "350g fresh salmon fillet", "usda_match": "Fish, salmon, baked or broiled", "label": 0, "pred": 0, "prob_substitutable": 0.0656}
+{"ingredient": "800g chicken broth", "usda_match": "Chicken or turkey broth, bouillon, or consomme", "label": 0, "pred": 0, "prob_substitutable": 0.1014}
+{"ingredient": "10g sesame seeds", "usda_match": "Sesame seeds", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "800g dashi broth", "usda_match": "Fish broth", "label": 0, "pred": 0, "prob_substitutable": 0.0656}
+{"ingredient": "700g frozen beef chuck, thawed", "usda_match": "Beef, chuck for stew, separable lean and fat, choice, raw", "label": 1, "pred": 0, "prob_substitutable": 0.0656}
+{"ingredient": "400g frozen broccoli florets, thawed", "usda_match": "Broccoli, frozen, chopped, unprepared", "label": 1, "pred": 1, "prob_substitutable": 0.6491}
+{"ingredient": "5g cinnamon", "usda_match": "Spices, cinnamon, ground", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "10g Italian seasoning", "usda_match": "Spices, poultry seasoning", "label": 0, "pred": 0, "prob_substitutable": 0.0656}
+{"ingredient": "5g cinnamon", "usda_match": "Spices, cinnamon, ground", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "30g olive oil", "usda_match": "Olive oil", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "80g frozen mango chunks, thawed", "usda_match": "Mango, frozen", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "20g olive oil", "usda_match": "Oil, olive, salad or cooking", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "100g fresh red bell pepper", "usda_match": "Peppers, bell, red, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "240g canned tuna", "usda_match": "Fish, tuna, canned", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "30g green onion", "usda_match": "Onions, green, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "80g zucchini", "usda_match": "Squash, summer, zucchini, includes skin, raw", "label": 1, "pred": 0, "prob_substitutable": 0.0656}
+{"ingredient": "60g avocado", "usda_match": "Avocado, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "80g frozen diced onion", "usda_match": "Onions, frozen, whole, unprepared", "label": 0, "pred": 1, "prob_substitutable": 0.9538}
+{"ingredient": "20g olive oil", "usda_match": "Olive oil", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "100g fresh peas", "usda_match": "Green peas, raw", "label": 1, "pred": 0, "prob_substitutable": 0.3254}
+{"ingredient": "10g fresh thyme", "usda_match": "Thyme, fresh", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "60g frozen chopped spinach, thawed and squeezed", "usda_match": "Margarine-like spread, SMART BEAT Smart Squeeze", "label": 0, "pred": 0, "prob_substitutable": 0.0043}
+{"ingredient": "400g beef broth", "usda_match": "Beef broth, without tomato, home recipe", "label": 1, "pred": 1, "prob_substitutable": 0.6491}
+{"ingredient": "80g salsa verde", "usda_match": "Salsa verde or salsa, green", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "10g sugar", "usda_match": "Sugars, granulated", "label": 1, "pred": 0, "prob_substitutable": 0.4367}
+{"ingredient": "150g celery", "usda_match": "Celery, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "160g rolled oats", "usda_match": "Oats, whole grain, rolled, old fashioned", "label": 1, "pred": 1, "prob_substitutable": 0.6491}
+{"ingredient": "5g green onion", "usda_match": "Onions, green, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "5g fresh garlic cloves", "usda_match": "Garlic, raw", "label": 1, "pred": 0, "prob_substitutable": 0.3254}
+{"ingredient": "300g cooked sushi rice", "usda_match": "Sushi roll tuna", "label": 0, "pred": 0, "prob_substitutable": 0.0656}
+{"ingredient": "120g hummus", "usda_match": "Hummus, plain", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "40g balsamic vinegar", "usda_match": "Vinegar, balsamic", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "30g olive oil", "usda_match": "Oil, olive, salad or cooking", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "5g cumin", "usda_match": "Spices, cumin seed", "label": 0, "pred": 1, "prob_substitutable": 0.6491}
+{"ingredient": "50g parmesan cheese", "usda_match": "Cheese, parmesan, grated", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "50g green onion", "usda_match": "Onions, green, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "20g rice vinegar", "usda_match": "Vinegar", "label": 0, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "500g russet potatoes", "usda_match": "Potatoes, russet, without skin, raw", "label": 0, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "150g egg noodles", "usda_match": "Noodles, cooked", "label": 0, "pred": 0, "prob_substitutable": 0.1014}
+{"ingredient": "300g potato", "usda_match": "Potato, baked, peel eaten", "label": 0, "pred": 1, "prob_substitutable": 0.6491}
+{"ingredient": "60g soy sauce", "usda_match": "Soy sauce", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "30g olive oil", "usda_match": "Olive oil", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "240g canned kidney beans, drained", "usda_match": "Kidney beans, from canned, no added fat", "label": 1, "pred": 1, "prob_substitutable": 0.6491}
+{"ingredient": "15g balsamic glaze", "usda_match": "Vinegar, balsamic", "label": 0, "pred": 1, "prob_substitutable": 0.6491}
+{"ingredient": "20g maple syrup", "usda_match": "Syrups, maple", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "20g sesame oil", "usda_match": "Oil, sesame, salad or cooking", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "50g whole wheat flour", "usda_match": "Flour, whole wheat, unenriched", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "15g jarred minced garlic", "usda_match": "Garlic, raw", "label": 0, "pred": 0, "prob_substitutable": 0.3254}
+{"ingredient": "20g fresh garlic cloves", "usda_match": "Garlic, raw", "label": 1, "pred": 0, "prob_substitutable": 0.3254}
+{"ingredient": "400g canned mushrooms, drained", "usda_match": "Mushrooms, canned, drained solids", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "150g diced potato", "usda_match": "Potato, baked, peel eaten", "label": 0, "pred": 0, "prob_substitutable": 0.0656}
+{"ingredient": "10g fresh parsley", "usda_match": "Parsley, fresh", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "200g zucchini", "usda_match": "Squash, summer, zucchini, includes skin, raw", "label": 1, "pred": 0, "prob_substitutable": 0.0656}
+{"ingredient": "5g parsley", "usda_match": "Parsley, fresh", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "480g canned black beans, drained", "usda_match": "Black beans, from canned, no added fat", "label": 1, "pred": 1, "prob_substitutable": 0.6491}
+{"ingredient": "5g salt", "usda_match": "Salt, table", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "200g fresh shelled edamame", "usda_match": "Edamame, cooked", "label": 0, "pred": 0, "prob_substitutable": 0.0043}
+{"ingredient": "800g yellow onion", "usda_match": "Onions, yellow, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "3g nutmeg", "usda_match": "Spices, nutmeg, ground", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "10g smoked paprika", "usda_match": "Spices, paprika", "label": 0, "pred": 1, "prob_substitutable": 0.6491}
+{"ingredient": "480g milk", "usda_match": "Milk, whole", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "5g sesame seeds", "usda_match": "Sesame seeds", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "45g sour cream", "usda_match": "Sour cream, regular", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "200g cucumber", "usda_match": "Cucumber, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "100g coleslaw", "usda_match": "Coleslaw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "100g diced carrot", "usda_match": "Carrots, raw", "label": 1, "pred": 1, "prob_substitutable": 0.5575}
+{"ingredient": "200g frozen broccoli florets, thawed", "usda_match": "Broccoli, frozen, chopped, unprepared", "label": 0, "pred": 1, "prob_substitutable": 0.6491}
+{"ingredient": "3g Salt and pepper (to taste)", "usda_match": "Salt, table", "label": 0, "pred": 0, "prob_substitutable": 0.0656}
+{"ingredient": "400g coconut milk", "usda_match": "Coconut milk", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "300g diced potato", "usda_match": "Bread, potato", "label": 0, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "15g lemon juice", "usda_match": "Lemon juice, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "30g olive oil", "usda_match": "Oil, olive, salad or cooking", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "80g red onion", "usda_match": "Onions, red, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "20g fresh garlic cloves", "usda_match": "Garlic, raw", "label": 1, "pred": 0, "prob_substitutable": 0.3254}
+{"ingredient": "750g vegetable broth", "usda_match": "Vegetable broth, bouillon", "label": 0, "pred": 1, "prob_substitutable": 0.9707}
+{"ingredient": "50g green onion", "usda_match": "Onions, green, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "25g vegetable oil", "usda_match": "Vegetable oil, NFS", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "10g lemon juice", "usda_match": "Lemon juice, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "30g pine nuts", "usda_match": "Pine nuts", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "3g black pepper", "usda_match": "Spices, pepper, black", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "30g chopped walnuts", "usda_match": "Nuts, walnuts, english", "label": 0, "pred": 1, "prob_substitutable": 0.6491}
+{"ingredient": "15g cumin", "usda_match": "Spices, cumin seed", "label": 0, "pred": 1, "prob_substitutable": 0.6491}
+{"ingredient": "400g apple", "usda_match": "Apple, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "150g shredded cabbage", "usda_match": "Cabbage, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "5g salt", "usda_match": "Salt, table", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "80g avocado", "usda_match": "Avocado, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "5g salt", "usda_match": "Salt, table", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "200g jasmine rice", "usda_match": "Rice, white, cooked, glutinous", "label": 0, "pred": 0, "prob_substitutable": 0.0043}
+{"ingredient": "5g honey", "usda_match": "Honey", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "40g feta cheese", "usda_match": "Cheese, feta", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "150g frozen diced onion, thawed", "usda_match": "Onions, frozen, whole, unprepared", "label": 0, "pred": 0, "prob_substitutable": 0.3254}
+{"ingredient": "30g fresh basil leaves", "usda_match": "Basil, raw", "label": 1, "pred": 0, "prob_substitutable": 0.3254}
+{"ingredient": "20g parmesan cheese", "usda_match": "Cheese, parmesan, grated", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "15g shawarma spice blend", "usda_match": "Spices, curry powder", "label": 0, "pred": 0, "prob_substitutable": 0.0043}
+{"ingredient": "200g vegetable broth", "usda_match": "Soup, vegetable broth, ready to serve", "label": 0, "pred": 0, "prob_substitutable": 0.1014}
+{"ingredient": "10g smoked paprika", "usda_match": "Spices, paprika", "label": 0, "pred": 1, "prob_substitutable": 0.6491}
+{"ingredient": "100g fresh corn kernels", "usda_match": "Corn, sweet, yellow, raw", "label": 1, "pred": 0, "prob_substitutable": 0.0656}
+{"ingredient": "250g fresh chicken breast", "usda_match": "Chicken, breast, boneless, skinless, raw", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "10g garlic paste (from tube)", "usda_match": "Garlic sauce", "label": 0, "pred": 0, "prob_substitutable": 0.1014}
+{"ingredient": "240g canned black beans, drained", "usda_match": "Black beans, from canned, no added fat", "label": 1, "pred": 1, "prob_substitutable": 0.6491}
+{"ingredient": "5g honey", "usda_match": "Honey", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "10g butter", "usda_match": "Butter, stick", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "120g cream cheese", "usda_match": "Cream cheese, regular, plain", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "4g salt", "usda_match": "Salt, table", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "20g lime juice", "usda_match": "Lime juice, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "100g smoked salmon", "usda_match": "Fish, salmon, smoked", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "10g cumin", "usda_match": "Spices, cumin seed", "label": 0, "pred": 1, "prob_substitutable": 0.6491}
+{"ingredient": "600g chicken broth", "usda_match": "Chicken or turkey broth, bouillon, or consomme", "label": 1, "pred": 0, "prob_substitutable": 0.1014}
+{"ingredient": "20g jarred minced garlic", "usda_match": "Garlic, raw", "label": 0, "pred": 0, "prob_substitutable": 0.3254}
+{"ingredient": "60g mayonnaise", "usda_match": "Mayonnaise, regular", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "300g frozen broccoli florets, thawed", "usda_match": "Broccoli, frozen, chopped, unprepared", "label": 1, "pred": 1, "prob_substitutable": 0.6491}
+{"ingredient": "50g breadcrumbs", "usda_match": "Popover", "label": 0, "pred": 0, "prob_substitutable": 0.0043}
+{"ingredient": "30g olive oil", "usda_match": "Oil, olive, salad or cooking", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "30g olive oil", "usda_match": "Olive oil", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "3g black pepper", "usda_match": "Spices, pepper, black", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "300g fresh green beans", "usda_match": "Green beans, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "400g fresh ripe tomatoes, chopped", "usda_match": "Tomatoes, red, ripe, raw, year round average", "label": 1, "pred": 0, "prob_substitutable": 0.0656}
+{"ingredient": "5g vanilla extract", "usda_match": "Vanilla extract", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "600g sweet potato", "usda_match": "Sweet potato, NFS", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "10g cumin", "usda_match": "Spices, cumin seed", "label": 0, "pred": 1, "prob_substitutable": 0.6491}
+{"ingredient": "20g fresh garlic cloves", "usda_match": "Garlic, raw", "label": 1, "pred": 0, "prob_substitutable": 0.3254}
+{"ingredient": "200g fresh diced tomato", "usda_match": "Tomatoes, raw", "label": 1, "pred": 1, "prob_substitutable": 0.5575}
+{"ingredient": "400g fresh asparagus", "usda_match": "Asparagus, fresh, cooked, no added fat", "label": 0, "pred": 0, "prob_substitutable": 0.1014}
+{"ingredient": "5g nutmeg", "usda_match": "Spices, nutmeg, ground", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "100g arugula", "usda_match": "Arugula, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "100g bean sprouts", "usda_match": "Bean sprouts, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "5g sesame seeds", "usda_match": "Sesame seeds", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "200g carrot", "usda_match": "Carrots, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9707}
+{"ingredient": "150g shredded cabbage", "usda_match": "Cabbage, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "300g cooked white rice", "usda_match": "Rice, white, cooked, no added fat", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "20g fresh dill", "usda_match": "Dill weed, fresh", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "10g fresh garlic cloves", "usda_match": "Garlic, raw", "label": 1, "pred": 0, "prob_substitutable": 0.3254}
+{"ingredient": "150g frozen diced onion, thawed", "usda_match": "Onions, frozen, whole, unprepared", "label": 0, "pred": 0, "prob_substitutable": 0.3254}
+{"ingredient": "20g jarred minced garlic", "usda_match": "Garlic, raw", "label": 0, "pred": 0, "prob_substitutable": 0.3254}
+{"ingredient": "100g diced celery", "usda_match": "Celery, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "30g olive oil", "usda_match": "Oil, olive, salad or cooking", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "3g black pepper", "usda_match": "Spices, pepper, black", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "100g cream cheese", "usda_match": "Cream cheese, light", "label": 0, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "15g honey", "usda_match": "Honey", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "20g olive oil", "usda_match": "Oil, olive, salad or cooking", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "5g salt", "usda_match": "Salt, table", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "5g salt", "usda_match": "Salt, table", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "50g brown sugar", "usda_match": "Sugar, brown", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "5g salt", "usda_match": "Salt, table", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "400g canned diced tomatoes", "usda_match": "Tomatoes, canned, cooked", "label": 0, "pred": 1, "prob_substitutable": 0.9707}
+{"ingredient": "150g fresh red bell pepper", "usda_match": "Peppers, bell, red, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "700g marinara sauce", "usda_match": "Sauce, pasta, spaghetti/marinara, ready-to-serve", "label": 1, "pred": 1, "prob_substitutable": 0.6491}
+{"ingredient": "150g tomato", "usda_match": "Tomatoes, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9707}
+{"ingredient": "30g oyster sauce", "usda_match": "Oyster sauce", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "400g milk", "usda_match": "Milk, whole", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "200g frozen chopped spinach, thawed and squeezed", "usda_match": "Spinach, frozen, cooked, no added fat", "label": 1, "pred": 0, "prob_substitutable": 0.1014}
+{"ingredient": "20g garlic paste (from tube)", "usda_match": "Garlic sauce", "label": 0, "pred": 0, "prob_substitutable": 0.1014}
+{"ingredient": "200g spaghetti", "usda_match": "Spaghetti, spinach, dry", "label": 0, "pred": 1, "prob_substitutable": 0.6491}
+{"ingredient": "5g thyme", "usda_match": "Thyme, fresh", "label": 0, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "250g rice noodles", "usda_match": "Rice noodles, cooked", "label": 0, "pred": 1, "prob_substitutable": 0.9707}
+{"ingredient": "20g milk", "usda_match": "Milk, whole", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "600g fresh chicken thighs", "usda_match": "Chicken, broilers or fryers, thigh, meat and skin, raw", "label": 1, "pred": 0, "prob_substitutable": 0.0656}
+{"ingredient": "20g fresh garlic cloves", "usda_match": "Garlic, raw", "label": 1, "pred": 0, "prob_substitutable": 0.3254}
+{"ingredient": "5g black pepper", "usda_match": "Spices, pepper, black", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "30g olive oil", "usda_match": "Oil, olive, salad or cooking", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "100g fresh shelled edamame", "usda_match": "Edamame, cooked", "label": 0, "pred": 0, "prob_substitutable": 0.0043}
+{"ingredient": "150g diced carrot", "usda_match": "Carrots, raw", "label": 1, "pred": 1, "prob_substitutable": 0.5575}
+{"ingredient": "30g melted butter", "usda_match": "Butter, without salt", "label": 1, "pred": 0, "prob_substitutable": 0.0656}
+{"ingredient": "200g diced ham", "usda_match": "Ham", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "15g balsamic vinegar", "usda_match": "Vinegar, balsamic", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "500g potato", "usda_match": "Potato, baked, peel eaten", "label": 0, "pred": 1, "prob_substitutable": 0.6491}
+{"ingredient": "15g fresh garlic cloves", "usda_match": "Garlic, raw", "label": 1, "pred": 0, "prob_substitutable": 0.3254}
+{"ingredient": "30g rice vinegar", "usda_match": "Vinegar", "label": 0, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "560g canned jackfruit", "usda_match": "Jackfruit, canned, syrup pack", "label": 0, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "20g sugar", "usda_match": "Sugar, white, granulated or lump", "label": 1, "pred": 0, "prob_substitutable": 0.0656}
+{"ingredient": "300g frozen mango chunks, thawed", "usda_match": "Mango, frozen", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "8g cumin", "usda_match": "Spices, cumin seed", "label": 0, "pred": 1, "prob_substitutable": 0.6491}
+{"ingredient": "400g canned crushed tomatoes", "usda_match": "Tomatoes, crushed, canned", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "60g guacamole", "usda_match": "Guacamole, NFS", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "40g butter", "usda_match": "Butter, stick", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "5g Italian seasoning", "usda_match": "Spices, poultry seasoning", "label": 0, "pred": 0, "prob_substitutable": 0.0656}
+{"ingredient": "150g shredded purple cabbage", "usda_match": "Cabbage, red, raw", "label": 1, "pred": 0, "prob_substitutable": 0.0656}
+{"ingredient": "30g breadcrumbs", "usda_match": "Cookie, shortbread", "label": 0, "pred": 0, "prob_substitutable": 0.0043}
+{"ingredient": "80g frozen diced onion, thawed", "usda_match": "Onions, frozen, chopped, unprepared", "label": 1, "pred": 0, "prob_substitutable": 0.3254}
+{"ingredient": "300g canned corn kernels, drained", "usda_match": "Corn, sweet, white, canned, whole kernel, drained solids", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "60g soy sauce", "usda_match": "Soy sauce", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "50g fresh cilantro", "usda_match": "Cilantro, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "400g shredded green cabbage", "usda_match": "Cabbage, green, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "300g couscous", "usda_match": "Couscous, plain, cooked", "label": 0, "pred": 0, "prob_substitutable": 0.1014}
+{"ingredient": "3g black pepper", "usda_match": "Spices, pepper, black", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "60g Nicoise dressing", "usda_match": "French or Catalina dressing", "label": 0, "pred": 0, "prob_substitutable": 0.0656}
+{"ingredient": "5g vanilla extract", "usda_match": "Vanilla extract", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "100g cucumber", "usda_match": "Cucumber, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "40g soy sauce", "usda_match": "Soy sauce", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "5g turmeric", "usda_match": "Spices, turmeric, ground", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "20g fresh cilantro", "usda_match": "Cilantro, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "5g salt", "usda_match": "Salt, table", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "60g fish sauce", "usda_match": "Fish sauce", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "400g Italian sausage", "usda_match": "Italian sausage", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "400g spaghetti", "usda_match": "Spaghetti sauce", "label": 0, "pred": 0, "prob_substitutable": 0.4367}
+{"ingredient": "60g canned corn kernels, drained", "usda_match": "Corn, sweet, yellow, canned, whole kernel, drained solids", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "100g cucumber", "usda_match": "Cucumber, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "100g fresh kale", "usda_match": "Kale, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9538}
+{"ingredient": "100g red onion", "usda_match": "Onions, red, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "30g butter", "usda_match": "Butter, stick", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "60g soy sauce", "usda_match": "Soy sauce", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "10g fresh parsley", "usda_match": "Parsley, fresh", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "100g ice", "usda_match": "Italian Ice, no sugar added", "label": 0, "pred": 0, "prob_substitutable": 0.0656}
+{"ingredient": "100g frozen diced onion, thawed", "usda_match": "Onions, frozen, whole, unprepared", "label": 0, "pred": 0, "prob_substitutable": 0.3254}
+{"ingredient": "20g fish sauce", "usda_match": "Fish sauce", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "500g canned corn kernels, drained", "usda_match": "Corn, sweet, yellow, canned, whole kernel, drained solids", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "300g white rice", "usda_match": "Rice, white, short-grain, enriched, uncooked", "label": 0, "pred": 0, "prob_substitutable": 0.0656}
+{"ingredient": "250g fresh red bell pepper", "usda_match": "Peppers, bell, red, raw", "label": 1, "pred": 1, "prob_substitutable": 0.9982}
+{"ingredient": "10g Italian seasoning", "usda_match": "Spices, poultry seasoning", "label": 0, "pred": 0, "prob_substitutable": 0.0656}
+{"ingredient": "5g paprika", "usda_match": "Spices, paprika", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "20g butter", "usda_match": "Butter, stick", "label": 1, "pred": 1, "prob_substitutable": 0.927}
+{"ingredient": "50g fresh cherry tomatoes", "usda_match": "Tomatoes, raw", "label": 0, "pred": 1, "prob_substitutable": 0.927}
