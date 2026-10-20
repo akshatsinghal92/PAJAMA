@@ -201,7 +201,41 @@ no extra escalation and reuse the backend's existing local model (no new API). F
 models and the ceiling, text remains marginal. The headline lesson is unchanged: the ~0.86 → 0.95
 gap closes with **representative labeled errors**, not richer inputs.
 
-## 6. Bottom line
+## 6. Also tried: a neural router (DistilBERT)
+
+The final experiment swaps the feature-based router for a fine-tuned **hybrid DistilBERT**:
+`distilbert-base-uncased` reads the two food names (`"ingredient: X [SEP] usda match: Y"`), its
+`[CLS]` vector is concatenated with the **15 committee signals** (aggregator posterior & margin,
+continuous-aggregator prob & margin, vote variance/entropy, vote counts, and the score summary
+stats), and a small head predicts `committee_wrong`. Same two settings and target as every other
+router.
+
+| setting | acc@25% | esc for 0.95 | wrong-AUC |
+|---|---|---|---|
+| Deployable (val-trained, 22 errors) | 0.829 | 77.5% | 0.608 |
+| Ceiling (test-CV, ~145 errors/fold) | 0.938 | 30.0% | 0.909 |
+
+For reference: best deployable feature-router is **LR+BGE 0.879 / 45%**; the XGBoost ceiling is
+**0.947–0.954 / ~26%**; random routing is 0.812.
+
+**What it showed:**
+- **Deployable: the worst router in the study (0.829)** — barely above random (0.812), well below
+  the simple LR (0.861), with a wrong-AUC of **0.608** (0.5 = coin flip) and needing to escalate
+  **77.5%** of rows to reach 0.95. A 66M-parameter transformer cannot learn from **22 error
+  examples**; it overfits and its P(wrong) ranking is close to noise. The bigger the model, the
+  more representative data it needs — and here we have the least.
+- **Ceiling: strong (0.938, AUC 0.909) but still below the XGBoost ceiling** and needing more
+  escalation (30% vs ~26%). Even with representative labels, the fine-tuned text encoder does not
+  beat gradient-boosted trees on the committee features — the committee already consumed the
+  food-name text when it ran the programs, so the committee signals carry most of what a router
+  can know.
+
+**Takeaway:** a neural router is **not warranted here**. It loses badly when data is scarce (the
+real, deployable regime) and doesn't win even when data is plentiful. The practical router remains
+**Logistic Regression (optionally + BGE features)**; the lever is still representative labeled
+errors, not a bigger model.
+
+## 7. Bottom line
 
 - The weak programs are real but pruning them didn't help; the two things that *did* help are
   **calibrated aggregation** (fixes the confidence signal) and **routing** (escalate the
@@ -210,6 +244,10 @@ gap closes with **representative labeled errors**, not richer inputs.
   LLM calls than grading everything). The best deployable router is **Logistic Regression with
   BGE-m3 text features (0.879)**; the next-best signals are the plain learned router and the
   calibrated posterior (~0.86).
+- **Model choice is settled:** across linear, tree, and neural routers, the simple **Logistic
+  Regression** wins the deployable regime and a fine-tuned **DistilBERT is the worst** (it needs
+  far more data than 22 errors). Even at the data-rich ceiling, XGBoost on committee features
+  edges out DistilBERT. Bigger models do not help.
 - **Biggest lever next:** give the router **representative, labeled training data** (disjoint
   from the program-synthesis examples). That is what moves it from ~0.86 toward the ~0.95
-  ceiling — not more model tuning.
+  ceiling — not more model tuning, and not a bigger model.
