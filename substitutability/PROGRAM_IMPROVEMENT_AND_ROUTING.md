@@ -235,7 +235,55 @@ real, deployable regime) and doesn't win even when data is plentiful. The practi
 **Logistic Regression (optionally + BGE features)**; the lever is still representative labeled
 errors, not a bigger model.
 
-## 7. Bottom line
+## 7. Cost analysis at a 25% escalation budget
+
+Framed the way the PAJAMA paper frames it: program synthesis is a one-time **O(1)** investment,
+the committee makes **zero** per-sample API calls (80 Python programs run locally), and routing
+sends only a fraction of rows to the LLM. At a 25% budget that fraction is **0.25·N**, i.e. **4×
+fewer LLM calls** than grading everything.
+
+**Assumptions (swap in exact rates as needed).** LLM judge = `openai/gpt-oss-120b` on Groq, temp 0.
+From the actual judging prompt: ~320 input tokens (fixed rubric + the two names) + ~300 output
+tokens (it reasons step-by-step in JSON) ≈ 620 tokens/call. At Groq list price (~$0.15/1M in,
+~$0.75/1M out) that is **~$0.00027/call**. A **frontier judge** (GPT/Claude in the loop, ~$2.50/1M
+in, ~$10/1M out) costs **~$0.0038/call**. One-time synthesis of 80 programs is **~$6** (the paper
+measured $6.49–$7.21), paid once and reused forever. "Accuracy" here = agreement with the LLM
+judge (the distillation target), so LLM-only = 1.000 by identity and routed rows are correct by
+identity.
+
+**Per-sample cost (routed @25% = 0.25·N LLM calls):**
+
+| Workload N | LLM-only calls | Routed @25% calls | Groq gpt-oss-120b: all → @25% | Frontier judge: all → @25% |
+|---|---|---|---|---|
+| 943 (our test+val) | 943 | 236 | $0.26 → **$0.06** | $3.6 → **$0.9** |
+| 10,000 | 10,000 | 2,500 | $2.73 → **$0.68** | $38 → **$9.5** |
+| 100,000 | 100,000 | 25,000 | $27 → **$6.8** | $380 → **$95** |
+| 1,000,000 | 1,000,000 | 250,000 | $273 → **$68** | $3,800 → **$950** |
+
+Plus the one-time ~$6 synthesis, which amortizes to ~$0/sample at scale.
+
+**What the 4× cut in LLM calls buys:**
+
+| Config | LLM calls | Agreement w/ LLM judge | Throughput vs LLM-only |
+|---|---|---|---|
+| LLM-only (grade everything) | N | 1.000 (by definition) | 1× |
+| Committee only (no routing) | 0 | 0.749 | ~hundreds× (local) |
+| **PAJAMA + routing @25%** | **0.25·N** | **0.861 (LR) – 0.879 (LR+BGE)** | **~4×** |
+| Oracle router @25% (ceiling) | 0.25·N | ~0.999 | ~4× |
+
+**Reading it.**
+- **75% fewer LLM calls** (4×) at a flat 75% cut on the per-sample bill at *every* scale — the ratio
+  is pricing-independent. Dollars are small for a cheap Groq open-weight judge, but the same lever
+  on a **frontier judge is $3,800 → $950 per million rows**, which is where the cost story lands for
+  a production deployment.
+- That 25% budget **recovers ~45–52% of the committee→LLM accuracy gap** (0.749 → ~0.86–0.88). The
+  **oracle reaches ~1.0 at the same 25%**, because the committee's error rate (~25%) almost exactly
+  equals the budget — so a perfect router would need to escalate essentially only the wrong rows.
+  The gap between our ~0.88 and that ~1.0 is exactly the "improve aggregate performance" headroom.
+- **Throughput ≈ 4×** vs LLM-only (75% of rows get instant local verdicts), consistent with the
+  paper's 2.2–2.9× at a *higher* 32–42% fallback.
+
+## 8. Bottom line
 
 - The weak programs are real but pruning them didn't help; the two things that *did* help are
   **calibrated aggregation** (fixes the confidence signal) and **routing** (escalate the
