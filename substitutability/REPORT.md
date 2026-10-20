@@ -99,6 +99,27 @@ Our run also reported precision 0.803, recall 0.846, coverage 1.0, and **val agr
 > operates in. On its own tasks PAJAMA averages **78.1%** accuracy, matching a mid-size
 > (OLMo-2-13B) LLM judge and trailing the strongest judge (GPT-5 Thinking, 85.7%) by ~8 pts.
 
+### Human-labeled ground truth (contamination-free)
+
+The target above is the **LLM judge's** `substitutable` label. A smaller set of **43 rows also
+carries hand-written human labels**, letting us check agreement against *human* ground truth —
+but only after removing leakage. Of those 43, **8 were in the fit (val) split** and **2 were
+among the 10 few-shot examples** shown to the program generators. Excluding both leaves a
+**clean subset of 35 held-out rows** (never used to fit, tune, or synthesize):
+
+| Comparison (35 clean held-out rows) | Agreement |
+|---|---|
+| LLM judge ↔ human | 0.914 (32/35) |
+| **This work — committee ↔ human** | **0.800 (28/35)** |
+
+So against human truth the committee scores **~0.80**, while the LLM judge it distills scores
+**~0.91** — the distillation loses ~11 points vs human on this sample. Six of the seven
+committee↔human misses share one **auditable** failure mode: the committee **over-rejects
+trivial prep/form changes** that both the human and the LLM accept (e.g. `fresh diced onion →
+Onions, raw`; `frozen diced onion, thawed → Onions, frozen, chopped`; `baking powder →
+Leavening agents, baking powder`). **Caveat:** 35 rows is a small, class-imbalanced sample —
+treat these as directional, and a key next step is expanding the human-labeled set.
+
 ## 5. Analysis and how PAJAMA could be improved
 
 The committee reproduces the LLM judge at **0.749 accuracy / 0.824 F1**, at full coverage and
