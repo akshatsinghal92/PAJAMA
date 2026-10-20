@@ -158,14 +158,58 @@ the honest, deployable number today is the validation-trained **~0.86 at 25%**. 
 
 ---
 
-## 5. Bottom line
+## 5. Also tried: text representations of the two foods
+
+So far the routers only see the committee's program outputs, not the actual words of the two
+foods. We added **text representations of item 1 (ingredient) and item 2 (USDA match)** as extra
+router features, in two flavors — both reduced to the same 37-feature layout (each string → 12
+dims, plus their absolute difference (12) and cosine similarity (1)), and both fit unsupervised on
+**validation text only**, so neither adds any leakage:
+
+- **TF-IDF** — character n-gram TF-IDF of each string, reduced with SVD. Deterministic, local,
+  no model.
+- **BGE-m3** — the backend's `local` neural embedding model (`BAAI/bge-m3`, 1024-dim) embeds each
+  food name; we reduce with SVD but keep the cosine from the **full 1024-dim** vectors (the real
+  semantic signal). Local model, no API call.
+
+Accuracy @25% escalation / escalation needed to reach 0.95 (one consistent run, so the baselines
+match across columns):
+
+| | no text | + TF-IDF | + BGE-m3 |
+|---|---|---|---|
+| **Deployable (val-trained)** | acc@25% / esc@0.95 | acc@25% / esc@0.95 | acc@25% / esc@0.95 |
+| Logistic Regression | 0.861 / 45.0% | 0.872 / 50.0% | **0.879 / 45.0%** |
+| Random Forest | 0.854 / 47.5% | 0.856 / 50.0% | 0.859 / 50.0% |
+| XGBoost | 0.857 / 45.0% | 0.836 / 52.5% | 0.849 / 50.0% |
+| **Ceiling (test-CV, XGBoost)** | 0.947 / 26.7% | **0.954 / 25.8%** | 0.947 / 27.5% |
+
+**What it showed:**
+- **BGE is the best deployable text addition.** It lifts Logistic Regression to **0.879** — the
+  best deployable number in the whole study — and, unlike TF-IDF, it does *not* raise the
+  escalation needed for 0.95 (stays at 45%). BGE's semantic cosine carries real food-meaning the
+  linear model can use. It also nudges Random Forest up slightly (best RF too).
+- **Only the linear model reliably benefits.** XGBoost gets *worse* with either text source —
+  the familiar **overfitting** of trees when you add 37 features to a 222-row / 22-error set.
+- **At the data-rich ceiling the story flips:** it's char-level **TF-IDF** (0.947 → 0.954), not
+  BGE (no change), that gives the small win — once there are enough labeled errors, the exact-
+  string overlap TF-IDF captures helps more than BGE's semantics, which the committee features
+  already largely encode.
+
+**Takeaway:** of everything tried, **BGE embeddings are the one text feature worth adopting in the
+deployable router — but only for Logistic Regression**, where they buy a real ~1.8-point gain at
+no extra escalation and reuse the backend's existing local model (no new API). For the tree
+models and the ceiling, text remains marginal. The headline lesson is unchanged: the ~0.86 → 0.95
+gap closes with **representative labeled errors**, not richer inputs.
+
+## 6. Bottom line
 
 - The weak programs are real but pruning them didn't help; the two things that *did* help are
   **calibrated aggregation** (fixes the confidence signal) and **routing** (escalate the
   uncertain rows).
-- **Deployable today:** escalate 25% of rows → **~0.86 agreement** with the LLM (≈4× fewer LLM
-  calls than grading everything). The best single signal is the learned router / calibrated
-  posterior.
+- **Deployable today:** escalate 25% of rows → **~0.86–0.88 agreement** with the LLM (≈4× fewer
+  LLM calls than grading everything). The best deployable router is **Logistic Regression with
+  BGE-m3 text features (0.879)**; the next-best signals are the plain learned router and the
+  calibrated posterior (~0.86).
 - **Biggest lever next:** give the router **representative, labeled training data** (disjoint
   from the program-synthesis examples). That is what moves it from ~0.86 toward the ~0.95
   ceiling — not more model tuning.
