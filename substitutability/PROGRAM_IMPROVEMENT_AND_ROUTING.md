@@ -74,6 +74,33 @@ this one wrong?"** We then spend our LLM budget on the rows it flags as most-lik
 - **How the budget enters:** the router only *ranks* rows. At serving time we escalate the
   top **X%** most-likely-wrong rows (here **X = 25%**); the rest keep the committee's answer.
 
+### How much data each piece was trained on
+
+The whole system is deliberately data-light. Here is exactly what was trained on what:
+
+| Component | Trained on | Rows | Positive (error) examples | Features |
+|---|---|---|---|---|
+| The 80 judge programs (synthesis) | 10 few-shot from val | 10 | — | — |
+| Committee fit (thresholds, top-k, Snorkel) | val | 222 | — | — |
+| Continuous aggregator (a router feature) | val | 222 | — | — |
+| Val-trained router (deployable) | val (OOF targets) | 222 | 22 errors | 85 (basic) |
+| Test-CV router (ceiling) | test, in 5-fold CV | ~577 per fold (721 total) | 181 errors (~145/fold) | ~97 (enriched) |
+
+**Key points on the router training specifically:**
+
+- **What matters is the number of *error* examples, not rows.** The router learns to spot the
+  committee's mistakes, so its training signal is the positives (errors). The deployable router
+  saw only **22 errors** in 222 rows; the ceiling saw **~145 per fold**. That ~7× difference in
+  error examples — not the model or its hyperparameters — is what separates ~0.86 from ~0.95.
+- **The 22 errors are also unrepresentative.** The validation set has a 9.9% error rate versus
+  25% on test, because the programs were synthesized from validation few-shot, making validation
+  artificially easy. So the deployable router trains on both *too few* and *too easy* errors.
+- **This is why tuning didn't help** (XGBoost reached 0.95 cross-validation AUC on val yet still
+  needed ~47% escalation on test): you cannot tune your way out of a non-representative, 22-example
+  training signal.
+- **The fix is data, not modeling:** a few hundred representative, labeled error examples
+  (disjoint from the synthesis few-shot) would let the deployable router approach the ceiling.
+
 ### Accuracy of every experiment (routing at 25% escalation)
 
 | Group | Method | Accuracy @25% |
