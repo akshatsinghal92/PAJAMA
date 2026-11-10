@@ -1,0 +1,1159 @@
+ingredient,usda_match,other_candidates,judge_correct,judge_reasoning,reranker_prompt,judge_prompt,_run,sub_reasoning,substitutable,human_subsitutable,agreement_substitutable
+30g olive oil,Olive oil,"Oil, olive, extra virgin | Oil, olive, salad or cooking | Oil, olive, extra light | Oil, grapeseed",TRUE,"The ingredient is simply listed as ""olive oil"" with no qualifiers such as ""extra virgin,"" ""light,"" or intended use. Among the candidates, entry 1 (""Olive oil"") is the generic USDA item that matches an unspecified type of olive oil. The more specific entries (extra virgin, salad or cooking, extra light) would only be appropriate if the ingredient description included those details. The grapeseed oil entry is unrelated. Therefore, the system's choice of the generic ""Olive oil"" entry is the most suitable match.","Match this recipe ingredient to the best USDA food entry for nutritional analysis.
+
+Ingredient: ""olive oil""
+
+Candidates:
+1. Olive oil
+2. Oil, olive, extra virgin
+3. Oil, olive, salad or cooking
+4. Oil, olive, extra light
+5. Oil, grapeseed
+
+Think through which candidate best matches the ingredient, considering specificity and context. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of why this candidate is the best match>"", ""choice"": <1-based number>}","A nutrition system matched a recipe ingredient to a USDA food entry. Judge the quality of the match.
+
+Ingredient: ""olive oil""
+
+Candidates considered:
+1. Olive oil
+2. Oil, olive, extra virgin
+3. Oil, olive, salad or cooking
+4. Oil, olive, extra light
+5. Oil, grapeseed
+
+System chose: ""Olive oil""
+
+Analyze whether the chosen entry is the best match for this ingredient. Consider specificity, context, and whether a better candidate was available. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of whether the chosen match is correct or if a better candidate exists>"", ""correct"": true_or_false}",fixed,Confirmed from API run (broq7p7y0),TRUE,TRUE,TRUE
+"200g frozen chicken breast, thawed","Chicken patty, frozen, uncooked","Chicken patty, frozen, cooked | Chicken, thighs, frozen, breaded, reheated | Chicken, nuggets, white meat, precooked, frozen, not reheated | Chicken nuggets, from frozen",TRUE,"The ingredient is a plain chicken breast that was frozen and then thawed, implying raw, unprocessed poultry. None of the candidate USDA entries represent a raw chicken breast. Among the options, entry 3 ('Chicken patty, frozen, uncooked') is the only one that is uncooked, matching the raw state of the ingredient, albeit in a processed patty form. All other candidates describe cooked or heavily processed products (cooked patty, breaded thighs, nuggets) which are less similar to a simple thawed breast. Therefore, given the limited set, the system's choice of the uncooked chicken patty is the best available match.","Match this recipe ingredient to the best USDA food entry for nutritional analysis.
+
+Ingredient: ""frozen chicken breast, thawed""
+
+Candidates:
+1. Chicken patty, frozen, cooked
+2. Chicken, thighs, frozen, breaded, reheated
+3. Chicken patty, frozen, uncooked
+4. Chicken, nuggets, white meat, precooked, frozen, not reheated
+5. Chicken nuggets, from frozen
+
+Think through which candidate best matches the ingredient, considering specificity and context. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of why this candidate is the best match>"", ""choice"": <1-based number>}","A nutrition system matched a recipe ingredient to a USDA food entry. Judge the quality of the match.
+
+Ingredient: ""frozen chicken breast, thawed""
+
+Candidates considered:
+1. Chicken patty, frozen, cooked
+2. Chicken, thighs, frozen, breaded, reheated
+3. Chicken patty, frozen, uncooked
+4. Chicken, nuggets, white meat, precooked, frozen, not reheated
+5. Chicken nuggets, from frozen
+
+System chose: ""Chicken patty, frozen, uncooked""
+
+Analyze whether the chosen entry is the best match for this ingredient. Consider specificity, context, and whether a better candidate was available. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of whether the chosen match is correct or if a better candidate exists>"", ""correct"": true_or_false}",fixed,Confirmed from API run (broq7p7y0),FALSE,FALSE,TRUE
+500g fresh broccoli florets,"Broccoli, raw",Fried broccoli,TRUE,"The ingredient specifies a fresh, raw form of broccoli (a floret). Among the candidates, the only entries that represent broccoli in a raw, uncooked state are entries 2‑5, all labeled ""Broccoli, raw."" The alternative candidate, ""Fried broccoli,"" describes a cooked preparation that does not match the fresh/raw nature of the ingredient. Since no more specific USDA entry such as ""Broccoli, raw, florets"" was provided, the generic ""Broccoli, raw"" is the most appropriate match available. Therefore, the system's choice is correct.","Match this recipe ingredient to the best USDA food entry for nutritional analysis.
+
+Ingredient: ""fresh broccoli floret""
+
+Candidates:
+1. Fried broccoli
+2. Broccoli, raw
+3. Broccoli, raw
+4. Broccoli, raw
+5. Broccoli, raw
+
+Think through which candidate best matches the ingredient, considering specificity and context. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of why this candidate is the best match>"", ""choice"": <1-based number>}","A nutrition system matched a recipe ingredient to a USDA food entry. Judge the quality of the match.
+
+Ingredient: ""fresh broccoli floret""
+
+Candidates considered:
+1. Fried broccoli
+2. Broccoli, raw
+3. Broccoli, raw
+4. Broccoli, raw
+5. Broccoli, raw
+
+System chose: ""Broccoli, raw""
+
+Analyze whether the chosen entry is the best match for this ingredient. Consider specificity, context, and whether a better candidate was available. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of whether the chosen match is correct or if a better candidate exists>"", ""correct"": true_or_false}",fixed,Confirmed from API run (broq7p7y0),TRUE,TRUE,TRUE
+250g fresh red bell pepper,"Peppers, bell, red, raw","Peppers, sweet, red, raw | Peppers, red, cooked | Pepper, sweet, red, raw | Peppers, bell, green, raw",TRUE,"The ingredient specifies a fresh (i.e., raw) red bell pepper. Candidate 1 ('Peppers, bell, red, raw') matches all three attributes: it is a bell-type pepper, it is red, and it is raw. Candidate 2 and 4 describe sweet red peppers but do not specify the bell shape, making them less specific. Candidate 3 is cooked, which contradicts the 'fresh' descriptor. Candidate 5 is green, not red. Therefore, the system's choice of candidate 1 is the most accurate and specific match.","Match this recipe ingredient to the best USDA food entry for nutritional analysis.
+
+Ingredient: ""fresh red bell pepper""
+
+Candidates:
+1. Peppers, bell, red, raw
+2. Peppers, sweet, red, raw
+3. Peppers, red, cooked
+4. Pepper, sweet, red, raw
+5. Peppers, bell, green, raw
+
+Think through which candidate best matches the ingredient, considering specificity and context. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of why this candidate is the best match>"", ""choice"": <1-based number>}","A nutrition system matched a recipe ingredient to a USDA food entry. Judge the quality of the match.
+
+Ingredient: ""fresh red bell pepper""
+
+Candidates considered:
+1. Peppers, bell, red, raw
+2. Peppers, sweet, red, raw
+3. Peppers, red, cooked
+4. Pepper, sweet, red, raw
+5. Peppers, bell, green, raw
+
+System chose: ""Peppers, bell, red, raw""
+
+Analyze whether the chosen entry is the best match for this ingredient. Consider specificity, context, and whether a better candidate was available. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of whether the chosen match is correct or if a better candidate exists>"", ""correct"": true_or_false}",fixed,Confirmed from API run (broq7p7y0),TRUE,TRUE,TRUE
+60g soy sauce,Soy sauce,"Soy sauce, reduced sodium | Soy sauce made from soy (tamari) | Soy sauce made from hydrolyzed vegetable protein | Soy sauce, reduced sodium, made from hydrolyzed vegetable protein",TRUE,"The ingredient is listed simply as ""soy sauce"" with no qualifiers such as reduced sodium, tamari (soy sauce made from soy), or hydrolyzed vegetable protein. Among the candidates, the first entry ""Soy sauce"" is the most generic and directly matches the ingredient description. The other options add specific attributes that are not indicated in the ingredient name, making them less appropriate. Therefore, the system's choice of the generic ""Soy sauce"" entry is the best match.","Match this recipe ingredient to the best USDA food entry for nutritional analysis.
+
+Ingredient: ""soy sauce""
+
+Candidates:
+1. Soy sauce
+2. Soy sauce, reduced sodium
+3. Soy sauce made from soy (tamari)
+4. Soy sauce made from hydrolyzed vegetable protein
+5. Soy sauce, reduced sodium, made from hydrolyzed vegetable protein
+
+Think through which candidate best matches the ingredient, considering specificity and context. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of why this candidate is the best match>"", ""choice"": <1-based number>}","A nutrition system matched a recipe ingredient to a USDA food entry. Judge the quality of the match.
+
+Ingredient: ""soy sauce""
+
+Candidates considered:
+1. Soy sauce
+2. Soy sauce, reduced sodium
+3. Soy sauce made from soy (tamari)
+4. Soy sauce made from hydrolyzed vegetable protein
+5. Soy sauce, reduced sodium, made from hydrolyzed vegetable protein
+
+System chose: ""Soy sauce""
+
+Analyze whether the chosen entry is the best match for this ingredient. Consider specificity, context, and whether a better candidate was available. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of whether the chosen match is correct or if a better candidate exists>"", ""correct"": true_or_false}",fixed,Confirmed from API run (broq7p7y0),TRUE,TRUE,TRUE
+10g garlic paste (from tube),Garlic sauce,"Garlic, raw | Garlic, raw | Garlic, raw | Guava paste",FALSE,"The ingredient is 'garlic paste', which is a processed form of garlic consisting essentially of ground raw garlic, sometimes with added oil or water, but it is still fundamentally garlic. Among the candidates, the only entries that directly represent garlic are the repeated 'Garlic, raw' entries. 'Garlic sauce' implies a prepared condiment that typically includes additional ingredients (e.g., oil, salt, other seasonings) and has a different composition and nutritional profile than a simple garlic paste. Therefore, selecting 'Garlic sauce' is less specific and less accurate than choosing 'Garlic, raw', which better reflects the primary component of the paste. A better match was available, so the system's choice is not the best.","Match this recipe ingredient to the best USDA food entry for nutritional analysis.
+
+Ingredient: ""garlic paste""
+
+Candidates:
+1. Garlic sauce
+2. Garlic, raw
+3. Garlic, raw
+4. Garlic, raw
+5. Guava paste
+
+Think through which candidate best matches the ingredient, considering specificity and context. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of why this candidate is the best match>"", ""choice"": <1-based number>}","A nutrition system matched a recipe ingredient to a USDA food entry. Judge the quality of the match.
+
+Ingredient: ""garlic paste""
+
+Candidates considered:
+1. Garlic sauce
+2. Garlic, raw
+3. Garlic, raw
+4. Garlic, raw
+5. Guava paste
+
+System chose: ""Garlic sauce""
+
+Analyze whether the chosen entry is the best match for this ingredient. Consider specificity, context, and whether a better candidate was available. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of whether the chosen match is correct or if a better candidate exists>"", ""correct"": true_or_false}",fixed,Confirmed from API run (broq7p7y0),FALSE,FALSE,TRUE
+5g ground ginger,"Spices, ginger, ground","Ginger root, raw | Ginger root, pickled | Ginger root, pickled, canned, with artificial sweetener | Tea, ginger",TRUE,"The ingredient is specifically described as ""ground ginger,"" which refers to the powdered form of ginger used as a spice. Among the candidates, only entry 4 (""Spices, ginger, ground"") directly represents ginger in its ground, powdered form. The other options describe raw, pickled, or brewed forms, which do not match the ingredient's state or typical culinary use. Therefore, the system's selection of entry 4 is the most specific and appropriate match.","Match this recipe ingredient to the best USDA food entry for nutritional analysis.
+
+Ingredient: ""ground ginger""
+
+Candidates:
+1. Ginger root, raw
+2. Ginger root, pickled
+3. Ginger root, pickled, canned, with artificial sweetener
+4. Spices, ginger, ground
+5. Tea, ginger
+
+Think through which candidate best matches the ingredient, considering specificity and context. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of why this candidate is the best match>"", ""choice"": <1-based number>}","A nutrition system matched a recipe ingredient to a USDA food entry. Judge the quality of the match.
+
+Ingredient: ""ground ginger""
+
+Candidates considered:
+1. Ginger root, raw
+2. Ginger root, pickled
+3. Ginger root, pickled, canned, with artificial sweetener
+4. Spices, ginger, ground
+5. Tea, ginger
+
+System chose: ""Spices, gi5g ground ginger,Spices", ginger,"Ground ginger maps exactly to Spices, ginger, ground — same product, identical in a recipe.",TRUE,TRUE,TRUE
+100g large eggs,"Eggs, Grade A, Large, egg whole","Egg, whole, raw | Egg, whole, fried no added fat | Egg, whole, baked, fat added | Eggs, Grade A, Large, egg yolk",TRUE,"The ingredient is simply ""large egg"" with no indication of cooking method. The best USDA match should therefore be a raw, whole egg of large size. Candidate 5 ('Eggs, Grade A, Large, egg whole') matches both the size (large) and the whole-egg form, and includes the typical Grade A designation, making it more specific than candidate 1, which lacks size information. Candidates 2 and 3 describe cooked eggs, which do not align with the uncooked ingredient, and candidate 4 is only the yolk. Hence, the system's choice of candidate 5 is the most appropriate match.","Match this recipe ingredient to the best USDA food entry for nutritional analysis.
+
+Ingredient: ""large egg""
+
+Candidates:
+1. Egg, whole, raw
+2. Egg, whole, fried no added fat
+3. Egg, whole, baked, fat added
+4. Eggs, Grade A, Large, egg yolk
+5. Eggs, Grade A, Large, egg whole
+
+Think through which candidate best matches the ingredient, considering specificity and context. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of why this candidate is the best match>"", ""choice"": <1-based number>}","A nutrition system matched a recipe ingredient to a USDA food entry. Judge the quality of the match.
+
+Ingredient: ""large egg""
+
+Candidates considered:
+1. Egg, whole, raw
+2. Egg, whole, fried no added fat
+3. Egg, whole, baked, fat added
+4. Eggs, Grade A, Large, egg yolk
+5. Eggs, Grade A, Large, egg whole
+
+System chose: ""Eggs, Grade A, Large, egg whole""
+
+Analyze whether the chosen entry is the best match for this ingredient. Consider specificity, context, and whether a better candidate was available. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of whether the chosen match is correct or if a better candidate exists>"", ""correct"": true_or_false}",fixed,"The ingredient specifies 100 g of large eggs. The USDA entry describes whole, Grade A large eggs, which are the same type of egg used in cooking. The weight can be matched by using roughly two large eggs (≈100 g of edible portion). Using the USDA‑listed whole large eggs would not require any change in preparation, nor would it alter the taste, texture, or appearance of the dish. Therefore both conditions for substitutability are satisfied.",TRUE,TRUE,TRUE
+40g fresh diced onion,"Onions, raw","Onions, sweet, raw | Onions, white, raw | Fried onion rings",TRUE,"The ingredient is described simply as ""fresh onion"" with no indication of variety (e.g., sweet, white) or cooking method. The most appropriate USDA entry is the generic raw onion, which represents a typical fresh onion used in recipes. More specific entries like ""Onions, sweet, raw"" or ""Onions, white, raw"" add unnecessary specificity that is not supported by the ingredient description. The cooked option ""Fried onion rings"" is clearly unsuitable because the ingredient is fresh, not prepared. Therefore, the system's choice of ""Onions, raw"" is the best available match.","Match this recipe ingredient to the best USDA food entry for nutritional analysis.
+
+Ingredient: ""fresh onion""
+
+Candidates:
+1. Onions, raw
+2. Onions, raw
+3. Onions, sweet, raw
+4. Onions, white, raw
+5. Fried onion rings
+
+Think through which candidate best matches the ingredient, considering specificity and context. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of why this candidate is the best match>"", ""choice"": <1-based number>}","A nutrition system matched a recipe ingredient to a USDA food entry. Judge the quality of the match.
+
+Ingredient: ""fresh onion""
+
+Candidates considered:
+1. Onions, raw
+2. Onions, raw
+3. Onions, sweet, raw
+4. Onions, white, raw
+5. Fried onion rings
+
+System chose: ""Onions, raw""
+
+Analyze whether the chosen entry is the best match for this ingredient. Consider specificity, context, and whether a better candidate was available. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of whether the chosen match is correct or if a better candidate exists>"", ""correct"": true_or_false}",fixed,"The ingredient calls for fresh diced onion, which is simply raw onion that has been cut into small cubes. The USDA entry ""Onions, raw"" refers to the same raw onion commodity, without specifying cut size. A cook can take raw onions from the USDA entry and dice them to match the recipe, so the preparation method (dicing then cooking) remains unchanged. The flavor, texture, and appearance of raw onion are the same regardless of whether the database entry describes whole or diced form, provided the cook dices it to the same size. Therefore, a diner would not notice any difference, and both conditions for substitutability are satisfied.",TRUE,TRUE,TRUE
+50g fresh diced tomato,"Tomatoes, raw","Tomato, roma | Tomato, roma | Sun-dried tomatoes | Tomatoes, fresh, cooked",TRUE,"The ingredient is described simply as ""fresh tomato"" without specifying a variety or preparation method beyond being fresh. Among the candidates, ""Tomatoes, raw"" represents generic, uncooked fresh tomatoes, which aligns directly with the ingredient description. The two ""Tomato, roma"" entries are more specific to a particular cultivar (Roma) and, while also raw, introduce unnecessary specificity that the ingredient does not imply. ""Sun-dried tomatoes"" and ""Tomatoes, fresh, cooked"" do not match the freshness or raw state. Therefore, the system's choice of ""Tomatoes, raw"" is the most appropriate match.","Match this recipe ingredient to the best USDA food entry for nutritional analysis.
+
+Ingredient: ""fresh tomato""
+
+Candidates:
+1. Tomato, roma
+2. Tomato, roma
+3. Tomatoes, raw
+4. Sun-dried tomatoes
+5. Tomatoes, fresh, cooked
+
+Think through which candidate best matches the ingredient, considering specificity and context. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of why this candidate is the best match>"", ""choice"": <1-based number>}","A nutrition system matched a recipe ingredient to a USDA food entry. Judge the quality of the match.
+
+Ingredient: ""fresh tomato""
+
+Candidates considered:
+1. Tomato, roma
+2. Tomato, roma
+3. Tomatoes, raw
+4. Sun-dried tomatoes
+5. Tomatoes, fresh, cooked
+
+System chose: ""Tomatoes, raw""
+
+Analyze whether the chosen entry is the best match for this ingredient. Consider specificity, context, and whether a better candidate was available. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of whether the chosen match is correct or if a better candidate exists>"", ""correct"": true_or_false}",fixed,"The ingredient calls for fresh diced tomato. The USDA entry ""Tomatoes, raw"" refers to raw tomatoes in their whole form, but raw tomatoes can be diced without any additional cooking or processing steps. A cook could simply dice the raw tomatoes to match the ingredient specification, so the preparation method remains unchanged (condition 1). Since the diced pieces would be identical in taste, texture, and appearance to the intended fresh diced tomato, a diner would not notice any difference (condition 2). Therefore, the USDA entry is substitutable for the ingredient.",TRUE,TRUE,TRUE
+20g fresh spinach leaves,"Spinach, raw","Spinach, baby | Spinach, baby | Spinach soup",TRUE,"The ingredient ""fresh spinach leaf"" describes a raw, uncooked leaf of spinach. Among the candidates, the entries ""Spinach, raw"" directly correspond to raw spinach leaves, matching both the freshness and the form (leaf). The ""Spinach, baby"" entries refer to a specific variety (baby spinach) which is not indicated by the ingredient description, and ""Spinach soup"" is a prepared dish, not a raw leaf. Therefore, the system's choice of ""Spinach, raw"" is the most appropriate match.","Match this recipe ingredient to the best USDA food entry for nutritional analysis.
+
+Ingredient: ""fresh spinach leaf""
+
+Candidates:
+1. Spinach, raw
+2. Spinach, raw
+3. Spinach, baby
+4. Spinach, baby
+5. Spinach soup
+
+Think through which candidate best matches the ingredient, considering specificity and context. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of why this candidate is the best match>"", ""choice"": <1-based number>}","A nutrition system matched a recipe ingredient to a USDA food entry. Judge the quality of the match.
+
+Ingredient: ""fresh spinach leaf""
+
+Candidates considered:
+1. Spinach, raw
+2. Spinach, raw
+3. Spinach, baby
+4. Spinach, baby
+5. Spinach soup
+
+System chose: ""Spinach, raw""
+
+Analyze whether the chosen entry is the best match for this ingredient. Consider specificity, context, and whether a better candidate was available. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of whether the chosen match is correct or if a better candidate exists>"", ""correct"": true_or_false}",fixed,"The ingredient specifies fresh spinach leaves, which are raw and used as a leafy green. The USDA entry ""Spinach, raw"" describes the same product—raw spinach leaves. Using the USDA raw spinach in the recipe would not require any change in preparation, and the taste, texture, and appearance would be indistinguishable from the original fresh leaves. Therefore both conditions for substitutability are satisfied.",TRUE,TRUE,TRUE
+15g olive oil,Olive oil,"Oil, olive, extra virgin | Oil, olive, salad or cooking | Oil, olive, extra light | Oil, grapeseed",TRUE,"The ingredient is simply listed as ""olive oil"" with no qualifiers such as ""extra virgin,"" ""light,"" or ""salad/cooking."" Among the candidates, entry 1 (""Olive oil"") is the generic USDA item that matches an unspecified type of olive oil. The more specific entries (extra virgin, salad or cooking, extra light) would be appropriate only if the recipe explicitly mentioned those variants. The grapeseed oil entry is unrelated. Therefore, the system's choice of the generic ""Olive oil"" is the most appropriate match.","Match this recipe ingredient to the best USDA food entry for nutritional analysis.
+
+Ingredient: ""olive oil""
+
+Candidates:
+1. Olive oil
+2. Oil, olive, extra virgin
+3. Oil, olive, salad or cooking
+4. Oil, olive, extra light
+5. Oil, grapeseed
+
+Think through which candidate best matches the ingredient, considering specificity and context. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of why this candidate is the best match>"", ""choice"": <1-based number>}","A nutrition system matched a recipe ingredient to a USDA food entry. Judge the quality of the match.
+
+Ingredient: ""olive oil""
+
+Candidates considered:
+1. Olive oil
+2. Oil, olive, extra virgin
+3. Oil, olive, salad or cooking
+4. Oil, olive, extra light
+5. Oil, grapeseed
+
+System chose: ""Olive oil""
+
+Analyze whether the chosen entry is the best match for this ingredient. Consider specificity, context, and whether a better candidate was available. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of whether the chosen match is correct or if a better candidate exists>"", ""correct"": true_or_false}",fixed,"The ingredient specifies 15 g of olive oil. The USDA entry is simply ""Olive oil"", which represents the same substance. Using the USDA entry in place of the specified amount would not require any change in cooking technique, and the flavor, texture, and appearance would be indistinguishable to a diner. Therefore both conditions for substitutability are satisfied.",TRUE,TRUE,TRUE
+3g Salt and pepper (to taste),"Salt, table","Salt, table, iodized | Salt, table, iodized | Butter, without salt | Butter, salted",FALSE,"The ingredient is ""table salt,"" which generally refers to refined salt intended for use at the table. The candidate list includes a generic entry (""Salt, table"") and a more specific entry (""Salt, table, iodized""). In the United States, the vast majority of table salt sold to consumers is iodized, and USDA provides a distinct entry for that. While the generic ""Salt, table"" is not incorrect—it does represent table salt—it is less specific than the iodized version, which better captures the typical product most recipes assume. Since a more specific and context‑appropriate candidate is available, the system's choice of the generic entry is not the optimal match.","Match this recipe ingredient to the best USDA food entry for nutritional analysis.
+
+Ingredient: ""table salt""
+
+Candidates:
+1. Salt, table
+2. Salt, table, iodized
+3. Salt, table, iodized
+4. Butter, without salt
+5. Butter, salted
+
+Think through which candidate best matches the ingredient, considering specificity and context. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of why this candidate is the best match>"", ""choice"": <1-based number>}","A nutrition system matched a recipe ingredient to a USDA food entry. Judge the quality of the match.
+
+Ingredient: ""table salt""
+
+Candidates considered:
+1. Salt, table
+2. Salt, table, iodized
+3. Salt, table, iodized
+4. Butter, without salt
+5. Butter, salted
+
+System chose: ""Salt, table""
+
+Analyze whether the chosen entry is the best match for this ingredient. Consider specificity, context, and whether a better candidate was available. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of whether the chosen match is correct or if a better candidate exists>"", ""correct"": true_or_false}",fixed,"The recipe ingredient specifies a mixture of salt and pepper (3 g total, to taste). The USDA entry provides only table salt, which lacks the pepper component. Substituting just salt would omit pepper’s flavor, altering the seasoning profile of the dish. This change would be noticeable to a diner in taste, and it does not fully replace the intended ingredient. Therefore, both conditions for substitutability are not met.",FALSE,FALSE,TRUE
+3g Salt and pepper (to taste),"Spices, pepper, black","Pepper, hot chili, raw | Spices, pepper, red or cayenne | Hot pepper sauce | Spices, pepper, white",TRUE,"The ingredient is specifically 'black pepper', which refers to the dried fruit of Piper nigrum used as a spice. Among the candidates, entry 1 ('Spices, pepper, black') directly corresponds to ground or whole black pepper. The other options describe different types of pepper (hot chili, red/cayenne, white) or a processed product (hot pepper sauce), none of which match the specific ingredient. Therefore, the system selected the most specific and appropriate USDA entry.","Match this recipe ingredient to the best USDA food entry for nutritional analysis.
+
+Ingredient: ""black pepper""
+
+Candidates:
+1. Spices, pepper, black
+2. Pepper, hot chili, raw
+3. Spices, pepper, red or cayenne
+4. Hot pepper sauce
+5. Spices, pepper, white
+
+Think through which candidate best matches the ingredient, considering specificity and context. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of why this candidate is the best match>"", ""choice"": <1-based number>}","A nutrition system matched a recipe ingredient to a USDA food entry. Judge the quality of the match.
+
+Ingredient: ""black pepper""
+
+Candidates considered:
+1. Spices, pepper, black
+2. Pepper, hot chili, raw
+3. Spices, pepper, red or cayenne
+4. Hot pepper sauce
+5. Spices, pepper, white
+
+System chose: ""Spices, pepper, black""
+
+Analyze whether the chosen entry is the best match for this ingredient. Consider specificity, context, and whether a better candidate was available. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of whether the chosen match is correct or if a better candidate exists>"", ""correct"": true_or_false}",fixed,"The recipe calls for a combination of salt and pepper (3 g total, to taste). The USDA entry provides only black pepper, with no salt component. While using black pepper alone would not change the cooking method, it would noticeably alter the flavor because the dish would lack the saltiness that the original ingredient provides. Since a diner would detect the difference in taste, the second condition is not met. Therefore the match is not substitutable.",FALSE,FALSE,TRUE
+160g rolled oats,"Oats, whole grain, rolled, old fashioned","Roll, oatmeal | Oats, raw | Oats, whole grain, steel cut | Oatmeal, multigrain",TRUE,"The ingredient term 'rolled oat' directly describes oats that have been steamed and rolled flat, which is the definition of old‑fashioned rolled oats. Among the candidates, entry 2 ('Oats, whole grain, rolled, old fashioned') precisely matches this description, specifying both the grain (oats) and the processing method (rolled, old‑fashioned). The other options are either too vague (1: 'Roll, oatmeal' is not a standard USDA term), refer to a different form of oat (3: raw oats, 4: steel‑cut oats), or describe a mixed product (5: multigrain oatmeal). Therefore, the system's choice is the most specific and appropriate match.","Match this recipe ingredient to the best USDA food entry for nutritional analysis.
+
+Ingredient: ""rolled oat""
+
+Candidates:
+1. Roll, oatmeal
+2. Oats, whole grain, rolled, old fashioned
+3. Oats, raw
+4. Oats, whole grain, steel cut
+5. Oatmeal, multigrain
+
+Think through which candidate best matches the ingredient, considering specificity and context. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of why this candidate is the best match>"", ""choice"": <1-based number>}","A nutrition system matched a recipe ingredient to a USDA food entry. Judge the quality of the match.
+
+Ingredient: ""rolled oat""
+
+Candidates considered:
+1. Roll, oatmeal
+2. Oats, whole grain, rolled, old fashioned
+3. Oats, raw
+4. Oats, whole grain, steel cut
+5. Oatmeal, multigrain
+
+System chose: ""Oats, whole grain, rolled, old fashioned""
+
+Analyze whether the chosen entry is the best match for this ingredient. Consider specificity, context, and whether a better candidate was available. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of whether the chosen match is correct or if a better candidate exists>"", ""correct"": true_or_false}",fixed,"The ingredient specifies ""rolled oats"" with a weight of 160 g. The USDA entry describes ""Oats, whole grain, rolled, old fashioned,"" which is the standard form of rolled oats commonly used in recipes. Old‑fashioned rolled oats are the same product as generic rolled oats, differing only in naming. Using this USDA entry would not require any change in preparation steps, nor would it alter the taste, texture, or appearance of the dish. Therefore both conditions for substitutability are satisfied.",TRUE,TRUE,TRUE
+1000g almond milk,"Almond milk, unsweetened","Almond milk, sweetened | Almond milk, unsweetened, chocolate | Almond milk, unsweetened, plain, refrigerated | Almond milk, unsweetened, plain, shelf stable",TRUE,"The ingredient is given simply as ""almond milk"" with no qualifiers such as sweetened, chocolate, plain, or packaging type. Among the candidate USDA entries, the most generic options are the unsweetened and sweetened varieties. Since the ingredient does not specify sweetness, the system must choose a baseline type. USDA typically treats the unsweetened version as the default reference food for almond milk, and it is less specific than the entries that add ""plain, refrigerated"" or ""chocolate"" qualifiers. Therefore, selecting ""Almond milk, unsweetened"" is a reasonable match and there is no clearly superior candidate among the provided options.","Match this recipe ingredient to the best USDA food entry for nutritional analysis.
+
+Ingredient: ""almond milk""
+
+Candidates:
+1. Almond milk, unsweetened
+2. Almond milk, sweetened
+3. Almond milk, unsweetened, chocolate
+4. Almond milk, unsweetened, plain, refrigerated
+5. Almond milk, unsweetened, plain, shelf stable
+
+Think through which candidate best matches the ingredient, considering specificity and context. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of why this candidate is the best match>"", ""choice"": <1-based number>}","A nutrition system matched a recipe ingredient to a USDA food entry. Judge the quality of the match.
+
+Ingredient: ""almond milk""
+
+Candidates considered:
+1. Almond milk, unsweetened
+2. Almond milk, sweetened
+3. Almond milk, unsweetened, chocolate
+4. Almond milk, unsweetened, plain, refrigerated
+5. Almond milk, unsweetened, plain, shelf stable
+
+System chose: ""Almond milk, unsweetened""
+
+Analyze whether the chosen entry is the best match for this ingredient. Consider specificity, context, and whether a better candidate was available. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of whether the chosen match is correct or if a better candidate exists>"", ""correct"": true_or_false}",fixed,"The ingredient calls for ""almond milk"" with no indication of sweetness. The USDA entry is specifically ""Almond milk, unsweetened."" While both are liquid milks and can be used in the same way without altering cooking technique (condition 1 is met), the sweetness level may differ. If the recipe expected sweetened almond milk, using an unsweetened version would make the dish noticeably less sweet, affecting taste. Even if the original almond milk was unsweetened, the lack of specification means a diner could notice a difference if the intended product was sweetened. Because the potential flavor difference violates condition 2, the match is not reliably substitutable.",FALSE,TRUE,FALSE
+70g chia seeds,"Seeds, flaxseed","Mixed seeds | Seeds, hemp seed, hulled | Seeds, sesame seed kernels, dried (decorticated) | Seeds, cottonseed kernels, roasted (glandless)",TRUE,"The ingredient is ""chia seed,"" but none of the candidate USDA entries correspond exactly to chia. Among the options, the most nutritionally and botanically similar seed is flaxseed, which, like chia, is a small oilseed high in omega‑3 fatty acids and dietary fiber. Hemp seed is also an oilseed but has a different fatty‑acid profile, and sesame or cottonseed are less comparable. ""Mixed seeds"" would be a generic fallback but provides less specificity and could misrepresent the nutrient profile. Therefore, selecting ""Seeds, flaxseed"" is the best available match given the limited candidates.","Match this recipe ingredient to the best USDA food entry for nutritional analysis.
+
+Ingredient: ""chia seed""
+
+Candidates:
+1. Mixed seeds
+2. Seeds, hemp seed, hulled
+3. Seeds, flaxseed
+4. Seeds, sesame seed kernels, dried (decorticated)
+5. Seeds, cottonseed kernels, roasted (glandless)
+
+Think through which candidate best matches the ingredient, considering specificity and context. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of why this candidate is the best match>"", ""choice"": <1-based number>}","A nutrition system matched a recipe ingredient to a USDA food entry. Judge the quality of the match.
+
+Ingredient: ""chia seed""
+
+Candidates considered:
+1. Mixed seeds
+2. Seeds, hemp seed, hulled
+3. Seeds, flaxseed
+4. Seeds, sesame seed kernels, dried (decorticated)
+5. Seeds, cottonseed kernels, roasted (glandless)
+
+System chose: ""Seeds, flaxseed""
+
+Analyze whether the chosen entry is the best match for this ingredient. Consider specificity, context, and whether a better candidate was available. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of whether the chosen match is correct or if a better candidate exists>"", ""correct"": true_or_false}",fixed,"Chia seeds and flaxseed are both edible seeds, but they behave differently in cooking. Chia seeds absorb liquid and form a gelatinous coating that can thicken or bind ingredients, while whole flaxseed does not create the same gel and is usually used ground for its mucilage. Substituting flaxseed for chia would change the preparation (e.g., the amount of liquid needed and the thickening step) and would alter the texture and appearance of the final dish (flaxseed remains grainy and does not swell like chia). Additionally, flaxseed has a stronger, earthier flavor that a diner would likely notice compared to the milder, slightly nutty taste of chia. Because both the cooking method and the sensory outcome would be different, the USDA entry ""Seeds, flaxseed"" is not a substitutable match for ""70g chia seeds"".",FALSE,FALSE,TRUE
+60g honey,Honey,"Honey butter | Rice, sweet, cooked with honey | Honey mustard dressing",TRUE,"The ingredient is simply ""honey,"" which is a single, unprocessed sweetener. Among the candidates, the USDA entries labeled ""Honey"" directly correspond to the ingredient itself, providing the most specific and appropriate match. The other options (honey butter, honey‑infused rice, honey mustard dressing) represent composite foods that contain honey but also include additional ingredients, making them less specific. Since the system selected one of the exact ""Honey"" entries, it chose the best possible match.","Match this recipe ingredient to the best USDA food entry for nutritional analysis.
+
+Ingredient: ""honey""
+
+Candidates:
+1. Honey
+2. Honey
+3. Honey butter
+4. Rice, sweet, cooked with honey
+5. Honey mustard dressing
+
+Think through which candidate best matches the ingredient, considering specificity and context. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of why this candidate is the best match>"", ""choice"": <1-based number>}","A nutrition system matched a recipe ingredient to a USDA food entry. Judge the quality of the match.
+
+Ingredient: ""honey""
+
+Candidates considered:
+1. Honey
+2. Honey
+3. Honey butter
+4. Rice, sweet, cooked with honey
+5. Honey mustard dressing
+
+System chose: ""Honey""
+
+Analyze whether the chosen entry is the best match for this ingredient. Consider specificity, context, and whether a better candidate was available. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of whether the chosen match is correct or if a better candidate exists>"", ""correct"": true_or_false}",fixed,"The ingredient specified is ""60g honey"". The USDA database entry is simply ""Honey"", which refers to the same food item. Using the USDA entry to represent the ingredient would involve using the same substance in the same quantity, so it would not require any change in preparation method. Since the ingredient and the database entry are identical, a diner would not detect any difference in taste, texture, or appearance. Both conditions for substitutability are satisfied.",TRUE,TRUE,TRUE
+"300g frozen blueberries, thawed","Blueberries, frozen","Blueberries, frozen, sweetened | Blackberries, frozen | Blackberries, frozen, unsweetened | Raspberries, frozen",TRUE,"The ingredient explicitly states ""frozen blueberries, thawed,"" indicating the fruit type (blueberries) and that it was frozen but is now thawed, with no mention of added sweeteners. Among the candidates, option 1 (""Blueberries, frozen"") matches the fruit type and preparation state without introducing extra attributes like sweetening. Option 2 adds a sweetened qualifier not present in the ingredient description, while options 3, 4, and 5 refer to different berries altogether. Therefore, the system's choice of ""Blueberries, frozen"" is the most specific and appropriate match.","Match this recipe ingredient to the best USDA food entry for nutritional analysis.
+
+Ingredient: ""frozen blueberries, thawed""
+
+Candidates:
+1. Blueberries, frozen
+2. Blueberries, frozen, sweetened
+3. Blackberries, frozen
+4. Blackberries, frozen, unsweetened
+5. Raspberries, frozen
+
+Think through which candidate best matches the ingredient, considering specificity and context. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of why this candidate is the best match>"", ""choice"": <1-based number>}","A nutrition system matched a recipe ingredient to a USDA food entry. Judge the quality of the match.
+
+Ingredient: ""frozen blueberries, thawed""
+
+Candidates considered:
+1. Blueberries, frozen
+2. Blueberries, frozen, sweetened
+3. Blackberries, frozen
+4. Blackberries, frozen, unsweetened
+5. Raspberries, frozen
+
+System chose: ""Blueberries, frozen""
+
+Analyze whether the chosen entry is the best match for this ingredient. Consider specificity, context, and whether a better candidate was available. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of whether the chosen match is correct or if a better candidate exists>"", ""correct"": true_or_false}",fixed,"The ingredient specifies frozen blueberries that have been thawed. The USDA entry describes frozen blueberries, which are the same product before thawing. In practice, a cook would take the frozen blueberries from the USDA entry and thaw them, exactly as the recipe calls for. This does not alter the cooking method, and once thawed the berries will have the same taste, texture, and appearance as the intended ingredient. Therefore, a diner would not notice any difference.",TRUE,TRUE,TRUE
+300g fresh ground beef,"Beef, ground, raw","Beef, ground | Beef, ground, 97% lean meat / 3% fat, raw | Beef, ground, 75% lean meat / 25% fat, raw | Beef, ground, 95% lean meat / 5% fat, raw",TRUE,"The ingredient description 'fresh ground beef' indicates raw, uncooked meat that has been ground. Among the candidates, the entry 'Beef, ground, raw' captures both the ground form and the raw (fresh) state without adding unnecessary detail about fat content. The other options either omit the raw state ('Beef, ground') or impose specific lean/fat ratios that are not mentioned in the ingredient name. Therefore, the system's choice is the most appropriate match.","Match this recipe ingredient to the best USDA food entry for nutritional analysis.
+
+Ingredient: ""fresh ground beef""
+
+Candidates:
+1. Beef, ground
+2. Beef, ground, raw
+3. Beef, ground, 97% lean meat / 3% fat, raw
+4. Beef, ground, 75% lean meat / 25% fat, raw
+5. Beef, ground, 95% lean meat / 5% fat, raw
+
+Think through which candidate best matches the ingredient, considering specificity and context. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of why this candidate is the best match>"", ""choice"": <1-based number>}","A nutrition system matched a recipe ingredient to a USDA food entry. Judge the quality of the match.
+
+Ingredient: ""fresh ground beef""
+
+Candidates considered:
+1. Beef, ground
+2. Beef, ground, raw
+3. Beef, ground, 97% lean meat / 3% fat, raw
+4. Beef, ground, 75% lean meat / 25% fat, raw
+5. Beef, ground, 95% lean meat / 5% fat, raw
+
+System chose: ""Beef, ground, raw""
+
+Analyze whether the chosen entry is the best match for this ingredient. Consider specificity, context, and whether a better candidate was available. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of whether the chosen match is correct or if a better candidate exists>"", ""correct"": true_or_false}",fixed,"The ingredient specifies 300 g of fresh ground beef, which is raw, uncooked, and minced. The USDA entry ""Beef, ground, raw"" describes the same product: raw, ground beef without any cooking or processing differences. Using the USDA item in the recipe would not require any change to the cooking method, and the flavor, texture, and appearance of the cooked dish would be indistinguishable from using the fresh ground beef described in the ingredient. Therefore both conditions for substitutability are satisfied.",TRUE,TRUE,TRUE
+"100g frozen diced onion, thawed","Onions, frozen, chopped, unprepared","Onions, frozen, whole, unprepared | Peas and onions, frozen, unprepared | Onions, frozen, chopped, cooked, boiled, drained, with salt | Onions, frozen, chopped, cooked, boiled, drained, without salt",FALSE,"The ingredient ""frozen onion, thawed"" indicates a frozen onion that has been thawed but provides no detail about whether the onion was whole or chopped. Both candidate 1 (chopped) and candidate 2 (whole) describe frozen, unprepared onions, matching the frozen/thawed state. However, candidate 2 aligns more closely with the lack of specification about chopping, avoiding an unnecessary assumption about the onion being cut. Candidate 3 includes peas, which are not mentioned. Candidates 4 and 5 describe cooked onions, which contradict the ""unprepared"" nature implied by the ingredient. Therefore, the system's choice of the chopped version is less accurate than the whole version, making the chosen match suboptimal.","Match this recipe ingredient to the best USDA food entry for nutritional analysis.
+
+Ingredient: ""frozen onion, thawed""
+
+Candidates:
+1. Onions, frozen, chopped, unprepared
+2. Onions, frozen, whole, unprepared
+3. Peas and onions, frozen, unprepared
+4. Onions, frozen, chopped, cooked, boiled, drained, with salt
+5. Onions, frozen, chopped, cooked, boiled, drained, without salt
+
+Think through which candidate best matches the ingredient, considering specificity and context. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of why this candidate is the best match>"", ""choice"": <1-based number>}","A nutrition system matched a recipe ingredient to a USDA food entry. Judge the quality of the match.
+
+Ingredient: ""frozen onion, thawed""
+
+Candidates considered:
+1. Onions, frozen, chopped, unprepared
+2. Onions, frozen, whole, unprepared
+3. Peas and onions, frozen, unprepared
+4. Onions, frozen, chopped, cooked, boiled, drained, with salt
+5. Onions, frozen, chopped, cooked, boiled, drained, without salt
+
+System chose: ""Onions, frozen, chopped, unprepared""
+
+Analyze whether the chosen entry is the best match for this ingredient. Consider specificity, context, and whether a better candidate was available. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of whether the chosen match is correct or if a better candidate exists>"", ""correct"": true_or_false}",fixed,"The ingredient is 100 g of frozen diced onion that has been thawed. The USDA entry describes frozen chopped onion, unprepared. Both are onions that have been frozen and can be thawed before use. The size difference between diced and chopped is minor and would not affect cooking steps or the final dish. The recipe already expects a thawed frozen onion, so using the USDA item (thawed before adding) does not change the preparation method. The flavor, texture, and appearance after thawing and cooking would be essentially the same, and a diner would not notice a difference. Therefore both conditions for substitutability are satisfied.",TRUE,TRUE,TRUE
+10g taco seasoning,"Seasoning mix, dry, taco, original","Taco sauce | Taco, cheese only | Taco, flour tortilla, beef, cheese | Taco, meat, no cheese",TRUE,"The ingredient 'taco seasoning' refers to a blend of spices used to flavor tacos. Among the candidates, only option 2 ('Seasoning mix, dry, taco, original') directly represents a dry spice blend intended for taco seasoning. Option 1 is a sauce, which is a liquid condiment, not a seasoning mix. Options 3, 4, and 5 describe prepared taco dishes, not the seasoning itself. Therefore, the system's choice of the dry taco seasoning mix is the most specific and appropriate match, and no better candidate is available.","Match this recipe ingredient to the best USDA food entry for nutritional analysis.
+
+Ingredient: ""taco seasoning""
+
+Candidates:
+1. Taco sauce
+2. Seasoning mix, dry, taco, original
+3. Taco, cheese only
+4. Taco, flour tortilla, beef, cheese
+5. Taco, meat, no cheese
+
+Think through which candidate best matches the ingredient, considering specificity and context. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of why this candidate is the best match>"", ""choice"": <1-based number>}","A nutrition system matched a recipe ingredient to a USDA food entry. Judge the quality of the match.
+
+Ingredient: ""taco seasoning""
+
+Candidates considered:
+1. Taco sauce
+2. Seasoning mix, dry, taco, original
+3. Taco, cheese only
+4. Taco, flour tortilla, beef, cheese
+5. Taco, meat, no cheese
+
+System chose: ""Seasoning mix, dry, taco, original""
+
+Analyze whether the chosen entry is the best match for this ingredient. Consider specificity, context, and whether a better candidate was available. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of whether the chosen match is correct or if a better candidate exists>"", ""correct"": true_or_false}",fixed,"Taco seasoning is taco seasoning — direct match, no perceivable difference.",TRUE,TRUE,TRUE
+150g tomato salsa,"Salsa, pico de gallo","Tomato chili sauce | Tomatoes, red, ripe, canned, with green chilies | Guacamole with tomatoes | Tomatillos, raw",TRUE,"The ingredient ""tomato salsa"" refers to a salsa whose primary component is tomatoes, typically a chunky, uncooked or lightly cooked mixture. Among the candidates, only option 3 is explicitly a salsa (""Salsa, pico de gallo""). Options 1 and 2 are sauces or canned tomatoes with chilies, which differ in texture and preparation from a typical salsa. Option 4 is guacamole, which is unrelated, and option 5 is a different fruit. While pico de gallo is a specific style of tomato salsa, it still matches the core concept better than the more generic sauce or canned product entries. Therefore, given the available choices, ""Salsa, pico de gallo"" is the most appropriate match.","Match this recipe ingredient to the best USDA food entry for nutritional analysis.
+
+Ingredient: ""tomato salsa""
+
+Candidates:
+1. Tomato chili sauce
+2. Tomatoes, red, ripe, canned, with green chilies
+3. Salsa, pico de gallo
+4. Guacamole with tomatoes
+5. Tomatillos, raw
+
+Think through which candidate best matches the ingredient, considering specificity and context. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of why this candidate is the best match>"", ""choice"": <1-based number>}","A nutrition system matched a recipe ingredient to a USDA food entry. Judge the quality of the match.
+
+Ingredient: ""tomato salsa""
+
+Candidates considered:
+1. Tomato chili sauce
+2. Tomatoes, red, ripe, canned, with green chilies
+3. Salsa, pico de gallo
+4. Guacamole with tomatoes
+5. Tomatillos, raw
+
+System chose: ""Salsa, pico de gallo""
+
+Analyze whether the chosen entry is the best match for this ingredient. Consider specificity, context, and whether a better candidate was available. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of whether the chosen match is correct or if a better candidate exists>"", ""correct"": true_or_false}",fixed,"Tomato salsa is a broad term that can refer to a cooked, blended sauce with a relatively smooth texture and a flavor profile that may include additional seasonings and a certain level of acidity. Pico de gallo is a specific type of salsa that is uncooked, made of diced tomatoes, onions, cilantro, jalapeño, lime juice, and salt, giving it a chunky, fresh texture and a brighter, more raw flavor. Substituting pico de gallo for a generic tomato salsa would likely require a change in preparation (e.g., cooking the pico de gallo or adjusting liquid content) and would result in noticeable differences in texture, taste, and appearance to the diner. Therefore, both conditions for substitutability are not met.",FALSE,TRUE,FALSE
+90g shredded cheddar cheese,"Cheese, cheddar","Cheese, parmesan, shredded | Cheese, Cheddar, reduced fat | Cheese, Cheddar | Cheese, mozzarella, low moisture, part-skim, shredded",TRUE,"The ingredient specifies shredded cheddar cheese. Among the candidate USDA entries, only the generic cheddar options (2 and 4) refer to cheddar cheese, which matches the cheese type. The other candidates are either a different cheese (parmesan, mozzarella) or add an attribute (reduced‑fat) not mentioned in the ingredient. Since there is no USDA entry for ""cheddar, shredded"" in the provided list, the generic ""Cheese, cheddar"" is the most appropriate match despite lacking the shredded detail. Therefore, the system's choice is the best available match.","Match this recipe ingredient to the best USDA food entry for nutritional analysis.
+
+Ingredient: ""shredded cheddar cheese""
+
+Candidates:
+1. Cheese, parmesan, shredded
+2. Cheese, cheddar
+3. Cheese, Cheddar, reduced fat
+4. Cheese, Cheddar
+5. Cheese, mozzarella, low moisture, part-skim, shredded
+
+Think through which candidate best matches the ingredient, considering specificity and context. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of why this candidate is the best match>"", ""choice"": <1-based number>}","A nutrition system matched a recipe ingredient to a USDA food entry. Judge the quality of the match.
+
+Ingredient: ""shredded cheddar cheese""
+
+Candidates considered:
+1. Cheese, parmesan, shredded
+2. Cheese, cheddar
+3. Cheese, Cheddar, reduced fat
+4. Cheese, Cheddar
+5. Cheese, mozzarella, low moisture, part-skim, shredded
+
+System chose: ""Cheese, cheddar""
+
+Analyze whether the chosen entry is the best match for this ingredient. Consider specificity, context, and whether a better candidate was available. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of whether the chosen match is correct or if a better candidate exists>"", ""correct"": true_or_false}",fixed,"The ingredient specifies shredded cheddar cheese, while the USDA entry is a generic ""Cheese, cheddar"" which typically covers the cheese in any form (block, shredded, etc.). A cook could take the generic cheddar cheese and shred it, which does not change the overall cooking method of the recipe (the cheese is still added in shredded form and will melt the same way). The taste, texture, and appearance of shredded cheddar derived from a block are essentially the same as pre‑shredded cheddar, so a diner would not notice a difference. Therefore both conditions for substitutability are satisfied.",TRUE,TRUE,TRUE
+50g shredded lettuce,"Lettuce, iceberg, raw","Lettuce, raw | Lettuce, wilted, with bacon dressing | Lettuce, red leaf, raw | Lettuce, arugula, raw",TRUE,"The ingredient is described simply as ""shredded lettuce"" without any additional qualifiers (e.g., leaf color, variety, or preparation method). In common culinary usage, shredded lettuce most often refers to iceberg lettuce, which is the variety typically torn or sliced into thin strips for salads, tacos, and sandwiches. Among the candidate USDA entries, ""Lettuce, iceberg, raw"" is the most specific match to this common usage. The generic ""Lettuce, raw"" is less specific, while the other options (red leaf, arugula, wilted with bacon dressing) either describe different lettuce varieties or include extra preparation that is not indicated by the ingredient. Therefore, the system's choice of ""Lettuce, iceberg, raw"" is the best available match.","Match this recipe ingredient to the best USDA food entry for nutritional analysis.
+
+Ingredient: ""shredded lettuce""
+
+Candidates:
+1. Lettuce, raw
+2. Lettuce, wilted, with bacon dressing
+3. Lettuce, red leaf, raw
+4. Lettuce, arugula, raw
+5. Lettuce, iceberg, raw
+
+Think through which candidate best matches the ingredient, considering specificity and context. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of why this candidate is the best match>"", ""choice"": <1-based number>}","A nutrition system matched a recipe ingredient to a USDA food entry. Judge the quality of the match.
+
+Ingredient: ""shredded lettuce""
+
+Candidates considered:
+1. Lettuce, raw
+2. Lettuce, wilted, with bacon dressing
+3. Lettuce, red leaf, raw
+4. Lettuce, arugula, raw
+5. Lettuce, iceberg, raw
+
+System chose: ""Lettuce, iceberg, raw""
+
+Analyze whether the chosen entry is the best match for this ingredient. Consider specificity, context, and whether a better candidate was available. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of whether the chosen match is correct or if a better candidate exists>"", ""correct"": true_or_false}",fixed,"The ingredient calls for 50 g of shredded lettuce, which implies raw lettuce that will be cut into thin strips and used without cooking. The USDA entry describes raw iceberg lettuce, a specific type of lettuce that can be shredded in the same way. Using raw iceberg lettuce would not require any change to the preparation steps (it can be shredded just like any other lettuce) and its mild flavor and crisp texture are typical of what people expect from shredded lettuce. Since the ingredient does not specify a particular lettuce variety, and iceberg is the most common shredded lettuce, a diner would not notice a difference. Both conditions are satisfied.",TRUE,TRUE,TRUE
+60g sour cream,"Sour cream, regular","Sour cream, imitation | Sour cream, reduced fat | Sour cream, light | Sour cream, light",TRUE,"The ingredient listed is simply ""sour cream"" with no qualifiers such as ""low‑fat,"" ""light,"" or ""imitation."" In the USDA database, the default entry for an unqualified term is the standard, full‑fat dairy product, i.e., ""Sour cream, regular."" The other candidates (imitation, reduced fat, light) represent specific variants that would only be appropriate if the ingredient name included those descriptors. Since no such descriptors are present, the regular version is the most specific and accurate match.","Match this recipe ingredient to the best USDA food entry for nutritional analysis.
+
+Ingredient: ""sour cream""
+
+Candidates:
+1. Sour cream, regular
+2. Sour cream, imitation
+3. Sour cream, reduced fat
+4. Sour cream, light
+5. Sour cream, light
+
+Think through which candidate best matches the ingredient, considering specificity and context. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of why this candidate is the best match>"", ""choice"": <1-based number>}","A nutrition system matched a recipe ingredient to a USDA food entry. Judge the quality of the match.
+
+Ingredient: ""sour cream""
+
+Candidates considered:
+1. Sour cream, regular
+2. Sour cream, imitation
+3. Sour cream, reduced fat
+4. Sour cream, light
+5. Sour cream, light
+
+System chose: ""Sour cream, regular""
+
+Analyze whether the chosen entry is the best match for this ingredient. Consider specificity, context, and whether a better candidate was available. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of whether the chosen match is correct or if a better candidate exists>"", ""correct"": true_or_false}",fixed,"The ingredient listed is '60g sour cream', which is a generic reference to sour cream without specifying a type (e.g., low‑fat, light, or flavored). The USDA entry 'Sour cream, regular' corresponds to the standard, full‑fat sour cream commonly used in recipes. Using regular sour cream in place of the unspecified sour cream would not require any alteration to the cooking method, and the taste, texture, and appearance would be indistinguishable from what the recipe expects. Therefore, both conditions for substitutability are satisfied.",TRUE,TRUE,TRUE
+30g olive oil,Olive oil,"Oil, olive, extra virgin | Oil, olive, salad or cooking | Oil, olive, extra light | Oil, grapeseed",TRUE,"The ingredient is simply listed as ""olive oil"" with no qualifiers such as ""extra virgin"", ""light"", or intended use. Among the candidates, entry 1 (""Olive oil"") is the generic USDA item that represents olive oil without specifying a subtype. The more specific entries (extra virgin, salad or cooking, extra light) add details that are not present in the ingredient description, and the grapeseed oil entry is unrelated. Therefore, the system's choice of the generic ""Olive oil"" entry is the most appropriate match given the information provided.","Match this recipe ingredient to the best USDA food entry for nutritional analysis.
+
+Ingredient: ""olive oil""
+
+Candidates:
+1. Olive oil
+2. Oil, olive, extra virgin
+3. Oil, olive, salad or cooking
+4. Oil, olive, extra light
+5. Oil, grapeseed
+
+Think through which candidate best matches the ingredient, considering specificity and context. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of why this candidate is the best match>"", ""choice"": <1-based number>}","A nutrition system matched a recipe ingredient to a USDA food entry. Judge the quality of the match.
+
+Ingredient: ""olive oil""
+
+Candidates considered:
+1. Olive oil
+2. Oil, olive, extra virgin
+3. Oil, olive, salad or cooking
+4. Oil, olive, extra light
+5. Oil, grapeseed
+
+System chose: ""Olive oil""
+
+Analyze whether the chosen entry is the best match for this ingredient. Consider specificity, context, and whether a better candidate was available. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of whether the chosen match is correct or if a better candidate exists>"", ""correct"": true_or_false}",fixed,"The ingredient specifies 30 g of olive oil. The USDA entry ""Olive oil"" represents the same food item, just without a specified quantity. Using the USDA entry to obtain nutritional data for 30 g of olive oil would not require any change in the cooking process, and the resulting dish would taste, feel, and look identical because it is the same oil. Both conditions for substitutability are satisfied.",TRUE,TRUE,TRUE
+"150g frozen diced onion, thawed","Onions, frozen, chopped, unprepared","Onions, frozen, whole, unprepared | Peas and onions, frozen, unprepared | Onions, frozen, chopped, cooked, boiled, drained, with salt | Onions, frozen, chopped, cooked, boiled, drained, without salt",FALSE,"The ingredient description ""frozen onion, thawed"" provides no detail about the onion's size or whether it was chopped before freezing. Among the candidates, #2 (Onions, frozen, whole, unprepared) matches the generic nature of the ingredient without adding unwarranted detail. The system chose #1, which specifies that the onion is chopped. This adds specificity that is not supported by the ingredient text and could misrepresent the product if the frozen onion was whole. Since a less specific, but still accurate, entry (#2) is available, the chosen match is not the best possible.","Match this recipe ingredient to the best USDA food entry for nutritional analysis.
+
+Ingredient: ""frozen onion, thawed""
+
+Candidates:
+1. Onions, frozen, chopped, unprepared
+2. Onions, frozen, whole, unprepared
+3. Peas and onions, frozen, unprepared
+4. Onions, frozen, chopped, cooked, boiled, drained, with salt
+5. Onions, frozen, chopped, cooked, boiled, drained, without salt
+
+Think through which candidate best matches the ingredient, considering specificity and context. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of why this candidate is the best match>"", ""choice"": <1-based number>}","A nutrition system matched a recipe ingredient to a USDA food entry. Judge the quality of the match.
+
+Ingredient: ""frozen onion, thawed""
+
+Candidates considered:
+1. Onions, frozen, chopped, unprepared
+2. Onions, frozen, whole, unprepared
+3. Peas and onions, frozen, unprepared
+4. Onions, frozen, chopped, cooked, boiled, drained, with salt
+5. Onions, frozen, chopped, cooked, boiled, drained, without salt
+
+System chose: ""Onions, frozen, chopped, unprepared""
+
+Analyze whether the chosen entry is the best match for this ingredient. Consider specificity, context, and whether a better candidate was available. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of whether the chosen match is correct or if a better candidate exists>"", ""correct"": true_or_false}",fixed,"The ingredient calls for 150 g of frozen diced onion that has been thawed. The USDA entry describes frozen chopped onion, unprepared (i.e., still frozen). The only differences are the cut size (diced vs chopped) and the state (frozen vs thawed). The cut size difference is minor; both are small pieces that will melt and cook similarly, and most recipes do not require a precise shape for onions. The USDA product can be thawed before use, matching the ingredient’s thawed condition, so the cooking method (e.g., sautéing, simmering) would not change. In the final dish, the visual and textural impact of diced versus chopped onion is unlikely to be perceptible to a diner, especially after cooking, and the flavor will be the same. Therefore both conditions for substitutability are satisfied.",TRUE,TRUE,TRUE
+20g garlic paste (from tube),Garlic sauce,"Garlic, raw | Garlic, raw | Garlic, raw | Guava paste",FALSE,"The ingredient is 'garlic paste', which is a pure garlic product that has been ground into a smooth consistency, often with minimal added water or oil. Among the candidates, the USDA entries for 'Garlic, raw' (appearing three times) represent the pure garlic commodity, albeit in a raw form rather than a paste. 'Garlic sauce' is a prepared condiment that typically includes additional ingredients such as oil, water, salt, or other seasonings, making it a less specific match for a simple garlic paste. 'Guava paste' is unrelated. Therefore, the most appropriate match from the given list would be one of the 'Garlic, raw' entries, not 'Garlic sauce'. The system's choice of 'Garlic sauce' is not the best available match.","Match this recipe ingredient to the best USDA food entry for nutritional analysis.
+
+Ingredient: ""garlic paste""
+
+Candidates:
+1. Garlic sauce
+2. Garlic, raw
+3. Garlic, raw
+4. Garlic, raw
+5. Guava paste
+
+Think through which candidate best matches the ingredient, considering specificity and context. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of why this candidate is the best match>"", ""choice"": <1-based number>}","A nutrition system matched a recipe ingredient to a USDA food entry. Judge the quality of the match.
+
+Ingredient: ""garlic paste""
+
+Candidates considered:
+1. Garlic sauce
+2. Garlic, raw
+3. Garlic, raw
+4. Garlic, raw
+5. Guava paste
+
+System chose: ""Garlic sauce""
+
+Analyze whether the chosen entry is the best match for this ingredient. Consider specificity, context, and whether a better candidate was available. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of whether the chosen match is correct or if a better candidate exists>"", ""correct"": true_or_false}",fixed,"Garlic paste is a concentrated, mostly pure garlic product with a thick, paste-like texture, used to impart a strong garlic flavor without adding significant liquid or other flavors. USDA ""Garlic sauce"" typically contains additional ingredients such as water, oil, possibly dairy, herbs, or seasonings, giving it a thinner, sauce-like consistency and a milder, more complex flavor profile. Substituting the sauce for the paste would introduce extra liquid and other taste components, potentially altering the cooking method (e.g., requiring adjustments for moisture) and changing the final flavor, texture, and appearance of the dish. A diner would likely notice these differences. Therefore, both required conditions are not satisfied.",FALSE,FALSE,TRUE
+"800g fresh ripe tomatoes, chopped","Tomatoes, red, ripe, raw, year round average","Tomatoes, raw | Tomatoes, fresh, cooked | Tomatoes, sun-dried | Tomatoes, red, ripe, cooked",TRUE,"The ingredient specifies ""fresh ripe tomatoes,"" indicating raw, unprocessed, and ripe fruit. Among the candidates, the only entries that are raw and ripe are (1) ""Tomatoes, raw"" and (4) ""Tomatoes, red, ripe, raw, year round average."" Candidate 4 adds the descriptors ""red"" and ""ripe,"" directly matching the ""ripe"" aspect of the ingredient, and retains the raw (fresh) state. The extra phrase ""year round average"" refers to how USDA aggregates data across seasons, not to the food’s condition, so it does not conflict with the ingredient description. Therefore, candidate 4 is more specific and aligns better with the ingredient than the generic raw entry, and no other candidate is a better fit. The system's choice is appropriate.","Match this recipe ingredient to the best USDA food entry for nutritional analysis.
+
+Ingredient: ""fresh ripe tomatoes,""
+
+Candidates:
+1. Tomatoes, raw
+2. Tomatoes, fresh, cooked
+3. Tomatoes, sun-dried
+4. Tomatoes, red, ripe, raw, year round average
+5. Tomatoes, red, ripe, cooked
+
+Think through which candidate best matches the ingredient, considering specificity and context. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of why this candidate is the best match>"", ""choice"": <1-based number>}","A nutrition system matched a recipe ingredient to a USDA food entry. Judge the quality of the match.
+
+Ingredient: ""fresh ripe tomatoes,""
+
+Candidates considered:
+1. Tomatoes, raw
+2. Tomatoes, fresh, cooked
+3. Tomatoes, sun-dried
+4. Tomatoes, red, ripe, raw, year round average
+5. Tomatoes, red, ripe, cooked
+
+System chose: ""Tomatoes, red, ripe, raw, year round average""
+
+Analyze whether the chosen entry is the best match for this ingredient. Consider specificity, context, and whether a better candidate was available. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of whether the chosen match is correct or if a better candidate exists>"", ""correct"": true_or_false}",fixed,"The ingredient calls for fresh ripe tomatoes that are chopped. The USDA entry describes raw, red, ripe tomatoes (average year‑round). The USDA item is the same type of tomato, just not pre‑chopped, but chopping can be done during recipe prep. Using the USDA raw tomatoes would not require any change in cooking method, and the flavor, texture, and appearance of the tomatoes would be indistinguishable from the original ingredient. Therefore both conditions are satisfied.",TRUE,TRUE,TRUE
+500g vegetable broth,"Soup, vegetable broth, ready to serve","Vegetable broth, bouillon | Fish broth | Soup, vegetable with beef broth, canned, prepared with equal volume water | Soup, SWANSON, vegetable broth",FALSE,"The ingredient is simply ""vegetable broth"", which implies a liquid broth used as a cooking ingredient. Among the candidates, option 1 (""Vegetable broth, bouillon"") directly references vegetable broth, albeit in a concentrated form, and is the most specific to the ingredient. Options 3 and 5 are labeled as soups, which typically contain additional ingredients and are marketed as ready‑to‑serve meals rather than a pure broth. Option 4 includes beef broth, which does not match a purely vegetable product, and option 2 is unrelated. Therefore, the system's choice of ""Soup, vegetable broth, ready to serve"" is less specific and less appropriate than the bouillon entry. A better match would be option 1. The chosen entry is not the best match.","Match this recipe ingredient to the best USDA food entry for nutritional analysis.
+
+Ingredient: ""vegetable broth""
+
+Candidates:
+1. Vegetable broth, bouillon
+2. Fish broth
+3. Soup, vegetable broth, ready to serve
+4. Soup, vegetable with beef broth, canned, prepared with equal volume water
+5. Soup, SWANSON, vegetable broth
+
+Think through which candidate best matches the ingredient, considering specificity and context. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of why this candidate is the best match>"", ""choice"": <1-based number>}","A nutrition system matched a recipe ingredient to a USDA food entry. Judge the quality of the match.
+
+Ingredient: ""vegetable broth""
+
+Candidates considered:
+1. Vegetable broth, bouillon
+2. Fish broth
+3. Soup, vegetable broth, ready to serve
+4. Soup, vegetable with beef broth, canned, prepared with equal volume water
+5. Soup, SWANSON, vegetable broth
+
+System chose: ""Soup, vegetable broth, ready to serve""
+
+Analyze whether the chosen entry is the best match for this ingredient. Consider specificity, context, and whether a better candidate was available. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of whether the chosen match is correct or if a better candidate exists>"", ""correct"": true_or_false}",fixed,"The ingredient calls for 500 g of plain vegetable broth, a clear liquid used to add flavor and moisture during cooking. The USDA entry describes a ready‑to‑serve vegetable broth soup, which typically contains cooked vegetables, seasonings, and may be thicker or more seasoned than a basic broth. Using the soup directly would introduce solid pieces and potentially different seasoning levels, altering the cooking process (e.g., you might need to strain or adjust seasoning) and changing the dish’s flavor, texture, or appearance. A diner would likely notice the presence of vegetable bits or a different taste. Therefore, both conditions for a substitutable match are not satisfied.",FALSE,TRUE,FALSE
+10g salt,"Salt, table","Salt, table, iodized | Salt, table, iodized | Butter, without salt | Butter, salted",FALSE,"The ingredient is ""table salt,"" which generally refers to refined salt intended for use at the table. The candidate list includes a generic entry (""Salt, table"") and a more specific entry (""Salt, table, iodized""). In the United States, the vast majority of table salt sold to consumers is iodized, and USDA provides a distinct entry for that. While the generic ""Salt, table"" is not incorrect—it does represent table salt—it is less specific than the iodized version, which better captures the typical product most users mean when they say ""table salt."" Since a more specific and context‑appropriate entry is available, the system's choice of the generic entry is not the optimal match.","Match this recipe ingredient to the best USDA food entry for nutritional analysis.
+
+Ingredient: ""table salt""
+
+Candidates:
+1. Salt, table
+2. Salt, table, iodized
+3. Salt, table, iodized
+4. Butter, without salt
+5. Butter, salted
+
+Think through which candidate best matches the ingredient, considering specificity and context. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of why this candidate is the best match>"", ""choice"": <1-based number>}","A nutrition system matched a recipe ingredient to a USDA food entry. Judge the quality of the match.
+
+Ingredient: ""table salt""
+
+Candidates considered:
+1. Salt, table
+2. Salt, table, iodized
+3. Salt, table, iodized
+4. Butter, without salt
+5. Butter, salted
+
+System chose: ""Salt, table""
+
+Analyze whether the chosen entry is the best match for this ingredient. Consider specificity, context, and whether a better candidate was available. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of whether the chosen match is correct or if a better candidate exists>"", ""correct"": true_or_false}",fixed,"The ingredient simply specifies ""10g salt"" without indicating a type (e.g., sea salt, kosher salt). Table salt is the most common form of salt used in cooking and can be measured by weight. Using table salt in place of the unspecified salt would not require any change to the cooking method, and the flavor, texture, and appearance of the dish would be indistinguishable to a diner. Therefore both conditions for substitutability are satisfied.",TRUE,TRUE,TRUE
+5g black pepper,"Spices, pepper, black","Pepper, hot chili, raw | Spices, pepper, red or cayenne | Hot pepper sauce | Spices, pepper, white",TRUE,"The ingredient is specifically 'black pepper', which refers to the dried fruit of Piper nigrum used as a spice. Among the candidates, entry 1 ('Spices, pepper, black') directly corresponds to ground or whole black pepper. The other options describe different types of pepper (hot chili, red/cayenne, white) or a processed product (hot pepper sauce), none of which match the specific ingredient. Therefore, the system selected the most specific and appropriate USDA entry.","Match this recipe ingredient to the best USDA food entry for nutritional analysis.
+
+Ingredient: ""black pepper""
+
+Candidates:
+1. Spices, pepper, black
+2. Pepper, hot chili, raw
+3. Spices, pepper, red or cayenne
+4. Hot pepper sauce
+5. Spices, pepper, white
+
+Think through which candidate best matches the ingredient, considering specificity and context. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of why this candidate is the best match>"", ""choice"": <1-based number>}","A nutrition system matched a recipe ingredient to a USDA food entry. Judge the quality of the match.
+
+Ingredient: ""black pepper""
+
+Candidates considered:
+1. Spices, pepper, black
+2. Pepper, hot chili, raw
+3. Spices, pepper, red or cayenne
+4. Hot pepper sauce
+5. Spices, pepper, white
+
+System chose: ""Spices, pepper, black""
+
+Analyze whether the chosen entry is the best match for this ingredient. Consider specificity, context, and whether a better candidate was available. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of whether the chosen match is correct or if a better candidate exists>"", ""correct"": true_or_false}",fixed,"The ingredient is specified as '5g black pepper', which typically refers to ground black pepper used as a seasoning. The USDA entry 'Spices, pepper, black' corresponds to the generic ground black pepper spice. Using this USDA entry in place of the ingredient would not require any change in the cooking method (it can be added directly as a seasoning) and would provide the same flavor, texture, and appearance that a diner expects from black pepper. Therefore, both conditions for substitutability are satisfied.",TRUE,TRUE,TRUE
+5g sugar,"Sugar, white, granulated or lump","Sugars, granulated | Sugars, granulated | Sugars, granulated | Sugar, turbinado",TRUE,"The ingredient is simply ""granulated sugar,"" which in most culinary contexts refers to standard white granulated sugar. Among the candidates, entries 1‑3 are generic ""Sugars, granulated"" and do not specify the type of sugar, leaving ambiguity (they could refer to brown, raw, or other granulated sugars). Entry 4, ""Sugar, turbinado,"" describes a specific raw, partially refined sugar that is not the typical white granulated sugar used in recipes. Entry 5, ""Sugar, white, granulated or lump,"" explicitly identifies white granulated sugar, the most common interpretation of the ingredient. Although it also mentions the lump form, the inclusion of ""white, granulated"" makes it the most specific and appropriate match. Therefore, the system's choice of entry 5 is the best available match.","Match this recipe ingredient to the best USDA food entry for nutritional analysis.
+
+Ingredient: ""granulated sugar""
+
+Candidates:
+1. Sugars, granulated
+2. Sugars, granulated
+3. Sugars, granulated
+4. Sugar, turbinado
+5. Sugar, white, granulated or lump
+
+Think through which candidate best matches the ingredient, considering specificity and context. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of why this candidate is the best match>"", ""choice"": <1-based number>}","A nutrition system matched a recipe ingredient to a USDA food entry. Judge the quality of the match.
+
+Ingredient: ""granulated sugar""
+
+Candidates considered:
+1. Sugars, granulated
+2. Sugars, granulated
+3. Sugars, granulated
+4. Sugar, turbinado
+5. Sugar, white, granulated or lump
+
+System chose: ""Sugar, white, granulated or lump""
+
+Analyze whether the chosen entry is the best match for this ingredient. Consider specificity, context, and whether a better candidate was available. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of whether the chosen match is correct or if a better candidate exists>"", ""correct"": true_or_false}",fixed,"The ingredient listed is simply ""5g sugar"" without specifying type. The USDA entry describes white granulated (or lump) sugar, which is the standard form of table sugar used in most recipes. Substituting white granulated sugar for the generic ""sugar"" would not require any change in preparation steps, and the small amount (5 g) would not affect the dish’s taste, texture, or appearance in a noticeable way. Therefore both conditions for substitutability are satisfied.",TRUE,TRUE,TRUE
+20g dried basil,"Spices, basil, dried","Basil, fresh | Basil, raw | Spices, oregano, dried | Spices, thyme, dried",TRUE,"The ingredient is explicitly 'dried basil'. Among the candidates, entry 1 ('Spices, basil, dried') matches both the herb (basil) and the processing state (dried) exactly. The other options either refer to fresh/raw basil or to different herbs (oregano, thyme), which are less specific or incorrect. Therefore, the system selected the most specific and appropriate USDA food entry.","Match this recipe ingredient to the best USDA food entry for nutritional analysis.
+
+Ingredient: ""dried basil""
+
+Candidates:
+1. Spices, basil, dried
+2. Basil, fresh
+3. Basil, raw
+4. Spices, oregano, dried
+5. Spices, thyme, dried
+
+Think through which candidate best matches the ingredient, considering specificity and context. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of why this candidate is the best match>"", ""choice"": <1-based number>}","A nutrition system matched a recipe ingredient to a USDA food entry. Judge the quality of the match.
+
+Ingredient: ""dried basil""
+
+Candidates considered:
+1. Spices, basil, dried
+2. Basil, fresh
+3. Basil, raw
+4. Spices, oregano, dried
+5. Spices, thyme, dried
+
+System chose: ""Spices, basil, dried""
+
+Analyze whether the chosen entry is the best match for this ingredient. Consider specificity, context, and whether a better candidate was available. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of whether the chosen match is correct or if a better candidate exists>"", ""correct"": true_or_false}",fixed,"The ingredient is ""20g dried basil"", which is dried basil leaves used as a herb. The USDA entry ""Spices, basil, dried"" describes the same product – dried basil classified as a spice. Using the USDA item in place of the ingredient would not require any change in cooking technique, and the flavor, texture, and visual appearance would be identical, so a diner would not notice any difference. Both conditions for substitutability are satisfied.",TRUE,TRUE,TRUE
+30g heavy cream (optional),"Cream, fluid, heavy whipping","Cream, heavy | Cream, heavy | Cream, light | Cream, sour, full fat",TRUE,"The ingredient is simply ""heavy cream,"" which in USDA terminology corresponds to the high‑fat, fluid dairy product commonly used for whipping. Among the candidates, entry 3 (""Cream, fluid, heavy whipping"") explicitly describes a fluid, high‑fat cream intended for whipping, matching the typical definition of heavy cream. The other options either describe a different product (light cream, sour cream) or are less specific (""Cream, heavy""). Therefore, the system's choice of entry 3 is the most appropriate match.","Match this recipe ingredient to the best USDA food entry for nutritional analysis.
+
+Ingredient: ""heavy cream""
+
+Candidates:
+1. Cream, heavy
+2. Cream, heavy
+3. Cream, fluid, heavy whipping
+4. Cream, light
+5. Cream, sour, full fat
+
+Think through which candidate best matches the ingredient, considering specificity and context. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of why this candidate is the best match>"", ""choice"": <1-based number>}","A nutrition system matched a recipe ingredient to a USDA food entry. Judge the quality of the match.
+
+Ingredient: ""heavy cream""
+
+Candidates considered:
+1. Cream, heavy
+2. Cream, heavy
+3. Cream, fluid, heavy whipping
+4. Cream, light
+5. Cream, sour, full fat
+
+System chose: ""Cream, fluid, heavy whipping""
+
+Analyze whether the chosen entry is the best match for this ingredient. Consider specificity, context, and whether a better candidate was available. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of whether the chosen match is correct or if a better candidate exists>"", ""correct"": true_or_false}",fixed,"The ingredient calls for ""30g heavy cream (optional)"". The USDA entry ""Cream, fluid, heavy whipping"" is the standard definition of heavy cream (also called heavy whipping cream) with a high milk‑fat content (typically ≥36%). This product can be used in the same quantity and manner as the recipe’s heavy cream, requiring no change to the cooking steps. Its flavor, richness, texture, and appearance are essentially identical to the intended ingredient, so a diner would not notice any difference. Therefore both conditions for substitutability are satisfied.",TRUE,TRUE,TRUE
+150g whole wheat flour,"Flour, whole wheat, unenriched","Wheat flour, whole-grain, soft wheat | Flour, spelt, whole grain | Wheat flour, white, all-purpose, unenriched | Buckwheat flour, whole-groat",TRUE,"The ingredient is explicitly ""whole wheat flour,"" which denotes flour made from the entire wheat kernel (bran, germ, and endosperm) and is not enriched. Among the candidates, option 3 ""Flour, whole wheat, unenriched"" directly matches this description, specifying both the grain (wheat) and the whole‑grain nature, as well as the unenriched status. Option 1 also describes a whole‑grain wheat flour but adds the qualifier ""soft wheat,"" which is not indicated in the ingredient and could refer to a different wheat variety. Options 2, 4, and 5 refer to different grains or refined flour, making them unsuitable. Therefore, the system's choice of option 3 is the most specific and appropriate match.","Match this recipe ingredient to the best USDA food entry for nutritional analysis.
+
+Ingredient: ""whole wheat flour""
+
+Candidates:
+1. Wheat flour, whole-grain, soft wheat
+2. Flour, spelt, whole grain
+3. Flour, whole wheat, unenriched
+4. Wheat flour, white, all-purpose, unenriched
+5. Buckwheat flour, whole-groat
+
+Think through which candidate best matches the ingredient, considering specificity and context. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of why this candidate is the best match>"", ""choice"": <1-based number>}","A nutrition system matched a recipe ingredient to a USDA food entry. Judge the quality of the match.
+
+Ingredient: ""whole wheat flour""
+
+Candidates considered:
+1. Wheat flour, whole-grain, soft wheat
+2. Flour, spelt, whole grain
+3. Flour, whole wheat, unenriched
+4. Wheat flour, white, all-purpose, unenriched
+5. Buckwheat flour, whole-groat
+
+System chose: ""Flour, whole wheat, unenriched""
+
+Analyze whether the chosen entry is the best match for this ingredient. Consider specificity, context, and whether a better candidate was available. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of whether the chosen match is correct or if a better candidate exists>"", ""correct"": true_or_false}",fixed,"The ingredient calls for 'whole wheat flour' with no further qualifiers. The USDA entry describes 'Flour, whole wheat, unenriched', which is essentially the same product—whole wheat flour that has not been fortified with additional nutrients. The lack of enrichment does not affect how the flour behaves in a recipe (mixing, hydration, leavening) nor does it noticeably alter the flavor, texture, or appearance of the finished dish. Therefore, it can be used in place of the ingredient without changing the preparation or the diner's perception.",TRUE,TRUE,TRUE
+10g baking powder,"Leavening agents, baking powder, double-acting, sodium aluminum sulfate","Leavening agents, baking soda | Leavening agents, baking powder, low-sodium | Leavening agents, baking powder, double-acting, straight phosphate | Leavening agents, cream of tartar",TRUE,"The ingredient is simply ""baking powder"" with no qualifiers. Among the candidates, the only entries that actually represent baking powder are #2 (low‑sodium), #3 (double‑acting, straight phosphate) and #4 (double‑acting, sodium aluminum sulfate). #2 adds a low‑sodium qualifier that is not indicated in the ingredient, making it less appropriate. #3 and #4 are both specific types of double‑acting baking powder. In the USDA database the most common generic entry for baking powder is the double‑acting version that uses sodium aluminum sulfate, which matches candidate #4. Therefore, given the available options, #4 is the most suitable match.","Match this recipe ingredient to the best USDA food entry for nutritional analysis.
+
+Ingredient: ""baking powder""
+
+Candidates:
+1. Leavening agents, baking soda
+2. Leavening agents, baking powder, low-sodium
+3. Leavening agents, baking powder, double-acting, straight phosphate
+4. Leavening agents, baking powder, double-acting, sodium aluminum sulfate
+5. Leavening agents, cream of tartar
+
+Think through which candidate best matches the ingredient, considering specificity and context. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of why this candidate is the best match>"", ""choice"": <1-based number>}","A nutrition system matched a recipe ingredient to a USDA food entry. Judge the quality of the match.
+
+Ingredient: ""baking powder""
+
+Candidates considered:
+1. Leavening agents, baking soda
+2. Leavening agents, baking powder, low-sodium
+3. Leavening agents, baking powder, double-acting, straight phosphate
+4. Leavening agents, baking powder, double-acting, sodium aluminum sulfate
+5. Leavening agents, cream of tartar
+
+System chose: ""Leavening agents, baking powder, double-acting, sodium aluminum sulfate""
+
+Analyze whether the chosen entry is the best match for this ingredient. Consider specificity, context, and whether a better candidate was available. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of whether the chosen match is correct or if a better candidate exists>"", ""correct"": true_or_false}",fixed,"The ingredient calls for generic baking powder. The USDA entry describes a specific kind of baking powder – double‑acting and containing sodium aluminum sulfate – which is a common formulation of baking powder used in home cooking. Substituting this specific baking powder for a generic one would not require any change in the preparation method, as it still provides the same leavening action. The presence of sodium aluminum sulfate may impart a very slight metallic taste if used in excess, but at the typical 10 g amount this effect is negligible and not perceptible to most diners. Therefore both conditions are satisfied.",TRUE,TRUE,TRUE
+3g salt,"Salt, table","Salt, table, iodized | Salt, table, iodized | Butter, without salt | Butter, salted",FALSE,"The ingredient is simply ""table salt"". While the system selected the generic USDA entry ""Salt, table"", the USDA also provides a more specific entry ""Salt, table, iodized"", which reflects the most common form of table salt sold in the United States. The ingredient does not specify whether the salt is iodized or not, but because iodized salt is the default product most people refer to when they say ""table salt"", the more specific entry would be a better match. The other candidates (butter entries) are unrelated. Therefore, a better match was available, and the chosen entry is not the optimal one.","Match this recipe ingredient to the best USDA food entry for nutritional analysis.
+
+Ingredient: ""table salt""
+
+Candidates:
+1. Salt, table
+2. Salt, table, iodized
+3. Salt, table, iodized
+4. Butter, without salt
+5. Butter, salted
+
+Think through which candidate best matches the ingredient, considering specificity and context. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of why this candidate is the best match>"", ""choice"": <1-based number>}","A nutrition system matched a recipe ingredient to a USDA food entry. Judge the quality of the match.
+
+Ingredient: ""table salt""
+
+Candidates considered:
+1. Salt, table
+2. Salt, table, iodized
+3. Salt, table, iodized
+4. Butter, without salt
+5. Butter, salted
+
+System chose: ""Salt, table""
+
+Analyze whether the chosen entry is the best match for this ingredient. Consider specificity, context, and whether a better candidate was available. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of whether the chosen match is correct or if a better candidate exists>"", ""correct"": true_or_false}",fixed,Table salt is salt — fully substitutable.,TRUE,TRUE,TRUE
+20g sugar,"Sugar, white, granulated or lump","Sugars, granulated | Sugars, granulated | Sugars, granulated | Sugar, turbinado",TRUE,"The ingredient is simply ""granulated sugar,"" which in most culinary contexts refers to standard white granulated sugar. Among the candidates, entries 1‑3 are generic ""Sugars, granulated"" and do not specify color or type, making them less precise. Entry 4, ""Sugar, turbinado,"" describes a raw, partially refined sugar with a distinct flavor and color, which does not match the typical white granulated sugar used in recipes. Entry 5, ""Sugar, white, granulated or lump,"" explicitly denotes white granulated sugar, the most common form of granulated sugar. Therefore, the system's choice of entry 5 is the most specific and appropriate match for the ingredient.","Match this recipe ingredient to the best USDA food entry for nutritional analysis.
+
+Ingredient: ""granulated sugar""
+
+Candidates:
+1. Sugars, granulated
+2. Sugars, granulated
+3. Sugars, granulated
+4. Sugar, turbinado
+5. Sugar, white, granulated or lump
+
+Think through which candidate best matches the ingredient, considering specificity and context. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of why this candidate is the best match>"", ""choice"": <1-based number>}","A nutrition system matched a recipe ingredient to a USDA food entry. Judge the quality of the match.
+
+Ingredient: ""granulated sugar""
+
+Candidates considered:
+1. Sugars, granulated
+2. Sugars, granulated
+3. Sugars, granulated
+4. Sugar, turbinado
+5. Sugar, white, granulated or lump
+
+System chose: ""Sugar, white, granulated or lump""
+
+Analyze whether the chosen entry is the best match for this ingredient. Consider specificity, context, and whether a better candidate was available. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of whether the chosen match is correct or if a better candidate exists>"", ""correct"": true_or_false}",fixed,"The ingredient listed is simply ""20g sugar"" without specifying type. The USDA entry describes ""Sugar, white, granulated or lump,"" which is the standard white granulated sugar commonly used in recipes. Using this USDA entry in place of the generic sugar would not require any change to the cooking method, and the amount (20 g) can be directly applied. The flavor, sweetness, texture, and appearance of the dish would remain the same, so a diner would not notice any difference. Therefore both conditions for substitutability are satisfied.",TRUE,TRUE,TRUE
+240g milk,"Milk, whole","Soy milk | Milk, human | Milk, malted | Milk, NFS",TRUE,"The ingredient is simply listed as ""milk"" with no qualifiers. Among the candidates, ""Milk, whole"" (cow's whole milk) is the standard, most common interpretation of the generic term ""milk"" in nutrition databases. The other options are either specific alternatives (soy milk), a different species (human milk), a specialized product (malted milk), or an ambiguous entry (NFS). Since no context suggests a non‑cow or specialized type, the system's choice of ""Milk, whole"" is the most appropriate and specific match.","Match this recipe ingredient to the best USDA food entry for nutritional analysis.
+
+Ingredient: ""milk""
+
+Candidates:
+1. Milk, whole
+2. Soy milk
+3. Milk, human
+4. Milk, malted
+5. Milk, NFS
+
+Think through which candidate best matches the ingredient, considering specificity and context. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of why this candidate is the best match>"", ""choice"": <1-based number>}","A nutrition system matched a recipe ingredient to a USDA food entry. Judge the quality of the match.
+
+Ingredient: ""milk""
+
+Candidates considered:
+1. Milk, whole
+2. Soy milk
+3. Milk, human
+4. Milk, malted
+5. Milk, NFS
+
+System chose: ""Milk, whole""
+
+Analyze whether the chosen entry is the best match for this ingredient. Consider specificity, context, and whether a better candidate was available. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of whether the chosen match is correct or if a better candidate exists>"", ""correct"": true_or_false}",fixed,"The ingredient simply states ""milk"" with a weight, without specifying fat content. Whole milk is a common form of milk and can be used in the same way as any other milk (e.g., added to sauces, baked goods, etc.) without altering the cooking steps. The difference in fat content between whole milk and lower‑fat milks is modest; in a 240 g (≈1 cup) amount the richer flavor and slightly thicker texture are generally not noticeable to most diners, especially in mixed‑ingredient dishes. Therefore, using whole milk would not require a change in preparation and would not be perceptibly different to the eater.",TRUE,TRUE,TRUE
+30g melted butter,"Butter, without salt","Butter, salted | Butter replacement, liquid | Butter, whipped, with salt | Butter, stick",TRUE,"The ingredient ""melted butter"" describes the state of the butter (melted) but does not specify whether it is salted or unsalted. Among the candidates, the only entries that represent actual butter are the salted, whipped with salt, without salt, and stick forms. The ""butter, stick"" entry refers to the packaging form rather than the composition, and the whipped variant adds unnecessary processing detail. The system’s choice of ""Butter, without salt"" provides a plain butter entry without extra qualifiers (salt, whipping) and aligns with common culinary practice of using unsalted butter when the recipe does not specify salt. While ""Butter, salted"" could also be used, the unsalted version is a safer default for unspecified butter. No better candidate exists among the list, so the selected entry is an appropriate match.","Match this recipe ingredient to the best USDA food entry for nutritional analysis.
+
+Ingredient: ""melted butter""
+
+Candidates:
+1. Butter, salted
+2. Butter replacement, liquid
+3. Butter, whipped, with salt
+4. Butter, without salt
+5. Butter, stick
+
+Think through which candidate best matches the ingredient, considering specificity and context. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of why this candidate is the best match>"", ""choice"": <1-based number>}","A nutrition system matched a recipe ingredient to a USDA food entry. Judge the quality of the match.
+
+Ingredient: ""melted butter""
+
+Candidates considered:
+1. Butter, salted
+2. Butter replacement, liquid
+3. Butter, whipped, with salt
+4. Butter, without salt
+5. Butter, stick
+
+System chose: ""Butter, without salt""
+
+Analyze whether the chosen entry is the best match for this ingredient. Consider specificity, context, and whether a better candidate was available. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of whether the chosen match is correct or if a better candidate exists>"", ""correct"": true_or_false}",fixed,"The ingredient calls for 30 g of melted butter, with no indication of salt content. Unsalted butter can be melted in exactly the same way as salted butter, so the cooking method is unchanged (condition 1). The only potential difference is a small amount of salt that would be missing if the original recipe expected salted butter. Since the ingredient does not specify salted butter, most recipes assume unsalted butter and any needed salt is added separately, meaning the flavor, texture, and appearance would be essentially the same and not noticeable to the diner (condition 2). Therefore both conditions are satisfied.",TRUE,TRUE,TRUE
+5g vanilla extract,Vanilla extract,"Vanilla extract, imitation, no alcohol | Vanilla extract, imitation, alcohol | SILK Very Vanilla, soymilk | SILK Vanilla, soymilk",TRUE,"The ingredient listed is simply ""vanilla extract,"" which conventionally refers to the standard pure vanilla extract made from vanilla beans and alcohol. Among the candidates, entry 1 (""Vanilla extract"") directly matches this definition. The other options are either imitation extracts (which differ in composition) or soy milk products, which are unrelated to a vanilla extract ingredient. Therefore, the system's choice of entry 1 is the most specific and appropriate match.","Match this recipe ingredient to the best USDA food entry for nutritional analysis.
+
+Ingredient: ""vanilla extract""
+
+Candidates:
+1. Vanilla extract
+2. Vanilla extract, imitation, no alcohol
+3. Vanilla extract, imitation, alcohol
+4. SILK Very Vanilla, soymilk
+5. SILK Vanilla, soymilk
+
+Think through which candidate best matches the ingredient, considering specificity and context. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of why this candidate is the best match>"", ""choice"": <1-based number>}","A nutrition system matched a recipe ingredient to a USDA food entry. Judge the quality of the match.
+
+Ingredient: ""vanilla extract""
+
+Candidates considered:
+1. Vanilla extract
+2. Vanilla extract, imitation, no alcohol
+3. Vanilla extract, imitation, alcohol
+4. SILK Very Vanilla, soymilk
+5. SILK Vanilla, soymilk
+
+System chose: ""Vanilla extract""
+
+Analyze whether the chosen entry is the best match for this ingredient. Consider specificity, context, and whether a better candidate was available. Reply with JSON only, no markdown:
+{""reasoning"": ""<step-by-step analysis of whether the chosen match is correct or if a better candidate exists>"", ""correct"": true_or_false}",fixed,"The ingredient specifies 5 g of vanilla extract. The USDA entry is the generic ingredient ""Vanilla extract"". Using vanilla extract in the recipe is exactly what the ingredient calls for; the amount can be taken from the recipe, so the preparation method is unchanged. Since the ingredient and the USDA entry are the same substance, the flavor, texture, and appearance contributed to the dish will be identical, and a diner would not notice any difference. Both conditions are satisfied.",TRUE,TRUE,TRUE

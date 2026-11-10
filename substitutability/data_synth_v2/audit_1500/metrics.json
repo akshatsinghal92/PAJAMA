@@ -1,0 +1,5574 @@
+{
+ "eda": {
+  "n": 4179,
+  "n_rob": 163,
+  "haiku_missing": 0,
+  "pos_intended": 45.9,
+  "pos_haiku": 46.9,
+  "by_tier": [
+   {
+    "k": "easy",
+    "n": 1325,
+    "pos_intended": 40.0,
+    "pos_haiku": 39.5,
+    "flip": 1.7,
+    "to_yes": 8,
+    "to_no": 15
+   },
+   {
+    "k": "medium",
+    "n": 1318,
+    "pos_intended": 52.1,
+    "pos_haiku": 53.1,
+    "flip": 10.1,
+    "to_yes": 73,
+    "to_no": 60
+   },
+   {
+    "k": "hard",
+    "n": 1212,
+    "pos_intended": 47.9,
+    "pos_haiku": 47.9,
+    "flip": 12.4,
+    "to_yes": 75,
+    "to_no": 75
+   },
+   {
+    "k": "edge",
+    "n": 324,
+    "pos_intended": 37.3,
+    "pos_haiku": 48.8,
+    "flip": 17.6,
+    "to_yes": 47,
+    "to_no": 10
+   }
+  ],
+  "by_split": [
+   {
+    "k": "fewshot",
+    "n": 58,
+    "pos_intended": 44.8,
+    "pos_haiku": 46.6,
+    "flip": 12.1,
+    "to_yes": 4,
+    "to_no": 3
+   },
+   {
+    "k": "fit",
+    "n": 1456,
+    "pos_intended": 45.9,
+    "pos_haiku": 46.9,
+    "flip": 9.1,
+    "to_yes": 73,
+    "to_no": 59
+   },
+   {
+    "k": "router",
+    "n": 1041,
+    "pos_intended": 45.9,
+    "pos_haiku": 46.2,
+    "flip": 8.2,
+    "to_yes": 44,
+    "to_no": 41
+   },
+   {
+    "k": "test",
+    "n": 1624,
+    "pos_intended": 45.9,
+    "pos_haiku": 47.5,
+    "flip": 8.6,
+    "to_yes": 82,
+    "to_no": 57
+   }
+  ],
+  "by_family": [
+   {
+    "k": "meat",
+    "n": 475,
+    "pos_intended": 44.4,
+    "pos_haiku": 45.9,
+    "flip": 9.1,
+    "to_yes": 25,
+    "to_no": 18
+   },
+   {
+    "k": "grains_pasta_bread",
+    "n": 433,
+    "pos_intended": 42.5,
+    "pos_haiku": 44.8,
+    "flip": 6.9,
+    "to_yes": 20,
+    "to_no": 10
+   },
+   {
+    "k": "fruits",
+    "n": 409,
+    "pos_intended": 42.8,
+    "pos_haiku": 46.7,
+    "flip": 6.8,
+    "to_yes": 22,
+    "to_no": 6
+   },
+   {
+    "k": "vegetables",
+    "n": 358,
+    "pos_intended": 44.1,
+    "pos_haiku": 46.1,
+    "flip": 5.3,
+    "to_yes": 13,
+    "to_no": 6
+   },
+   {
+    "k": "dairy_eggs",
+    "n": 331,
+    "pos_intended": 40.2,
+    "pos_haiku": 44.1,
+    "flip": 4.5,
+    "to_yes": 14,
+    "to_no": 1
+   },
+   {
+    "k": "seafood",
+    "n": 305,
+    "pos_intended": 40.7,
+    "pos_haiku": 44.9,
+    "flip": 5.6,
+    "to_yes": 15,
+    "to_no": 2
+   },
+   {
+    "k": "legumes_nuts_seeds",
+    "n": 274,
+    "pos_intended": 43.4,
+    "pos_haiku": 46.7,
+    "flip": 5.5,
+    "to_yes": 12,
+    "to_no": 3
+   },
+   {
+    "k": "sauces_condiments",
+    "n": 235,
+    "pos_intended": 40.9,
+    "pos_haiku": 43.4,
+    "flip": 8.5,
+    "to_yes": 13,
+    "to_no": 7
+   },
+   {
+    "k": "oils_fats",
+    "n": 214,
+    "pos_intended": 41.1,
+    "pos_haiku": 42.5,
+    "flip": 7.9,
+    "to_yes": 10,
+    "to_no": 7
+   },
+   {
+    "k": "poultry",
+    "n": 194,
+    "pos_intended": 35.1,
+    "pos_haiku": 38.1,
+    "flip": 5.2,
+    "to_yes": 8,
+    "to_no": 2
+   },
+   {
+    "k": "topup_syn",
+    "n": 188,
+    "pos_intended": 100.0,
+    "pos_haiku": 78.2,
+    "flip": 21.8,
+    "to_yes": 0,
+    "to_no": 41
+   },
+   {
+    "k": "topup_variant",
+    "n": 184,
+    "pos_intended": 0.0,
+    "pos_haiku": 21.7,
+    "flip": 21.7,
+    "to_yes": 40,
+    "to_no": 0
+   },
+   {
+    "k": "broths_drinks_baking",
+    "n": 182,
+    "pos_intended": 35.2,
+    "pos_haiku": 38.5,
+    "flip": 6.6,
+    "to_yes": 9,
+    "to_no": 3
+   },
+   {
+    "k": "herbs_spices",
+    "n": 136,
+    "pos_intended": 36.8,
+    "pos_haiku": 35.3,
+    "flip": 4.4,
+    "to_yes": 2,
+    "to_no": 4
+   },
+   {
+    "k": "topup_brand",
+    "n": 84,
+    "pos_intended": 100.0,
+    "pos_haiku": 84.5,
+    "flip": 15.5,
+    "to_yes": 0,
+    "to_no": 13
+   },
+   {
+    "k": "topup_mod",
+    "n": 73,
+    "pos_intended": 100.0,
+    "pos_haiku": 78.1,
+    "flip": 21.9,
+    "to_yes": 0,
+    "to_no": 16
+   },
+   {
+    "k": "topup_mod2",
+    "n": 63,
+    "pos_intended": 100.0,
+    "pos_haiku": 74.6,
+    "flip": 25.4,
+    "to_yes": 0,
+    "to_no": 16
+   },
+   {
+    "k": "topup_comp",
+    "n": 41,
+    "pos_intended": 100.0,
+    "pos_haiku": 87.8,
+    "flip": 12.2,
+    "to_yes": 0,
+    "to_no": 5
+   }
+  ],
+  "by_cuisine": [
+   {
+    "k": "western",
+    "n": 2411,
+    "pos_intended": 42.6,
+    "pos_haiku": 45.1,
+    "flip": 6.2,
+    "to_yes": 105,
+    "to_no": 44
+   },
+   {
+    "k": "non-western",
+    "n": 1135,
+    "pos_intended": 39.1,
+    "pos_haiku": 42.0,
+    "flip": 7.3,
+    "to_yes": 58,
+    "to_no": 25
+   },
+   {
+    "k": "unknown",
+    "n": 633,
+    "pos_intended": 70.9,
+    "pos_haiku": 62.9,
+    "flip": 20.7,
+    "to_yes": 40,
+    "to_no": 91
+   }
+  ],
+  "by_source": [
+   {
+    "k": "SR_Legacy",
+    "n": 2429,
+    "pos_intended": 48.3,
+    "pos_haiku": 49.6,
+    "flip": 10.3,
+    "to_yes": 141,
+    "to_no": 109
+   },
+   {
+    "k": "FNDDS",
+    "n": 1440,
+    "pos_intended": 40.7,
+    "pos_haiku": 40.6,
+    "flip": 6.5,
+    "to_yes": 46,
+    "to_no": 48
+   },
+   {
+    "k": "Foundation",
+    "n": 310,
+    "pos_intended": 51.9,
+    "pos_haiku": 56.1,
+    "flip": 6.1,
+    "to_yes": 16,
+    "to_no": 3
+   }
+  ],
+  "by_code": [
+   {
+    "k": "G6",
+    "n": 489,
+    "pos_intended": 100.0,
+    "pos_haiku": 87.3,
+    "flip": 12.7,
+    "to_yes": 0,
+    "to_no": 62
+   },
+   {
+    "k": "B2",
+    "n": 364,
+    "pos_intended": 0.0,
+    "pos_haiku": 1.6,
+    "flip": 1.6,
+    "to_yes": 6,
+    "to_no": 0
+   },
+   {
+    "k": "G5",
+    "n": 278,
+    "pos_intended": 100.0,
+    "pos_haiku": 95.7,
+    "flip": 4.3,
+    "to_yes": 0,
+    "to_no": 12
+   },
+   {
+    "k": "B6",
+    "n": 237,
+    "pos_intended": 0.0,
+    "pos_haiku": 9.7,
+    "flip": 9.7,
+    "to_yes": 23,
+    "to_no": 0
+   },
+   {
+    "k": "G4",
+    "n": 232,
+    "pos_intended": 100.0,
+    "pos_haiku": 95.3,
+    "flip": 4.7,
+    "to_yes": 0,
+    "to_no": 11
+   },
+   {
+    "k": "B8",
+    "n": 228,
+    "pos_intended": 0.0,
+    "pos_haiku": 23.7,
+    "flip": 23.7,
+    "to_yes": 54,
+    "to_no": 0
+   },
+   {
+    "k": "B9",
+    "n": 224,
+    "pos_intended": 0.0,
+    "pos_haiku": 4.5,
+    "flip": 4.5,
+    "to_yes": 10,
+    "to_no": 0
+   },
+   {
+    "k": "B1",
+    "n": 216,
+    "pos_intended": 0.0,
+    "pos_haiku": 0.0,
+    "flip": 0.0,
+    "to_yes": 0,
+    "to_no": 0
+   },
+   {
+    "k": "B5",
+    "n": 215,
+    "pos_intended": 0.0,
+    "pos_haiku": 5.1,
+    "flip": 5.1,
+    "to_yes": 11,
+    "to_no": 0
+   },
+   {
+    "k": "B3",
+    "n": 215,
+    "pos_intended": 0.0,
+    "pos_haiku": 0.9,
+    "flip": 0.9,
+    "to_yes": 2,
+    "to_no": 0
+   },
+   {
+    "k": "G3",
+    "n": 194,
+    "pos_intended": 100.0,
+    "pos_haiku": 96.4,
+    "flip": 3.6,
+    "to_yes": 0,
+    "to_no": 7
+   },
+   {
+    "k": "G2",
+    "n": 185,
+    "pos_intended": 100.0,
+    "pos_haiku": 97.8,
+    "flip": 2.2,
+    "to_yes": 0,
+    "to_no": 4
+   },
+   {
+    "k": "B7",
+    "n": 179,
+    "pos_intended": 0.0,
+    "pos_haiku": 21.8,
+    "flip": 21.8,
+    "to_yes": 39,
+    "to_no": 0
+   },
+   {
+    "k": "G1",
+    "n": 151,
+    "pos_intended": 100.0,
+    "pos_haiku": 97.4,
+    "flip": 2.6,
+    "to_yes": 0,
+    "to_no": 4
+   },
+   {
+    "k": "G8",
+    "n": 136,
+    "pos_intended": 100.0,
+    "pos_haiku": 76.5,
+    "flip": 23.5,
+    "to_yes": 0,
+    "to_no": 32
+   },
+   {
+    "k": "E1",
+    "n": 121,
+    "pos_intended": 100.0,
+    "pos_haiku": 91.7,
+    "flip": 8.3,
+    "to_yes": 0,
+    "to_no": 10
+   },
+   {
+    "k": "E2",
+    "n": 115,
+    "pos_intended": 0.0,
+    "pos_haiku": 40.0,
+    "flip": 40.0,
+    "to_yes": 46,
+    "to_no": 0
+   },
+   {
+    "k": "G7",
+    "n": 92,
+    "pos_intended": 100.0,
+    "pos_haiku": 85.9,
+    "flip": 14.1,
+    "to_yes": 0,
+    "to_no": 13
+   },
+   {
+    "k": "B10",
+    "n": 90,
+    "pos_intended": 0.0,
+    "pos_haiku": 12.2,
+    "flip": 12.2,
+    "to_yes": 11,
+    "to_no": 0
+   },
+   {
+    "k": "B4",
+    "n": 89,
+    "pos_intended": 0.0,
+    "pos_haiku": 0.0,
+    "flip": 0.0,
+    "to_yes": 0,
+    "to_no": 0
+   },
+   {
+    "k": "B11",
+    "n": 88,
+    "pos_intended": 0.0,
+    "pos_haiku": 1.1,
+    "flip": 1.1,
+    "to_yes": 1,
+    "to_no": 0
+   },
+   {
+    "k": "G9",
+    "n": 41,
+    "pos_intended": 100.0,
+    "pos_haiku": 87.8,
+    "flip": 12.2,
+    "to_yes": 0,
+    "to_no": 5
+   }
+  ],
+  "tier_split": {
+   "fewshot": {
+    "easy": 17,
+    "medium": 17,
+    "hard": 18,
+    "edge": 6
+   },
+   "fit": {
+    "easy": 462,
+    "medium": 460,
+    "hard": 422,
+    "edge": 112
+   },
+   "router": {
+    "easy": 331,
+    "medium": 329,
+    "hard": 301,
+    "edge": 80
+   },
+   "test": {
+    "easy": 515,
+    "medium": 512,
+    "hard": 471,
+    "edge": 126
+   }
+  },
+  "iw_hist": {
+   "bins": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "synth": [
+    7.2,
+    34.3,
+    33.4,
+    16.2,
+    6.5,
+    1.9,
+    0.5,
+    0.1
+   ],
+   "real": [
+    21.8,
+    48.9,
+    17.5,
+    8.9,
+    2.2,
+    0.6,
+    0.0,
+    0.0
+   ]
+  },
+  "uw_hist": {
+   "labels": [
+    "1-2",
+    "3-4",
+    "5-6",
+    "7-8",
+    "9-11",
+    "12+"
+   ],
+   "synth": [
+    23.7,
+    33.1,
+    20.5,
+    12.2,
+    7.5,
+    3.0
+   ],
+   "real": [
+    48.0,
+    34.6,
+    12.7,
+    3.4,
+    1.2,
+    0.1
+   ]
+  },
+  "jac_hist": {
+   "labels": [
+    "0-.1",
+    ".1-.2",
+    ".2-.3",
+    ".3-.4",
+    ".4-.5",
+    ".5-.6",
+    ".6-.7",
+    ".7+"
+   ],
+   "yes": [
+    104,
+    146,
+    287,
+    238,
+    131,
+    299,
+    247,
+    510
+   ],
+   "no": [
+    275,
+    308,
+    700,
+    392,
+    172,
+    248,
+    104,
+    18
+   ]
+  },
+  "jac_posrate": [
+   27.4,
+   32.2,
+   29.1,
+   37.8,
+   43.2,
+   54.7,
+   70.4,
+   96.6
+  ],
+  "grams_q": {
+   "synth": [
+    10.0,
+    110.0,
+    400.0
+   ],
+   "real": [
+    5.0,
+    50.0,
+    400.0
+   ]
+  },
+  "means": {
+   "iw_synth": 2.88,
+   "iw_real": 2.23,
+   "uw_synth": 4.8,
+   "uw_real": 3.11,
+   "comma_synth": 21.8,
+   "comma_real": 9.0,
+   "paren_synth": 3.9,
+   "paren_real": 2.3,
+   "real_pos": 71.2,
+   "real_n": 943,
+   "real_unique_pairs": 350,
+   "real_unique_ing": 302,
+   "real_unique_usda": 292
+  },
+  "reuse": {
+   "foods": 1588,
+   "food_max": 12,
+   "food_over4": 47,
+   "food_dist": {
+    "1": 404,
+    "2": 295,
+    "3": 472,
+    "4": 370,
+    "5": 24,
+    "6+": 23
+   },
+   "usda_unique": 2935,
+   "usda_max": 11,
+   "usda_over3": 78,
+   "usda_dist": {
+    "1": 2086,
+    "2": 583,
+    "3": 188,
+    "4+": 78
+   },
+   "groups": 1183,
+   "group_max": 50,
+   "unique_ing": 3602
+  },
+  "leak": {
+   "dup_pairs": 0,
+   "food_cross_split": [
+    0,
+    1588
+   ],
+   "group_cross_split": [
+    0,
+    1183
+   ],
+   "ing_cross_split": [
+    0,
+    3602
+   ],
+   "test_usda_seen_in_train": 20.6,
+   "blocklist_n": 100,
+   "core_in_blocklist": 0,
+   "ing_in_real": 60,
+   "usda_in_real": 6.4,
+   "pair_in_real": 0
+  },
+  "fdc": {
+   "snap_exact": 99.5,
+   "synthetic": 0
+  },
+  "test_types": [
+   [
+    "G9",
+    13
+   ],
+   [
+    "B10",
+    28
+   ],
+   [
+    "B11",
+    34
+   ],
+   [
+    "G7",
+    37
+   ],
+   [
+    "B4",
+    43
+   ],
+   [
+    "E2",
+    45
+   ],
+   [
+    "E1",
+    47
+   ],
+   [
+    "G1",
+    50
+   ],
+   [
+    "G8",
+    54
+   ],
+   [
+    "G2",
+    69
+   ],
+   [
+    "B7",
+    74
+   ],
+   [
+    "B8",
+    79
+   ],
+   [
+    "B5",
+    83
+   ],
+   [
+    "B1",
+    84
+   ],
+   [
+    "G3",
+    86
+   ],
+   [
+    "B3",
+    87
+   ],
+   [
+    "B6",
+    88
+   ],
+   [
+    "G4",
+    93
+   ],
+   [
+    "B9",
+    94
+   ],
+   [
+    "G5",
+    107
+   ],
+   [
+    "B2",
+    139
+   ],
+   [
+    "G6",
+    190
+   ]
+  ],
+  "test_types_haiku_min": 13,
+  "rerun": {
+   "n": 208,
+   "same": 197,
+   "by_tier": {
+    "easy": [
+     61,
+     62
+    ],
+    "medium": [
+     72,
+     75
+    ],
+    "hard": [
+     49,
+     56
+    ],
+    "edge": [
+     15,
+     15
+    ]
+   }
+  },
+  "variants": {
+   "preserve_n": 84,
+   "preserve_kept": 82,
+   "flip_n": 79,
+   "flip_flipped": 55,
+   "preserve_kinds": [
+    [
+     "unit",
+     37
+    ],
+    [
+     "typo",
+     30
+    ],
+    [
+     "filler",
+     12
+    ],
+    [
+     "abbreviation",
+     3
+    ],
+    [
+     "case/punctuation",
+     2
+    ]
+   ]
+  },
+  "gptoss": {
+   "n": 344,
+   "agree_haiku": 309,
+   "agree_intended": 304,
+   "kappa": 0.794
+  },
+  "reviewer": {
+   "n": 3546,
+   "agree_haiku": 3370,
+   "agree_intended": 3308
+  },
+  "intended_vs_haiku": {
+   "agree": 3816,
+   "kappa": 0.825,
+   "to_yes": 203,
+   "to_no": 160
+  },
+  "committee_vs_haiku": {
+   "easy": {
+    "n": 1325,
+    "err": 21.6,
+    "auc": 0.864
+   },
+   "medium": {
+    "n": 1318,
+    "err": 22.6,
+    "auc": 0.823
+   },
+   "hard": {
+    "n": 1212,
+    "err": 55.9,
+    "auc": 0.421
+   },
+   "edge": {
+    "n": 324,
+    "err": 42.6,
+    "auc": 0.607
+   },
+   "all": {
+    "n": 4179,
+    "err": 33.5,
+    "auc": 0.703
+   }
+  },
+  "committee_vs_intended": {
+   "easy": {
+    "n": 1325,
+    "err": 20.9,
+    "auc": 0.869
+   },
+   "medium": {
+    "n": 1318,
+    "err": 22.1,
+    "auc": 0.825
+   },
+   "hard": {
+    "n": 1212,
+    "err": 62.3,
+    "auc": 0.347
+   },
+   "edge": {
+    "n": 324,
+    "err": 44.8,
+    "auc": 0.614
+   },
+   "all": {
+    "n": 4179,
+    "err": 35.1,
+    "auc": 0.683
+   }
+  },
+  "committee_yes_rate": 49.2,
+  "jac_auc": {
+   "easy": 0.923,
+   "medium": 0.836,
+   "hard": 0.383,
+   "edge": 0.619,
+   "all": 0.732
+  },
+  "jac_auc_real": 0.762
+ },
+ "shortcut_full": {
+  "ingredient_only": 0.604,
+  "usda_only": 0.64,
+  "surface_stats": 0.736,
+  "quantity_only": 0.524,
+  "jaccard_only": 0.732,
+  "all_lexical": 0.826
+ },
+ "shortcut_sample": {
+  "ingredient_only": 0.532,
+  "usda_only": 0.585,
+  "surface_stats": 0.718,
+  "quantity_only": 0.527,
+  "jaccard_only": 0.722,
+  "all_lexical": 0.785
+ },
+ "shortcut_full_intended": {
+  "ingredient_only": 0.634,
+  "usda_only": 0.654,
+  "surface_stats": 0.725,
+  "quantity_only": 0.519,
+  "jaccard_only": 0.723,
+  "all_lexical": 0.832
+ },
+ "shortcut_real": {
+  "ingredient_only": 0.681,
+  "usda_only": 0.566,
+  "surface_stats": 0.762,
+  "quantity_only": 0.429,
+  "jaccard_only": 0.762,
+  "all_lexical": 0.837
+ },
+ "transfer": {
+  "synth_haiku": {
+   "auc": 0.8,
+   "acc": 66.9
+  },
+  "synth_intended": {
+   "auc": 0.786,
+   "acc": 66.2
+  },
+  "real_cv": {
+   "auc": 0.824
+  },
+  "real_majority_acc": 71.2,
+  "jaccard_real_auc": 0.762,
+  "committee_note": "stored committee_p used elsewhere; PAJAMA not run"
+ },
+ "domain_auc": {
+  "pair_text": 0.773,
+  "ingredient_text": 0.728
+ },
+ "vocab": {
+  "ing_vocab_synth": 1631,
+  "ing_vocab_real": 286,
+  "real_ing_tokens_covered": 93.3,
+  "real_ing_types_covered": 87.1,
+  "real_usda_types_covered": 92.3,
+  "usda_vocab_synth": 1788,
+  "usda_vocab_real": 429,
+  "ttr_synth_ing": 0.135
+ },
+ "real_fdc": {
+  "found": 98.1,
+  "mix": [
+   [
+    "SR_Legacy",
+    458
+   ],
+   [
+    "FNDDS",
+    323
+   ],
+   [
+    "Foundation",
+    144
+   ],
+   [
+    "not found",
+    18
+   ]
+  ]
+ },
+ "cues_ing": [
+  {
+   "cue": "smoked",
+   "n": 108,
+   "pos": 30.6,
+   "delta": -16.4
+  },
+  {
+   "cue": "dried",
+   "n": 190,
+   "pos": 36.3,
+   "delta": -10.6
+  },
+  {
+   "cue": "powder",
+   "n": 81,
+   "pos": 40.7,
+   "delta": -6.2
+  },
+  {
+   "cue": "sliced",
+   "n": 114,
+   "pos": 44.7,
+   "delta": -2.2
+  },
+  {
+   "cue": "salted",
+   "n": 53,
+   "pos": 45.3,
+   "delta": -1.7
+  },
+  {
+   "cue": "ground",
+   "n": 112,
+   "pos": 46.4,
+   "delta": -0.5
+  },
+  {
+   "cue": "fresh",
+   "n": 241,
+   "pos": 46.9,
+   "delta": -0.1
+  },
+  {
+   "cue": "canned",
+   "n": 102,
+   "pos": 47.1,
+   "delta": 0.1
+  },
+  {
+   "cue": "roasted",
+   "n": 54,
+   "pos": 48.1,
+   "delta": 1.2
+  },
+  {
+   "cue": "chopped",
+   "n": 40,
+   "pos": 50.0,
+   "delta": 3.1
+  },
+  {
+   "cue": "whole",
+   "n": 54,
+   "pos": 55.6,
+   "delta": 8.6
+  },
+  {
+   "cue": "thawed",
+   "n": 72,
+   "pos": 58.3,
+   "delta": 11.4
+  },
+  {
+   "cue": "raw",
+   "n": 53,
+   "pos": 58.5,
+   "delta": 11.5
+  },
+  {
+   "cue": "toasted",
+   "n": 77,
+   "pos": 58.4,
+   "delta": 11.5
+  },
+  {
+   "cue": "frozen",
+   "n": 106,
+   "pos": 59.4,
+   "delta": 12.5
+  },
+  {
+   "cue": "optional",
+   "n": 79,
+   "pos": 68.4,
+   "delta": 21.4
+  },
+  {
+   "cue": "cooked",
+   "n": 123,
+   "pos": 71.5,
+   "delta": 24.6
+  }
+ ],
+ "cues_usda": [
+  {
+   "cue": "reduced",
+   "n": 89,
+   "pos": 11.2,
+   "delta": -35.7
+  },
+  {
+   "cue": "low",
+   "n": 64,
+   "pos": 35.9,
+   "delta": -11.0
+  },
+  {
+   "cue": "added",
+   "n": 120,
+   "pos": 37.5,
+   "delta": -9.4
+  },
+  {
+   "cue": "cooked",
+   "n": 412,
+   "pos": 38.3,
+   "delta": -8.6
+  },
+  {
+   "cue": "roasted",
+   "n": 86,
+   "pos": 38.4,
+   "delta": -8.6
+  },
+  {
+   "cue": "nfs",
+   "n": 96,
+   "pos": 38.5,
+   "delta": -8.4
+  },
+  {
+   "cue": "canned",
+   "n": 159,
+   "pos": 41.5,
+   "delta": -5.4
+  },
+  {
+   "cue": "salt",
+   "n": 151,
+   "pos": 43.0,
+   "delta": -3.9
+  },
+  {
+   "cue": "fat",
+   "n": 323,
+   "pos": 44.0,
+   "delta": -3.0
+  },
+  {
+   "cue": "frozen",
+   "n": 94,
+   "pos": 46.8,
+   "delta": -0.1
+  },
+  {
+   "cue": "drained",
+   "n": 61,
+   "pos": 47.5,
+   "delta": 0.6
+  },
+  {
+   "cue": "dried",
+   "n": 161,
+   "pos": 48.4,
+   "delta": 1.5
+  },
+  {
+   "cue": "separable",
+   "n": 129,
+   "pos": 49.6,
+   "delta": 2.7
+  },
+  {
+   "cue": "boiled",
+   "n": 64,
+   "pos": 51.6,
+   "delta": 4.6
+  },
+  {
+   "cue": "smoked",
+   "n": 63,
+   "pos": 52.4,
+   "delta": 5.4
+  },
+  {
+   "cue": "trimmed",
+   "n": 73,
+   "pos": 53.4,
+   "delta": 6.5
+  },
+  {
+   "cue": "raw",
+   "n": 936,
+   "pos": 58.1,
+   "delta": 11.2
+  },
+  {
+   "cue": "ready",
+   "n": 94,
+   "pos": 67.0,
+   "delta": 20.1
+  },
+  {
+   "cue": "includes",
+   "n": 43,
+   "pos": 76.7,
+   "delta": 29.8
+  }
+ ],
+ "cues_ing_real": [
+  {
+   "cue": "frozen",
+   "n": 61,
+   "pos": 41.0,
+   "delta": -30.2
+  },
+  {
+   "cue": "canned",
+   "n": 38,
+   "pos": 50.0,
+   "delta": -21.2
+  },
+  {
+   "cue": "thawed",
+   "n": 42,
+   "pos": 52.4,
+   "delta": -18.8
+  },
+  {
+   "cue": "cooked",
+   "n": 18,
+   "pos": 66.7,
+   "delta": -4.5
+  },
+  {
+   "cue": "fresh",
+   "n": 125,
+   "pos": 88.0,
+   "delta": 16.8
+  }
+ ],
+ "neardup_full": {
+  "pair_0.8": {
+   "pairs": 404,
+   "rows_involved": 630,
+   "rows_pct": 15.1,
+   "examples": [
+    [
+     "chestnuts | Flour, chestnut",
+     "chestnut flour | Chestnuts",
+     0,
+     0
+    ],
+    [
+     "beef chuck, cubed | Beef, chuck for stew, separable lean and fat, choice, raw",
+     "venison | Beef, chuck for stew, separable lean and fat, choice, raw",
+     1,
+     0
+    ],
+    [
+     "beef shin | Beef, chuck, roast, boneless, choice, raw",
+     "boneless chuck roast, raw | Beef, chuck, roast, boneless, choice, raw",
+     0,
+     1
+    ],
+    [
+     "eggs | Egg, whole, raw, fresh",
+     "goose eggs | Egg, goose, whole, fresh, raw",
+     1,
+     1
+    ],
+    [
+     "eggs | Egg, whole, raw, fresh",
+     "egg | Egg, whole, raw, fresh",
+     1,
+     1
+    ],
+    [
+     "dry textured vegetable protein | Textured vegetable protein, dry",
+     "dry textured soy protein | Textured vegetable protein, dry",
+     1,
+     1
+    ]
+   ]
+  },
+  "pair_0.9": {
+   "pairs": 105,
+   "rows_involved": 200,
+   "rows_pct": 4.8,
+   "examples": [
+    [
+     "chestnuts | Flour, chestnut",
+     "chestnut flour | Chestnuts",
+     0,
+     0
+    ],
+    [
+     "smoked hot turkey sausage | Sausage, turkey, hot, smoked",
+     "smoked sausage | Sausage, turkey, hot, smoked",
+     1,
+     0
+    ],
+    [
+     "tallow (beef) | Fat, beef tallow",
+     "beef tallow | Fat, beef tallow",
+     1,
+     1
+    ],
+    [
+     "wheat germ | Cereals ready-to-eat, wheat germ, toasted, plain",
+     "toasted wheat germ | Cereals ready-to-eat, wheat germ, toasted, plain",
+     0,
+     1
+    ],
+    [
+     "ground turkey | Turkey, ground, fat free, raw",
+     "fat-free ground turkey | Turkey, ground, fat free, raw",
+     0,
+     1
+    ],
+    [
+     "white rice flour | Flour, rice, white, unenriched",
+     "rice flour | Rice flour, white, unenriched",
+     1,
+     1
+    ]
+   ]
+  },
+  "ing_exact": 577
+ },
+ "neardup_sample": {
+  "pair_0.8": {
+   "pairs": 50,
+   "rows_involved": 90,
+   "rows_pct": 6.0,
+   "examples": [
+    [
+     "powdered soy creamer | Coffee creamer, liquid",
+     "soy coffee creamer, liquid | Coffee creamer, soy, liquid",
+     0,
+     1
+    ],
+    [
+     "fresh whole turkey | Turkey, whole, light meat, meat and skin, raw",
+     "fresh whole turkey | Turkey, whole, meat and skin, raw",
+     0,
+     1
+    ],
+    [
+     "beef chuck, cubed | Beef, chuck for stew, separable lean and fat, choice, raw",
+     "venison | Beef, chuck for stew, separable lean and fat, choice, raw",
+     1,
+     0
+    ],
+    [
+     "shredded coconut | Nuts, coconut meat, dried (desiccated), sweetened, shredded",
+     "sweetened shredded dried coconut | Nuts, coconut meat, dried (desiccated), sweetened, shredded",
+     0,
+     1
+    ],
+    [
+     "oil roasted pecan halves, no salt added | Nuts, pecans, oil roasted, without salt added",
+     "roasted pecan oil | Nuts, pecans, oil roasted, without salt added",
+     1,
+     0
+    ],
+    [
+     "canned sardines in tomato sauce | Fish, sardine, Atlantic, canned in oil, drained solids with bone",
+     "sardines in olive oil | Fish, sardine, Pacific, canned in tomato sauce, drained solids with bone",
+     0,
+     0
+    ]
+   ]
+  }
+ },
+ "neardup_test_vs_train_pct": 3.3,
+ "diversity": {
+  "unique_ing_pct": 86.2,
+  "unique_usda_pct": 70.2,
+  "top_first_words": [
+   [
+    "fresh",
+    5.6
+   ],
+   [
+    "dried",
+    3.9
+   ],
+   [
+    "smoked",
+    2.5
+   ],
+   [
+    "frozen",
+    2.5
+   ],
+   [
+    "canned",
+    2.2
+   ],
+   [
+    "cooked",
+    1.8
+   ],
+   [
+    "ground",
+    1.7
+   ],
+   [
+    "turkey",
+    1.7
+   ],
+   [
+    "beef",
+    1.6
+   ],
+   [
+    "toasted",
+    1.6
+   ]
+  ],
+  "top10_first_share": 25.0,
+  "paren_tags": [
+   [
+    "optional",
+    59
+   ],
+   [
+    "optional garnish",
+    15
+   ],
+   [
+    "for serving",
+    15
+   ],
+   [
+    "for garnish",
+    14
+   ],
+   [
+    "divided",
+    12
+   ],
+   [
+    "to taste",
+    3
+   ],
+   [
+    "store-bought",
+    2
+   ],
+   [
+    "for drizzling",
+    2
+   ]
+  ],
+  "round_grams_pct": 94.8,
+  "round_grams_real": 94.9,
+  "grams_label_auc": 0.524
+ },
+ "contrast": {
+  "groups_multi": 851,
+  "groups_both_labels": 717,
+  "rows_in_mixed_groups": 84.7,
+  "usda_multi": 849,
+  "usda_both_labels": 498,
+  "foods_multi": 1184,
+  "foods_both_labels": 986
+ },
+ "sample": {
+  "n": 1500,
+  "repr": {
+   "tier": [
+    {
+     "k": "easy",
+     "sample": 30.9,
+     "full": 31.7
+    },
+    {
+     "k": "edge",
+     "sample": 7.2,
+     "full": 7.8
+    },
+    {
+     "k": "hard",
+     "sample": 30.7,
+     "full": 29.0
+    },
+    {
+     "k": "medium",
+     "sample": 31.3,
+     "full": 31.5
+    }
+   ],
+   "split": [
+    {
+     "k": "fewshot",
+     "sample": 1.2,
+     "full": 1.4
+    },
+    {
+     "k": "fit",
+     "sample": 34.6,
+     "full": 34.8
+    },
+    {
+     "k": "router",
+     "sample": 24.9,
+     "full": 24.9
+    },
+    {
+     "k": "test",
+     "sample": 39.3,
+     "full": 38.9
+    }
+   ],
+   "fdc_source": [
+    {
+     "k": "FNDDS",
+     "sample": 33.1,
+     "full": 34.5
+    },
+    {
+     "k": "Foundation",
+     "sample": 7.4,
+     "full": 7.4
+    },
+    {
+     "k": "SR_Legacy",
+     "sample": 59.5,
+     "full": 58.1
+    }
+   ],
+   "cuisine": [
+    {
+     "k": "non-western",
+     "sample": 27.5,
+     "full": 27.2
+    },
+    {
+     "k": "unknown",
+     "sample": 15.3,
+     "full": 15.1
+    },
+    {
+     "k": "western",
+     "sample": 57.1,
+     "full": 57.7
+    }
+   ]
+  },
+  "by_tier": [
+   {
+    "k": "easy",
+    "n": 463,
+    "pos_intended": 37.6,
+    "pos_haiku": 37.6,
+    "flip": 2.6,
+    "to_yes": 6,
+    "to_no": 6
+   },
+   {
+    "k": "medium",
+    "n": 469,
+    "pos_intended": 49.7,
+    "pos_haiku": 51.6,
+    "flip": 11.3,
+    "to_yes": 31,
+    "to_no": 22
+   },
+   {
+    "k": "hard",
+    "n": 460,
+    "pos_intended": 45.9,
+    "pos_haiku": 47.2,
+    "flip": 11.3,
+    "to_yes": 29,
+    "to_no": 23
+   },
+   {
+    "k": "edge",
+    "n": 108,
+    "pos_intended": 39.8,
+    "pos_haiku": 49.1,
+    "flip": 16.7,
+    "to_yes": 14,
+    "to_no": 4
+   }
+  ],
+  "pos_intended": 44.1,
+  "pos_haiku": 45.7,
+  "pos_mine": 48.8,
+  "dup": 0,
+  "jac_auc": {
+   "easy": 0.928,
+   "medium": 0.84,
+   "hard": 0.37,
+   "edge": 0.568,
+   "all": 0.722
+  },
+  "jac_auc_mine": 0.726,
+  "committee_vs_haiku": {
+   "easy": {
+    "n": 463,
+    "err": 20.7,
+    "auc": 0.871
+   },
+   "medium": {
+    "n": 469,
+    "err": 21.7,
+    "auc": 0.817
+   },
+   "hard": {
+    "n": 460,
+    "err": 58.0,
+    "auc": 0.407
+   },
+   "edge": {
+    "n": 108,
+    "err": 48.1,
+    "auc": 0.571
+   },
+   "all": {
+    "n": 1500,
+    "err": 34.5,
+    "auc": 0.69
+   }
+  },
+  "committee_vs_mine": {
+   "easy": {
+    "n": 463,
+    "err": 20.1,
+    "auc": 0.87
+   },
+   "medium": {
+    "n": 469,
+    "err": 22.4,
+    "auc": 0.82
+   },
+   "hard": {
+    "n": 460,
+    "err": 57.6,
+    "auc": 0.416
+   },
+   "edge": {
+    "n": 108,
+    "err": 46.3,
+    "auc": 0.591
+   },
+   "all": {
+    "n": 1500,
+    "err": 34.2,
+    "auc": 0.693
+   }
+  },
+  "rerun": [
+   70,
+   74
+  ],
+  "snap_exact": 99.3,
+  "nonwestern": 27.5,
+  "means": {
+   "iw": 2.9,
+   "comma": 23.1,
+   "grams_q": [
+    12.0,
+    105.0,
+    400.0
+   ]
+  },
+  "matrix": {
+   "intended|intended": {
+    "n": 1500,
+    "agree": 100.0,
+    "kappa": 1
+   },
+   "intended|haiku": {
+    "n": 1500,
+    "agree": 91.0,
+    "kappa": 0.818
+   },
+   "intended|blind": {
+    "n": 1500,
+    "agree": 91.1,
+    "kappa": 0.822
+   },
+   "intended|reviewer": {
+    "n": 1270,
+    "agree": 93.5,
+    "kappa": 0.868
+   },
+   "intended|gptoss": {
+    "n": 127,
+    "agree": 89.8,
+    "kappa": 0.793
+   },
+   "haiku|intended": {
+    "n": 1500,
+    "agree": 91.0,
+    "kappa": 0.818
+   },
+   "haiku|haiku": {
+    "n": 1500,
+    "agree": 100.0,
+    "kappa": 1
+   },
+   "haiku|blind": {
+    "n": 1500,
+    "agree": 95.6,
+    "kappa": 0.912
+   },
+   "haiku|reviewer": {
+    "n": 1270,
+    "agree": 94.4,
+    "kappa": 0.886
+   },
+   "haiku|gptoss": {
+    "n": 127,
+    "agree": 92.1,
+    "kappa": 0.843
+   },
+   "blind|intended": {
+    "n": 1500,
+    "agree": 91.1,
+    "kappa": 0.822
+   },
+   "blind|haiku": {
+    "n": 1500,
+    "agree": 95.6,
+    "kappa": 0.912
+   },
+   "blind|blind": {
+    "n": 1500,
+    "agree": 100.0,
+    "kappa": 1
+   },
+   "blind|reviewer": {
+    "n": 1270,
+    "agree": 95.3,
+    "kappa": 0.905
+   },
+   "blind|gptoss": {
+    "n": 127,
+    "agree": 91.3,
+    "kappa": 0.827
+   },
+   "reviewer|intended": {
+    "n": 1270,
+    "agree": 93.5,
+    "kappa": 0.868
+   },
+   "reviewer|haiku": {
+    "n": 1270,
+    "agree": 94.4,
+    "kappa": 0.886
+   },
+   "reviewer|blind": {
+    "n": 1270,
+    "agree": 95.3,
+    "kappa": 0.905
+   },
+   "reviewer|reviewer": {
+    "n": 1270,
+    "agree": 100.0,
+    "kappa": 1
+   },
+   "reviewer|gptoss": {
+    "n": 108,
+    "agree": 93.5,
+    "kappa": 0.87
+   },
+   "gptoss|intended": {
+    "n": 127,
+    "agree": 89.8,
+    "kappa": 0.793
+   },
+   "gptoss|haiku": {
+    "n": 127,
+    "agree": 92.1,
+    "kappa": 0.843
+   },
+   "gptoss|blind": {
+    "n": 127,
+    "agree": 91.3,
+    "kappa": 0.827
+   },
+   "gptoss|reviewer": {
+    "n": 108,
+    "agree": 93.5,
+    "kappa": 0.87
+   },
+   "gptoss|gptoss": {
+    "n": 127,
+    "agree": 100.0,
+    "kappa": 1
+   }
+  },
+  "gen": {
+   "n_flag": 135,
+   "pct_flag": 9.0,
+   "confirmed": 101,
+   "not_confirmed": 34,
+   "to_yes": 80,
+   "to_no": 55,
+   "confirmed_to_yes": 75,
+   "confirmed_to_no": 26,
+   "both_reject_haiku": 34,
+   "intended_wrong_all3": 101,
+   "intended_vs_blind_agree": 1367,
+   "causes": [
+    {
+     "cause": "Raw ingredient paired with a cooked entry",
+     "n": 16,
+     "dir": "yes\u2192no",
+     "ex": [
+      "500g protein powder \u2192 Nutritional powder mix, protein, light, NFS",
+      "400g bacon \u2192 Bacon, NS as to type of meat, cooked",
+      "50g fresh peas and carrots \u2192 Peas and carrots, fresh, cooked, no added fat"
+     ]
+    },
+    {
+     "cause": "Frozen / thawed treated as a different food",
+     "n": 13,
+     "dir": "no\u2192yes",
+     "ex": [
+      "165g frozen cherimoya pulp \u2192 Cherimoya, raw",
+      "100g frozen miso soup, thawed \u2192 Soup, miso or tofu",
+      "200g frozen breadfruit chunks \u2192 Breadfruit, raw"
+     ]
+    },
+    {
+     "cause": "Normal low-fat dairy treated as a modified version",
+     "n": 13,
+     "dir": "no\u2192yes",
+     "ex": [
+      "400g lemon Greek yogurt \u2192 Yogurt, Greek, nonfat, lemon blend, CHOBANI",
+      "15g vanilla yogurt \u2192 Yogurt, low fat milk, flavors other than fruit",
+      "5g vanilla greek yogurt \u2192 Yogurt, Greek, vanilla, nonfat"
+     ]
+    },
+    {
+     "cause": "Knife work / handling treated as a different form",
+     "n": 12,
+     "dir": "no\u2192yes",
+     "ex": [
+      "200g bluefish, ground \u2192 Fish, bluefish, raw",
+      "200g feta cheese, crumbled \u2192 Cheese, feta",
+      "150g bread cubes, for stuffing (for serving) \u2192 Bread, white, commercially prepared (includes soft bread crumbs)"
+     ]
+    },
+    {
+     "cause": "Standard descriptor treated as a modification",
+     "n": 11,
+     "dir": "no\u2192yes",
+     "ex": [
+      "500g dried pears, simmered \u2192 Pears, dried, sulfured, stewed, without added sugar",
+      "40g dried pear \u2192 Pears, dried, sulfured, uncooked",
+      "15g high oleic canola oil, high stability \u2192 Oil, vegetable, Natreon canola, high stability, non trans, high oleic (70%)"
+     ]
+    },
+    {
+     "cause": "Edge case that resolves to yes",
+     "n": 10,
+     "dir": "no\u2192yes",
+     "ex": [
+      "365g canned tart cherries, drained \u2192 Cherries, sour, red, canned, water pack, solids and liquids",
+      "15g beef bouillon cube \u2192 Soup, beef broth or bouillon, powder, dry",
+      "250g whole egg, cooked \u2192 Egg, whole, cooked, NS as to cooking method"
+     ]
+    },
+    {
+     "cause": "Standard USDA cut wording treated as a mismatch",
+     "n": 6,
+     "dir": "no\u2192yes",
+     "ex": [
+      "250g chuck roast, trimmed of visible fat \u2192 Beef, chuck, arm pot roast, separable lean and fat, trimmed to 1/8\" fat, choice, raw",
+      "185g beef chuck blade roast \u2192 Beef, chuck, blade roast, separable lean and fat, trimmed to 1/8\" fat, choice, raw",
+      "400g pork fat \u2192 Pork, fresh, separable fat, raw"
+     ]
+    },
+    {
+     "cause": "Cooking state actually matches",
+     "n": 5,
+     "dir": "no\u2192yes",
+     "ex": [
+      "150g chicken nuggets \u2192 Chicken, nuggets, white meat, precooked, frozen, not reheated",
+      "250g palm hearts \u2192 Palm hearts, cooked",
+      "20g uncooked sofrito \u2192 Sauce, sofrito, prepared from recipe"
+     ]
+    },
+    {
+     "cause": "Planned as a different food, turned out to be the same food",
+     "n": 5,
+     "dir": "no\u2192yes",
+     "ex": [
+      "290g whole wheat pita bread \u2192 Bread, pita, wheat or cracked wheat",
+      "40g Japanese cuttlefish (ika) \u2192 Mollusks, cuttlefish, mixed species, raw",
+      "35g low-sodium teriyaki sauce \u2192 Teriyaki sauce, reduced sodium"
+     ]
+    },
+    {
+     "cause": "Claimed synonym is not the same food",
+     "n": 4,
+     "dir": "yes\u2192no",
+     "ex": [
+      "40g flatbread \u2192 Bread, chappatti or roti",
+      "250g sapote fruit \u2192 Mammy-apple, (mamey), raw",
+      "400g chicken leg quarters, skin on \u2192 Chicken, skin (drumsticks and thighs), raw"
+     ]
+    },
+    {
+     "cause": "Brand entry carries an extra flavour or modification",
+     "n": 2,
+     "dir": "yes\u2192no",
+     "ex": [
+      "80g instant brown sugar oatmeal \u2192 Cereals, QUAKER, Instant Oatmeal, DINOSAUR EGGS, Brown Sugar, dry",
+      "5g instant cinnamon oatmeal \u2192 Cereals, QUAKER, Instant Oatmeal, weight control, cinnamon"
+     ]
+    },
+    {
+     "cause": "Entry adds a modifier the ingredient lacks",
+     "n": 2,
+     "dir": "yes\u2192no",
+     "ex": [
+      "100g green tea leaves (optional) \u2192 Tea, hot, leaf, green",
+      "250g arrowroot \u2192 Arrowroot, raw"
+     ]
+    },
+    {
+     "cause": "Vague catch-all USDA entry",
+     "n": 2,
+     "dir": "yes\u2192no",
+     "ex": [
+      "200g turkey bone \u2192 Turkey, NFS",
+      "300g cane syrup (optional) \u2192 Syrup, NFS"
+     ]
+    }
+   ],
+   "by_tier": [
+    {
+     "k": "easy",
+     "n": 463,
+     "flag": 12,
+     "conf": 8
+    },
+    {
+     "k": "medium",
+     "n": 469,
+     "flag": 53,
+     "conf": 41
+    },
+    {
+     "k": "hard",
+     "n": 460,
+     "flag": 52,
+     "conf": 37
+    },
+    {
+     "k": "edge",
+     "n": 108,
+     "flag": 18,
+     "conf": 15
+    }
+   ],
+   "by_code": [
+    {
+     "k": "E2",
+     "n": 36,
+     "conf": 12,
+     "pct": 33.3
+    },
+    {
+     "k": "B8",
+     "n": 84,
+     "conf": 21,
+     "pct": 25.0
+    },
+    {
+     "k": "G8",
+     "n": 44,
+     "conf": 8,
+     "pct": 18.2
+    },
+    {
+     "k": "B7",
+     "n": 63,
+     "conf": 11,
+     "pct": 17.5
+    },
+    {
+     "k": "B6",
+     "n": 92,
+     "conf": 12,
+     "pct": 13.0
+    },
+    {
+     "k": "B10",
+     "n": 38,
+     "conf": 3,
+     "pct": 7.9
+    },
+    {
+     "k": "B5",
+     "n": 81,
+     "conf": 6,
+     "pct": 7.4
+    },
+    {
+     "k": "E1",
+     "n": 43,
+     "conf": 3,
+     "pct": 7.0
+    },
+    {
+     "k": "B9",
+     "n": 90,
+     "conf": 4,
+     "pct": 4.4
+    },
+    {
+     "k": "B2",
+     "n": 126,
+     "conf": 5,
+     "pct": 4.0
+    },
+    {
+     "k": "G6",
+     "n": 187,
+     "conf": 7,
+     "pct": 3.7
+    },
+    {
+     "k": "G1",
+     "n": 59,
+     "conf": 1,
+     "pct": 1.7
+    },
+    {
+     "k": "G3",
+     "n": 64,
+     "conf": 1,
+     "pct": 1.6
+    },
+    {
+     "k": "B3",
+     "n": 80,
+     "conf": 1,
+     "pct": 1.2
+    },
+    {
+     "k": "G5",
+     "n": 92,
+     "conf": 1,
+     "pct": 1.1
+    },
+    {
+     "k": "G2",
+     "n": 51,
+     "conf": 0,
+     "pct": 0.0
+    },
+    {
+     "k": "G4",
+     "n": 84,
+     "conf": 0,
+     "pct": 0.0
+    },
+    {
+     "k": "B1",
+     "n": 83,
+     "conf": 0,
+     "pct": 0.0
+    },
+    {
+     "k": "B4",
+     "n": 37,
+     "conf": 0,
+     "pct": 0.0
+    }
+   ],
+   "polarity_flag_hit": {
+    "flagged": 117,
+    "flagged_wrong": 70,
+    "unflagged_wrong": 65,
+    "disputed": 82,
+    "disputed_wrong": 50
+   },
+   "rows": [
+    {
+     "idx": 6,
+     "ing": "250g chuck roast, trimmed of visible fat",
+     "usda": "Beef, chuck, arm pot roast, separable lean and fat, trimmed to 1/8\" fat, choice, raw",
+     "tier": "easy",
+     "code": "B2",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 1,
+     "cause": "Standard USDA cut wording treated as a mismatch"
+    },
+    {
+     "idx": 23,
+     "ing": "165g frozen cherimoya pulp",
+     "usda": "Cherimoya, raw",
+     "tier": "medium",
+     "code": "B7",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 1,
+     "cause": "Frozen / thawed treated as a different food"
+    },
+    {
+     "idx": 61,
+     "ing": "500g protein powder",
+     "usda": "Nutritional powder mix, protein, light, NFS",
+     "tier": "medium",
+     "code": "G8",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 0,
+     "cause": "Raw ingredient paired with a cooked entry"
+    },
+    {
+     "idx": 72,
+     "ing": "365g canned tart cherries, drained",
+     "usda": "Cherries, sour, red, canned, water pack, solids and liquids",
+     "tier": "edge",
+     "code": "E2",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 1,
+     "cause": "Edge case that resolves to yes"
+    },
+    {
+     "idx": 78,
+     "ing": "400g lemon Greek yogurt",
+     "usda": "Yogurt, Greek, nonfat, lemon blend, CHOBANI",
+     "tier": "hard",
+     "code": "B8",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 1,
+     "cause": "Normal low-fat dairy treated as a modified version"
+    },
+    {
+     "idx": 81,
+     "ing": "400g bacon",
+     "usda": "Bacon, NS as to type of meat, cooked",
+     "tier": "medium",
+     "code": "G5",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 0,
+     "cause": "Raw ingredient paired with a cooked entry"
+    },
+    {
+     "idx": 83,
+     "ing": "15g vanilla yogurt",
+     "usda": "Yogurt, low fat milk, flavors other than fruit",
+     "tier": "hard",
+     "code": "B8",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 1,
+     "cause": "Normal low-fat dairy treated as a modified version"
+    },
+    {
+     "idx": 88,
+     "ing": "150g toor dal",
+     "usda": "Pigeon peas (red gram), mature seeds, raw",
+     "tier": "hard",
+     "code": "G6",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 1,
+     "cause": "(blind label sides with generator)"
+    },
+    {
+     "idx": 113,
+     "ing": "100g shredded fried chicken",
+     "usda": "Chicken, broilers or fryers, meat only, cooked, fried",
+     "tier": "hard",
+     "code": "G6",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 1,
+     "cause": "(blind label sides with generator)"
+    },
+    {
+     "idx": 115,
+     "ing": "100g frozen miso soup, thawed",
+     "usda": "Soup, miso or tofu",
+     "tier": "easy",
+     "code": "B3",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 1,
+     "cause": "Frozen / thawed treated as a different food"
+    },
+    {
+     "idx": 136,
+     "ing": "80g instant brown sugar oatmeal",
+     "usda": "Cereals, QUAKER, Instant Oatmeal, DINOSAUR EGGS, Brown Sugar, dry",
+     "tier": "hard",
+     "code": "G7",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 0,
+     "cause": "Brand entry carries an extra flavour or modification"
+    },
+    {
+     "idx": 149,
+     "ing": "200g chili cheese corn snacks",
+     "usda": "Corn chips, flavored (Fritos)",
+     "tier": "hard",
+     "code": "G6",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 1,
+     "cause": "(blind label sides with generator)"
+    },
+    {
+     "idx": 157,
+     "ing": "15g beef bouillon cube",
+     "usda": "Soup, beef broth or bouillon, powder, dry",
+     "tier": "edge",
+     "code": "E2",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 1,
+     "cause": "Edge case that resolves to yes"
+    },
+    {
+     "idx": 166,
+     "ing": "150g chicken nuggets",
+     "usda": "Chicken, nuggets, white meat, precooked, frozen, not reheated",
+     "tier": "medium",
+     "code": "B5",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 1,
+     "cause": "Cooking state actually matches"
+    },
+    {
+     "idx": 168,
+     "ing": "10g dried black currants",
+     "usda": "Currants, dried",
+     "tier": "medium",
+     "code": "G4",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 1,
+     "cause": "(blind label sides with generator)"
+    },
+    {
+     "idx": 173,
+     "ing": "185g beef chuck blade roast",
+     "usda": "Beef, chuck, blade roast, separable lean and fat, trimmed to 1/8\" fat, choice, raw",
+     "tier": "hard",
+     "code": "B8",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 1,
+     "cause": "Standard USDA cut wording treated as a mismatch"
+    },
+    {
+     "idx": 174,
+     "ing": "400g pork fat",
+     "usda": "Pork, fresh, separable fat, raw",
+     "tier": "easy",
+     "code": "B2",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 1,
+     "cause": "Standard USDA cut wording treated as a mismatch"
+    },
+    {
+     "idx": 201,
+     "ing": "250g whole egg, cooked",
+     "usda": "Egg, whole, cooked, NS as to cooking method",
+     "tier": "edge",
+     "code": "E2",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 1,
+     "cause": "Edge case that resolves to yes"
+    },
+    {
+     "idx": 203,
+     "ing": "290g whole wheat pita bread",
+     "usda": "Bread, pita, wheat or cracked wheat",
+     "tier": "hard",
+     "code": "B10",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 1,
+     "cause": "Planned as a different food, turned out to be the same food"
+    },
+    {
+     "idx": 205,
+     "ing": "100g roasted duck breast, skinless",
+     "usda": "Duck, domesticated, meat only, cooked, roasted",
+     "tier": "medium",
+     "code": "G4",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 1,
+     "cause": "(blind label sides with generator)"
+    },
+    {
+     "idx": 216,
+     "ing": "40g flatbread",
+     "usda": "Bread, chappatti or roti",
+     "tier": "hard",
+     "code": "G6",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 0,
+     "cause": "Claimed synonym is not the same food"
+    },
+    {
+     "idx": 227,
+     "ing": "15g sage",
+     "usda": "Spices, sage, ground",
+     "tier": "medium",
+     "code": "G5",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 1,
+     "cause": "(blind label sides with generator)"
+    },
+    {
+     "idx": 246,
+     "ing": "200g bluefish, ground",
+     "usda": "Fish, bluefish, raw",
+     "tier": "medium",
+     "code": "B6",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 1,
+     "cause": "Knife work / handling treated as a different form"
+    },
+    {
+     "idx": 251,
+     "ing": "6g homemade basil pesto",
+     "usda": "Sauce, pesto, BUITONI, pesto with basil, ready-to-serve, refrigerated",
+     "tier": "edge",
+     "code": "E2",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 1,
+     "cause": "Edge case that resolves to yes"
+    },
+    {
+     "idx": 259,
+     "ing": "50g fresh peas and carrots",
+     "usda": "Peas and carrots, fresh, cooked, no added fat",
+     "tier": "medium",
+     "code": "G9",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 0,
+     "cause": "Raw ingredient paired with a cooked entry"
+    },
+    {
+     "idx": 287,
+     "ing": "540g ground chorizo",
+     "usda": "Sausage, pork, chorizo, link or ground, cooked, pan-fried",
+     "tier": "medium",
+     "code": "G8",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 0,
+     "cause": "Raw ingredient paired with a cooked entry"
+    },
+    {
+     "idx": 313,
+     "ing": "500g dried pears, simmered",
+     "usda": "Pears, dried, sulfured, stewed, without added sugar",
+     "tier": "medium",
+     "code": "B5",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 1,
+     "cause": "Standard descriptor treated as a modification"
+    },
+    {
+     "idx": 314,
+     "ing": "200g feta cheese, crumbled",
+     "usda": "Cheese, feta",
+     "tier": "easy",
+     "code": "B2",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 1,
+     "cause": "Knife work / handling treated as a different form"
+    },
+    {
+     "idx": 353,
+     "ing": "500g liverwurst, cubed",
+     "usda": "Liverwurst spread",
+     "tier": "medium",
+     "code": "B6",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 0,
+     "cause": "(blind label sides with generator)"
+    },
+    {
+     "idx": 363,
+     "ing": "100g top round steak",
+     "usda": "Beef, round, top round steak, boneless, separable lean and fat, trimmed to 0\" fat, choice, raw",
+     "tier": "hard",
+     "code": "B8",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 1,
+     "cause": "Standard USDA cut wording treated as a mismatch"
+    },
+    {
+     "idx": 367,
+     "ing": "250g sapote fruit",
+     "usda": "Mammy-apple, (mamey), raw",
+     "tier": "hard",
+     "code": "G6",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 0,
+     "cause": "Claimed synonym is not the same food"
+    },
+    {
+     "idx": 382,
+     "ing": "250g fresh swimming crab meat",
+     "usda": "Crustaceans, crab, blue, raw",
+     "tier": "easy",
+     "code": "G3",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 1,
+     "cause": "(blind label sides with generator)"
+    },
+    {
+     "idx": 386,
+     "ing": "35g organic flax flakes cereal",
+     "usda": "Cereals ready-to-eat, NATURE'S PATH, Organic FLAX PLUS flakes",
+     "tier": "hard",
+     "code": "G7",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 1,
+     "cause": "(blind label sides with generator)"
+    },
+    {
+     "idx": 391,
+     "ing": "100g macaroni, cooked and drained",
+     "usda": "Macaroni, vegetable, enriched, cooked",
+     "tier": "edge",
+     "code": "E1",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 0,
+     "cause": "Raw ingredient paired with a cooked entry"
+    },
+    {
+     "idx": 394,
+     "ing": "6g frozen peas and onions",
+     "usda": "Peas and onions, frozen, cooked, boiled, drained, without salt",
+     "tier": "medium",
+     "code": "G9",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 0,
+     "cause": "Raw ingredient paired with a cooked entry"
+    },
+    {
+     "idx": 419,
+     "ing": "150g bread cubes, for stuffing (for serving)",
+     "usda": "Bread, white, commercially prepared (includes soft bread crumbs)",
+     "tier": "medium",
+     "code": "B6",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 1,
+     "cause": "Knife work / handling treated as a different form"
+    },
+    {
+     "idx": 432,
+     "ing": "150g beef fat (trimmed)",
+     "usda": "Beef, retail cuts, separable fat, raw",
+     "tier": "edge",
+     "code": "E2",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 1,
+     "cause": "Standard USDA cut wording treated as a mismatch"
+    },
+    {
+     "idx": 435,
+     "ing": "35g shiitake mushroom caps",
+     "usda": "Mushrooms, shiitake, raw",
+     "tier": "edge",
+     "code": "E2",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 1,
+     "cause": "Edge case that resolves to yes"
+    },
+    {
+     "idx": 441,
+     "ing": "200g frozen breadfruit chunks",
+     "usda": "Breadfruit, raw",
+     "tier": "medium",
+     "code": "B7",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 1,
+     "cause": "Frozen / thawed treated as a different food"
+    },
+    {
+     "idx": 447,
+     "ing": "175g pork crackling",
+     "usda": "Pork skin rinds",
+     "tier": "hard",
+     "code": "G6",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 1,
+     "cause": "(blind label sides with generator)"
+    },
+    {
+     "idx": 453,
+     "ing": "40g dried pear",
+     "usda": "Pears, dried, sulfured, uncooked",
+     "tier": "hard",
+     "code": "B9",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 1,
+     "cause": "Standard descriptor treated as a modification"
+    },
+    {
+     "idx": 455,
+     "ing": "200g ground pork tenderloin",
+     "usda": "Pork, fresh, loin, tenderloin, separable lean and fat, raw",
+     "tier": "medium",
+     "code": "B6",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 1,
+     "cause": "Standard USDA cut wording treated as a mismatch"
+    },
+    {
+     "idx": 456,
+     "ing": "200g beef brisket point",
+     "usda": "Beef, brisket",
+     "tier": "medium",
+     "code": "G5",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 1,
+     "cause": "(blind label sides with generator)"
+    },
+    {
+     "idx": 459,
+     "ing": "150g cooked prawns",
+     "usda": "Shrimp, baked or broiled",
+     "tier": "hard",
+     "code": "G6",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 1,
+     "cause": "(blind label sides with generator)"
+    },
+    {
+     "idx": 466,
+     "ing": "195g unpeeled rutabaga, sliced",
+     "usda": "Rutabaga, raw",
+     "tier": "edge",
+     "code": "E2",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 1,
+     "cause": "Edge case that resolves to yes"
+    },
+    {
+     "idx": 469,
+     "ing": "12g frozen pecan halves, thawed",
+     "usda": "Pecans, unroasted",
+     "tier": "medium",
+     "code": "B7",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 1,
+     "cause": "Frozen / thawed treated as a different food"
+    },
+    {
+     "idx": 481,
+     "ing": "440g ground yellowtail",
+     "usda": "Fish, yellowtail, mixed species, raw",
+     "tier": "medium",
+     "code": "B6",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 1,
+     "cause": "Knife work / handling treated as a different form"
+    },
+    {
+     "idx": 483,
+     "ing": "115g frozen lamb shank",
+     "usda": "Lamb, leg, shank half, separable lean and fat, trimmed to 1/8\" fat, choice, raw",
+     "tier": "medium",
+     "code": "B7",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 1,
+     "cause": "Frozen / thawed treated as a different food"
+    },
+    {
+     "idx": 503,
+     "ing": "1g pak choi, boiled and pureed",
+     "usda": "Cabbage, chinese (pak-choi), cooked, boiled, drained, without salt",
+     "tier": "medium",
+     "code": "B6",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 1,
+     "cause": "Knife work / handling treated as a different form"
+    },
+    {
+     "idx": 507,
+     "ing": "40g Japanese cuttlefish (ika)",
+     "usda": "Mollusks, cuttlefish, mixed species, raw",
+     "tier": "hard",
+     "code": "B10",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 1,
+     "cause": "Planned as a different food, turned out to be the same food"
+    },
+    {
+     "idx": 512,
+     "ing": "200g peppercorn pork tenderloin",
+     "usda": "HORMEL ALWAYS TENDER, Pork Tenderloin, Peppercorn-Flavored",
+     "tier": "hard",
+     "code": "G7",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 1,
+     "cause": "(blind label sides with generator)"
+    },
+    {
+     "idx": 520,
+     "ing": "50g refried bean spread",
+     "usda": "Bean dip, made with refried beans",
+     "tier": "hard",
+     "code": "G6",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 1,
+     "cause": "(blind label sides with generator)"
+    },
+    {
+     "idx": 525,
+     "ing": "100g agave spirit",
+     "usda": "Tequila",
+     "tier": "hard",
+     "code": "G6",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 1,
+     "cause": "(blind label sides with generator)"
+    },
+    {
+     "idx": 526,
+     "ing": "5g instant cinnamon oatmeal",
+     "usda": "Cereals, QUAKER, Instant Oatmeal, weight control, cinnamon",
+     "tier": "hard",
+     "code": "G7",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 0,
+     "cause": "Brand entry carries an extra flavour or modification"
+    },
+    {
+     "idx": 534,
+     "ing": "15g high oleic canola oil, high stability",
+     "usda": "Oil, vegetable, Natreon canola, high stability, non trans, high oleic (70%)",
+     "tier": "hard",
+     "code": "B8",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 1,
+     "cause": "Standard descriptor treated as a modification"
+    },
+    {
+     "idx": 538,
+     "ing": "270g guar gum, dissolved in cold water (slurry)",
+     "usda": "Gums, seed gums (includes locust bean, guar)",
+     "tier": "medium",
+     "code": "B6",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 1,
+     "cause": "Knife work / handling treated as a different form"
+    },
+    {
+     "idx": 541,
+     "ing": "255g smoked chicken sausage",
+     "usda": "Sausage, chicken, beef, pork, skinless, smoked",
+     "tier": "medium",
+     "code": "G8",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 0,
+     "cause": "Raw ingredient paired with a cooked entry"
+    },
+    {
+     "idx": 574,
+     "ing": "30g wheat bran flakes",
+     "usda": "Cereals ready-to-eat, RALSTON Enriched Wheat Bran flakes",
+     "tier": "medium",
+     "code": "B6",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 1,
+     "cause": "Knife work / handling treated as a different form"
+    },
+    {
+     "idx": 578,
+     "ing": "2g silk gourd, boiled and salted",
+     "usda": "Gourd, dishcloth (towelgourd), cooked, boiled, drained, with salt",
+     "tier": "hard",
+     "code": "G6",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 1,
+     "cause": "(blind label sides with generator)"
+    },
+    {
+     "idx": 595,
+     "ing": "5g vanilla greek yogurt",
+     "usda": "Yogurt, Greek, vanilla, nonfat",
+     "tier": "hard",
+     "code": "B8",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 1,
+     "cause": "Normal low-fat dairy treated as a modified version"
+    },
+    {
+     "idx": 597,
+     "ing": "100g dried pears",
+     "usda": "Pears, dried, sulfured, uncooked",
+     "tier": "hard",
+     "code": "B8",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 1,
+     "cause": "Standard descriptor treated as a modification"
+    },
+    {
+     "idx": 613,
+     "ing": "500g cooked lean ground turkey, crumbled",
+     "usda": "Turkey, ground, 85% lean, 15% fat, pan-broiled crumbles",
+     "tier": "medium",
+     "code": "G8",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 1,
+     "cause": "(blind label sides with generator)"
+    },
+    {
+     "idx": 617,
+     "ing": "75g eating apple, red",
+     "usda": "Apples, red delicious, with skin, raw",
+     "tier": "hard",
+     "code": "G6",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 1,
+     "cause": "(blind label sides with generator)"
+    },
+    {
+     "idx": 628,
+     "ing": "350g frozen spelt berries",
+     "usda": "Spelt, uncooked",
+     "tier": "medium",
+     "code": "B7",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 1,
+     "cause": "Frozen / thawed treated as a different food"
+    },
+    {
+     "idx": 638,
+     "ing": "140g ground pork",
+     "usda": "Pork, ground, 72% lean / 28% fat, cooked, pan-broiled",
+     "tier": "medium",
+     "code": "G8",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 0,
+     "cause": "Raw ingredient paired with a cooked entry"
+    },
+    {
+     "idx": 648,
+     "ing": "100g green tea leaves (optional)",
+     "usda": "Tea, hot, leaf, green",
+     "tier": "edge",
+     "code": "E1",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 0,
+     "cause": "Entry adds a modifier the ingredient lacks"
+    },
+    {
+     "idx": 658,
+     "ing": "35g low-sodium teriyaki sauce",
+     "usda": "Teriyaki sauce, reduced sodium",
+     "tier": "hard",
+     "code": "B10",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 1,
+     "cause": "Planned as a different food, turned out to be the same food"
+    },
+    {
+     "idx": 674,
+     "ing": "325g ground chicken leg meat",
+     "usda": "Chicken, broilers or fryers, leg, meat only, raw",
+     "tier": "medium",
+     "code": "B6",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 1,
+     "cause": "Knife work / handling treated as a different form"
+    },
+    {
+     "idx": 710,
+     "ing": "10g palm kernel shortening (optional)",
+     "usda": "Shortening confectionery, coconut (hydrogenated) and or palm kernel (hydrogenated)",
+     "tier": "edge",
+     "code": "E1",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 1,
+     "cause": "(blind label sides with generator)"
+    },
+    {
+     "idx": 728,
+     "ing": "100g beef shank crosscuts, trimmed",
+     "usda": "Beef, shank crosscuts, separable lean only, trimmed to 1/4\" fat, choice, raw",
+     "tier": "easy",
+     "code": "G3",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 1,
+     "cause": "(blind label sides with generator)"
+    },
+    {
+     "idx": 736,
+     "ing": "200g turkey bone",
+     "usda": "Turkey, NFS",
+     "tier": "easy",
+     "code": "G3",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 0,
+     "cause": "Vague catch-all USDA entry"
+    },
+    {
+     "idx": 748,
+     "ing": "250g peach Greek yogurt",
+     "usda": "Yogurt, Greek, nonfat, peach, CHOBANI",
+     "tier": "hard",
+     "code": "B8",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 1,
+     "cause": "Normal low-fat dairy treated as a modified version"
+    },
+    {
+     "idx": 758,
+     "ing": "10g vanilla yogurt",
+     "usda": "Yogurt, vanilla, low fat, fortified with vitamin D",
+     "tier": "hard",
+     "code": "B8",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 1,
+     "cause": "Normal low-fat dairy treated as a modified version"
+    },
+    {
+     "idx": 765,
+     "ing": "435g fresh raspberries",
+     "usda": "Raspberries, raw",
+     "tier": "easy",
+     "code": "B2",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 1,
+     "cause": "Planned as a different food, turned out to be the same food"
+    },
+    {
+     "idx": 773,
+     "ing": "400g chicken leg quarters, skin on",
+     "usda": "Chicken, skin (drumsticks and thighs), raw",
+     "tier": "hard",
+     "code": "G6",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 0,
+     "cause": "Claimed synonym is not the same food"
+    },
+    {
+     "idx": 777,
+     "ing": "10g vanilla Greek yogurt",
+     "usda": "Yogurt, Greek, nonfat, vanilla, DANNON OIKOS",
+     "tier": "edge",
+     "code": "E2",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 1,
+     "cause": "Normal low-fat dairy treated as a modified version"
+    },
+    {
+     "idx": 815,
+     "ing": "210g pomegranate juice from concentrate",
+     "usda": "Juice, pomegranate, from concentrate, shelf-stable",
+     "tier": "edge",
+     "code": "E2",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 1,
+     "cause": "Edge case that resolves to yes"
+    },
+    {
+     "idx": 849,
+     "ing": "145g partially dehulled millet",
+     "usda": "Millet, whole grain",
+     "tier": "edge",
+     "code": "E2",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 0,
+     "cause": "(blind label sides with generator)"
+    },
+    {
+     "idx": 855,
+     "ing": "250g palm hearts",
+     "usda": "Palm hearts, cooked",
+     "tier": "medium",
+     "code": "B5",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 1,
+     "cause": "Cooking state actually matches"
+    },
+    {
+     "idx": 860,
+     "ing": "200g pitted prunes, halved",
+     "usda": "Prunes, dehydrated (low-moisture), uncooked",
+     "tier": "edge",
+     "code": "E2",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 0,
+     "cause": "(blind label sides with generator)"
+    },
+    {
+     "idx": 865,
+     "ing": "15g creamy herb salad dressing",
+     "usda": "Salad dressing, ranch dressing, regular",
+     "tier": "hard",
+     "code": "G6",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 1,
+     "cause": "(blind label sides with generator)"
+    },
+    {
+     "idx": 880,
+     "ing": "70g fresh brussels sprouts",
+     "usda": "Brussels sprouts, frozen, unprepared",
+     "tier": "medium",
+     "code": "B7",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 0,
+     "cause": "(blind label sides with generator)"
+    },
+    {
+     "idx": 887,
+     "ing": "90g frozen grated coconut, thawed",
+     "usda": "Coconut, fresh",
+     "tier": "medium",
+     "code": "B7",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 1,
+     "cause": "Frozen / thawed treated as a different food"
+    },
+    {
+     "idx": 899,
+     "ing": "455g smoked bacon",
+     "usda": "Pork bacon, smoked or cured, cooked",
+     "tier": "medium",
+     "code": "G8",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 0,
+     "cause": "Raw ingredient paired with a cooked entry"
+    },
+    {
+     "idx": 912,
+     "ing": "50g croissant crumbs",
+     "usda": "Croissant",
+     "tier": "medium",
+     "code": "B6",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 1,
+     "cause": "Knife work / handling treated as a different form"
+    },
+    {
+     "idx": 916,
+     "ing": "200g cooked turkey breast",
+     "usda": "Turkey, all classes, light meat, cooked, roasted",
+     "tier": "hard",
+     "code": "B8",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 1,
+     "cause": "Standard descriptor treated as a modification"
+    },
+    {
+     "idx": 935,
+     "ing": "3g chinese mustard greens",
+     "usda": "Mustard spinach, (tendergreen), cooked, boiled, drained, without salt",
+     "tier": "hard",
+     "code": "G6",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 0,
+     "cause": "Raw ingredient paired with a cooked entry"
+    },
+    {
+     "idx": 937,
+     "ing": "150g fresh beef tip roast",
+     "usda": "Beef, round, tip round, roast, separable lean and fat, trimmed to 0\" fat, select, raw",
+     "tier": "easy",
+     "code": "G3",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 1,
+     "cause": "(blind label sides with generator)"
+    },
+    {
+     "idx": 954,
+     "ing": "6g pickled tabasco peppers",
+     "usda": "Peppers, hot, pickled",
+     "tier": "medium",
+     "code": "G4",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 1,
+     "cause": "(blind label sides with generator)"
+    },
+    {
+     "idx": 956,
+     "ing": "200g frozen gouda, thawed",
+     "usda": "Cheese, Gouda or Edam",
+     "tier": "medium",
+     "code": "B7",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 1,
+     "cause": "Frozen / thawed treated as a different food"
+    },
+    {
+     "idx": 980,
+     "ing": "150g maple-flavored dark corn syrup",
+     "usda": "Pancake syrup",
+     "tier": "hard",
+     "code": "B9",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 1,
+     "cause": "Standard descriptor treated as a modification"
+    },
+    {
+     "idx": 984,
+     "ing": "50g frozen deglet noor dates",
+     "usda": "Dates, deglet noor",
+     "tier": "medium",
+     "code": "B7",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 1,
+     "cause": "Frozen / thawed treated as a different food"
+    },
+    {
+     "idx": 998,
+     "ing": "400g chicken leg and thigh skins",
+     "usda": "Chicken, skin (drumsticks and thighs), cooked, braised",
+     "tier": "hard",
+     "code": "G6",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 0,
+     "cause": "Raw ingredient paired with a cooked entry"
+    },
+    {
+     "idx": 1002,
+     "ing": "110g roasted turkey breast",
+     "usda": "Turkey, light meat, roasted, skin not eaten",
+     "tier": "hard",
+     "code": "B8",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 1,
+     "cause": "Standard descriptor treated as a modification"
+    },
+    {
+     "idx": 1008,
+     "ing": "400g frozen pompano, thawed",
+     "usda": "Fish, pompano, florida, raw",
+     "tier": "medium",
+     "code": "B7",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 1,
+     "cause": "Frozen / thawed treated as a different food"
+    },
+    {
+     "idx": 1010,
+     "ing": "75g bread and butter pickles, drained",
+     "usda": "Pickles, sweet",
+     "tier": "medium",
+     "code": "G4",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 1,
+     "cause": "(blind label sides with generator)"
+    },
+    {
+     "idx": 1019,
+     "ing": "75g pinon nuts",
+     "usda": "Nuts, pine nuts, dried",
+     "tier": "edge",
+     "code": "E2",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 1,
+     "cause": "Edge case that resolves to yes"
+    },
+    {
+     "idx": 1030,
+     "ing": "15g salted almond butter",
+     "usda": "Nuts, almond butter, plain, with salt added",
+     "tier": "hard",
+     "code": "B8",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 1,
+     "cause": "Standard descriptor treated as a modification"
+    },
+    {
+     "idx": 1063,
+     "ing": "1g chicken seasoning blend",
+     "usda": "Spices, poultry seasoning",
+     "tier": "hard",
+     "code": "G6",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 1,
+     "cause": "(blind label sides with generator)"
+    },
+    {
+     "idx": 1075,
+     "ing": "30g shredded provolone cheese",
+     "usda": "Cheese, provolone, sliced",
+     "tier": "medium",
+     "code": "B6",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 1,
+     "cause": "Knife work / handling treated as a different form"
+    },
+    {
+     "idx": 1079,
+     "ing": "150g chocolate yogurt",
+     "usda": "Yogurt, chocolate, nonfat milk, fortified with vitamin D",
+     "tier": "hard",
+     "code": "B8",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 1,
+     "cause": "Normal low-fat dairy treated as a modified version"
+    },
+    {
+     "idx": 1080,
+     "ing": "300g cane syrup (optional)",
+     "usda": "Syrup, NFS",
+     "tier": "edge",
+     "code": "E1",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 0,
+     "cause": "Vague catch-all USDA entry"
+    },
+    {
+     "idx": 1102,
+     "ing": "250g frozen amaranth leaves, thawed",
+     "usda": "Amaranth leaves, raw",
+     "tier": "medium",
+     "code": "B7",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 1,
+     "cause": "Frozen / thawed treated as a different food"
+    },
+    {
+     "idx": 1105,
+     "ing": "200g fruit yogurt",
+     "usda": "Yogurt, nonfat milk, fruit",
+     "tier": "hard",
+     "code": "B8",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 0,
+     "cause": "(blind label sides with generator)"
+    },
+    {
+     "idx": 1107,
+     "ing": "6g beef tallow for frying",
+     "usda": "Shortening frying (heavy duty), beef tallow and cottonseed",
+     "tier": "hard",
+     "code": "G6",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 0,
+     "cause": "Claimed synonym is not the same food"
+    },
+    {
+     "idx": 1116,
+     "ing": "3g sunflower butter",
+     "usda": "Seeds, sunflower seed butter, with salt added (Includes foods for USDA's Food Distribution Program)",
+     "tier": "hard",
+     "code": "B9",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 1,
+     "cause": "Standard descriptor treated as a modification"
+    },
+    {
+     "idx": 1122,
+     "ing": "500g boneless chicken thighs",
+     "usda": "Chicken, broilers or fryers, thigh, meat only, cooked, roasted",
+     "tier": "hard",
+     "code": "G6",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 0,
+     "cause": "Raw ingredient paired with a cooked entry"
+    },
+    {
+     "idx": 1124,
+     "ing": "390g toasted oat bran bread",
+     "usda": "Bread, reduced-calorie, oat bran, toasted",
+     "tier": "medium",
+     "code": "G8",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 0,
+     "cause": "Raw ingredient paired with a cooked entry"
+    },
+    {
+     "idx": 1126,
+     "ing": "250g arrowroot",
+     "usda": "Arrowroot, raw",
+     "tier": "easy",
+     "code": "G1",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 0,
+     "cause": "Entry adds a modifier the ingredient lacks"
+    },
+    {
+     "idx": 1135,
+     "ing": "100g frozen yogurt",
+     "usda": "Yogurt, frozen, flavors other than chocolate, lowfat",
+     "tier": "hard",
+     "code": "B8",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 1,
+     "cause": "Frozen / thawed treated as a different food"
+    },
+    {
+     "idx": 1151,
+     "ing": "5g sunflower seed butter",
+     "usda": "Seeds, sunflower seed butter, without salt",
+     "tier": "medium",
+     "code": "G5",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 1,
+     "cause": "(blind label sides with generator)"
+    },
+    {
+     "idx": 1156,
+     "ing": "75g frozen peas and carrots",
+     "usda": "Peas and carrots, frozen, cooked, no added fat",
+     "tier": "medium",
+     "code": "G9",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 0,
+     "cause": "Raw ingredient paired with a cooked entry"
+    },
+    {
+     "idx": 1158,
+     "ing": "20g uncooked sofrito",
+     "usda": "Sauce, sofrito, prepared from recipe",
+     "tier": "medium",
+     "code": "B5",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 1,
+     "cause": "Cooking state actually matches"
+    },
+    {
+     "idx": 1178,
+     "ing": "25g finely ground pistachio nuts",
+     "usda": "Pistachio nuts, unsalted",
+     "tier": "medium",
+     "code": "B6",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 1,
+     "cause": "Knife work / handling treated as a different form"
+    },
+    {
+     "idx": 1189,
+     "ing": "500g buttermilk",
+     "usda": "Milk, buttermilk, fluid, cultured, reduced fat",
+     "tier": "hard",
+     "code": "B8",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 1,
+     "cause": "Normal low-fat dairy treated as a modified version"
+    },
+    {
+     "idx": 1226,
+     "ing": "200g fruit Greek yogurt",
+     "usda": "Yogurt, Greek, nonfat milk, fruit",
+     "tier": "hard",
+     "code": "B8",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 1,
+     "cause": "Normal low-fat dairy treated as a modified version"
+    },
+    {
+     "idx": 1232,
+     "ing": "300g chicken heart, simmered",
+     "usda": "Chicken, heart, all classes, cooked, simmered",
+     "tier": "medium",
+     "code": "B5",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 1,
+     "cause": "Cooking state actually matches"
+    },
+    {
+     "idx": 1258,
+     "ing": "105g beef tip roast",
+     "usda": "Beef, round, tip round, roast, separable lean and fat, trimmed to 0\" fat, all grades, raw",
+     "tier": "medium",
+     "code": "G5",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 1,
+     "cause": "(blind label sides with generator)"
+    },
+    {
+     "idx": 1295,
+     "ing": "555g turkey breast",
+     "usda": "Turkey, light meat, skin not eaten",
+     "tier": "hard",
+     "code": "B8",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 1,
+     "cause": "Standard descriptor treated as a modification"
+    },
+    {
+     "idx": 1313,
+     "ing": "25g recaito",
+     "usda": "Sauce, sofrito, prepared from recipe",
+     "tier": "hard",
+     "code": "G6",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 1,
+     "cause": "(blind label sides with generator)"
+    },
+    {
+     "idx": 1315,
+     "ing": "5g roasted pumpkin seeds",
+     "usda": "Seeds, pumpkin and squash seed kernels, roasted, with salt added",
+     "tier": "hard",
+     "code": "B9",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 1,
+     "cause": "Standard descriptor treated as a modification"
+    },
+    {
+     "idx": 1341,
+     "ing": "200g boneless short ribs, beef chuck",
+     "usda": "Beef, chuck, short ribs, boneless, separable lean and fat, trimmed to 0\" fat, all grades, raw",
+     "tier": "easy",
+     "code": "G2",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 1,
+     "cause": "(blind label sides with generator)"
+    },
+    {
+     "idx": 1351,
+     "ing": "400g extra-lean ground turkey",
+     "usda": "Turkey, ground, fat free, patties, broiled",
+     "tier": "medium",
+     "code": "G8",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 0,
+     "cause": "Raw ingredient paired with a cooked entry"
+    },
+    {
+     "idx": 1360,
+     "ing": "185g tiger shrimp, peeled",
+     "usda": "Shrimp, NFS",
+     "tier": "edge",
+     "code": "E2",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 1,
+     "cause": "Edge case that resolves to yes"
+    },
+    {
+     "idx": 1366,
+     "ing": "300g fruit yogurt",
+     "usda": "Yogurt, fruit, low fat, 11g protein/8 oz",
+     "tier": "hard",
+     "code": "B8",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 1,
+     "cause": "Normal low-fat dairy treated as a modified version"
+    },
+    {
+     "idx": 1374,
+     "ing": "300g lamb kidneys",
+     "usda": "Lamb, New Zealand, imported, kidney, raw",
+     "tier": "easy",
+     "code": "B2",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 1,
+     "cause": "Planned as a different food, turned out to be the same food"
+    },
+    {
+     "idx": 1394,
+     "ing": "100g high oleic canola oil",
+     "usda": "Oil, industrial, canola, high oleic",
+     "tier": "medium",
+     "code": "G4",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 1,
+     "cause": "(blind label sides with generator)"
+    },
+    {
+     "idx": 1396,
+     "ing": "12g vanilla Greek yogurt",
+     "usda": "Yogurt, Greek, nonfat, vanilla, CHOBANI",
+     "tier": "hard",
+     "code": "B8",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 1,
+     "cause": "Normal low-fat dairy treated as a modified version"
+    },
+    {
+     "idx": 1402,
+     "ing": "160g red enchilada sauce",
+     "usda": "Sauce, enchilada, red, mild, ready to serve",
+     "tier": "edge",
+     "code": "E2",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 1,
+     "cause": "Edge case that resolves to yes"
+    },
+    {
+     "idx": 1417,
+     "ing": "500g fresh lulo pulp, unsweetened",
+     "usda": "Naranjilla (lulo) pulp, frozen, unsweetened",
+     "tier": "medium",
+     "code": "B7",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 1,
+     "cause": "Frozen / thawed treated as a different food"
+    },
+    {
+     "idx": 1431,
+     "ing": "985g strawberry Greek yogurt",
+     "usda": "Yogurt, Greek, strawberry, lowfat",
+     "tier": "hard",
+     "code": "B8",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 1,
+     "cause": "Normal low-fat dairy treated as a modified version"
+    },
+    {
+     "idx": 1457,
+     "ing": "16g ground pinyon nuts",
+     "usda": "Nuts, pine nuts, dried",
+     "tier": "medium",
+     "code": "B6",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 1,
+     "cause": "Knife work / handling treated as a different form"
+    },
+    {
+     "idx": 1460,
+     "ing": "165g fresh crab meat (for serving)",
+     "usda": "Crustaceans, crab, blue, cooked, moist heat",
+     "tier": "medium",
+     "code": "B5",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 1,
+     "cause": "Cooking state actually matches"
+    },
+    {
+     "idx": 1480,
+     "ing": "75g cottage cheese with fruit",
+     "usda": "Cheese, cottage, lowfat, with fruit",
+     "tier": "hard",
+     "code": "B8",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 1,
+     "cause": "Normal low-fat dairy treated as a modified version"
+    },
+    {
+     "idx": 1493,
+     "ing": "100g ground chicken",
+     "usda": "Chicken, ground, crumbles, cooked, pan-browned",
+     "tier": "medium",
+     "code": "G8",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 0,
+     "cause": "Raw ingredient paired with a cooked entry"
+    }
+   ]
+  },
+  "check": {
+   "all": {
+    "n": 1500,
+    "blind_agree": 1434,
+    "blind_pct": 95.6,
+    "wrong": 17,
+    "ambiguous": 27,
+    "blind_reviewer_wrong": 22,
+    "adj_correct": 1456,
+    "adj_pct": 97.1,
+    "adj_pct_hi": 98.9,
+    "border": 243,
+    "border_pct": 16.2
+   },
+   "clear": {
+    "n": 1257,
+    "blind_agree": 1242,
+    "blind_pct": 98.8,
+    "wrong": 12,
+    "ambiguous": 2,
+    "blind_reviewer_wrong": 1,
+    "adj_correct": 1243,
+    "adj_pct": 98.9,
+    "adj_pct_hi": 99.0,
+    "border": 0,
+    "border_pct": 0.0
+   },
+   "border": {
+    "n": 243,
+    "blind_agree": 192,
+    "blind_pct": 79.0,
+    "wrong": 5,
+    "ambiguous": 25,
+    "blind_reviewer_wrong": 21,
+    "adj_correct": 213,
+    "adj_pct": 87.7,
+    "adj_pct_hi": 97.9,
+    "border": 243,
+    "border_pct": 100.0
+   },
+   "ci_blind": [
+    94.4,
+    96.5
+   ],
+   "ci_adj": [
+    96.1,
+    97.8
+   ],
+   "ci_wrong": [
+    0.7,
+    1.8
+   ],
+   "kappa_blind": 0.912,
+   "confusion": {
+    "m0h0": 758,
+    "m0h1": 10,
+    "m1h0": 56,
+    "m1h1": 676
+   },
+   "by_tier": [
+    {
+     "k": "easy",
+     "n": 463,
+     "blind_agree": 456,
+     "blind_pct": 98.5,
+     "wrong": 3,
+     "ambiguous": 2,
+     "blind_reviewer_wrong": 2,
+     "adj_correct": 458,
+     "adj_pct": 98.9,
+     "adj_pct_hi": 99.4,
+     "border": 24,
+     "border_pct": 5.2
+    },
+    {
+     "k": "medium",
+     "n": 469,
+     "blind_agree": 450,
+     "blind_pct": 95.9,
+     "wrong": 6,
+     "ambiguous": 5,
+     "blind_reviewer_wrong": 8,
+     "adj_correct": 458,
+     "adj_pct": 97.7,
+     "adj_pct_hi": 98.7,
+     "border": 78,
+     "border_pct": 16.6
+    },
+    {
+     "k": "hard",
+     "n": 460,
+     "blind_agree": 428,
+     "blind_pct": 93.0,
+     "wrong": 8,
+     "ambiguous": 14,
+     "blind_reviewer_wrong": 10,
+     "adj_correct": 438,
+     "adj_pct": 95.2,
+     "adj_pct_hi": 98.3,
+     "border": 113,
+     "border_pct": 24.6
+    },
+    {
+     "k": "edge",
+     "n": 108,
+     "blind_agree": 100,
+     "blind_pct": 92.6,
+     "wrong": 0,
+     "ambiguous": 6,
+     "blind_reviewer_wrong": 2,
+     "adj_correct": 102,
+     "adj_pct": 94.4,
+     "adj_pct_hi": 100.0,
+     "border": 28,
+     "border_pct": 25.9
+    }
+   ],
+   "by_family": [
+    {
+     "k": "meat",
+     "n": 175,
+     "blind_agree": 164,
+     "blind_pct": 93.7,
+     "wrong": 6,
+     "ambiguous": 1,
+     "blind_reviewer_wrong": 4,
+     "adj_correct": 168,
+     "adj_pct": 96.0,
+     "adj_pct_hi": 96.6,
+     "border": 27,
+     "border_pct": 15.4
+    },
+    {
+     "k": "fruits",
+     "n": 152,
+     "blind_agree": 148,
+     "blind_pct": 97.4,
+     "wrong": 0,
+     "ambiguous": 2,
+     "blind_reviewer_wrong": 2,
+     "adj_correct": 150,
+     "adj_pct": 98.7,
+     "adj_pct_hi": 100.0,
+     "border": 22,
+     "border_pct": 14.5
+    },
+    {
+     "k": "grains_pasta_bread",
+     "n": 149,
+     "blind_agree": 146,
+     "blind_pct": 98.0,
+     "wrong": 1,
+     "ambiguous": 1,
+     "blind_reviewer_wrong": 1,
+     "adj_correct": 147,
+     "adj_pct": 98.7,
+     "adj_pct_hi": 99.3,
+     "border": 21,
+     "border_pct": 14.1
+    },
+    {
+     "k": "seafood",
+     "n": 120,
+     "blind_agree": 118,
+     "blind_pct": 98.3,
+     "wrong": 0,
+     "ambiguous": 1,
+     "blind_reviewer_wrong": 1,
+     "adj_correct": 119,
+     "adj_pct": 99.2,
+     "adj_pct_hi": 100.0,
+     "border": 11,
+     "border_pct": 9.2
+    },
+    {
+     "k": "vegetables",
+     "n": 118,
+     "blind_agree": 115,
+     "blind_pct": 97.5,
+     "wrong": 0,
+     "ambiguous": 3,
+     "blind_reviewer_wrong": 0,
+     "adj_correct": 115,
+     "adj_pct": 97.5,
+     "adj_pct_hi": 100.0,
+     "border": 14,
+     "border_pct": 11.9
+    },
+    {
+     "k": "dairy_eggs",
+     "n": 114,
+     "blind_agree": 109,
+     "blind_pct": 95.6,
+     "wrong": 0,
+     "ambiguous": 3,
+     "blind_reviewer_wrong": 2,
+     "adj_correct": 111,
+     "adj_pct": 97.4,
+     "adj_pct_hi": 100.0,
+     "border": 12,
+     "border_pct": 10.5
+    },
+    {
+     "k": "legumes_nuts_seeds",
+     "n": 92,
+     "blind_agree": 91,
+     "blind_pct": 98.9,
+     "wrong": 0,
+     "ambiguous": 0,
+     "blind_reviewer_wrong": 1,
+     "adj_correct": 92,
+     "adj_pct": 100.0,
+     "adj_pct_hi": 100.0,
+     "border": 14,
+     "border_pct": 15.2
+    },
+    {
+     "k": "sauces_condiments",
+     "n": 81,
+     "blind_agree": 74,
+     "blind_pct": 91.4,
+     "wrong": 1,
+     "ambiguous": 3,
+     "blind_reviewer_wrong": 3,
+     "adj_correct": 77,
+     "adj_pct": 95.1,
+     "adj_pct_hi": 98.8,
+     "border": 19,
+     "border_pct": 23.5
+    },
+    {
+     "k": "topup_syn",
+     "n": 79,
+     "blind_agree": 71,
+     "blind_pct": 89.9,
+     "wrong": 2,
+     "ambiguous": 5,
+     "blind_reviewer_wrong": 1,
+     "adj_correct": 72,
+     "adj_pct": 91.1,
+     "adj_pct_hi": 97.5,
+     "border": 20,
+     "border_pct": 25.3
+    },
+    {
+     "k": "oils_fats",
+     "n": 75,
+     "blind_agree": 71,
+     "blind_pct": 94.7,
+     "wrong": 1,
+     "ambiguous": 2,
+     "blind_reviewer_wrong": 1,
+     "adj_correct": 72,
+     "adj_pct": 96.0,
+     "adj_pct_hi": 98.7,
+     "border": 9,
+     "border_pct": 12.0
+    },
+    {
+     "k": "broths_drinks_baking",
+     "n": 75,
+     "blind_agree": 71,
+     "blind_pct": 94.7,
+     "wrong": 1,
+     "ambiguous": 2,
+     "blind_reviewer_wrong": 1,
+     "adj_correct": 72,
+     "adj_pct": 96.0,
+     "adj_pct_hi": 98.7,
+     "border": 15,
+     "border_pct": 20.0
+    },
+    {
+     "k": "topup_variant",
+     "n": 73,
+     "blind_agree": 70,
+     "blind_pct": 95.9,
+     "wrong": 0,
+     "ambiguous": 3,
+     "blind_reviewer_wrong": 0,
+     "adj_correct": 70,
+     "adj_pct": 95.9,
+     "adj_pct_hi": 100.0,
+     "border": 29,
+     "border_pct": 39.7
+    },
+    {
+     "k": "poultry",
+     "n": 73,
+     "blind_agree": 70,
+     "blind_pct": 95.9,
+     "wrong": 1,
+     "ambiguous": 0,
+     "blind_reviewer_wrong": 2,
+     "adj_correct": 72,
+     "adj_pct": 98.6,
+     "adj_pct_hi": 98.6,
+     "border": 6,
+     "border_pct": 8.2
+    },
+    {
+     "k": "herbs_spices",
+     "n": 46,
+     "blind_agree": 42,
+     "blind_pct": 91.3,
+     "wrong": 1,
+     "ambiguous": 1,
+     "blind_reviewer_wrong": 2,
+     "adj_correct": 44,
+     "adj_pct": 95.7,
+     "adj_pct_hi": 97.8,
+     "border": 7,
+     "border_pct": 15.2
+    }
+   ],
+   "by_source": [
+    {
+     "k": "SR_Legacy",
+     "n": 893,
+     "blind_agree": 847,
+     "blind_pct": 94.8,
+     "wrong": 13,
+     "ambiguous": 17,
+     "blind_reviewer_wrong": 16,
+     "adj_correct": 863,
+     "adj_pct": 96.6,
+     "adj_pct_hi": 98.5,
+     "border": 154,
+     "border_pct": 17.2
+    },
+    {
+     "k": "FNDDS",
+     "n": 496,
+     "blind_agree": 480,
+     "blind_pct": 96.8,
+     "wrong": 4,
+     "ambiguous": 7,
+     "blind_reviewer_wrong": 5,
+     "adj_correct": 485,
+     "adj_pct": 97.8,
+     "adj_pct_hi": 99.2,
+     "border": 73,
+     "border_pct": 14.7
+    },
+    {
+     "k": "Foundation",
+     "n": 111,
+     "blind_agree": 107,
+     "blind_pct": 96.4,
+     "wrong": 0,
+     "ambiguous": 3,
+     "blind_reviewer_wrong": 1,
+     "adj_correct": 108,
+     "adj_pct": 97.3,
+     "adj_pct_hi": 100.0,
+     "border": 16,
+     "border_pct": 14.4
+    }
+   ],
+   "by_cuisine": [
+    {
+     "k": "western",
+     "n": 857,
+     "blind_agree": 825,
+     "blind_pct": 96.3,
+     "wrong": 9,
+     "ambiguous": 8,
+     "blind_reviewer_wrong": 15,
+     "adj_correct": 840,
+     "adj_pct": 98.0,
+     "adj_pct_hi": 98.9,
+     "border": 111,
+     "border_pct": 13.0
+    },
+    {
+     "k": "non-western",
+     "n": 413,
+     "blind_agree": 394,
+     "blind_pct": 95.4,
+     "wrong": 3,
+     "ambiguous": 11,
+     "blind_reviewer_wrong": 5,
+     "adj_correct": 399,
+     "adj_pct": 96.6,
+     "adj_pct_hi": 99.3,
+     "border": 66,
+     "border_pct": 16.0
+    },
+    {
+     "k": "unknown",
+     "n": 230,
+     "blind_agree": 215,
+     "blind_pct": 93.5,
+     "wrong": 5,
+     "ambiguous": 8,
+     "blind_reviewer_wrong": 2,
+     "adj_correct": 217,
+     "adj_pct": 94.3,
+     "adj_pct_hi": 97.8,
+     "border": 66,
+     "border_pct": 28.7
+    }
+   ],
+   "by_code": [
+    {
+     "k": "G6",
+     "n": 187,
+     "blind_agree": 172,
+     "blind_pct": 92.0,
+     "wrong": 2,
+     "ambiguous": 8,
+     "blind_reviewer_wrong": 5,
+     "adj_correct": 177,
+     "adj_pct": 94.7,
+     "adj_pct_hi": 98.9,
+     "border": 47,
+     "border_pct": 25.1
+    },
+    {
+     "k": "B2",
+     "n": 126,
+     "blind_agree": 124,
+     "blind_pct": 98.4,
+     "wrong": 0,
+     "ambiguous": 1,
+     "blind_reviewer_wrong": 1,
+     "adj_correct": 125,
+     "adj_pct": 99.2,
+     "adj_pct_hi": 100.0,
+     "border": 10,
+     "border_pct": 7.9
+    },
+    {
+     "k": "B6",
+     "n": 92,
+     "blind_agree": 87,
+     "blind_pct": 94.6,
+     "wrong": 1,
+     "ambiguous": 2,
+     "blind_reviewer_wrong": 2,
+     "adj_correct": 89,
+     "adj_pct": 96.7,
+     "adj_pct_hi": 98.9,
+     "border": 20,
+     "border_pct": 21.7
+    },
+    {
+     "k": "G5",
+     "n": 92,
+     "blind_agree": 88,
+     "blind_pct": 95.7,
+     "wrong": 3,
+     "ambiguous": 1,
+     "blind_reviewer_wrong": 0,
+     "adj_correct": 88,
+     "adj_pct": 95.7,
+     "adj_pct_hi": 96.7,
+     "border": 7,
+     "border_pct": 7.6
+    },
+    {
+     "k": "B9",
+     "n": 90,
+     "blind_agree": 83,
+     "blind_pct": 92.2,
+     "wrong": 2,
+     "ambiguous": 1,
+     "blind_reviewer_wrong": 4,
+     "adj_correct": 87,
+     "adj_pct": 96.7,
+     "adj_pct_hi": 97.8,
+     "border": 17,
+     "border_pct": 18.9
+    },
+    {
+     "k": "B8",
+     "n": 84,
+     "blind_agree": 81,
+     "blind_pct": 96.4,
+     "wrong": 0,
+     "ambiguous": 3,
+     "blind_reviewer_wrong": 0,
+     "adj_correct": 81,
+     "adj_pct": 96.4,
+     "adj_pct_hi": 100.0,
+     "border": 32,
+     "border_pct": 38.1
+    },
+    {
+     "k": "G4",
+     "n": 84,
+     "blind_agree": 79,
+     "blind_pct": 94.0,
+     "wrong": 2,
+     "ambiguous": 0,
+     "blind_reviewer_wrong": 3,
+     "adj_correct": 82,
+     "adj_pct": 97.6,
+     "adj_pct_hi": 97.6,
+     "border": 8,
+     "border_pct": 9.5
+    },
+    {
+     "k": "B1",
+     "n": 83,
+     "blind_agree": 83,
+     "blind_pct": 100.0,
+     "wrong": 0,
+     "ambiguous": 0,
+     "blind_reviewer_wrong": 0,
+     "adj_correct": 83,
+     "adj_pct": 100.0,
+     "adj_pct_hi": 100.0,
+     "border": 0,
+     "border_pct": 0.0
+    },
+    {
+     "k": "B5",
+     "n": 81,
+     "blind_agree": 80,
+     "blind_pct": 98.8,
+     "wrong": 0,
+     "ambiguous": 0,
+     "blind_reviewer_wrong": 1,
+     "adj_correct": 81,
+     "adj_pct": 100.0,
+     "adj_pct_hi": 100.0,
+     "border": 12,
+     "border_pct": 14.8
+    },
+    {
+     "k": "B3",
+     "n": 80,
+     "blind_agree": 80,
+     "blind_pct": 100.0,
+     "wrong": 0,
+     "ambiguous": 0,
+     "blind_reviewer_wrong": 0,
+     "adj_correct": 80,
+     "adj_pct": 100.0,
+     "adj_pct_hi": 100.0,
+     "border": 3,
+     "border_pct": 3.8
+    },
+    {
+     "k": "G3",
+     "n": 64,
+     "blind_agree": 60,
+     "blind_pct": 93.8,
+     "wrong": 2,
+     "ambiguous": 1,
+     "blind_reviewer_wrong": 1,
+     "adj_correct": 61,
+     "adj_pct": 95.3,
+     "adj_pct_hi": 96.9,
+     "border": 9,
+     "border_pct": 14.1
+    },
+    {
+     "k": "B7",
+     "n": 63,
+     "blind_agree": 60,
+     "blind_pct": 95.2,
+     "wrong": 0,
+     "ambiguous": 2,
+     "blind_reviewer_wrong": 1,
+     "adj_correct": 61,
+     "adj_pct": 96.8,
+     "adj_pct_hi": 100.0,
+     "border": 18,
+     "border_pct": 28.6
+    },
+    {
+     "k": "G1",
+     "n": 59,
+     "blind_agree": 59,
+     "blind_pct": 100.0,
+     "wrong": 0,
+     "ambiguous": 0,
+     "blind_reviewer_wrong": 0,
+     "adj_correct": 59,
+     "adj_pct": 100.0,
+     "adj_pct_hi": 100.0,
+     "border": 1,
+     "border_pct": 1.7
+    },
+    {
+     "k": "G2",
+     "n": 51,
+     "blind_agree": 50,
+     "blind_pct": 98.0,
+     "wrong": 1,
+     "ambiguous": 0,
+     "blind_reviewer_wrong": 0,
+     "adj_correct": 50,
+     "adj_pct": 98.0,
+     "adj_pct_hi": 98.0,
+     "border": 1,
+     "border_pct": 2.0
+    },
+    {
+     "k": "G8",
+     "n": 44,
+     "blind_agree": 43,
+     "blind_pct": 97.7,
+     "wrong": 0,
+     "ambiguous": 0,
+     "blind_reviewer_wrong": 1,
+     "adj_correct": 44,
+     "adj_pct": 100.0,
+     "adj_pct_hi": 100.0,
+     "border": 9,
+     "border_pct": 20.5
+    },
+    {
+     "k": "E1",
+     "n": 43,
+     "blind_agree": 42,
+     "blind_pct": 97.7,
+     "wrong": 0,
+     "ambiguous": 1,
+     "blind_reviewer_wrong": 0,
+     "adj_correct": 42,
+     "adj_pct": 97.7,
+     "adj_pct_hi": 100.0,
+     "border": 7,
+     "border_pct": 16.3
+    },
+    {
+     "k": "B10",
+     "n": 38,
+     "blind_agree": 34,
+     "blind_pct": 89.5,
+     "wrong": 1,
+     "ambiguous": 2,
+     "blind_reviewer_wrong": 1,
+     "adj_correct": 35,
+     "adj_pct": 92.1,
+     "adj_pct_hi": 97.4,
+     "border": 13,
+     "border_pct": 34.2
+    },
+    {
+     "k": "B4",
+     "n": 37,
+     "blind_agree": 37,
+     "blind_pct": 100.0,
+     "wrong": 0,
+     "ambiguous": 0,
+     "blind_reviewer_wrong": 0,
+     "adj_correct": 37,
+     "adj_pct": 100.0,
+     "adj_pct_hi": 100.0,
+     "border": 0,
+     "border_pct": 0.0
+    },
+    {
+     "k": "E2",
+     "n": 36,
+     "blind_agree": 29,
+     "blind_pct": 80.6,
+     "wrong": 0,
+     "ambiguous": 5,
+     "blind_reviewer_wrong": 2,
+     "adj_correct": 31,
+     "adj_pct": 86.1,
+     "adj_pct_hi": 100.0,
+     "border": 20,
+     "border_pct": 55.6
+    }
+   ],
+   "by_split": [
+    {
+     "k": "fewshot",
+     "n": 18,
+     "blind_agree": 18,
+     "blind_pct": 100.0,
+     "wrong": 0,
+     "ambiguous": 0,
+     "blind_reviewer_wrong": 0,
+     "adj_correct": 18,
+     "adj_pct": 100.0,
+     "adj_pct_hi": 100.0,
+     "border": 4,
+     "border_pct": 22.2
+    },
+    {
+     "k": "fit",
+     "n": 519,
+     "blind_agree": 492,
+     "blind_pct": 94.8,
+     "wrong": 7,
+     "ambiguous": 13,
+     "blind_reviewer_wrong": 7,
+     "adj_correct": 499,
+     "adj_pct": 96.1,
+     "adj_pct_hi": 98.7,
+     "border": 89,
+     "border_pct": 17.1
+    },
+    {
+     "k": "router",
+     "n": 373,
+     "blind_agree": 358,
+     "blind_pct": 96.0,
+     "wrong": 5,
+     "ambiguous": 4,
+     "blind_reviewer_wrong": 6,
+     "adj_correct": 364,
+     "adj_pct": 97.6,
+     "adj_pct_hi": 98.7,
+     "border": 66,
+     "border_pct": 17.7
+    },
+    {
+     "k": "test",
+     "n": 590,
+     "blind_agree": 566,
+     "blind_pct": 95.9,
+     "wrong": 5,
+     "ambiguous": 10,
+     "blind_reviewer_wrong": 9,
+     "adj_correct": 575,
+     "adj_pct": 97.5,
+     "adj_pct_hi": 99.2,
+     "border": 84,
+     "border_pct": 14.2
+    }
+   ],
+   "direction": {
+    "HW": {
+     "haiku_no": 15,
+     "haiku_yes": 2
+    },
+    "AMB": {
+     "haiku_no": 20,
+     "haiku_yes": 7
+    },
+    "HR": {
+     "haiku_no": 21,
+     "haiku_yes": 1
+    }
+   },
+   "hw_causes": [
+    [
+     "over-read USDA descriptor",
+     6
+    ],
+    [
+     "brand fact wrong",
+     2
+    ],
+    [
+     "parent entry treated as a sibling variety",
+     2
+    ],
+    [
+     "wrong product form",
+     1
+    ],
+    [
+     "misread the ingredient",
+     1
+    ],
+    [
+     "parent entry treated as a different cut",
+     1
+    ],
+    [
+     "over-read brand name",
+     1
+    ],
+    [
+     "botanical fact wrong",
+     1
+    ],
+    [
+     "USDA fact wrong",
+     1
+    ],
+    [
+     "salt descriptor",
+     1
+    ]
+   ],
+   "amb_causes": [
+    [
+     "regional name vs different product",
+     4
+    ],
+    [
+     "ingredient itself is vague",
+     3
+    ],
+    [
+     "variety -> generic parent entry",
+     2
+    ],
+    [
+     "sweetened as default or as modification",
+     2
+    ],
+    [
+     "'with salt' descriptor",
+     2
+    ],
+    [
+     "'dehydrated",
+     2
+    ],
+    [
+     "category entry read as a blend; 100-proof is a real modifier",
+     1
+    ],
+    [
+     "split/dehulled dal vs whole dried seed",
+     1
+    ],
+    [
+     "plain herb name -> ground spice entry",
+     1
+    ],
+    [
+     "'meat only' accepted here, rejected in #113",
+     1
+    ],
+    [
+     "species naming",
+     1
+    ],
+    [
+     "baobab pulp is naturally a dry powder; wording suggests moist",
+     1
+    ],
+    [
+     "specialty fat, 'and/or' wording",
+     1
+    ],
+    [
+     "fresh ingredient -> frozen entry",
+     1
+    ],
+    [
+     "'All flavors' entry for an unsweetened ingredient",
+     1
+    ],
+    [
+     "specialty fat vs plain oil",
+     1
+    ],
+    [
+     "'nonfat' stretched from the 'low fat' yogurt exception",
+     1
+    ],
+    [
+     "frozen product vs shelf-stable product",
+     1
+    ]
+   ],
+   "hr_causes": [
+    [
+     "generic ingredient -> one specific member",
+     4
+    ],
+    [
+     "specific cut -> whole-bird entry",
+     2
+    ],
+    [
+     "flavoured ingredient -> plain entry",
+     2
+    ],
+    [
+     "salt descriptor",
+     1
+    ],
+    [
+     "false friend",
+     1
+    ],
+    [
+     "named cooking method vs generic 'cooked'",
+     1
+    ],
+    [
+     "whole vs ground spice",
+     1
+    ],
+    [
+     "generic 'cooked' -> named cooking method",
+     1
+    ],
+    [
+     "fat level mismatch",
+     1
+    ],
+    [
+     "different product",
+     1
+    ],
+    [
+     "specific ingredient has its own USDA entry",
+     1
+    ],
+    [
+     "smoked ready-to-eat vs cured unheated",
+     1
+    ],
+    [
+     "explicit grade conflict",
+     1
+    ],
+    [
+     "different species named",
+     1
+    ],
+    [
+     "industrial entry",
+     1
+    ],
+    [
+     "plain vs toasted state",
+     1
+    ],
+    [
+     "boneless vs bone-in conflict",
+     1
+    ]
+   ],
+   "rows": [
+    {
+     "idx": 13,
+     "id": "sub2-01871",
+     "ing": "30g yellow dragon fruit",
+     "usda": "Dragon fruit",
+     "tier": "edge",
+     "code": "E2",
+     "intended": 0,
+     "haiku": 0,
+     "blind": 1,
+     "border": true,
+     "verdict": "AMB",
+     "why": "variety -> generic parent entry",
+     "reasoning": "The ingredient is yellow dragon fruit (yellow pitaya, Selenicereus megalanthus), a distinct variety within the dragon fruit group. The USDA entry 'Dragon fruit' is the generic food, not a regional or trade name for the same thing. Yellow dragon fruit is a sibling variety, which guideline F treats as non-substitutable when the taste differs. It is generally sweeter and more mildly flavoured than the common red- or whi"
+    },
+    {
+     "idx": 27,
+     "id": "sub2-01333",
+     "ing": "5g tomato puree",
+     "usda": "Tomato products, canned, puree, without salt added",
+     "tier": "easy",
+     "code": "G3",
+     "intended": 1,
+     "haiku": 1,
+     "blind": 0,
+     "border": true,
+     "verdict": "HR",
+     "why": "salt descriptor (real data: tomato paste -> 'without salt added' = yes)",
+     "reasoning": "1. The ingredient is tomato puree, a canned tomato product. The USDA entry is 'Tomato products, canned, puree', the same food. The '5g' quantity is ignored per guideline A.\n2. Condition 1 (same preparation): tomato puree can be used directly in place of the USDA puree without changing the cooking method.\n3. Condition 2 (no noticeable difference): the USDA entry is the standard canned tomato puree. Its 'without salt a"
+    },
+    {
+     "idx": 77,
+     "id": "sub2-01043",
+     "ing": "205g gin",
+     "usda": "Alcoholic beverage, distilled, all (gin, rum, vodka, whiskey) 100 proof",
+     "tier": "hard",
+     "code": "B9",
+     "intended": 0,
+     "haiku": 0,
+     "blind": 1,
+     "border": true,
+     "verdict": "AMB",
+     "why": "category entry read as a blend; 100-proof is a real modifier",
+     "reasoning": "The ingredient is gin, a juniper-flavoured distilled spirit. The USDA entry is a generic category covering gin, rum, vodka and whiskey at 100 proof, so it is a blend rather than gin itself. Guideline F says a single ingredient versus a blend containing it is not substitutable. Gin's juniper and botanical flavour is distinctive, and rum, vodka or whiskey would change the taste of the dish, so a diner could notice. The"
+    },
+    {
+     "idx": 88,
+     "id": "sub2-01258",
+     "ing": "150g toor dal",
+     "usda": "Pigeon peas (red gram), mature seeds, raw",
+     "tier": "hard",
+     "code": "G6",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 1,
+     "border": false,
+     "verdict": "AMB",
+     "why": "split/dehulled dal vs whole dried seed",
+     "reasoning": "Toor dal is split, dehulled pigeon peas (red gram dal), a processed form sold as a distinct product. The USDA entry is whole dried mature pigeon peas with their seed coats intact. Condition 1: Whole peas need a much longer soak and cook time, and they do not break down the way split dal does, so cooking the dish with them would change its preparation. Condition 2: Cooked dal is typically smooth, soft and yellow-orang"
+    },
+    {
+     "idx": 113,
+     "id": "sub2-00800",
+     "ing": "100g shredded fried chicken",
+     "usda": "Chicken, broilers or fryers, meat only, cooked, fried",
+     "tier": "hard",
+     "code": "G6",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 1,
+     "border": false,
+     "verdict": "HW",
+     "why": "over-read USDA descriptor ('meat only')",
+     "reasoning": "The ingredient is fried chicken, shredded. Shredding is knife work and does not change the match itself. The USDA entry is the same food: cooked, fried broiler/fryer chicken. The problem is the 'meat only' descriptor. Standard fried chicken includes skin and a crispy breaded or battered coating, and a shredded version carries those visible, crunchy pieces. The USDA entry has neither, so the match changes the texture "
+    },
+    {
+     "idx": 149,
+     "id": "sub2-00144",
+     "ing": "200g chili cheese corn snacks",
+     "usda": "Corn chips, flavored (Fritos)",
+     "tier": "hard",
+     "code": "G6",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 1,
+     "border": true,
+     "verdict": "AMB",
+     "why": "ingredient itself is vague",
+     "reasoning": "The ingredient is chili cheese corn snacks, which are typically extruded, puffed corn snacks (Cheetos-style) with a chili-cheese seasoning. The USDA match is 'Corn chips, flavored (Fritos)', which are fried, flat, sliced corn chips. Condition 1: swapping them changes the product's form. Extruded puffs and fried corn chips are different products, and the recipe's handling (for example, crushing or layering as a toppin"
+    },
+    {
+     "idx": 168,
+     "id": "sub2-00968",
+     "ing": "10g dried black currants",
+     "usda": "Currants, dried",
+     "tier": "medium",
+     "code": "G4",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 1,
+     "border": true,
+     "verdict": "HR",
+     "why": "false friend (USDA dried currants are Zante grapes)",
+     "reasoning": "The ingredient is dried black currants, which are the dried fruit of Ribes nigrum (blackcurrant), a tart, intensely flavoured berry. The USDA entry 'Currants, dried' is the generic dried-currant entry, which in USDA's database refers to Zante currants, i.e. dried Black Corinth grapes. These are different plants and fruits, not the same food under another name (guideline B does not apply). Substituting them would chan"
+    },
+    {
+     "idx": 205,
+     "id": "sub2-03486",
+     "ing": "100g roasted duck breast, skinless",
+     "usda": "Duck, domesticated, meat only, cooked, roasted",
+     "tier": "medium",
+     "code": "G4",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 1,
+     "border": true,
+     "verdict": "HR",
+     "why": "specific cut -> whole-bird entry",
+     "reasoning": "1) The ingredient is a specific cut, roasted duck breast (skinless). The USDA entry is 'Duck, domesticated, meat only, cooked, roasted', which covers meat from the whole bird, including dark leg and thigh meat, not breast alone. 2) Guideline F says a different cut of meat is not substitutable. Duck breast is mostly light meat with a firmer, leaner texture and a milder flavour, while whole-bird meat includes darker, r"
+    },
+    {
+     "idx": 206,
+     "id": "sub2-01435",
+     "ing": "200g fried tempeh cubes",
+     "usda": "Tempeh, cooked",
+     "tier": "medium",
+     "code": "B5",
+     "intended": 0,
+     "haiku": 0,
+     "blind": 1,
+     "border": true,
+     "verdict": "HR",
+     "why": "named cooking method vs generic 'cooked'",
+     "reasoning": "The ingredient is tempeh that has been fried, so it is crisp, browned, and has absorbed oil. The USDA entry 'Tempeh, cooked' is the generic cooked form, usually steamed or simmered, with no frying. Condition 1 fails: using the plain cooked tempeh would change the preparation, because the dish would need frying added. Condition 2 fails: a diner would notice the difference in texture (soft versus crisp), appearance (no"
+    },
+    {
+     "idx": 227,
+     "id": "sub2-01734",
+     "ing": "15g sage",
+     "usda": "Spices, sage, ground",
+     "tier": "medium",
+     "code": "G5",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 1,
+     "border": true,
+     "verdict": "AMB",
+     "why": "plain herb name -> ground spice entry",
+     "reasoning": "The ingredient is plain 'sage', which in a recipe is normally the fresh herb (the leaves), and the weight is given in grams, which is typical for fresh herbs. The match is 'Spices, sage, ground', a dried, ground spice. Guideline F explicitly says fresh vs dried herb and whole vs ground spice are different states and not substitutable. Condition 1 fails: using ground dried sage changes preparation, since fresh leaves "
+    },
+    {
+     "idx": 237,
+     "id": "sub2-01563",
+     "ing": "195g chicken flats",
+     "usda": "Chicken, broilers or fryers, wing, meat only, raw",
+     "tier": "hard",
+     "code": "G6",
+     "intended": 1,
+     "haiku": 1,
+     "blind": 0,
+     "border": true,
+     "verdict": "AMB",
+     "why": "'meat only' accepted here, rejected in #113",
+     "reasoning": "Chicken flats (also called wingettes) are the middle section of the chicken wing, sold under a regional/trade name. Under guideline B, this is the same food as the USDA wing entry under another name. The USDA entry is the wing as raw meat. Preparing flats by removing bone and skin is handling comparable to trimming, which guideline C says does not change the match. The cut is the same wing meat, not a different part "
+    },
+    {
+     "idx": 300,
+     "id": "sub2-00002",
+     "ing": "100g light margarine spread",
+     "usda": "Margarine-like spread, SMART BEAT Smart Squeeze",
+     "tier": "hard",
+     "code": "G7",
+     "intended": 1,
+     "haiku": 1,
+     "blind": 0,
+     "border": true,
+     "verdict": "HW",
+     "why": "brand fact wrong (Smart Squeeze is a fat-free squeeze product)",
+     "reasoning": "The ingredient is a light margarine spread, a reduced-fat spreadable product. The USDA entry is 'Margarine-like spread, SMART BEAT Smart Squeeze', a branded light margarine-like spread of the same product type. Under guideline D, when the ingredient itself asks for the light/reduced-fat version, the matching modified entry counts. Under guideline G, a branded entry of the same plain product type matches, and this ent"
+    },
+    {
+     "idx": 304,
+     "id": "sub2-01970",
+     "ing": "25g spicy cocktail sauce",
+     "usda": "Cocktail sauce",
+     "tier": "hard",
+     "code": "B9",
+     "intended": 0,
+     "haiku": 0,
+     "blind": 1,
+     "border": true,
+     "verdict": "HR",
+     "why": "flavoured ingredient -> plain entry",
+     "reasoning": "The ingredient is 'spicy cocktail sauce', a flavoured variant of cocktail sauce. The USDA entry 'Cocktail sauce' is the plain, default version. Under guideline D, a plain product matched to a flavoured or modified version is not substitutable. Condition 1 is arguably met, since the sauce could be used in the same way. Condition 2 fails: the added heat changes the taste, and a diner would notice the difference. The 25"
+    },
+    {
+     "idx": 331,
+     "id": "sub2-03985",
+     "ing": "5g vanilla soy protein powder",
+     "usda": "Beverages, Protein powder soy based",
+     "tier": "hard",
+     "code": "B9",
+     "intended": 0,
+     "haiku": 0,
+     "blind": 1,
+     "border": true,
+     "verdict": "HR",
+     "why": "flavoured ingredient -> plain entry",
+     "reasoning": "The ingredient is a vanilla-flavoured soy protein powder. The USDA entry, 'Beverages, Protein powder soy based', is the generic unflavoured soy protein powder. Condition 1 is about substitution: the powder could be used in the same way, with the same mixing and preparation, so the method is not the problem. Condition 2 fails. The vanilla flavour is the defining characteristic of the ingredient, and a diner would tast"
+    },
+    {
+     "idx": 353,
+     "id": "sub2-03461",
+     "ing": "500g liverwurst, cubed",
+     "usda": "Liverwurst spread",
+     "tier": "medium",
+     "code": "B6",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 0,
+     "border": true,
+     "verdict": "HW",
+     "why": "wrong product form (sliceable liverwurst vs liverwurst spread)",
+     "reasoning": "The ingredient is liverwurst, a cooked, spreadable pork liver sausage. The USDA entry 'Liverwurst spread' names the same food; 'spread' describes how liverwurst is commonly sold rather than a modified version, so it is the standard default product (guidelines B and D). Cubing is knife work the recipe performs and does not change the match (guideline C). Condition 1 is met because the product can be cubed in the same "
+    },
+    {
+     "idx": 376,
+     "id": "sub2-02381",
+     "ing": "9g ground bay leaf",
+     "usda": "Spices, bay leaf",
+     "tier": "medium",
+     "code": "B6",
+     "intended": 0,
+     "haiku": 0,
+     "blind": 1,
+     "border": true,
+     "verdict": "HR",
+     "why": "whole vs ground spice",
+     "reasoning": "The ingredient is ground bay leaf, a powdered spice. The USDA entry 'Spices, bay leaf' is the whole dried leaf. Guideline F explicitly lists 'whole vs ground spice' as not substitutable. Condition 1 fails: whole leaves are typically added and removed from the dish, while ground bay is stirred in, so the preparation changes. Condition 2 also fails: a diner would see and taste the difference, since ground bay gives a g"
+    },
+    {
+     "idx": 382,
+     "id": "sub2-01298",
+     "ing": "250g fresh swimming crab meat",
+     "usda": "Crustaceans, crab, blue, raw",
+     "tier": "easy",
+     "code": "G3",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 1,
+     "border": true,
+     "verdict": "AMB",
+     "why": "species naming (swimming crab vs blue crab)",
+     "reasoning": "The ingredient is fresh swimming crab meat, which in trade usage refers to Portunus-genus swimming crabs (e.g., blue swimmer or Asian swimming crab). The USDA entry is Crustaceans, crab, blue, raw, which is Callinectes sapidus, the North American blue crab. These are related swimming crabs in the same family, but they are different species, not the same food under another name, so guideline B does not apply. Guidelin"
+    },
+    {
+     "idx": 386,
+     "id": "sub2-00916",
+     "ing": "35g organic flax flakes cereal",
+     "usda": "Cereals ready-to-eat, NATURE'S PATH, Organic FLAX PLUS flakes",
+     "tier": "hard",
+     "code": "G7",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 1,
+     "border": false,
+     "verdict": "HW",
+     "why": "misread the ingredient (ignored 'cereal')",
+     "reasoning": "The ingredient is organic flax flakes, a single whole-food item used as a cereal-type ingredient. The USDA entry is a branded ready-to-eat breakfast cereal (Nature's Path Organic FLAX PLUS flakes), which is a multi-ingredient product made with flax alongside other grains, seeds, and sweeteners. Under guideline F, a single ingredient versus a blend containing it is not substitutable. Condition 1 fails because swapping"
+    },
+    {
+     "idx": 390,
+     "id": "sub2-01899",
+     "ing": "200g soy milk",
+     "usda": "Soy milk, sweetened, plain, refrigerated",
+     "tier": "hard",
+     "code": "B8",
+     "intended": 0,
+     "haiku": 0,
+     "blind": 1,
+     "border": true,
+     "verdict": "AMB",
+     "why": "sweetened as default or as modification",
+     "reasoning": "The ingredient is plain soy milk with no sweetness specified. The USDA match is 'Soy milk, sweetened, plain, refrigerated', so the match carries a 'sweetened' modifier. Guideline D lists sweetened/unsweetened as modifications when the plain ingredient maps to a modified version, and the exception for descriptors that are normally how a product is sold does not clearly apply, since unsweetened soy milk is a common def"
+    },
+    {
+     "idx": 447,
+     "id": "sub2-02897",
+     "ing": "175g pork crackling",
+     "usda": "Pork skin rinds",
+     "tier": "hard",
+     "code": "G6",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 1,
+     "border": true,
+     "verdict": "AMB",
+     "why": "regional name vs different product",
+     "reasoning": "Pork crackling is pork skin, usually with a layer of fat still attached, roasted or fried until crisp and dense. 'Pork skin rinds' in USDA refers to pork skin that has been fried or puffed into a light, airy snack. Both are cooked pork skin, but the processing differs. Crackling is prepared by roasting the skin of a joint, which yields a dense, layered, glassy texture and often retains some fat. Rinds are typically p"
+    },
+    {
+     "idx": 456,
+     "id": "sub2-00383",
+     "ing": "200g beef brisket point",
+     "usda": "Beef, brisket",
+     "tier": "medium",
+     "code": "G5",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 1,
+     "border": true,
+     "verdict": "HW",
+     "why": "parent entry treated as a different cut",
+     "reasoning": "The ingredient is a specific sub-cut, the point (fattier, deckle-end) portion of the brisket. The USDA entry 'Beef, brisket' is the generic brisket, with no cut or fat-level specification. Guideline B's same-food allowance covers regional or trade names for the same item, not sub-cuts of meat. Guideline F explicitly says a different cut of meat is not substitutable. The point differs from the flat in fat content, mar"
+    },
+    {
+     "idx": 459,
+     "id": "sub2-00705",
+     "ing": "150g cooked prawns",
+     "usda": "Shrimp, baked or broiled",
+     "tier": "hard",
+     "code": "G6",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 1,
+     "border": true,
+     "verdict": "HR",
+     "why": "generic 'cooked' -> named cooking method",
+     "reasoning": "Guideline B treats prawns and shrimp as the same food, so the species matches. The problem is the preparation state. The ingredient is plain cooked prawns, typically boiled or steamed. The USDA entry specifically describes shrimp that has been baked or broiled. Guideline F says a plain item is not substitutable for a roasted or toasted version, and baked or broiled is the same kind of difference. Condition 2 also fai"
+    },
+    {
+     "idx": 512,
+     "id": "sub2-01526",
+     "ing": "200g peppercorn pork tenderloin",
+     "usda": "HORMEL ALWAYS TENDER, Pork Tenderloin, Peppercorn-Flavored",
+     "tier": "hard",
+     "code": "G7",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 1,
+     "border": false,
+     "verdict": "HW",
+     "why": "over-read brand name ('Always Tender' = added solution)",
+     "reasoning": "1. The ingredient is fresh pork tenderloin with a peppercorn coating or seasoning. The USDA entry is a branded, peppercorn-flavoured Hormel Always Tender product. Both are pork tenderloin, so the cut matches. 2. The entry is a flavoured version, and the ingredient does ask for peppercorn, so the flavour itself is a fair match. 3. The 'Always Tender' name indicates a product enhanced with added solution, which guideli"
+    },
+    {
+     "idx": 520,
+     "id": "sub2-01093",
+     "ing": "50g refried bean spread",
+     "usda": "Bean dip, made with refried beans",
+     "tier": "hard",
+     "code": "G6",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 1,
+     "border": true,
+     "verdict": "AMB",
+     "why": "regional name vs different product",
+     "reasoning": "The ingredient is a refried bean spread, essentially refried beans in spreadable form. The USDA entry is 'Bean dip, made with refried beans', a prepared dip that uses refried beans as a base. Refried beans are not the same food as a bean dip. The dip is a blended product that typically adds seasonings and other components, and its additives are not specified in the entry. Under guideline F, a single ingredient versus"
+    },
+    {
+     "idx": 525,
+     "id": "sub2-03652",
+     "ing": "100g agave spirit",
+     "usda": "Tequila",
+     "tier": "hard",
+     "code": "G6",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 1,
+     "border": true,
+     "verdict": "HR",
+     "why": "generic ingredient -> one specific member",
+     "reasoning": "The ingredient 'agave spirit' is a broad category covering tequila, mezcal, and other agave-distilled spirits, not one specific product. The USDA entry 'Tequila' is only one member of that category, so it is not literally the same food under another name (guideline B does not apply). Agave spirits differ in flavour: mezcal is typically smoky and tequila is not, and tequila ages vary in colour and oak character. Using"
+    },
+    {
+     "idx": 548,
+     "id": "sub2-00795",
+     "ing": "490g baobab fruit pulp",
+     "usda": "Baobab powder",
+     "tier": "medium",
+     "code": "B6",
+     "intended": 0,
+     "haiku": 0,
+     "blind": 1,
+     "border": true,
+     "verdict": "AMB",
+     "why": "baobab pulp is naturally a dry powder; wording suggests moist",
+     "reasoning": "The ingredient is baobab fruit pulp, a moist, fresh or raw fruit pulp. The USDA match is baobab powder, which is dried and ground. Guideline F lists a different state (raw vs dried) and processed vs source ingredient as not substitutable. Using powder in place of pulp would change the preparation: the powder would need to be hydrated or mixed in, and the 490g weight would not give the same moisture, consistency, or a"
+    },
+    {
+     "idx": 578,
+     "id": "sub2-03661",
+     "ing": "2g silk gourd, boiled and salted",
+     "usda": "Gourd, dishcloth (towelgourd), cooked, boiled, drained, with salt",
+     "tier": "hard",
+     "code": "G6",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 1,
+     "border": false,
+     "verdict": "HW",
+     "why": "botanical fact wrong (silk gourd and dishcloth gourd are the same Luffa)",
+     "reasoning": "The ingredient is silk gourd (Luffa cylindrica, also called angled gourd), boiled and salted. The USDA entry is dishcloth gourd or towelgourd (Luffa aegyptiaca), cooked, boiled, drained, with salt. The preparation terms line up: boiled, drained and salted match cooked, boiled and with salt. The problem is the food itself. These are two different Luffa species sold under different names, not one food under two regiona"
+    },
+    {
+     "idx": 613,
+     "id": "sub2-02213",
+     "ing": "500g cooked lean ground turkey, crumbled",
+     "usda": "Turkey, ground, 85% lean, 15% fat, pan-broiled crumbles",
+     "tier": "medium",
+     "code": "G8",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 1,
+     "border": true,
+     "verdict": "HR",
+     "why": "fat level mismatch ('lean' vs 85% lean)",
+     "reasoning": "The ingredient is cooked lean ground turkey, crumbled. The USDA match is ground turkey at 85% lean / 15% fat, pan-broiled crumbles. The cooked state and crumbled form line up. The problem is the fat content. 'Lean' ground turkey is normally around 93% lean, while the match is 85% lean with 15% fat. Guideline F treats a different fat level as a different product, and guideline D's modified-version rule points the same"
+    },
+    {
+     "idx": 617,
+     "id": "sub2-01126",
+     "ing": "75g eating apple, red",
+     "usda": "Apples, red delicious, with skin, raw",
+     "tier": "hard",
+     "code": "G6",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 1,
+     "border": true,
+     "verdict": "HR",
+     "why": "generic ingredient -> one specific member",
+     "reasoning": "The ingredient is 'eating apple, red', a general category that doesn't name a cultivar. The USDA entry is specifically 'Apples, red delicious, with skin, raw', a single variety with a distinctive mild, sweet, mealy flesh. Red eating apples such as Gala or Fuji differ in taste and texture, so a diner could notice a difference. This is not the same food under another name (guideline B), and it is a sibling variety with"
+    },
+    {
+     "idx": 637,
+     "id": "sub2-01284",
+     "ing": "500g smoked turkey wing (divided)",
+     "usda": "Turkey, wing, smoked, cooked, with skin, bone removed",
+     "tier": "hard",
+     "code": "B9",
+     "intended": 0,
+     "haiku": 0,
+     "blind": 1,
+     "border": false,
+     "verdict": "HW",
+     "why": "over-read USDA descriptor ('bone removed')",
+     "reasoning": "The ingredient is a smoked turkey wing. Smoked turkey wings are normally sold as the bone-in wing with skin, and the recipe does not say the bone was removed. The USDA entry is smoked, cooked, with skin, bone removed, so the smoking, cooking state and skin match. The difference is the bone. Removing the bone changes how the wing is handled and cooked: bones add flavour and body to stocks and braises, and a bone-in wi"
+    },
+    {
+     "idx": 645,
+     "id": "sub2-01478",
+     "ing": "10g taro leaves, cooked until tender",
+     "usda": "Taro, leaves, cooked, steamed, with salt",
+     "tier": "edge",
+     "code": "E2",
+     "intended": 0,
+     "haiku": 0,
+     "blind": 1,
+     "border": true,
+     "verdict": "AMB",
+     "why": "'with salt' descriptor",
+     "reasoning": "The ingredient is taro leaves cooked until tender, with no stated cooking method, seasoning, or added salt. The USDA entry is taro leaves cooked by steaming and seasoned with salt. Taro leaves are the same food, so the food identity matches. Steaming is a plausible way to cook them until tender, so the cooking method is not clearly changed. However, the USDA entry adds salt, which is an added seasoning not present in"
+    },
+    {
+     "idx": 676,
+     "id": "sub2-04006",
+     "ing": "5g soy cream",
+     "usda": "Cream substitute, liquid, with hydrogenated vegetable oil and soy protein",
+     "tier": "edge",
+     "code": "E2",
+     "intended": 0,
+     "haiku": 0,
+     "blind": 1,
+     "border": true,
+     "verdict": "HR",
+     "why": "different product (soy cream vs oil-based creamer)",
+     "reasoning": "The ingredient is soy cream, a soy-based cream product. The USDA entry is a liquid cream substitute made with hydrogenated vegetable oil and soy protein, which is a non-dairy creamer or coffee-whitener type product. It is not literally the same food under another name (guideline B does not apply). It is a different fat base (hydrogenated vegetable oil rather than a soy-based cream) and a processed, additive-containin"
+    },
+    {
+     "idx": 710,
+     "id": "sub2-00775",
+     "ing": "10g palm kernel shortening (optional)",
+     "usda": "Shortening confectionery, coconut (hydrogenated) and or palm kernel (hydrogenated)",
+     "tier": "edge",
+     "code": "E1",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 1,
+     "border": true,
+     "verdict": "AMB",
+     "why": "specialty fat, 'and/or' wording",
+     "reasoning": "The ingredient is palm kernel shortening, a specific hydrogenated fat. The USDA entry is confectionery shortening made from coconut and/or palm kernel fat. Under guideline F, a different fat is not substitutable, and industrial or food-service specialty fats do not match home ingredients. The USDA wording 'coconut ... and or palm kernel' also means the product may be coconut-based alone, so it is not reliably the sam"
+    },
+    {
+     "idx": 728,
+     "id": "sub2-02574",
+     "ing": "100g beef shank crosscuts, trimmed",
+     "usda": "Beef, shank crosscuts, separable lean only, trimmed to 1/4\" fat, choice, raw",
+     "tier": "easy",
+     "code": "G3",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 1,
+     "border": false,
+     "verdict": "HW",
+     "why": "over-read USDA descriptor (trim wording)",
+     "reasoning": "The ingredient is the same cut, beef shank crosscuts, and 'trimmed' is handling that does not by itself change the match. The USDA entry, however, specifies 'separable lean only', which is a leaner, modified version of the cut. Plain shank crosscuts are normally sold with the bone, seam fat and connective tissue, and trimmed of excess fat rather than reduced to lean meat alone. Under guideline D, a plain ingredient m"
+    },
+    {
+     "idx": 737,
+     "id": "sub2-00992",
+     "ing": "500g frozen duck breast, thawed",
+     "usda": "Duck, domesticated, meat only, raw",
+     "tier": "medium",
+     "code": "B7",
+     "intended": 0,
+     "haiku": 0,
+     "blind": 1,
+     "border": true,
+     "verdict": "HR",
+     "why": "specific cut -> whole-bird entry",
+     "reasoning": "The ingredient is a specific cut, duck breast, which is the lean, light meat of the bird and is typically cooked medium-rare with the skin scored or rendered. The USDA entry 'Duck, domesticated, meat only, raw' is the generic meat of the whole bird, mixing breast with darker, tougher leg and thigh meat, and excludes skin. Guideline E allows frozen-then-thawed meat to match fresh meat when freezing does not show, but "
+    },
+    {
+     "idx": 849,
+     "id": "sub2-02335",
+     "ing": "145g partially dehulled millet",
+     "usda": "Millet, whole grain",
+     "tier": "edge",
+     "code": "E2",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 0,
+     "border": true,
+     "verdict": "AMB",
+     "why": "ingredient itself is vague",
+     "reasoning": "The ingredient is millet grain that has been only partially dehulled. The USDA entry, Millet, whole grain, is the generic millet kernel as bought. It is the same food, so guideline B applies first. Partial dehulling is a minor processing step on the same grain, not a different food or product. It does not change how the grain is cooked: it is boiled or simmered in the same way, with similar water ratios and times. Ta"
+    },
+    {
+     "idx": 860,
+     "id": "sub2-02624",
+     "ing": "200g pitted prunes, halved",
+     "usda": "Prunes, dehydrated (low-moisture), uncooked",
+     "tier": "edge",
+     "code": "E2",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 0,
+     "border": true,
+     "verdict": "AMB",
+     "why": "'dehydrated (low-moisture)' vs ordinary dried fruit",
+     "reasoning": "The ingredient is pitted prunes (dried plums) cut in halves. Pitting and halving are knife work and do not change the food. The USDA entry 'Prunes, dehydrated (low-moisture), uncooked' describes the same dried plum product that a shopper buys under the name 'prunes'. Dehydrated prunes are the normal state of the product, not a modified or processed version, so this is the same food under its standard name. Condition "
+    },
+    {
+     "idx": 865,
+     "id": "sub2-01806",
+     "ing": "15g creamy herb salad dressing",
+     "usda": "Salad dressing, ranch dressing, regular",
+     "tier": "hard",
+     "code": "G6",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 1,
+     "border": true,
+     "verdict": "HR",
+     "why": "generic ingredient -> one specific member",
+     "reasoning": "The ingredient is a creamy herb salad dressing, a specific flavoured variety. The USDA entry is ranch dressing, regular, which is a different flavour profile built on buttermilk, garlic, onion and dill or parsley. It is not the same food under another name, so guideline B does not apply. Condition 1 is plausibly met, since both are creamy dressings that could be swapped in a salad without changing how the dish is pre"
+    },
+    {
+     "idx": 874,
+     "id": "sub2-01164",
+     "ing": "220g soy milk",
+     "usda": "Soy milk, sweetened",
+     "tier": "hard",
+     "code": "B8",
+     "intended": 0,
+     "haiku": 0,
+     "blind": 1,
+     "border": true,
+     "verdict": "AMB",
+     "why": "sweetened as default or as modification",
+     "reasoning": "The ingredient is plain soy milk, with no sweetness specified. The USDA match is 'Soy milk, sweetened', which is a sweetened modified version. Guideline D lists 'sweetened/unsweetened' as a modification, so a plain ingredient matched to a sweetened entry is not the standard default. Sweetened soy milk would change the flavour of a dish that calls for plain soy milk, and a diner could taste the added sugar, especially"
+    },
+    {
+     "idx": 880,
+     "id": "sub2-03135",
+     "ing": "70g fresh brussels sprouts",
+     "usda": "Brussels sprouts, frozen, unprepared",
+     "tier": "medium",
+     "code": "B7",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 0,
+     "border": true,
+     "verdict": "AMB",
+     "why": "fresh ingredient -> frozen entry (guideline E reversed)",
+     "reasoning": "1. Same food: the ingredient is fresh Brussels sprouts and the USDA entry is Brussels sprouts, frozen, unprepared. It is the same vegetable, with no added ingredients, sauces, or seasonings. The leading '70g' is only quantity and is ignored.\n2. Frozen vs fresh (guideline E): Brussels sprouts are normally cooked before eating, and freezing does not visibly change them in that context, just as with frozen peas. The fro"
+    },
+    {
+     "idx": 934,
+     "id": "sub2-02288",
+     "ing": "75g unsweetened fortified soy beverage",
+     "usda": "Soymilk (All flavors), enhanced",
+     "tier": "hard",
+     "code": "G6",
+     "intended": 1,
+     "haiku": 1,
+     "blind": 0,
+     "border": true,
+     "verdict": "AMB",
+     "why": "'All flavors' entry for an unsweetened ingredient",
+     "reasoning": "The ingredient is an unsweetened, fortified soy beverage, which is essentially soymilk with added calcium and vitamins. The USDA entry 'Soymilk (All flavors), enhanced' is the same product type: 'enhanced' is USDA's term for fortified, which the ingredient explicitly requests, so this is the matching fortified version rather than a modified one. 'All flavors' covers the unflavoured, unsweetened plain soymilk, so it d"
+    },
+    {
+     "idx": 937,
+     "id": "sub2-01200",
+     "ing": "150g fresh beef tip roast",
+     "usda": "Beef, round, tip round, roast, separable lean and fat, trimmed to 0\" fat, select, raw",
+     "tier": "easy",
+     "code": "G3",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 1,
+     "border": false,
+     "verdict": "HW",
+     "why": "over-read USDA descriptor (trim wording)",
+     "reasoning": "Condition 1 (same cut): A beef tip roast is commonly sold as a tip round roast, so the cut identity matches. The USDA entry is raw and the ingredient is fresh, so the state matches. The weight is ignored. Condition 2 (sensory): The USDA entry is specifically 'separable lean and fat, trimmed to 0\" fat', which is a lean-only variant. The ingredient does not specify trimmed fat, so its default is a roast sold with its n"
+    },
+    {
+     "idx": 954,
+     "id": "sub2-01445",
+     "ing": "6g pickled tabasco peppers",
+     "usda": "Peppers, hot, pickled",
+     "tier": "medium",
+     "code": "G4",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 1,
+     "border": false,
+     "verdict": "HW",
+     "why": "parent entry treated as a sibling variety",
+     "reasoning": "The ingredient is pickled tabasco peppers, a specific pepper cultivar (Capsicum frutescens) with its own heat level and flavour profile. The USDA entry 'Peppers, hot, pickled' is a generic hot-pepper entry, not the same food under another name, so guideline B does not apply. Tabasco is a sibling variety with a different taste, which guideline F treats as not substitutable. Condition 1 is arguably met since the pickle"
+    },
+    {
+     "idx": 995,
+     "id": "sub2-03055",
+     "ing": "30g palm shortening",
+     "usda": "Oil, palm",
+     "tier": "easy",
+     "code": "B2",
+     "intended": 0,
+     "haiku": 0,
+     "blind": 1,
+     "border": true,
+     "verdict": "AMB",
+     "why": "specialty fat vs plain oil",
+     "reasoning": "The ingredient is palm shortening, a solid fat at room temperature that is typically a hydrogenated or fractionated palm-oil product used for baking texture. The USDA entry 'Oil, palm' is liquid palm oil. Guideline F rules out a different fat: palm shortening is a specialty fat, not the same food as palm oil. Preparation would also change. Recipes that call for shortening are usually creamed, cut in, or laminated whi"
+    },
+    {
+     "idx": 1010,
+     "id": "sub2-00522",
+     "ing": "75g bread and butter pickles, drained",
+     "usda": "Pickles, sweet",
+     "tier": "medium",
+     "code": "G4",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 1,
+     "border": true,
+     "verdict": "HW",
+     "why": "USDA fact wrong (sweet pickles include bread-and-butter)",
+     "reasoning": "Bread and butter pickles are a specific sweet-pickle variety: thinly sliced cucumbers in a sweet-sour brine with onion, mustard seed, turmeric and celery seed, giving a golden colour and a distinct spiced, onion-forward flavour. USDA 'Pickles, sweet' is the generic sweet cucumber pickle, which is typically a whole or sliced sweet gherkin or relish-style pickle without that onion and spice profile. Drainage is a handl"
+    },
+    {
+     "idx": 1039,
+     "id": "sub2-02579",
+     "ing": "15g boiled lotus root",
+     "usda": "Lotus root, cooked, boiled, drained, with salt",
+     "tier": "edge",
+     "code": "E2",
+     "intended": 0,
+     "haiku": 0,
+     "blind": 1,
+     "border": true,
+     "verdict": "AMB",
+     "why": "'with salt' descriptor",
+     "reasoning": "The ingredient is plain boiled lotus root, with the weight treated as decoration (guideline A). The USDA entry is the same food in the same cooked state (cooked, boiled, drained), so the food identity and cooking state match. The difference is the USDA descriptor 'with salt'. The ingredient does not specify salted preparation, so the match is a plain-to-modified version. Guideline D treats 'with added solution/additi"
+    },
+    {
+     "idx": 1047,
+     "id": "sub2-04054",
+     "ing": "55g Ataulfo mango nectar",
+     "usda": "Mango nectar",
+     "tier": "hard",
+     "code": "B10",
+     "intended": 0,
+     "haiku": 0,
+     "blind": 1,
+     "border": false,
+     "verdict": "HW",
+     "why": "parent entry treated as a sibling variety",
+     "reasoning": "Condition 1 (preparation): The ingredient is mango nectar, and the USDA entry is also mango nectar, so the product type and preparation method match. The quantity prefix is ignored. Condition 2 (taste, texture, appearance): The ingredient specifies the Ataulfo variety, a sweeter, creamier, lower-fibre mango with a distinct flavour. The USDA entry is generic and does not name a variety, so it may be made from differen"
+    },
+    {
+     "idx": 1055,
+     "id": "sub2-03349",
+     "ing": "200g toasted wheat bran",
+     "usda": "Cereals ready-to-eat, SUN COUNTRY, KRETSCHMER Toasted Wheat Bran",
+     "tier": "hard",
+     "code": "B9",
+     "intended": 0,
+     "haiku": 0,
+     "blind": 1,
+     "border": false,
+     "verdict": "HW",
+     "why": "brand fact wrong (Kretschmer bran is plain toasted bran)",
+     "reasoning": "The ingredient is toasted wheat bran, an ingredient used in cooking and baking. The USDA entry is a branded ready-to-eat breakfast cereal (Kretschmer Toasted Wheat Bran). Condition 1: The cereal is a finished, processed product, not the bran itself. Using it would change the recipe's ingredient profile, and it is typically pre-seasoned and sweetened, so it cannot be used in place of the bran without changing preparat"
+    },
+    {
+     "idx": 1063,
+     "id": "sub2-03322",
+     "ing": "1g chicken seasoning blend",
+     "usda": "Spices, poultry seasoning",
+     "tier": "hard",
+     "code": "G6",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 1,
+     "border": true,
+     "verdict": "HR",
+     "why": "generic ingredient -> one specific member",
+     "reasoning": "The ingredient is a generic 'chicken seasoning blend', a commercial or home seasoning mix whose exact composition varies but commonly includes salt, garlic, onion, paprika and other flavourings. The USDA entry 'Spices, poultry seasoning' is a traditional herb blend, typically sage, thyme, marjoram, rosemary and black pepper, with no salt or other flavour components. It is not literally the same product under another "
+    },
+    {
+     "idx": 1105,
+     "id": "sub2-00051",
+     "ing": "200g fruit yogurt",
+     "usda": "Yogurt, nonfat milk, fruit",
+     "tier": "hard",
+     "code": "B8",
+     "intended": 0,
+     "haiku": 1,
+     "blind": 0,
+     "border": true,
+     "verdict": "AMB",
+     "why": "'nonfat' stretched from the 'low fat' yogurt exception",
+     "reasoning": "The ingredient is a generic 'fruit yogurt' with no fat specification. The USDA match is 'Yogurt, nonfat milk, fruit', which is the same food (fruit-flavoured yogurt) with a fat-level descriptor. Guideline D says flavoured yogurts are typically low fat, so a fat descriptor on a fruit yogurt describes how the product is normally sold rather than a modification, and 'strawberry yogurt -> Yogurt, strawberry, low fat = ye"
+    },
+    {
+     "idx": 1150,
+     "id": "sub2-03354",
+     "ing": "55g goose liver pate",
+     "usda": "Pate, liver, not specified, canned",
+     "tier": "easy",
+     "code": "B2",
+     "intended": 0,
+     "haiku": 0,
+     "blind": 1,
+     "border": true,
+     "verdict": "HR",
+     "why": "specific ingredient has its own USDA entry (goose liver pate)",
+     "reasoning": "The ingredient is goose liver pate, a specific product made from goose liver with a rich, mild, buttery flavour. The USDA entry is generic 'Pate, liver, not specified, canned', which covers pate made from an unspecified animal liver, most often pork or chicken, and does not name goose. This is not the same food under another name, so guideline B does not apply. Condition 1 is arguably met in that both are spreads ser"
+    },
+    {
+     "idx": 1151,
+     "id": "sub2-03073",
+     "ing": "5g sunflower seed butter",
+     "usda": "Seeds, sunflower seed butter, without salt",
+     "tier": "medium",
+     "code": "G5",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 1,
+     "border": true,
+     "verdict": "HW",
+     "why": "salt descriptor (real data: butter -> 'Butter, without salt' = yes)",
+     "reasoning": "1. The ingredient is plain 'sunflower seed butter' with no salt descriptor, so the standard default version applies. The USDA entry is the same food, but it is specifically the 'without salt' form. 2. Under guideline D, a plain ingredient matched to a sodium-modified version (e.g. reduced sodium) is a modification and is not substitutable. 'Without salt' is the same kind of modification relative to the default produc"
+    },
+    {
+     "idx": 1251,
+     "id": "sub2-03487",
+     "ing": "2g frozen basil pesto cubes",
+     "usda": "Sauce, pesto, ready-to-serve, shelf stable",
+     "tier": "medium",
+     "code": "B7",
+     "intended": 0,
+     "haiku": 0,
+     "blind": 1,
+     "border": true,
+     "verdict": "AMB",
+     "why": "frozen product vs shelf-stable product",
+     "reasoning": "The ingredient is frozen basil pesto cubes, a frozen product that is thawed before use. The USDA match is ready-to-serve, shelf-stable pesto, a different product form. Condition 1: Guideline E lets a frozen product match its fresh or plain counterpart when freezing does not show and the food is normally cooked or mixed. Pesto cubes are often stirred into dishes, so swapping in a jarred pesto would not change the prep"
+    },
+    {
+     "idx": 1258,
+     "id": "sub2-03930",
+     "ing": "105g beef tip roast",
+     "usda": "Beef, round, tip round, roast, separable lean and fat, trimmed to 0\" fat, all grades, raw",
+     "tier": "medium",
+     "code": "G5",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 1,
+     "border": false,
+     "verdict": "HW",
+     "why": "over-read USDA descriptor (trim wording)",
+     "reasoning": "1) Same cut: 'beef tip roast' is commonly a tip round roast, and the USDA entry is 'Beef, round, tip round, roast', so the cut identity matches. 2) Raw state: both are raw, and the 105g weight is ignored per guideline A. 3) Fat descriptor: the plain ingredient is sold as a tip roast with its normal fat, while the USDA entry is specifically 'separable lean and fat, trimmed to 0\" fat', a fat-trimmed variant. Guideline "
+    },
+    {
+     "idx": 1259,
+     "id": "sub2-01840",
+     "ing": "310g smoked pork shoulder",
+     "usda": "Pork, cured, shoulder, blade roll, separable lean and fat, unheated",
+     "tier": "hard",
+     "code": "B9",
+     "intended": 0,
+     "haiku": 0,
+     "blind": 1,
+     "border": true,
+     "verdict": "HR",
+     "why": "smoked ready-to-eat vs cured unheated",
+     "reasoning": "The ingredient is smoked pork shoulder, a ready-to-eat product that has been smoked, which is a cooked/processed state. The USDA entry is 'Pork, cured, shoulder, blade roll, separable lean and fat, unheated', which is an uncooked cured product. Guideline F treats raw vs cooked and plain vs smoked as different states, so this is not the same food. Condition 1 fails: using the raw cured entry would change the preparati"
+    },
+    {
+     "idx": 1290,
+     "id": "sub2-03980",
+     "ing": "100g boneless beef chuck short ribs, prime grade",
+     "usda": "Beef, chuck, short ribs, boneless, separable lean and fat, trimmed to 0\" fat, select, raw",
+     "tier": "edge",
+     "code": "E2",
+     "intended": 0,
+     "haiku": 0,
+     "blind": 1,
+     "border": true,
+     "verdict": "HR",
+     "why": "explicit grade conflict (prime vs select)",
+     "reasoning": "The ingredient is boneless beef chuck short ribs, prime grade. The USDA entry is boneless beef chuck short ribs, separable lean and fat, trimmed to 0\" fat, select grade, raw. The cut matches: both are beef chuck short ribs, boneless, raw. The differences are in grade and trim. Prime grade has substantially more intramuscular marbling than select, which affects juiciness, tenderness and flavour after cooking. The USDA"
+    },
+    {
+     "idx": 1313,
+     "id": "sub2-04012",
+     "ing": "25g recaito",
+     "usda": "Sauce, sofrito, prepared from recipe",
+     "tier": "hard",
+     "code": "G6",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 1,
+     "border": true,
+     "verdict": "AMB",
+     "why": "regional name vs different product",
+     "reasoning": "Recaito is a Puerto Rican seasoning paste, a green sofrito-style blend typically made from culantro, cilantro, cubanelle or aj\u00ed dulce peppers, garlic, onion and sometimes oregano. The USDA entry, 'Sauce, sofrito, prepared from recipe', is a generic sofrito, which in US usage is often tomato-based and may use different herbs and peppers. Guideline B covers regional names for the same food, but recaito and sofrito are "
+    },
+    {
+     "idx": 1341,
+     "id": "sub2-00456",
+     "ing": "200g boneless short ribs, beef chuck",
+     "usda": "Beef, chuck, short ribs, boneless, separable lean and fat, trimmed to 0\" fat, all grades, raw",
+     "tier": "easy",
+     "code": "G2",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 1,
+     "border": false,
+     "verdict": "HW",
+     "why": "over-read USDA descriptor (trim wording)",
+     "reasoning": "The ingredient is boneless beef chuck short ribs, a plain cut with no fat specification, so the default is the standard retail cut, which includes the surrounding fat (separable lean and fat). The USDA entry is the same cut (beef chuck, short ribs, boneless) and is raw, so the cut and state match. However, the entry is specified as 'trimmed to 0\" fat', which is a modified, fat-free version of the cut rather than the "
+    },
+    {
+     "idx": 1345,
+     "id": "sub2-03158",
+     "ing": "110g grated queso anejo",
+     "usda": "Cheese, dry white, queso seco",
+     "tier": "medium",
+     "code": "B6",
+     "intended": 0,
+     "haiku": 0,
+     "blind": 1,
+     "border": true,
+     "verdict": "AMB",
+     "why": "regional name vs different product",
+     "reasoning": "The ingredient is queso a\u00f1ejo, a firm, aged Mexican cheese that is salty, sharp and crumbly, and is sold grated. The USDA entry is queso seco, a separate dry white Mexican cheese. Queso seco is generally milder and less aged, so it is a different product rather than the same food under another name (guideline B). Queso a\u00f1ejo and queso seco are sometimes used interchangeably in markets, but they are distinct varieties"
+    },
+    {
+     "idx": 1371,
+     "id": "sub2-04060",
+     "ing": "250g Pacific croaker fillets",
+     "usda": "Fish, croaker, Atlantic, raw",
+     "tier": "hard",
+     "code": "B10",
+     "intended": 0,
+     "haiku": 0,
+     "blind": 1,
+     "border": true,
+     "verdict": "HR",
+     "why": "different species named",
+     "reasoning": "The ingredient is Pacific croaker (Genyonemus lineatus, also sold as white croaker or queenfish). The USDA entry is Atlantic croaker (Micropogonias undulatus), a different species from a different ocean. Guideline B covers regional names for the same food, but these are two distinct fish, not one food under two names. Guideline F rules out sibling varieties with different taste, and different species can differ in fl"
+    },
+    {
+     "idx": 1394,
+     "id": "sub2-02306",
+     "ing": "100g high oleic canola oil",
+     "usda": "Oil, industrial, canola, high oleic",
+     "tier": "medium",
+     "code": "G4",
+     "intended": 1,
+     "haiku": 0,
+     "blind": 1,
+     "border": false,
+     "verdict": "HR",
+     "why": "industrial entry (guideline F); my label was inconsistent",
+     "reasoning": "The ingredient is high oleic canola oil, a plain retail cooking oil. The USDA entry is 'Oil, industrial, canola, high oleic', which is a food-service/industrial specialty version of the same oil. Guideline F states that industrial or food-service specialty fats are not substitutable for the home ingredient. Guideline B (same food under another name) does not rescue it, because the 'industrial' descriptor marks a diff"
+    },
+    {
+     "idx": 1410,
+     "id": "sub2-02993",
+     "ing": "50g toasted paratha",
+     "usda": "Bread, paratha",
+     "tier": "hard",
+     "code": "B9",
+     "intended": 0,
+     "haiku": 0,
+     "blind": 1,
+     "border": true,
+     "verdict": "HR",
+     "why": "plain vs toasted state",
+     "reasoning": "The USDA entry 'Bread, paratha' is the same food as the ingredient 'paratha', so the base identity matches (guideline B). However, the ingredient specifies 'toasted'. Guideline F explicitly lists 'plain vs toasted' as a different state, not substitutable. Toasting changes texture (crisper, drier), colour (browning) and appearance, and a diner could notice the difference. The USDA entry does not describe a toasted pro"
+    },
+    {
+     "idx": 1414,
+     "id": "sub2-04055",
+     "ing": "135g Greek oat yogurt",
+     "usda": "Yogurt, Greek, with oats",
+     "tier": "hard",
+     "code": "B10",
+     "intended": 0,
+     "haiku": 0,
+     "blind": 1,
+     "border": true,
+     "verdict": "AMB",
+     "why": "ingredient itself is vague",
+     "reasoning": "The ingredient is 'Greek oat yogurt', most naturally an oat-based, non-dairy yogurt styled like Greek yogurt. The USDA entry 'Yogurt, Greek, with oats' is a dairy Greek yogurt with oats added as an ingredient. Condition 1: the two are not the same product, and the USDA entry carries an added component (oats) that the plain product lacks, which is a modification under guideline D. A cook could swap them in the recipe,"
+    },
+    {
+     "idx": 1477,
+     "id": "sub2-00634",
+     "ing": "150g pecorino romano cheese",
+     "usda": "Cheese, romano",
+     "tier": "hard",
+     "code": "B10",
+     "intended": 0,
+     "haiku": 0,
+     "blind": 1,
+     "border": false,
+     "verdict": "AMB",
+     "why": "variety -> generic parent entry",
+     "reasoning": "The ingredient is pecorino romano, a protected sheep's-milk hard grating cheese (PDO) that is saltier, sharper and more tangy than cow's-milk romano. The USDA entry 'Cheese, romano' is the broader romano category, which is typically cow's milk. This is a sibling product with a different taste rather than the same food under another name, so guideline B does not apply. Guideline F treats sibling varieties with differe"
+    },
+    {
+     "idx": 1485,
+     "id": "sub2-03514",
+     "ing": "490g dried plums",
+     "usda": "Prunes, dehydrated (low-moisture), uncooked",
+     "tier": "hard",
+     "code": "G6",
+     "intended": 1,
+     "haiku": 1,
+     "blind": 0,
+     "border": true,
+     "verdict": "AMB",
+     "why": "'dehydrated (low-moisture)' vs ordinary dried fruit",
+     "reasoning": "The ingredient 'dried plums' is the common name for prunes, the dried form of plums. The USDA entry 'Prunes, dehydrated (low-moisture), uncooked' describes the same food in its standard dried, uncooked state. Under guideline B, a regional or culinary name for the same food counts as a match. The '(low-moisture)' and 'dehydrated' descriptors just describe how dried prunes are normally sold, so guideline D does not tre"
+    },
+    {
+     "idx": 1488,
+     "id": "sub2-01492",
+     "ing": "300g boneless t-bone steak",
+     "usda": "Beef, short loin, t-bone steak, bone-in, separable lean only, trimmed to 1/8\" fat, choice, raw",
+     "tier": "medium",
+     "code": "B6",
+     "intended": 0,
+     "haiku": 0,
+     "blind": 1,
+     "border": true,
+     "verdict": "HR",
+     "why": "boneless vs bone-in conflict",
+     "reasoning": "The ingredient is a boneless t-bone steak, 300g. The USDA entry is a t-bone steak that is bone-in, separable lean only, trimmed to 1/8\" fat, choice, raw. The weight is ignored per guideline A. The core question is whether the bone-in, fat-trimmed raw cut can stand in for a boneless steak. Bone-in versus boneless is a real difference in the cut itself. A bone-in steak cooks differently, with slower heat conduction nea"
+    }
+   ],
+   "rerun_dis": [
+    1,
+    4
+   ]
+  },
+  "self_consistency": {
+   "n": 167,
+   "same": 163,
+   "changed_border": 4
+  },
+  "border_by_tier": [
+   {
+    "k": "easy",
+    "n": 463,
+    "border": 5.2
+   },
+   {
+    "k": "medium",
+    "n": 469,
+    "border": 16.6
+   },
+   {
+    "k": "hard",
+    "n": 460,
+    "border": 24.6
+   },
+   {
+    "k": "edge",
+    "n": 108,
+    "border": 25.9
+   }
+  ],
+  "measured_vs_design": {
+   "easy": {
+    "easy": 598,
+    "medium": 531,
+    "hard": 183,
+    "edge": 80
+   },
+   "medium": {
+    "easy": 470,
+    "medium": 519,
+    "hard": 300,
+    "edge": 107
+   },
+   "hard": {
+    "easy": 257,
+    "medium": 268,
+    "hard": 729,
+    "edge": 137
+   }
+  }
+ }
+}

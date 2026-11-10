@@ -1,0 +1,32 @@
+{
+  "s2_main": {
+    "id": "msgbatch_01LxmZX1VXp5FYXhGAkqAMZj",
+    "n": 289,
+    "worst_case": 2.1477,
+    "created": 1794262257.827436
+  },
+  "s6_main": {
+    "id": "msgbatch_01MpBgn1iTtKe9svtrLRRCcy",
+    "n": 194,
+    "worst_case": 0.5996,
+    "created": 1794262491.574272
+  },
+  "s9_audit": {
+    "id": "msgbatch_0165d7gJroJoMAbiZ7GTqRRK",
+    "n": 219,
+    "worst_case": 0.821,
+    "created": 1794265908.933121
+  },
+  "s14_haiku_judge": {
+    "id": "msgbatch_017qsXpt84SbtcaqUSQJSiiz",
+    "n": 344,
+    "worst_case": 0.526,
+    "created": 1794325280.5147588
+  },
+  "s15_haiku_v2": {
+    "id": "msgbatch_01FdycHEF5jL5ksegdD8rK5B",
+    "n": 584,
+    "worst_case": 0.9471,
+    "created": 1794326912.4739032
+  }
+}

@@ -1,0 +1,214 @@
+{
+  "spent_standard": 4.378687999999999,
+  "recorded_batches": [
+    "sync-s1_foods-1794261339",
+    "sync-s1_foods-1794261400",
+    "sync-s2_pilot-1794261484",
+    "sync-s2_pilot-1794261521",
+    "sync-s2_pilot-1794261659",
+    "sync-s6_pilot-1794261711",
+    "sync-s1_foods_topup-1794262203",
+    "msgbatch_01LxmZX1VXp5FYXhGAkqAMZj",
+    "sync-s2_main-1794262467",
+    "msgbatch_01MpBgn1iTtKe9svtrLRRCcy",
+    "sync-s8_topup-1794265871",
+    "msgbatch_0165d7gJroJoMAbiZ7GTqRRK",
+    "sync-s12_variants-1794268550",
+    "sync-s8_topup2-1794268657",
+    "sync-s9_audit2-1794268686",
+    "sync-s12_variants-1794268769",
+    "msgbatch_017qsXpt84SbtcaqUSQJSiiz",
+    "msgbatch_01FdycHEF5jL5ksegdD8rK5B",
+    "msgbatch_01652QaCRXmq3pyfC46M7P1d",
+    "msgbatch_01LbiNqTB5QfvKSfgSWSdrme",
+    "msgbatch_017iCEe4X2q6LpQR93AbhvpS",
+    "msgbatch_01Kz88zgmJr98oFGALj7ekgX",
+    "msgbatch_01BHpgkB5XYTDzVmqFwCdNVn"
+  ],
+  "log": [
+    {
+      "batch": "sync-s1_foods-1794261339",
+      "label": "s1_foods (sync)",
+      "in_tokens": 48570,
+      "out_tokens": 119917,
+      "cost_standard": 0.06482,
+      "cost_if_batch_discount": 0.03241
+    },
+    {
+      "batch": "sync-s1_foods-1794261400",
+      "label": "s1_foods (sync)",
+      "in_tokens": 867,
+      "out_tokens": 8656,
+      "cost_standard": 0.00441,
+      "cost_if_batch_discount": 0.00221
+    },
+    {
+      "batch": "sync-s2_pilot-1794261484",
+      "label": "s2_pilot (sync)",
+      "in_tokens": 46358,
+      "out_tokens": 72583,
+      "cost_standard": 0.04093,
+      "cost_if_batch_discount": 0.02046
+    },
+    {
+      "batch": "sync-s2_pilot-1794261521",
+      "label": "s2_pilot (sync)",
+      "in_tokens": 3967,
+      "out_tokens": 5893,
+      "cost_standard": 0.00334,
+      "cost_if_batch_discount": 0.00167
+    },
+    {
+      "batch": "sync-s2_pilot-1794261659",
+      "label": "s2_pilot (sync)",
+      "in_tokens": 74210,
+      "out_tokens": 67256,
+      "cost_standard": 0.04105,
+      "cost_if_batch_discount": 0.02052
+    },
+    {
+      "batch": "sync-s6_pilot-1794261711",
+      "label": "s6_pilot (sync)",
+      "in_tokens": 6598,
+      "out_tokens": 9617,
+      "cost_standard": 0.00547,
+      "cost_if_batch_discount": 0.00273
+    },
+    {
+      "batch": "sync-s1_foods_topup-1794262203",
+      "label": "s1_foods_topup (sync)",
+      "in_tokens": 53326,
+      "out_tokens": 294965,
+      "cost_standard": 0.15282,
+      "cost_if_batch_discount": 0.07641
+    },
+    {
+      "batch": "msgbatch_01LxmZX1VXp5FYXhGAkqAMZj",
+      "label": "s2_main",
+      "in_tokens": 1611017,
+      "out_tokens": 2398278,
+      "cost_standard": 1.36024,
+      "cost_if_batch_discount": 0.68012
+    },
+    {
+      "batch": "sync-s2_main-1794262467",
+      "label": "s2_main (sync)",
+      "in_tokens": 0,
+      "out_tokens": 0,
+      "cost_standard": 0.0,
+      "cost_if_batch_discount": 0.0
+    },
+    {
+      "batch": "msgbatch_01MpBgn1iTtKe9svtrLRRCcy",
+      "label": "s6_main",
+      "in_tokens": 232318,
+      "out_tokens": 327550,
+      "cost_standard": 0.18701,
+      "cost_if_batch_discount": 0.0935
+    },
+    {
+      "batch": "sync-s8_topup-1794265871",
+      "label": "s8_topup (sync)",
+      "in_tokens": 30984,
+      "out_tokens": 72088,
+      "cost_standard": 0.03914,
+      "cost_if_batch_discount": 0.01957
+    },
+    {
+      "batch": "msgbatch_0165d7gJroJoMAbiZ7GTqRRK",
+      "label": "s9_audit",
+      "in_tokens": 718967,
+      "out_tokens": 490767,
+      "cost_standard": 0.31728,
+      "cost_if_batch_discount": 0.15864
+    },
+    {
+      "batch": "sync-s12_variants-1794268550",
+      "label": "s12_variants (sync)",
+      "in_tokens": 10248,
+      "out_tokens": 29866,
+      "cost_standard": 0.01596,
+      "cost_if_batch_discount": 0.00798
+    },
+    {
+      "batch": "sync-s8_topup2-1794268657",
+      "label": "s8_topup2 (sync)",
+      "in_tokens": 5600,
+      "out_tokens": 9783,
+      "cost_standard": 0.00545,
+      "cost_if_batch_discount": 0.00273
+    },
+    {
+      "batch": "sync-s9_audit2-1794268686",
+      "label": "s9_audit2 (sync)",
+      "in_tokens": 12744,
+      "out_tokens": 6679,
+      "cost_standard": 0.00461,
+      "cost_if_batch_discount": 0.00231
+    },
+    {
+      "batch": "sync-s12_variants-1794268769",
+      "label": "s12_variants (sync)",
+      "in_tokens": 10071,
+      "out_tokens": 28899,
+      "cost_standard": 0.01546,
+      "cost_if_batch_discount": 0.00773
+    },
+    {
+      "batch": "msgbatch_017qsXpt84SbtcaqUSQJSiiz",
+      "label": "s14_haiku_judge",
+      "in_tokens": 100210,
+      "out_tokens": 166255,
+      "cost_standard": 0.09315,
+      "cost_if_batch_discount": 0.04657
+    },
+    {
+      "batch": "msgbatch_01FdycHEF5jL5ksegdD8rK5B",
+      "label": "s15_haiku_v2",
+      "in_tokens": 808454,
+      "out_tokens": 243881,
+      "cost_standard": 0.20279,
+      "cost_if_batch_discount": 0.10139
+    },
+    {
+      "batch": "msgbatch_01652QaCRXmq3pyfC46M7P1d",
+      "label": "s16_haiku_judge_all",
+      "in_tokens": 2018835,
+      "out_tokens": 399271,
+      "cost_standard": 0.40152,
+      "cost_if_batch_discount": 0.20076
+    },
+    {
+      "batch": "msgbatch_01LbiNqTB5QfvKSfgSWSdrme",
+      "label": "s16_haiku_judge_all",
+      "in_tokens": 2019524,
+      "out_tokens": 403506,
+      "cost_standard": 0.40371,
+      "cost_if_batch_discount": 0.20185
+    },
+    {
+      "batch": "msgbatch_017iCEe4X2q6LpQR93AbhvpS",
+      "label": "s16_haiku_judge_all",
+      "in_tokens": 2018419,
+      "out_tokens": 389635,
+      "cost_standard": 0.39666,
+      "cost_if_batch_discount": 0.19833
+    },
+    {
+      "batch": "msgbatch_01Kz88zgmJr98oFGALj7ekgX",
+      "label": "s16_haiku_judge_all",
+      "in_tokens": 2019449,
+      "out_tokens": 392898,
+      "cost_standard": 0.39839,
+      "cost_if_batch_discount": 0.1992
+    },
+    {
+      "batch": "msgbatch_01BHpgkB5XYTDzVmqFwCdNVn",
+      "label": "s16_haiku_judge_all",
+      "in_tokens": 1110724,
+      "out_tokens": 226841,
+      "cost_standard": 0.22449,
+      "cost_if_batch_discount": 0.11225
+    }
+  ]
+}

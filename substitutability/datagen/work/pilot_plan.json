@@ -1,0 +1,1296 @@
+[
+ {
+  "food": "agar agar",
+  "group": "broths_drinks_baking",
+  "cuisine": "non-western",
+  "slots": [
+   [
+    "good",
+    "easy",
+    "G1"
+   ],
+   [
+    "bad",
+    "hard",
+    "B4"
+   ]
+  ]
+ },
+ {
+  "food": "kokum syrup",
+  "group": "broths_drinks_baking",
+  "cuisine": "non-western",
+  "slots": [
+   [
+    "bad",
+    "easy",
+    "B2"
+   ],
+   [
+    "good",
+    "hard",
+    "G7"
+   ]
+  ]
+ },
+ {
+  "food": "mung bean starch",
+  "group": "broths_drinks_baking",
+  "cuisine": "non-western",
+  "slots": [
+   [
+    "good",
+    "easy",
+    "G1"
+   ],
+   [
+    "bad",
+    "hard",
+    "B10"
+   ]
+  ]
+ },
+ {
+  "food": "turkey broth",
+  "group": "broths_drinks_baking",
+  "cuisine": "western",
+  "slots": [
+   [
+    "bad",
+    "easy",
+    "B2"
+   ],
+   [
+    "good",
+    "hard",
+    "G6"
+   ]
+  ]
+ },
+ {
+  "food": "port wine",
+  "group": "broths_drinks_baking",
+  "cuisine": "western",
+  "slots": [
+   [
+    "bad",
+    "medium",
+    "B7"
+   ],
+   [
+    "good",
+    "easy",
+    "G2"
+   ]
+  ]
+ },
+ {
+  "food": "sugar palm syrup",
+  "group": "broths_drinks_baking",
+  "cuisine": "non-western",
+  "slots": [
+   [
+    "good",
+    "medium",
+    "G5"
+   ],
+   [
+    "bad",
+    "medium",
+    "B5"
+   ]
+  ]
+ },
+ {
+  "food": "gruyere cheese",
+  "group": "dairy_eggs",
+  "cuisine": "western",
+  "slots": [
+   [
+    "good",
+    "easy",
+    "G2"
+   ],
+   [
+    "bad",
+    "medium",
+    "B5"
+   ]
+  ]
+ },
+ {
+  "food": "goose egg yolk",
+  "group": "dairy_eggs",
+  "cuisine": "non-western",
+  "slots": [
+   [
+    "good",
+    "hard",
+    "G6"
+   ],
+   [
+    "bad",
+    "hard",
+    "B4"
+   ]
+  ]
+ },
+ {
+  "food": "walnut milk",
+  "group": "dairy_eggs",
+  "cuisine": "non-western",
+  "slots": [
+   [
+    "bad",
+    "easy",
+    "B2"
+   ],
+   [
+    "good",
+    "edge",
+    "E1"
+   ]
+  ]
+ },
+ {
+  "food": "havarti cheese",
+  "group": "dairy_eggs",
+  "cuisine": "western",
+  "slots": [
+   [
+    "bad",
+    "hard",
+    "B4"
+   ],
+   [
+    "good",
+    "easy",
+    "G1"
+   ]
+  ]
+ },
+ {
+  "food": "adyghe cheese",
+  "group": "dairy_eggs",
+  "cuisine": "non-western",
+  "slots": [
+   [
+    "bad",
+    "edge",
+    "E2"
+   ],
+   [
+    "good",
+    "easy",
+    "G1"
+   ]
+  ]
+ },
+ {
+  "food": "sacha inchi milk",
+  "group": "dairy_eggs",
+  "cuisine": "non-western",
+  "slots": [
+   [
+    "bad",
+    "medium",
+    "B6"
+   ],
+   [
+    "good",
+    "easy",
+    "G2"
+   ]
+  ]
+ },
+ {
+  "food": "ugli fruit",
+  "group": "fruits",
+  "cuisine": "western",
+  "slots": [
+   [
+    "good",
+    "medium",
+    "G5"
+   ],
+   [
+    "bad",
+    "medium",
+    "B7"
+   ],
+   [
+    "bad",
+    "easy",
+    "B3"
+   ]
+  ]
+ },
+ {
+  "food": "raisins",
+  "group": "fruits",
+  "cuisine": "western",
+  "slots": [
+   [
+    "good",
+    "hard",
+    "G7"
+   ],
+   [
+    "bad",
+    "medium",
+    "B5"
+   ]
+  ]
+ },
+ {
+  "food": "black olives",
+  "group": "fruits",
+  "cuisine": "western",
+  "slots": [
+   [
+    "bad",
+    "medium",
+    "B5"
+   ],
+   [
+    "good",
+    "medium",
+    "G4"
+   ]
+  ]
+ },
+ {
+  "food": "elderberry",
+  "group": "fruits",
+  "cuisine": "western",
+  "slots": [
+   [
+    "good",
+    "medium",
+    "G4"
+   ],
+   [
+    "good",
+    "easy",
+    "G1"
+   ],
+   [
+    "bad",
+    "hard",
+    "B8"
+   ]
+  ]
+ },
+ {
+  "food": "charentais melon",
+  "group": "fruits",
+  "cuisine": "western",
+  "slots": [
+   [
+    "good",
+    "medium",
+    "G4"
+   ],
+   [
+    "bad",
+    "easy",
+    "B3"
+   ]
+  ]
+ },
+ {
+  "food": "dates",
+  "group": "fruits",
+  "cuisine": "non-western",
+  "slots": [
+   [
+    "good",
+    "easy",
+    "G3"
+   ],
+   [
+    "bad",
+    "edge",
+    "B11"
+   ]
+  ]
+ },
+ {
+  "food": "sourdough bread",
+  "group": "grains_pasta_bread",
+  "cuisine": "western",
+  "slots": [
+   [
+    "bad",
+    "easy",
+    "B1"
+   ],
+   [
+    "good",
+    "edge",
+    "E1"
+   ]
+  ]
+ },
+ {
+  "food": "puri",
+  "group": "grains_pasta_bread",
+  "cuisine": "non-western",
+  "slots": [
+   [
+    "bad",
+    "easy",
+    "B2"
+   ],
+   [
+    "good",
+    "hard",
+    "G6"
+   ]
+  ]
+ },
+ {
+  "food": "kishimen noodles",
+  "group": "grains_pasta_bread",
+  "cuisine": "non-western",
+  "slots": [
+   [
+    "bad",
+    "edge",
+    "B11"
+   ],
+   [
+    "good",
+    "edge",
+    "E1"
+   ],
+   [
+    "bad",
+    "edge",
+    "E2"
+   ]
+  ]
+ },
+ {
+  "food": "tortilla",
+  "group": "grains_pasta_bread",
+  "cuisine": "non-western",
+  "slots": [
+   [
+    "good",
+    "hard",
+    "G6"
+   ],
+   [
+    "bad",
+    "easy",
+    "B3"
+   ]
+  ]
+ },
+ {
+  "food": "fine bulgur flour",
+  "group": "grains_pasta_bread",
+  "cuisine": "non-western",
+  "slots": [
+   [
+    "bad",
+    "medium",
+    "B6"
+   ],
+   [
+    "good",
+    "medium",
+    "G4"
+   ],
+   [
+    "good",
+    "medium",
+    "G5"
+   ]
+  ]
+ },
+ {
+  "food": "arepa",
+  "group": "grains_pasta_bread",
+  "cuisine": "non-western",
+  "slots": [
+   [
+    "good",
+    "easy",
+    "G1"
+   ],
+   [
+    "bad",
+    "edge",
+    "E2"
+   ]
+  ]
+ },
+ {
+  "food": "piment d'espelette",
+  "group": "herbs_spices",
+  "cuisine": "western",
+  "slots": [
+   [
+    "good",
+    "easy",
+    "G3"
+   ],
+   [
+    "good",
+    "medium",
+    "G5"
+   ],
+   [
+    "bad",
+    "easy",
+    "B3"
+   ]
+  ]
+ },
+ {
+  "food": "hoja santa",
+  "group": "herbs_spices",
+  "cuisine": "non-western",
+  "slots": [
+   [
+    "good",
+    "easy",
+    "G1"
+   ],
+   [
+    "bad",
+    "easy",
+    "B2"
+   ]
+  ]
+ },
+ {
+  "food": "sazon seasoning",
+  "group": "herbs_spices",
+  "cuisine": "non-western",
+  "slots": [
+   [
+    "bad",
+    "easy",
+    "B3"
+   ],
+   [
+    "good",
+    "hard",
+    "G6"
+   ]
+  ]
+ },
+ {
+  "food": "chili powder",
+  "group": "herbs_spices",
+  "cuisine": "western",
+  "slots": [
+   [
+    "good",
+    "edge",
+    "E1"
+   ],
+   [
+    "bad",
+    "medium",
+    "B7"
+   ]
+  ]
+ },
+ {
+  "food": "berbere spice blend",
+  "group": "herbs_spices",
+  "cuisine": "non-western",
+  "slots": [
+   [
+    "bad",
+    "easy",
+    "B1"
+   ],
+   [
+    "good",
+    "hard",
+    "G6"
+   ]
+  ]
+ },
+ {
+  "food": "dried bonito flakes",
+  "group": "herbs_spices",
+  "cuisine": "non-western",
+  "slots": [
+   [
+    "bad",
+    "hard",
+    "B4"
+   ],
+   [
+    "good",
+    "medium",
+    "G5"
+   ],
+   [
+    "bad",
+    "easy",
+    "B2"
+   ]
+  ]
+ },
+ {
+  "food": "pumpkin seed",
+  "group": "legumes_nuts_seeds",
+  "cuisine": "non-western",
+  "slots": [
+   [
+    "good",
+    "hard",
+    "G7"
+   ],
+   [
+    "bad",
+    "medium",
+    "B6"
+   ],
+   [
+    "bad",
+    "hard",
+    "B9"
+   ]
+  ]
+ },
+ {
+  "food": "hemp seed butter",
+  "group": "legumes_nuts_seeds",
+  "cuisine": "western",
+  "slots": [
+   [
+    "bad",
+    "medium",
+    "B6"
+   ],
+   [
+    "good",
+    "hard",
+    "G6"
+   ]
+  ]
+ },
+ {
+  "food": "fermented tofu",
+  "group": "legumes_nuts_seeds",
+  "cuisine": "non-western",
+  "slots": [
+   [
+    "bad",
+    "easy",
+    "B3"
+   ],
+   [
+    "good",
+    "hard",
+    "G6"
+   ]
+  ]
+ },
+ {
+  "food": "walnut",
+  "group": "legumes_nuts_seeds",
+  "cuisine": "western",
+  "slots": [
+   [
+    "good",
+    "hard",
+    "G6"
+   ],
+   [
+    "bad",
+    "easy",
+    "B2"
+   ]
+  ]
+ },
+ {
+  "food": "pistachio",
+  "group": "legumes_nuts_seeds",
+  "cuisine": "western",
+  "slots": [
+   [
+    "good",
+    "hard",
+    "G6"
+   ],
+   [
+    "bad",
+    "hard",
+    "B4"
+   ]
+  ]
+ },
+ {
+  "food": "textured soy protein",
+  "group": "legumes_nuts_seeds",
+  "cuisine": "non-western",
+  "slots": [
+   [
+    "bad",
+    "medium",
+    "B6"
+   ],
+   [
+    "good",
+    "easy",
+    "G3"
+   ]
+  ]
+ },
+ {
+  "food": "bavette steak",
+  "group": "meat",
+  "cuisine": "western",
+  "slots": [
+   [
+    "good",
+    "medium",
+    "G4"
+   ],
+   [
+    "bad",
+    "hard",
+    "B10"
+   ]
+  ]
+ },
+ {
+  "food": "elk",
+  "group": "meat",
+  "cuisine": "western",
+  "slots": [
+   [
+    "good",
+    "easy",
+    "G3"
+   ],
+   [
+    "bad",
+    "hard",
+    "B4"
+   ]
+  ]
+ },
+ {
+  "food": "lamb tripe",
+  "group": "meat",
+  "cuisine": "non-western",
+  "slots": [
+   [
+    "bad",
+    "medium",
+    "B6"
+   ],
+   [
+    "good",
+    "medium",
+    "G4"
+   ]
+  ]
+ },
+ {
+  "food": "goat",
+  "group": "meat",
+  "cuisine": "non-western",
+  "slots": [
+   [
+    "good",
+    "hard",
+    "G6"
+   ],
+   [
+    "bad",
+    "medium",
+    "B5"
+   ]
+  ]
+ },
+ {
+  "food": "pork trotters",
+  "group": "meat",
+  "cuisine": "non-western",
+  "slots": [
+   [
+    "good",
+    "medium",
+    "G4"
+   ],
+   [
+    "bad",
+    "hard",
+    "B10"
+   ]
+  ]
+ },
+ {
+  "food": "zebra meat",
+  "group": "meat",
+  "cuisine": "non-western",
+  "slots": [
+   [
+    "good",
+    "medium",
+    "G4"
+   ],
+   [
+    "bad",
+    "medium",
+    "B6"
+   ],
+   [
+    "good",
+    "easy",
+    "G1"
+   ]
+  ]
+ },
+ {
+  "food": "mutton fat",
+  "group": "oils_fats",
+  "cuisine": "non-western",
+  "slots": [
+   [
+    "good",
+    "edge",
+    "E1"
+   ],
+   [
+    "good",
+    "hard",
+    "G6"
+   ],
+   [
+    "bad",
+    "easy",
+    "B2"
+   ]
+  ]
+ },
+ {
+  "food": "rice bran oil",
+  "group": "oils_fats",
+  "cuisine": "non-western",
+  "slots": [
+   [
+    "good",
+    "easy",
+    "G2"
+   ],
+   [
+    "bad",
+    "hard",
+    "B8"
+   ]
+  ]
+ },
+ {
+  "food": "shea oil",
+  "group": "oils_fats",
+  "cuisine": "non-western",
+  "slots": [
+   [
+    "bad",
+    "edge",
+    "B11"
+   ],
+   [
+    "good",
+    "medium",
+    "G5"
+   ],
+   [
+    "good",
+    "easy",
+    "G1"
+   ]
+  ]
+ },
+ {
+  "food": "brazil nut oil",
+  "group": "oils_fats",
+  "cuisine": "western",
+  "slots": [
+   [
+    "bad",
+    "hard",
+    "B9"
+   ],
+   [
+    "good",
+    "edge",
+    "E1"
+   ]
+  ]
+ },
+ {
+  "food": "sunflower oil",
+  "group": "oils_fats",
+  "cuisine": "western",
+  "slots": [
+   [
+    "good",
+    "medium",
+    "G5"
+   ],
+   [
+    "bad",
+    "medium",
+    "B6"
+   ]
+  ]
+ },
+ {
+  "food": "almond oil",
+  "group": "oils_fats",
+  "cuisine": "western",
+  "slots": [
+   [
+    "good",
+    "hard",
+    "G7"
+   ],
+   [
+    "bad",
+    "hard",
+    "B9"
+   ]
+  ]
+ },
+ {
+  "food": "guinea fowl",
+  "group": "poultry",
+  "cuisine": "western",
+  "slots": [
+   [
+    "bad",
+    "medium",
+    "B7"
+   ],
+   [
+    "good",
+    "hard",
+    "G6"
+   ]
+  ]
+ },
+ {
+  "food": "chicken fillet",
+  "group": "poultry",
+  "cuisine": "western",
+  "slots": [
+   [
+    "good",
+    "medium",
+    "G5"
+   ],
+   [
+    "bad",
+    "easy",
+    "B2"
+   ]
+  ]
+ },
+ {
+  "food": "red-legged partridge",
+  "group": "poultry",
+  "cuisine": "western",
+  "slots": [
+   [
+    "good",
+    "easy",
+    "G3"
+   ],
+   [
+    "bad",
+    "medium",
+    "B6"
+   ]
+  ]
+ },
+ {
+  "food": "chicken p\u00e2t\u00e9",
+  "group": "poultry",
+  "cuisine": "western",
+  "slots": [
+   [
+    "bad",
+    "hard",
+    "B10"
+   ],
+   [
+    "good",
+    "medium",
+    "G5"
+   ],
+   [
+    "bad",
+    "medium",
+    "B6"
+   ]
+  ]
+ },
+ {
+  "food": "turkey merguez",
+  "group": "poultry",
+  "cuisine": "non-western",
+  "slots": [
+   [
+    "good",
+    "medium",
+    "G4"
+   ],
+   [
+    "bad",
+    "easy",
+    "B2"
+   ]
+  ]
+ },
+ {
+  "food": "turkey breast deli meat",
+  "group": "poultry",
+  "cuisine": "western",
+  "slots": [
+   [
+    "good",
+    "medium",
+    "G4"
+   ],
+   [
+    "bad",
+    "easy",
+    "B3"
+   ]
+  ]
+ },
+ {
+  "food": "sichuan chili bean paste",
+  "group": "sauces_condiments",
+  "cuisine": "non-western",
+  "slots": [
+   [
+    "bad",
+    "hard",
+    "B4"
+   ],
+   [
+    "good",
+    "hard",
+    "G6"
+   ]
+  ]
+ },
+ {
+  "food": "adobo sauce",
+  "group": "sauces_condiments",
+  "cuisine": "non-western",
+  "slots": [
+   [
+    "good",
+    "easy",
+    "G1"
+   ],
+   [
+    "bad",
+    "medium",
+    "B6"
+   ],
+   [
+    "bad",
+    "easy",
+    "B3"
+   ]
+  ]
+ },
+ {
+  "food": "green curry paste",
+  "group": "sauces_condiments",
+  "cuisine": "non-western",
+  "slots": [
+   [
+    "good",
+    "medium",
+    "G5"
+   ],
+   [
+    "bad",
+    "hard",
+    "B9"
+   ]
+  ]
+ },
+ {
+  "food": "mint chutney",
+  "group": "sauces_condiments",
+  "cuisine": "non-western",
+  "slots": [
+   [
+    "good",
+    "easy",
+    "G1"
+   ],
+   [
+    "bad",
+    "hard",
+    "B8"
+   ]
+  ]
+ },
+ {
+  "food": "honey mustard dressing",
+  "group": "sauces_condiments",
+  "cuisine": "western",
+  "slots": [
+   [
+    "good",
+    "easy",
+    "G2"
+   ],
+   [
+    "bad",
+    "easy",
+    "B1"
+   ]
+  ]
+ },
+ {
+  "food": "oyster sauce",
+  "group": "sauces_condiments",
+  "cuisine": "non-western",
+  "slots": [
+   [
+    "bad",
+    "hard",
+    "B4"
+   ],
+   [
+    "good",
+    "easy",
+    "G3"
+   ]
+  ]
+ },
+ {
+  "food": "caviar",
+  "group": "seafood",
+  "cuisine": "western",
+  "slots": [
+   [
+    "good",
+    "easy",
+    "G2"
+   ],
+   [
+    "bad",
+    "hard",
+    "B4"
+   ]
+  ]
+ },
+ {
+  "food": "abalone",
+  "group": "seafood",
+  "cuisine": "western",
+  "slots": [
+   [
+    "bad",
+    "easy",
+    "B1"
+   ],
+   [
+    "good",
+    "hard",
+    "G6"
+   ]
+  ]
+ },
+ {
+  "food": "fish roe paste",
+  "group": "seafood",
+  "cuisine": "non-western",
+  "slots": [
+   [
+    "bad",
+    "hard",
+    "B10"
+   ],
+   [
+    "good",
+    "hard",
+    "G7"
+   ]
+  ]
+ },
+ {
+  "food": "dried oysters",
+  "group": "seafood",
+  "cuisine": "non-western",
+  "slots": [
+   [
+    "good",
+    "easy",
+    "G2"
+   ],
+   [
+    "bad",
+    "medium",
+    "B5"
+   ]
+  ]
+ },
+ {
+  "food": "dried squid",
+  "group": "seafood",
+  "cuisine": "non-western",
+  "slots": [
+   [
+    "good",
+    "medium",
+    "G5"
+   ],
+   [
+    "bad",
+    "edge",
+    "B11"
+   ],
+   [
+    "bad",
+    "hard",
+    "B8"
+   ]
+  ]
+ },
+ {
+  "food": "sea bass",
+  "group": "seafood",
+  "cuisine": "western",
+  "slots": [
+   [
+    "bad",
+    "easy",
+    "B2"
+   ],
+   [
+    "good",
+    "medium",
+    "G4"
+   ]
+  ]
+ },
+ {
+  "food": "chinese chive",
+  "group": "vegetables",
+  "cuisine": "non-western",
+  "slots": [
+   [
+    "good",
+    "hard",
+    "G6"
+   ],
+   [
+    "bad",
+    "medium",
+    "B5"
+   ],
+   [
+    "good",
+    "hard",
+    "G6"
+   ]
+  ]
+ },
+ {
+  "food": "portobello mushroom",
+  "group": "vegetables",
+  "cuisine": "western",
+  "slots": [
+   [
+    "bad",
+    "medium",
+    "B5"
+   ],
+   [
+    "good",
+    "edge",
+    "E1"
+   ]
+  ]
+ },
+ {
+  "food": "oyster mushroom",
+  "group": "vegetables",
+  "cuisine": "western",
+  "slots": [
+   [
+    "bad",
+    "medium",
+    "B5"
+   ],
+   [
+    "good",
+    "medium",
+    "G5"
+   ]
+  ]
+ },
+ {
+  "food": "sweet potato",
+  "group": "vegetables",
+  "cuisine": "western",
+  "slots": [
+   [
+    "bad",
+    "easy",
+    "B1"
+   ],
+   [
+    "good",
+    "hard",
+    "G6"
+   ]
+  ]
+ },
+ {
+  "food": "bamboo shoots",
+  "group": "vegetables",
+  "cuisine": "non-western",
+  "slots": [
+   [
+    "bad",
+    "hard",
+    "B9"
+   ],
+   [
+    "good",
+    "edge",
+    "E1"
+   ]
+  ]
+ },
+ {
+  "food": "fenugreek sprout",
+  "group": "vegetables",
+  "cuisine": "non-western",
+  "slots": [
+   [
+    "bad",
+    "edge",
+    "E2"
+   ],
+   [
+    "good",
+    "medium",
+    "G5"
+   ]
+  ]
+ }
+]
