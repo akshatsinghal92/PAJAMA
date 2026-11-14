@@ -1,0 +1,24 @@
+{
+  "pool": 4179,
+  "val": 380,
+  "test": 3799,
+  "val_fraction": 0.0909,
+  "paper_val_fraction": 0.0909,
+  "val_yes": 0.4737,
+  "test_yes": 0.4691,
+  "fewshot_yes": 1,
+  "core_food_overlap": 0,
+  "seed": 42,
+  "val_tiers": {
+    "easy": 127,
+    "medium": 105,
+    "hard": 113,
+    "edge": 35
+  },
+  "test_tiers": {
+    "easy": 1198,
+    "medium": 1213,
+    "hard": 1099,
+    "edge": 289
+  }
+}
