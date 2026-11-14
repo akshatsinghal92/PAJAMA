@@ -1,0 +1,802 @@
+[
+ {
+  "id": 60,
+  "rubric": "Brand and Commercial Product",
+  "acc": 0.767,
+  "yes": 0.39,
+  "mean_agree": 0.881,
+  "max_agree": 0.976,
+  "most_similar": 59,
+  "mean_kappa": 0.749
+ },
+ {
+  "id": 39,
+  "rubric": "Modifier and Qualifier Consistency",
+  "acc": 0.743,
+  "yes": 0.37,
+  "mean_agree": 0.879,
+  "max_agree": 0.979,
+  "most_similar": 40,
+  "mean_kappa": 0.742
+ },
+ {
+  "id": 49,
+  "rubric": "Unstated Added Qualifier",
+  "acc": 0.764,
+  "yes": 0.35,
+  "mean_agree": 0.878,
+  "max_agree": 0.97,
+  "most_similar": 51,
+  "mean_kappa": 0.738
+ },
+ {
+  "id": 50,
+  "rubric": "Unstated Added Qualifier",
+  "acc": 0.775,
+  "yes": 0.38,
+  "mean_agree": 0.878,
+  "max_agree": 0.976,
+  "most_similar": 51,
+  "mean_kappa": 0.741
+ },
+ {
+  "id": 62,
+  "rubric": "Single Ingredient vs Composite Dish",
+  "acc": 0.763,
+  "yes": 0.4,
+  "mean_agree": 0.878,
+  "max_agree": 0.968,
+  "most_similar": 60,
+  "mean_kappa": 0.743
+ },
+ {
+  "id": 56,
+  "rubric": "Polarity and Negation Conflict",
+  "acc": 0.768,
+  "yes": 0.38,
+  "mean_agree": 0.877,
+  "max_agree": 0.973,
+  "most_similar": 55,
+  "mean_kappa": 0.739
+ },
+ {
+  "id": 59,
+  "rubric": "Brand and Commercial Product",
+  "acc": 0.766,
+  "yes": 0.38,
+  "mean_agree": 0.877,
+  "max_agree": 0.976,
+  "most_similar": 60,
+  "mean_kappa": 0.739
+ },
+ {
+  "id": 40,
+  "rubric": "Modifier and Qualifier Consistency",
+  "acc": 0.741,
+  "yes": 0.39,
+  "mean_agree": 0.876,
+  "max_agree": 0.979,
+  "most_similar": 39,
+  "mean_kappa": 0.738
+ },
+ {
+  "id": 63,
+  "rubric": "Single Ingredient vs Composite Dish",
+  "acc": 0.769,
+  "yes": 0.37,
+  "mean_agree": 0.876,
+  "max_agree": 0.974,
+  "most_similar": 60,
+  "mean_kappa": 0.734
+ },
+ {
+  "id": 51,
+  "rubric": "Unstated Added Qualifier",
+  "acc": 0.773,
+  "yes": 0.36,
+  "mean_agree": 0.874,
+  "max_agree": 0.976,
+  "most_similar": 50,
+  "mean_kappa": 0.73
+ },
+ {
+  "id": 34,
+  "rubric": "Culinary Role Interchangeability",
+  "acc": 0.735,
+  "yes": 0.38,
+  "mean_agree": 0.873,
+  "max_agree": 0.959,
+  "most_similar": 39,
+  "mean_kappa": 0.73
+ },
+ {
+  "id": 55,
+  "rubric": "Polarity and Negation Conflict",
+  "acc": 0.778,
+  "yes": 0.39,
+  "mean_agree": 0.873,
+  "max_agree": 0.973,
+  "most_similar": 56,
+  "mean_kappa": 0.733
+ },
+ {
+  "id": 58,
+  "rubric": "Brand and Commercial Product",
+  "acc": 0.773,
+  "yes": 0.38,
+  "mean_agree": 0.873,
+  "max_agree": 0.968,
+  "most_similar": 60,
+  "mean_kappa": 0.731
+ },
+ {
+  "id": 43,
+  "rubric": "Synonym and Alias Resolution",
+  "acc": 0.748,
+  "yes": 0.39,
+  "mean_agree": 0.872,
+  "max_agree": 0.977,
+  "most_similar": 42,
+  "mean_kappa": 0.729
+ },
+ {
+  "id": 36,
+  "rubric": "Culinary Role Interchangeability",
+  "acc": 0.754,
+  "yes": 0.35,
+  "mean_agree": 0.87,
+  "max_agree": 0.969,
+  "most_similar": 35,
+  "mean_kappa": 0.72
+ },
+ {
+  "id": 64,
+  "rubric": "Single Ingredient vs Composite Dish",
+  "acc": 0.756,
+  "yes": 0.37,
+  "mean_agree": 0.87,
+  "max_agree": 0.956,
+  "most_similar": 60,
+  "mean_kappa": 0.721
+ },
+ {
+  "id": 66,
+  "rubric": "Cooking Method Agreement",
+  "acc": 0.76,
+  "yes": 0.38,
+  "mean_agree": 0.87,
+  "max_agree": 0.953,
+  "most_similar": 60,
+  "mean_kappa": 0.724
+ },
+ {
+  "id": 42,
+  "rubric": "Synonym and Alias Resolution",
+  "acc": 0.746,
+  "yes": 0.4,
+  "mean_agree": 0.867,
+  "max_agree": 0.977,
+  "most_similar": 43,
+  "mean_kappa": 0.72
+ },
+ {
+  "id": 54,
+  "rubric": "Polarity and Negation Conflict",
+  "acc": 0.768,
+  "yes": 0.35,
+  "mean_agree": 0.867,
+  "max_agree": 0.95,
+  "most_similar": 55,
+  "mean_kappa": 0.713
+ },
+ {
+  "id": 31,
+  "rubric": "Processing and Additive Difference",
+  "acc": 0.747,
+  "yes": 0.34,
+  "mean_agree": 0.866,
+  "max_agree": 0.951,
+  "most_similar": 36,
+  "mean_kappa": 0.711
+ },
+ {
+  "id": 38,
+  "rubric": "Modifier and Qualifier Consistency",
+  "acc": 0.732,
+  "yes": 0.38,
+  "mean_agree": 0.865,
+  "max_agree": 0.958,
+  "most_similar": 40,
+  "mean_kappa": 0.714
+ },
+ {
+  "id": 48,
+  "rubric": "Head Food Position",
+  "acc": 0.734,
+  "yes": 0.41,
+  "mean_agree": 0.864,
+  "max_agree": 0.93,
+  "most_similar": 40,
+  "mean_kappa": 0.714
+ },
+ {
+  "id": 52,
+  "rubric": "Unstated Added Qualifier",
+  "acc": 0.747,
+  "yes": 0.43,
+  "mean_agree": 0.864,
+  "max_agree": 0.928,
+  "most_similar": 50,
+  "mean_kappa": 0.718
+ },
+ {
+  "id": 70,
+  "rubric": "Anatomical Part and Cut",
+  "acc": 0.758,
+  "yes": 0.37,
+  "mean_agree": 0.864,
+  "max_agree": 0.967,
+  "most_similar": 72,
+  "mean_kappa": 0.709
+ },
+ {
+  "id": 78,
+  "rubric": "Compound Food Name Integrity",
+  "acc": 0.75,
+  "yes": 0.37,
+  "mean_agree": 0.864,
+  "max_agree": 0.971,
+  "most_similar": 80,
+  "mean_kappa": 0.71
+ },
+ {
+  "id": 53,
+  "rubric": "Polarity and Negation Conflict",
+  "acc": 0.75,
+  "yes": 0.37,
+  "mean_agree": 0.863,
+  "max_agree": 0.926,
+  "most_similar": 55,
+  "mean_kappa": 0.706
+ },
+ {
+  "id": 57,
+  "rubric": "Brand and Commercial Product",
+  "acc": 0.751,
+  "yes": 0.38,
+  "mean_agree": 0.863,
+  "max_agree": 0.962,
+  "most_similar": 58,
+  "mean_kappa": 0.708
+ },
+ {
+  "id": 67,
+  "rubric": "Cooking Method Agreement",
+  "acc": 0.772,
+  "yes": 0.43,
+  "mean_agree": 0.862,
+  "max_agree": 0.956,
+  "most_similar": 68,
+  "mean_kappa": 0.714
+ },
+ {
+  "id": 68,
+  "rubric": "Cooking Method Agreement",
+  "acc": 0.775,
+  "yes": 0.39,
+  "mean_agree": 0.862,
+  "max_agree": 0.956,
+  "most_similar": 67,
+  "mean_kappa": 0.709
+ },
+ {
+  "id": 29,
+  "rubric": "Processing and Additive Difference",
+  "acc": 0.741,
+  "yes": 0.35,
+  "mean_agree": 0.861,
+  "max_agree": 0.919,
+  "most_similar": 9,
+  "mean_kappa": 0.7
+ },
+ {
+  "id": 80,
+  "rubric": "Compound Food Name Integrity",
+  "acc": 0.756,
+  "yes": 0.37,
+  "mean_agree": 0.861,
+  "max_agree": 0.971,
+  "most_similar": 78,
+  "mean_kappa": 0.704
+ },
+ {
+  "id": 79,
+  "rubric": "Compound Food Name Integrity",
+  "acc": 0.764,
+  "yes": 0.37,
+  "mean_agree": 0.859,
+  "max_agree": 0.953,
+  "most_similar": 75,
+  "mean_kappa": 0.699
+ },
+ {
+  "id": 74,
+  "rubric": "Ingredient Detail Coverage",
+  "acc": 0.764,
+  "yes": 0.41,
+  "mean_agree": 0.858,
+  "max_agree": 0.951,
+  "most_similar": 75,
+  "mean_kappa": 0.702
+ },
+ {
+  "id": 5,
+  "rubric": "Preparation-State Equivalence",
+  "acc": 0.732,
+  "yes": 0.4,
+  "mean_agree": 0.857,
+  "max_agree": 0.976,
+  "most_similar": 9,
+  "mean_kappa": 0.698
+ },
+ {
+  "id": 9,
+  "rubric": "Preservation and Form Match",
+  "acc": 0.732,
+  "yes": 0.4,
+  "mean_agree": 0.857,
+  "max_agree": 0.976,
+  "most_similar": 5,
+  "mean_kappa": 0.699
+ },
+ {
+  "id": 7,
+  "rubric": "Preparation-State Equivalence",
+  "acc": 0.744,
+  "yes": 0.36,
+  "mean_agree": 0.856,
+  "max_agree": 0.946,
+  "most_similar": 5,
+  "mean_kappa": 0.691
+ },
+ {
+  "id": 18,
+  "rubric": "Specificity and Generality Alignment",
+  "acc": 0.761,
+  "yes": 0.36,
+  "mean_agree": 0.855,
+  "max_agree": 0.907,
+  "most_similar": 17,
+  "mean_kappa": 0.689
+ },
+ {
+  "id": 69,
+  "rubric": "Anatomical Part and Cut",
+  "acc": 0.759,
+  "yes": 0.38,
+  "mean_agree": 0.855,
+  "max_agree": 0.983,
+  "most_similar": 72,
+  "mean_kappa": 0.692
+ },
+ {
+  "id": 72,
+  "rubric": "Anatomical Part and Cut",
+  "acc": 0.76,
+  "yes": 0.37,
+  "mean_agree": 0.855,
+  "max_agree": 0.983,
+  "most_similar": 69,
+  "mean_kappa": 0.691
+ },
+ {
+  "id": 35,
+  "rubric": "Culinary Role Interchangeability",
+  "acc": 0.747,
+  "yes": 0.35,
+  "mean_agree": 0.853,
+  "max_agree": 0.969,
+  "most_similar": 36,
+  "mean_kappa": 0.683
+ },
+ {
+  "id": 65,
+  "rubric": "Cooking Method Agreement",
+  "acc": 0.743,
+  "yes": 0.43,
+  "mean_agree": 0.853,
+  "max_agree": 0.931,
+  "most_similar": 60,
+  "mean_kappa": 0.696
+ },
+ {
+  "id": 44,
+  "rubric": "Synonym and Alias Resolution",
+  "acc": 0.713,
+  "yes": 0.44,
+  "mean_agree": 0.852,
+  "max_agree": 0.924,
+  "most_similar": 40,
+  "mean_kappa": 0.694
+ },
+ {
+  "id": 75,
+  "rubric": "Ingredient Detail Coverage",
+  "acc": 0.767,
+  "yes": 0.39,
+  "mean_agree": 0.852,
+  "max_agree": 0.956,
+  "most_similar": 68,
+  "mean_kappa": 0.687
+ },
+ {
+  "id": 19,
+  "rubric": "Specificity and Generality Alignment",
+  "acc": 0.722,
+  "yes": 0.36,
+  "mean_agree": 0.851,
+  "max_agree": 0.918,
+  "most_similar": 20,
+  "mean_kappa": 0.681
+ },
+ {
+  "id": 46,
+  "rubric": "Head Food Position",
+  "acc": 0.737,
+  "yes": 0.43,
+  "mean_agree": 0.849,
+  "max_agree": 0.907,
+  "most_similar": 48,
+  "mean_kappa": 0.688
+ },
+ {
+  "id": 77,
+  "rubric": "Compound Food Name Integrity",
+  "acc": 0.742,
+  "yes": 0.34,
+  "mean_agree": 0.849,
+  "max_agree": 0.938,
+  "most_similar": 80,
+  "mean_kappa": 0.674
+ },
+ {
+  "id": 24,
+  "rubric": "Lexical and Token Overlap",
+  "acc": 0.718,
+  "yes": 0.4,
+  "mean_agree": 0.848,
+  "max_agree": 0.913,
+  "most_similar": 4,
+  "mean_kappa": 0.682
+ },
+ {
+  "id": 30,
+  "rubric": "Processing and Additive Difference",
+  "acc": 0.735,
+  "yes": 0.41,
+  "mean_agree": 0.848,
+  "max_agree": 0.905,
+  "most_similar": 28,
+  "mean_kappa": 0.682
+ },
+ {
+  "id": 28,
+  "rubric": "Food Category Consistency",
+  "acc": 0.709,
+  "yes": 0.44,
+  "mean_agree": 0.847,
+  "max_agree": 0.906,
+  "most_similar": 24,
+  "mean_kappa": 0.685
+ },
+ {
+  "id": 71,
+  "rubric": "Anatomical Part and Cut",
+  "acc": 0.748,
+  "yes": 0.35,
+  "mean_agree": 0.847,
+  "max_agree": 0.951,
+  "most_similar": 70,
+  "mean_kappa": 0.669
+ },
+ {
+  "id": 73,
+  "rubric": "Ingredient Detail Coverage",
+  "acc": 0.75,
+  "yes": 0.31,
+  "mean_agree": 0.846,
+  "max_agree": 0.913,
+  "most_similar": 50,
+  "mean_kappa": 0.662
+ },
+ {
+  "id": 20,
+  "rubric": "Specificity and Generality Alignment",
+  "acc": 0.719,
+  "yes": 0.39,
+  "mean_agree": 0.845,
+  "max_agree": 0.918,
+  "most_similar": 19,
+  "mean_kappa": 0.671
+ },
+ {
+  "id": 32,
+  "rubric": "Processing and Additive Difference",
+  "acc": 0.71,
+  "yes": 0.45,
+  "mean_agree": 0.842,
+  "max_agree": 0.9,
+  "most_similar": 34,
+  "mean_kappa": 0.675
+ },
+ {
+  "id": 61,
+  "rubric": "Single Ingredient vs Composite Dish",
+  "acc": 0.738,
+  "yes": 0.45,
+  "mean_agree": 0.841,
+  "max_agree": 0.897,
+  "most_similar": 44,
+  "mean_kappa": 0.674
+ },
+ {
+  "id": 4,
+  "rubric": "Core Food Identity Match",
+  "acc": 0.699,
+  "yes": 0.43,
+  "mean_agree": 0.839,
+  "max_agree": 0.913,
+  "most_similar": 24,
+  "mean_kappa": 0.666
+ },
+ {
+  "id": 17,
+  "rubric": "Specificity and Generality Alignment",
+  "acc": 0.739,
+  "yes": 0.32,
+  "mean_agree": 0.839,
+  "max_agree": 0.907,
+  "most_similar": 18,
+  "mean_kappa": 0.648
+ },
+ {
+  "id": 22,
+  "rubric": "Lexical and Token Overlap",
+  "acc": 0.716,
+  "yes": 0.43,
+  "mean_agree": 0.838,
+  "max_agree": 0.91,
+  "most_similar": 4,
+  "mean_kappa": 0.663
+ },
+ {
+  "id": 14,
+  "rubric": "Nutritional Profile Proximity",
+  "acc": 0.731,
+  "yes": 0.36,
+  "mean_agree": 0.833,
+  "max_agree": 0.902,
+  "most_similar": 7,
+  "mean_kappa": 0.642
+ },
+ {
+  "id": 11,
+  "rubric": "Preservation and Form Match",
+  "acc": 0.704,
+  "yes": 0.44,
+  "mean_agree": 0.831,
+  "max_agree": 0.89,
+  "most_similar": 8,
+  "mean_kappa": 0.651
+ },
+ {
+  "id": 26,
+  "rubric": "Food Category Consistency",
+  "acc": 0.687,
+  "yes": 0.4,
+  "mean_agree": 0.828,
+  "max_agree": 0.901,
+  "most_similar": 28,
+  "mean_kappa": 0.638
+ },
+ {
+  "id": 41,
+  "rubric": "Synonym and Alias Resolution",
+  "acc": 0.738,
+  "yes": 0.39,
+  "mean_agree": 0.828,
+  "max_agree": 0.893,
+  "most_similar": 39,
+  "mean_kappa": 0.635
+ },
+ {
+  "id": 10,
+  "rubric": "Preservation and Form Match",
+  "acc": 0.691,
+  "yes": 0.4,
+  "mean_agree": 0.827,
+  "max_agree": 0.888,
+  "most_similar": 20,
+  "mean_kappa": 0.637
+ },
+ {
+  "id": 37,
+  "rubric": "Modifier and Qualifier Consistency",
+  "acc": 0.705,
+  "yes": 0.39,
+  "mean_agree": 0.826,
+  "max_agree": 0.877,
+  "most_similar": 40,
+  "mean_kappa": 0.633
+ },
+ {
+  "id": 6,
+  "rubric": "Preparation-State Equivalence",
+  "acc": 0.729,
+  "yes": 0.3,
+  "mean_agree": 0.824,
+  "max_agree": 0.885,
+  "most_similar": 73,
+  "mean_kappa": 0.611
+ },
+ {
+  "id": 27,
+  "rubric": "Food Category Consistency",
+  "acc": 0.71,
+  "yes": 0.34,
+  "mean_agree": 0.823,
+  "max_agree": 0.885,
+  "most_similar": 23,
+  "mean_kappa": 0.618
+ },
+ {
+  "id": 2,
+  "rubric": "Core Food Identity Match",
+  "acc": 0.691,
+  "yes": 0.38,
+  "mean_agree": 0.821,
+  "max_agree": 0.909,
+  "most_similar": 4,
+  "mean_kappa": 0.62
+ },
+ {
+  "id": 76,
+  "rubric": "Ingredient Detail Coverage",
+  "acc": 0.749,
+  "yes": 0.35,
+  "mean_agree": 0.821,
+  "max_agree": 0.884,
+  "most_similar": 79,
+  "mean_kappa": 0.613
+ },
+ {
+  "id": 23,
+  "rubric": "Lexical and Token Overlap",
+  "acc": 0.693,
+  "yes": 0.29,
+  "mean_agree": 0.818,
+  "max_agree": 0.886,
+  "most_similar": 17,
+  "mean_kappa": 0.597
+ },
+ {
+  "id": 16,
+  "rubric": "Nutritional Profile Proximity",
+  "acc": 0.698,
+  "yes": 0.43,
+  "mean_agree": 0.817,
+  "max_agree": 0.881,
+  "most_similar": 26,
+  "mean_kappa": 0.621
+ },
+ {
+  "id": 47,
+  "rubric": "Head Food Position",
+  "acc": 0.708,
+  "yes": 0.3,
+  "mean_agree": 0.81,
+  "max_agree": 0.849,
+  "most_similar": 19,
+  "mean_kappa": 0.581
+ },
+ {
+  "id": 45,
+  "rubric": "Head Food Position",
+  "acc": 0.709,
+  "yes": 0.28,
+  "mean_agree": 0.808,
+  "max_agree": 0.853,
+  "most_similar": 39,
+  "mean_kappa": 0.57
+ },
+ {
+  "id": 8,
+  "rubric": "Preparation-State Equivalence",
+  "acc": 0.706,
+  "yes": 0.51,
+  "mean_agree": 0.807,
+  "max_agree": 0.89,
+  "most_similar": 11,
+  "mean_kappa": 0.615
+ },
+ {
+  "id": 21,
+  "rubric": "Lexical and Token Overlap",
+  "acc": 0.68,
+  "yes": 0.42,
+  "mean_agree": 0.802,
+  "max_agree": 0.88,
+  "most_similar": 26,
+  "mean_kappa": 0.589
+ },
+ {
+  "id": 12,
+  "rubric": "Preservation and Form Match",
+  "acc": 0.698,
+  "yes": 0.49,
+  "mean_agree": 0.798,
+  "max_agree": 0.867,
+  "most_similar": 5,
+  "mean_kappa": 0.595
+ },
+ {
+  "id": 13,
+  "rubric": "Nutritional Profile Proximity",
+  "acc": 0.659,
+  "yes": 0.34,
+  "mean_agree": 0.793,
+  "max_agree": 0.898,
+  "most_similar": 25,
+  "mean_kappa": 0.55
+ },
+ {
+  "id": 25,
+  "rubric": "Food Category Consistency",
+  "acc": 0.662,
+  "yes": 0.35,
+  "mean_agree": 0.785,
+  "max_agree": 0.898,
+  "most_similar": 13,
+  "mean_kappa": 0.536
+ },
+ {
+  "id": 1,
+  "rubric": "Core Food Identity Match",
+  "acc": 0.647,
+  "yes": 0.34,
+  "mean_agree": 0.783,
+  "max_agree": 0.889,
+  "most_similar": 26,
+  "mean_kappa": 0.53
+ },
+ {
+  "id": 3,
+  "rubric": "Core Food Identity Match",
+  "acc": 0.665,
+  "yes": 0.4,
+  "mean_agree": 0.777,
+  "max_agree": 0.888,
+  "most_similar": 1,
+  "mean_kappa": 0.533
+ },
+ {
+  "id": 15,
+  "rubric": "Nutritional Profile Proximity",
+  "acc": 0.648,
+  "yes": 0.27,
+  "mean_agree": 0.777,
+  "max_agree": 0.892,
+  "most_similar": 13,
+  "mean_kappa": 0.498
+ },
+ {
+  "id": 33,
+  "rubric": "Culinary Role Interchangeability",
+  "acc": 0.649,
+  "yes": 0.32,
+  "mean_agree": 0.774,
+  "max_agree": 0.882,
+  "most_similar": 25,
+  "mean_kappa": 0.507
+ }
+]

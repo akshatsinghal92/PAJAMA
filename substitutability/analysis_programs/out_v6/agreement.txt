@@ -1,0 +1,98 @@
+
+===== val: 380 rows, 80 programs (all programs) =====
+                         agreement  kappa  error-Jaccard  P(j wrong | i wrong)
+  all pairs                 0.822  0.624        0.454        0.639
+  same rubric               0.881  0.749        0.608        0.753
+  different rubric          0.820  0.619        0.448        0.635
+  selected                  0.946  0.885        0.672        0.803
+  agreement distribution over pairs: min 0.655  p10 0.753  median 0.818  p90 0.905  max 0.984
+  pairs with agreement >=0.90: 371   >=0.85: 973   <0.60: 0 of 3160
+  rows where ALL 78 agree: 97 (25.5%)   where >=90% agree: 235 (61.8%)
+  rows wrong for ALL 78: 4   wrong for >=80%: 39 (10.3%)   right for all: 93
+  selected: rows unanimous 87.6%   committee-majority errors where all 6 wrong: 35
+  most 'typical' programs (highest mean agreement):
+    {'id': 60, 'rubric': 'Brand and Commercial Product', 'acc': 0.845, 'yes': 0.38, 'mean_agree': 0.862, 'max_agree': 0.976, 'most_similar': 59, 'mean_kappa': 0.706}
+    {'id': 59, 'rubric': 'Brand and Commercial Product', 'acc': 0.853, 'yes': 0.36, 'mean_agree': 0.86, 'max_agree': 0.976, 'most_similar': 60, 'mean_kappa': 0.7}
+    {'id': 56, 'rubric': 'Polarity and Negation Conflict', 'acc': 0.826, 'yes': 0.36, 'mean_agree': 0.859, 'max_agree': 0.958, 'most_similar': 58, 'mean_kappa': 0.699}
+    {'id': 51, 'rubric': 'Unstated Added Qualifier', 'acc': 0.832, 'yes': 0.34, 'mean_agree': 0.856, 'max_agree': 0.966, 'most_similar': 49, 'mean_kappa': 0.69}
+    {'id': 62, 'rubric': 'Single Ingredient vs Composite Dish', 'acc': 0.832, 'yes': 0.38, 'mean_agree': 0.856, 'max_agree': 0.971, 'most_similar': 60, 'mean_kappa': 0.695}
+  most 'different' programs (lowest mean agreement):
+    {'id': 33, 'rubric': 'Culinary Role Interchangeability', 'acc': 0.695, 'yes': 0.39, 'mean_agree': 0.782, 'max_agree': 0.839, 'most_similar': 32, 'mean_kappa': 0.539}
+    {'id': 41, 'rubric': 'Synonym and Alias Resolution', 'acc': 0.795, 'yes': 0.47, 'mean_agree': 0.778, 'max_agree': 0.834, 'most_similar': 39, 'mean_kappa': 0.549}
+    {'id': 25, 'rubric': 'Food Category Consistency', 'acc': 0.661, 'yes': 0.39, 'mean_agree': 0.776, 'max_agree': 0.882, 'most_similar': 26, 'mean_kappa': 0.526}
+    {'id': 2, 'rubric': 'Core Food Identity Match', 'acc': 0.645, 'yes': 0.37, 'mean_agree': 0.771, 'max_agree': 0.884, 'most_similar': 1, 'mean_kappa': 0.511}
+    {'id': 8, 'rubric': 'Preparation-State Equivalence', 'acc': 0.716, 'yes': 0.51, 'mean_agree': 0.764, 'max_agree': 0.845, 'most_similar': 11, 'mean_kappa': 0.529}
+    {'id': 12, 'rubric': 'Preservation and Form Match', 'acc': 0.684, 'yes': 0.49, 'mean_agree': 0.761, 'max_agree': 0.842, 'most_similar': 4, 'mean_kappa': 0.52}
+    {'id': 1, 'rubric': 'Core Food Identity Match', 'acc': 0.624, 'yes': 0.32, 'mean_agree': 0.742, 'max_agree': 0.884, 'most_similar': 2, 'mean_kappa': 0.436}
+    {'id': 3, 'rubric': 'Core Food Identity Match', 'acc': 0.661, 'yes': 0.38, 'mean_agree': 0.73, 'max_agree': 0.863, 'most_similar': 1, 'mean_kappa': 0.428}
+  per-rubric: within-rubric agreement / mean agreement with other rubrics
+     1 Core Food Identity Match             0.847  0.762
+     2 Preparation-State Equivalence        0.828  0.805
+     3 Preservation and Form Match          0.843  0.794
+     4 Nutritional Profile Proximity        0.822  0.792
+     5 Specificity and Generality Alignment 0.875  0.816
+     6 Lexical and Token Overlap            0.842  0.805
+     7 Food Category Consistency            0.864  0.796
+     8 Processing and Additive Difference   0.847  0.828
+     9 Culinary Role Interchangeability     0.853  0.822
+    10 Modifier and Qualifier Consistency   0.899  0.832
+    11 Synonym and Alias Resolution         0.859  0.817
+    12 Head Food Position                   0.826  0.806
+    13 Unstated Added Qualifier             0.925  0.849
+    14 Polarity and Negation Conflict       0.909  0.843
+    15 Brand and Commercial Product         0.956  0.849
+    16 Single Ingredient vs Composite Dish  0.916  0.845
+    17 Cooking Method Agreement             0.924  0.836
+    18 Anatomical Part and Cut              0.963  0.846
+    19 Ingredient Detail Coverage           0.894  0.829
+    20 Compound Food Name Integrity         0.929  0.827
+
+===== test: 3799 rows, 80 programs (all programs) =====
+                         agreement  kappa  error-Jaccard  P(j wrong | i wrong)
+  all pairs                 0.846  0.672        0.564        0.720
+  same rubric               0.893  0.773        0.684        0.808
+  different rubric          0.844  0.668        0.559        0.717
+  selected                  0.939  0.871        0.770        0.869
+  agreement distribution over pairs: min 0.715  p10 0.778  median 0.845  p90 0.913  max 0.983
+  pairs with agreement >=0.90: 509   >=0.85: 1454   <0.60: 0 of 3160
+  rows where ALL 78 agree: 1186 (31.2%)   where >=90% agree: 2513 (66.1%)
+  rows wrong for ALL 78: 205   wrong for >=80%: 581 (15.3%)   right for all: 981
+  selected: rows unanimous 87.1%   committee-majority errors where all 6 wrong: 664
+  most 'typical' programs (highest mean agreement):
+    {'id': 60, 'rubric': 'Brand and Commercial Product', 'acc': 0.767, 'yes': 0.39, 'mean_agree': 0.881, 'max_agree': 0.976, 'most_similar': 59, 'mean_kappa': 0.749}
+    {'id': 39, 'rubric': 'Modifier and Qualifier Consistency', 'acc': 0.743, 'yes': 0.37, 'mean_agree': 0.879, 'max_agree': 0.979, 'most_similar': 40, 'mean_kappa': 0.742}
+    {'id': 49, 'rubric': 'Unstated Added Qualifier', 'acc': 0.764, 'yes': 0.35, 'mean_agree': 0.878, 'max_agree': 0.97, 'most_similar': 51, 'mean_kappa': 0.738}
+    {'id': 50, 'rubric': 'Unstated Added Qualifier', 'acc': 0.775, 'yes': 0.38, 'mean_agree': 0.878, 'max_agree': 0.976, 'most_similar': 51, 'mean_kappa': 0.741}
+    {'id': 62, 'rubric': 'Single Ingredient vs Composite Dish', 'acc': 0.763, 'yes': 0.4, 'mean_agree': 0.878, 'max_agree': 0.968, 'most_similar': 60, 'mean_kappa': 0.743}
+  most 'different' programs (lowest mean agreement):
+    {'id': 21, 'rubric': 'Lexical and Token Overlap', 'acc': 0.68, 'yes': 0.42, 'mean_agree': 0.802, 'max_agree': 0.88, 'most_similar': 26, 'mean_kappa': 0.589}
+    {'id': 12, 'rubric': 'Preservation and Form Match', 'acc': 0.698, 'yes': 0.49, 'mean_agree': 0.798, 'max_agree': 0.867, 'most_similar': 5, 'mean_kappa': 0.595}
+    {'id': 13, 'rubric': 'Nutritional Profile Proximity', 'acc': 0.659, 'yes': 0.34, 'mean_agree': 0.793, 'max_agree': 0.898, 'most_similar': 25, 'mean_kappa': 0.55}
+    {'id': 25, 'rubric': 'Food Category Consistency', 'acc': 0.662, 'yes': 0.35, 'mean_agree': 0.785, 'max_agree': 0.898, 'most_similar': 13, 'mean_kappa': 0.536}
+    {'id': 1, 'rubric': 'Core Food Identity Match', 'acc': 0.647, 'yes': 0.34, 'mean_agree': 0.783, 'max_agree': 0.889, 'most_similar': 26, 'mean_kappa': 0.53}
+    {'id': 3, 'rubric': 'Core Food Identity Match', 'acc': 0.665, 'yes': 0.4, 'mean_agree': 0.777, 'max_agree': 0.888, 'most_similar': 1, 'mean_kappa': 0.533}
+    {'id': 15, 'rubric': 'Nutritional Profile Proximity', 'acc': 0.648, 'yes': 0.27, 'mean_agree': 0.777, 'max_agree': 0.892, 'most_similar': 13, 'mean_kappa': 0.498}
+    {'id': 33, 'rubric': 'Culinary Role Interchangeability', 'acc': 0.649, 'yes': 0.32, 'mean_agree': 0.774, 'max_agree': 0.882, 'most_similar': 25, 'mean_kappa': 0.507}
+  per-rubric: within-rubric agreement / mean agreement with other rubrics
+     1 Core Food Identity Match             0.867  0.803
+     2 Preparation-State Equivalence        0.851  0.835
+     3 Preservation and Form Match          0.863  0.827
+     4 Nutritional Profile Proximity        0.813  0.805
+     5 Specificity and Generality Alignment 0.882  0.846
+     6 Lexical and Token Overlap            0.850  0.826
+     7 Food Category Consistency            0.870  0.819
+     8 Processing and Additive Difference   0.879  0.853
+     9 Culinary Role Interchangeability     0.865  0.842
+    10 Modifier and Qualifier Consistency   0.916  0.859
+    11 Synonym and Alias Resolution         0.904  0.853
+    12 Head Food Position                   0.843  0.832
+    13 Unstated Added Qualifier             0.946  0.870
+    14 Polarity and Negation Conflict       0.940  0.867
+    15 Brand and Commercial Product         0.963  0.870
+    16 Single Ingredient vs Composite Dish  0.913  0.864
+    17 Cooking Method Agreement             0.927  0.859
+    18 Anatomical Part and Cut              0.953  0.851
+    19 Ingredient Detail Coverage           0.878  0.843
+    20 Compound Food Name Integrity         0.938  0.855
+
+corr of pairwise agreement val vs test: 0.908
