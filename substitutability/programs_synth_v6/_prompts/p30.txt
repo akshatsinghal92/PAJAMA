@@ -1,0 +1,172 @@
+You are an expert Python developer and food-informatics evaluation researcher.
+
+Your task: Write a Python function that judges whether a USDA food-database entry is a
+SUBSTITUTABLE match for a recipe ingredient. Return a numeric score where HIGHER means
+the USDA entry is a BETTER (more substitutable) stand-in for the ingredient.
+
+DEFINITION OF SUBSTITUTABLE:
+The USDA entry is substitutable if BOTH hold: (1) it could be used in place of the
+ingredient without changing how the dish is prepared, and (2) a person eating the dish
+would not notice any difference in taste, texture, or appearance.
+
+INPUT SHAPE:
+- `ingredient` is recipe text, e.g. "200g frozen chicken breast, thawed", "30g olive oil",
+  "10g garlic paste (from tube)". It may carry a leading gram weight, prep words, a
+  post-comma state, and parentheticals.
+- `usda_match` is a USDA description, e.g. "Olive oil", "Chicken patty, frozen, uncooked",
+  "Spices, ginger, ground" (primary food first, comma-separated descriptors after).
+
+EVALUATION STRATEGY — focus STRICTLY on this dimension:
+Processing and Additive Difference: Judge whether the USDA entry introduces processing, additives, or compound ingredients the plain ingredient lacks: added salt, sugar, oil, sauces, breading, seasoning blends, sweetened/flavored variants. Reward plain-for-plain matches; penalize entries that add components a diner would taste (e.g. 'garlic paste' vs 'Garlic sauce', 'salt' vs 'salt and pepper').
+
+DIVERSITY REQUIREMENT:
+This is variant 2/4. Use a meaningfully different
+algorithm, feature set, and scoring formula than other variants for this heuristic.
+
+FAILURE AVOIDANCE:
+Avoid constant outputs, fragile code, heavy dependencies, and trivial length-only scoring.
+
+Here are real labeled examples so you understand what substitutable vs not looks like:
+
+--- Example 1 ---
+Ingredient: 10g bagged butter-flavored popcorn for the microwave
+USDA match:  Popcorn, microwave, regular (butter) flavor, made with palm oil
+Ground-truth: substitutable
+
+--- Example 2 ---
+Ingredient: 200g canned sirloin, drained
+USDA match:  Beef, top sirloin steak, raw
+Ground-truth: NOT substitutable
+
+--- Example 3 ---
+Ingredient: 30g toasted oat cereal
+USDA match:  Cereals ready-to-eat, GENERAL MILLS, CHEERIOS
+Ground-truth: substitutable
+
+--- Example 4 ---
+Ingredient: 150g papaya
+USDA match:  Green beans, raw
+Ground-truth: NOT substitutable
+
+--- Example 5 ---
+Ingredient: 305g cottage cheese
+USDA match:  Cheese, ricotta, whole milk
+Ground-truth: NOT substitutable
+
+--- Example 6 ---
+Ingredient: 10g vanilla yogurt
+USDA match:  Frozen yogurt, vanilla
+Ground-truth: NOT substitutable
+
+--- Example 7 ---
+Ingredient: 300g frozen pork chop, thawed
+USDA match:  Pork, fresh, loin, top loin (chops), boneless, separable lean and fat, raw
+Ground-truth: substitutable
+
+--- Example 8 ---
+Ingredient: 250g chuck roast, trimmed of visible fat
+USDA match:  Beef, chuck, arm pot roast, separable lean and fat, trimmed to 1/8" fat, choice, raw
+Ground-truth: substitutable
+
+--- Example 9 ---
+Ingredient: 30g cocoa butter
+USDA match:  Cocoa, dry powder, unsweetened
+Ground-truth: NOT substitutable
+
+--- Example 10 ---
+Ingredient: 5g vanilla Greek yogurt
+USDA match:  Yogurt, Greek, vanilla, lowfat
+Ground-truth: substitutable
+
+--- Example 11 ---
+Ingredient: 165g concord grapes
+USDA match:  Grapes, american type (slip skin), raw
+Ground-truth: substitutable
+
+--- Example 12 ---
+Ingredient: 100g toasted bread
+USDA match:  Bread, NS as to major flour, toasted
+Ground-truth: substitutable
+
+--- Example 13 ---
+Ingredient: 310g confectioners sugar, sifted
+USDA match:  Candies, confectioner's coating, butterscotch
+Ground-truth: NOT substitutable
+
+--- Example 14 ---
+Ingredient: 150g powdered half and half
+USDA match:  Cream, half and half
+Ground-truth: NOT substitutable
+
+--- Example 15 ---
+Ingredient: 500g coconut sugar
+USDA match:  Coconut, packaged
+Ground-truth: NOT substitutable
+
+--- Example 16 ---
+Ingredient: 7g sunflower oil high oleic
+USDA match:  Seeds, sunflower seed kernels, oil roasted, without salt
+Ground-truth: NOT substitutable
+
+--- Example 17 ---
+Ingredient: 100g cottage cheese
+USDA match:  Cheese, cottage, lowfat, 1% milkfat, lactose reduced
+Ground-truth: NOT substitutable
+
+--- Example 18 ---
+Ingredient: 100g turkey bone
+USDA match:  SILK Plus for Bone Health, soymilk
+Ground-truth: NOT substitutable
+
+--- Example 19 ---
+Ingredient: 325g dried kombu
+USDA match:  Seaweed, laver, raw
+Ground-truth: NOT substitutable
+
+--- Example 20 ---
+Ingredient: 100g beef kidney, sliced
+USDA match:  Kidney beans, NFS
+Ground-truth: NOT substitutable
+
+--- Example 21 ---
+Ingredient: 40g yellow apple, skin on
+USDA match:  Apples, raw, golden delicious, with skin
+Ground-truth: substitutable
+
+--- Example 22 ---
+Ingredient: 30g fresh sage leaves
+USDA match:  Oil, olive, salad or cooking
+Ground-truth: NOT substitutable
+
+--- Example 23 ---
+Ingredient: 100g beef chuck, cubed
+USDA match:  Beef, chuck for stew, separable lean and fat, choice, raw
+Ground-truth: substitutable
+
+--- Example 24 ---
+Ingredient: 70g durian
+USDA match:  Durian, raw or frozen
+Ground-truth: substitutable
+
+--- Example 25 ---
+Ingredient: 560g flank steak
+USDA match:  Beef, steak, flank
+Ground-truth: substitutable
+
+
+IMPORTANT REQUIREMENTS:
+- Output ONLY valid, executable Python code inside ```python ... ``` blocks. No explanation.
+- The function signature must be exactly: def judging_function(ingredient, usda_match):
+- Return a single numeric score (int or float). HIGHER = MORE substitutable.
+- Use standard Python string/math operations for speed.
+- You may use common libraries (re, math, collections, string, statistics) but NO heavy ML/NLP libraries.
+- This is variant 2/4 — use a MEANINGFULLY DIFFERENT algorithm than other variants.
+- Include comprehensive error handling (try/except) so the function never crashes.
+- Handle edge cases (empty strings, missing qualifiers, gram-weight prefixes like '30g', parentheticals).
+- Return scores in a reasonable numeric range (e.g., 0-10 or 0-100).
+- Make the function DISCRIMINATIVE: clearly different scores for good vs bad matches.
+
+```python
+def judging_function(ingredient, usda_match):
+    # Your implementation here
+```

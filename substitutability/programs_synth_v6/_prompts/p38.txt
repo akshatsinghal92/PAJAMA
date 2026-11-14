@@ -1,0 +1,172 @@
+You are an expert Python developer and food-informatics evaluation researcher.
+
+Your task: Write a Python function that judges whether a USDA food-database entry is a
+SUBSTITUTABLE match for a recipe ingredient. Return a numeric score where HIGHER means
+the USDA entry is a BETTER (more substitutable) stand-in for the ingredient.
+
+DEFINITION OF SUBSTITUTABLE:
+The USDA entry is substitutable if BOTH hold: (1) it could be used in place of the
+ingredient without changing how the dish is prepared, and (2) a person eating the dish
+would not notice any difference in taste, texture, or appearance.
+
+INPUT SHAPE:
+- `ingredient` is recipe text, e.g. "200g frozen chicken breast, thawed", "30g olive oil",
+  "10g garlic paste (from tube)". It may carry a leading gram weight, prep words, a
+  post-comma state, and parentheticals.
+- `usda_match` is a USDA description, e.g. "Olive oil", "Chicken patty, frozen, uncooked",
+  "Spices, ginger, ground" (primary food first, comma-separated descriptors after).
+
+EVALUATION STRATEGY — focus STRICTLY on this dimension:
+Modifier and Qualifier Consistency: Judge agreement on discriminating qualifiers: color, variety, cut, fat level, sweetness, part of the plant/animal (red vs green bell pepper, whole milk vs skim, bell vs sweet pepper, breast vs thigh). Reward matching or unspecified qualifiers; penalize contradicted qualifiers that a diner would notice.
+
+DIVERSITY REQUIREMENT:
+This is variant 2/4. Use a meaningfully different
+algorithm, feature set, and scoring formula than other variants for this heuristic.
+
+FAILURE AVOIDANCE:
+Avoid constant outputs, fragile code, heavy dependencies, and trivial length-only scoring.
+
+Here are real labeled examples so you understand what substitutable vs not looks like:
+
+--- Example 1 ---
+Ingredient: 6g high oleic sunflower oil, for frying
+USDA match:  Oil, sunflower, high oleic (70% and over)
+Ground-truth: substitutable
+
+--- Example 2 ---
+Ingredient: 110g granada
+USDA match:  Pomegranates, raw
+Ground-truth: substitutable
+
+--- Example 3 ---
+Ingredient: 95g garland chrysanthemum
+USDA match:  Sweet potato, squash, pumpkin, chrysanthemum, or bean leaves, cooked
+Ground-truth: NOT substitutable
+
+--- Example 4 ---
+Ingredient: 105g red wine vinegar
+USDA match:  Vinegar, balsamic
+Ground-truth: NOT substitutable
+
+--- Example 5 ---
+Ingredient: 500g dairy-free coconut yogurt
+USDA match:  Yogurt, coconut milk
+Ground-truth: substitutable
+
+--- Example 6 ---
+Ingredient: 320g turkey skin
+USDA match:  Turkey, whole, skin (light and dark), raw
+Ground-truth: substitutable
+
+--- Example 7 ---
+Ingredient: 80g banana nut whole grain cereal
+USDA match:  Cereals ready-to-eat, POST GREAT GRAINS Banana Nut Crunch
+Ground-truth: substitutable
+
+--- Example 8 ---
+Ingredient: 250g toasted cornbread
+USDA match:  Cornbread, prepared from mix
+Ground-truth: NOT substitutable
+
+--- Example 9 ---
+Ingredient: 70g durian
+USDA match:  Durian, raw or frozen
+Ground-truth: substitutable
+
+--- Example 10 ---
+Ingredient: 10g oil-roasted peanuts and cashews
+USDA match:  Peanuts, virginia, oil-roasted, without salt
+Ground-truth: NOT substitutable
+
+--- Example 11 ---
+Ingredient: 340g chinese broccoli florets
+USDA match:  Broccoli, stalks, raw
+Ground-truth: NOT substitutable
+
+--- Example 12 ---
+Ingredient: 100g coconut sugar
+USDA match:  Sugar, brown
+Ground-truth: NOT substitutable
+
+--- Example 13 ---
+Ingredient: 15g sage
+USDA match:  Sage Valley, Gluten Free Vanilla Sandwich Cookies
+Ground-truth: NOT substitutable
+
+--- Example 14 ---
+Ingredient: 190g cooked bison round steak
+USDA match:  Buffalo, free range, top round steak, cooked (Shoshone Bannock)
+Ground-truth: NOT substitutable
+
+--- Example 15 ---
+Ingredient: 15g shelled brazil nuts
+USDA match:  Brazil nuts
+Ground-truth: substitutable
+
+--- Example 16 ---
+Ingredient: 200g mandarin orange
+USDA match:  Clementine, raw
+Ground-truth: substitutable
+
+--- Example 17 ---
+Ingredient: 150g frozen escarole
+USDA match:  Escarole, cooked
+Ground-truth: NOT substitutable
+
+--- Example 18 ---
+Ingredient: 130g uncooked gnocchi
+USDA match:  Potato, baked, peel eaten
+Ground-truth: NOT substitutable
+
+--- Example 19 ---
+Ingredient: 300g light chocolate syrup
+USDA match:  Syrups, chocolate, HERSHEY'S Genuine Chocolate Flavored Lite Syrup
+Ground-truth: substitutable
+
+--- Example 20 ---
+Ingredient: 50g buttery round snack crackers
+USDA match:  Crackers, butter (Ritz)
+Ground-truth: substitutable
+
+--- Example 21 ---
+Ingredient: 5g vanilla Greek yogurt
+USDA match:  Yogurt, Greek, vanilla, lowfat
+Ground-truth: substitutable
+
+--- Example 22 ---
+Ingredient: 12g vanilla Greek yogurt
+USDA match:  Yogurt, Greek, nonfat, vanilla, CHOBANI
+Ground-truth: substitutable
+
+--- Example 23 ---
+Ingredient: 45g kumquat leaves
+USDA match:  Kumquat, raw
+Ground-truth: NOT substitutable
+
+--- Example 24 ---
+Ingredient: 200g rice bran
+USDA match:  Rice bran, crude
+Ground-truth: substitutable
+
+--- Example 25 ---
+Ingredient: 100g sirloin steak, beef
+USDA match:  Beef, steak, sirloin, NS as to fat eaten
+Ground-truth: substitutable
+
+
+IMPORTANT REQUIREMENTS:
+- Output ONLY valid, executable Python code inside ```python ... ``` blocks. No explanation.
+- The function signature must be exactly: def judging_function(ingredient, usda_match):
+- Return a single numeric score (int or float). HIGHER = MORE substitutable.
+- Use standard Python string/math operations for speed.
+- You may use common libraries (re, math, collections, string, statistics) but NO heavy ML/NLP libraries.
+- This is variant 2/4 — use a MEANINGFULLY DIFFERENT algorithm than other variants.
+- Include comprehensive error handling (try/except) so the function never crashes.
+- Handle edge cases (empty strings, missing qualifiers, gram-weight prefixes like '30g', parentheticals).
+- Return scores in a reasonable numeric range (e.g., 0-10 or 0-100).
+- Make the function DISCRIMINATIVE: clearly different scores for good vs bad matches.
+
+```python
+def judging_function(ingredient, usda_match):
+    # Your implementation here
+```

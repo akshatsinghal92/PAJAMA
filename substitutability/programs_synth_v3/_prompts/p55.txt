@@ -1,0 +1,97 @@
+You are an expert Python developer and food-informatics evaluation researcher.
+
+Your task: Write a Python function that judges whether a USDA food-database entry is a
+SUBSTITUTABLE match for a recipe ingredient. Return a numeric score where HIGHER means
+the USDA entry is a BETTER (more substitutable) stand-in for the ingredient.
+
+DEFINITION OF SUBSTITUTABLE:
+The USDA entry is substitutable if BOTH hold: (1) it could be used in place of the
+ingredient without changing how the dish is prepared, and (2) a person eating the dish
+would not notice any difference in taste, texture, or appearance.
+
+INPUT SHAPE:
+- `ingredient` is recipe text, e.g. "200g frozen chicken breast, thawed", "30g olive oil",
+  "10g garlic paste (from tube)". It may carry a leading gram weight, prep words, a
+  post-comma state, and parentheticals.
+- `usda_match` is a USDA description, e.g. "Olive oil", "Chicken patty, frozen, uncooked",
+  "Spices, ginger, ground" (primary food first, comma-separated descriptors after).
+
+EVALUATION STRATEGY — focus STRICTLY on this dimension:
+Food Category Consistency: Judge whether both items belong to the same food category (dairy, produce, meat/poultry/fish, grain, legume, spice/herb, oil/fat, sweetener, condiment). Reward same-category matches; penalize cross-category matches (a spice for a vegetable, a sauce for a seed) which almost always change the dish.
+
+DIVERSITY REQUIREMENT:
+This is variant 7/8. Use a meaningfully different
+algorithm, feature set, and scoring formula than other variants for this heuristic.
+
+FAILURE AVOIDANCE:
+Avoid constant outputs, fragile code, heavy dependencies, and trivial length-only scoring.
+
+Here are real labeled examples so you understand what substitutable vs not looks like:
+
+--- Example 1 ---
+Ingredient: 30g canned black olives, drained
+USDA match:  Olives, ripe, canned (small-extra large)
+Ground-truth: substitutable
+
+--- Example 2 ---
+Ingredient: 50g canned pinto beans, drained
+USDA match:  Beans, pinto, canned, drained solids
+Ground-truth: substitutable
+
+--- Example 3 ---
+Ingredient: 220g sliced chicken frankfurter (for garnish)
+USDA match:  Frankfurters or hot dogs and sauerkraut
+Ground-truth: NOT substitutable
+
+--- Example 4 ---
+Ingredient: 340g rice bran
+USDA match:  Rice paper
+Ground-truth: NOT substitutable
+
+--- Example 5 ---
+Ingredient: 200g swiss chard leaves
+USDA match:  Pineapple, raw, all varieties
+Ground-truth: NOT substitutable
+
+--- Example 6 ---
+Ingredient: 50g buttery round snack crackers
+USDA match:  Crackers, butter (Ritz)
+Ground-truth: substitutable
+
+--- Example 7 ---
+Ingredient: 115g para nuts
+USDA match:  Brazil nuts
+Ground-truth: substitutable
+
+--- Example 8 ---
+Ingredient: 30g toasted oat cereal
+USDA match:  Cereals ready-to-eat, GENERAL MILLS, CHEERIOS
+Ground-truth: substitutable
+
+--- Example 9 ---
+Ingredient: 165g concord grapes
+USDA match:  Grapes, american type (slip skin), raw
+Ground-truth: substitutable
+
+--- Example 10 ---
+Ingredient: 280g brie
+USDA match:  Cheese, brie
+Ground-truth: substitutable
+
+
+IMPORTANT REQUIREMENTS:
+- Output ONLY valid, executable Python code inside ```python ... ``` blocks. No explanation.
+- The function signature must be exactly: def judging_function(ingredient, usda_match):
+- Return a single numeric score (int or float). HIGHER = MORE substitutable.
+- Use standard Python string/math operations for speed.
+- You may use common libraries (re, math, collections, string, statistics) but NO heavy ML/NLP libraries.
+- This is variant 7/8 — use a MEANINGFULLY DIFFERENT algorithm than other variants.
+- Include comprehensive error handling (try/except) so the function never crashes.
+- Handle edge cases (empty strings, missing qualifiers, gram-weight prefixes like '30g', parentheticals).
+- Return scores in a reasonable numeric range (e.g., 0-10 or 0-100).
+- Make the function DISCRIMINATIVE: clearly different scores for good vs bad matches.
+
+```python
+def judging_function(ingredient, usda_match):
+    # Your implementation here
+```

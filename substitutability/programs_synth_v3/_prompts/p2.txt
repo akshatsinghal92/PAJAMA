@@ -1,0 +1,97 @@
+You are an expert Python developer and food-informatics evaluation researcher.
+
+Your task: Write a Python function that judges whether a USDA food-database entry is a
+SUBSTITUTABLE match for a recipe ingredient. Return a numeric score where HIGHER means
+the USDA entry is a BETTER (more substitutable) stand-in for the ingredient.
+
+DEFINITION OF SUBSTITUTABLE:
+The USDA entry is substitutable if BOTH hold: (1) it could be used in place of the
+ingredient without changing how the dish is prepared, and (2) a person eating the dish
+would not notice any difference in taste, texture, or appearance.
+
+INPUT SHAPE:
+- `ingredient` is recipe text, e.g. "200g frozen chicken breast, thawed", "30g olive oil",
+  "10g garlic paste (from tube)". It may carry a leading gram weight, prep words, a
+  post-comma state, and parentheticals.
+- `usda_match` is a USDA description, e.g. "Olive oil", "Chicken patty, frozen, uncooked",
+  "Spices, ginger, ground" (primary food first, comma-separated descriptors after).
+
+EVALUATION STRATEGY — focus STRICTLY on this dimension:
+Core Food Identity Match: Judge whether the ingredient and the USDA entry name the SAME fundamental food. Compare the head food noun of each (e.g. 'olive oil' vs 'Olive oil', 'chicken breast' vs 'chicken patty'). Reward exact or near-exact identity of the primary food; penalize cases where the core substance differs (e.g. 'garlic paste' vs 'guava paste', 'chia seed' vs 'flaxseed') even if other words overlap.
+
+DIVERSITY REQUIREMENT:
+This is variant 2/8. Use a meaningfully different
+algorithm, feature set, and scoring formula than other variants for this heuristic.
+
+FAILURE AVOIDANCE:
+Avoid constant outputs, fragile code, heavy dependencies, and trivial length-only scoring.
+
+Here are real labeled examples so you understand what substitutable vs not looks like:
+
+--- Example 1 ---
+Ingredient: 19g melted cocoa butter
+USDA match:  Oil, cocoa butter
+Ground-truth: substitutable
+
+--- Example 2 ---
+Ingredient: 75g fresh chard leaves
+USDA match:  Chard, cooked
+Ground-truth: NOT substitutable
+
+--- Example 3 ---
+Ingredient: 250g shredded Mexican blend cheese
+USDA match:  Cheese, Mexican blend, reduced fat
+Ground-truth: NOT substitutable
+
+--- Example 4 ---
+Ingredient: 40g maize flakes
+USDA match:  Cereal, corn flakes, plain
+Ground-truth: substitutable
+
+--- Example 5 ---
+Ingredient: 300g fresh swordfish steak
+USDA match:  Fish, swordfish, raw
+Ground-truth: substitutable
+
+--- Example 6 ---
+Ingredient: 200g skin-on chicken
+USDA match:  Chicken, broilers or fryers, meat and skin, raw
+Ground-truth: substitutable
+
+--- Example 7 ---
+Ingredient: 150g equal parts milk and cream
+USDA match:  Cream, fluid, half and half
+Ground-truth: substitutable
+
+--- Example 8 ---
+Ingredient: 200g turkey bone
+USDA match:  Turkey, NFS
+Ground-truth: NOT substitutable
+
+--- Example 9 ---
+Ingredient: 250g lean ground turkey
+USDA match:  Turkey, Ground, raw
+Ground-truth: NOT substitutable
+
+--- Example 10 ---
+Ingredient: 250g sweetened canned coconut cream
+USDA match:  Coconut cream, canned, sweetened
+Ground-truth: substitutable
+
+
+IMPORTANT REQUIREMENTS:
+- Output ONLY valid, executable Python code inside ```python ... ``` blocks. No explanation.
+- The function signature must be exactly: def judging_function(ingredient, usda_match):
+- Return a single numeric score (int or float). HIGHER = MORE substitutable.
+- Use standard Python string/math operations for speed.
+- You may use common libraries (re, math, collections, string, statistics) but NO heavy ML/NLP libraries.
+- This is variant 2/8 — use a MEANINGFULLY DIFFERENT algorithm than other variants.
+- Include comprehensive error handling (try/except) so the function never crashes.
+- Handle edge cases (empty strings, missing qualifiers, gram-weight prefixes like '30g', parentheticals).
+- Return scores in a reasonable numeric range (e.g., 0-10 or 0-100).
+- Make the function DISCRIMINATIVE: clearly different scores for good vs bad matches.
+
+```python
+def judging_function(ingredient, usda_match):
+    # Your implementation here
+```

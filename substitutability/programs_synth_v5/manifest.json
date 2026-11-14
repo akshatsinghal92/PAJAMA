@@ -1,0 +1,1442 @@
+[
+  {
+    "program_id": 1,
+    "filename": "judge_1.py",
+    "heuristic_id": 1,
+    "heuristic_name": "Core Food Identity Match",
+    "variant": 1,
+    "status": "success",
+    "attempts": 4,
+    "val_acc": 0.6789,
+    "redundancy": {
+      "combined": 0.5613,
+      "nearest": 8,
+      "code_sim": 0.2632,
+      "err_jaccard": 0.6139
+    },
+    "forced_redundant": false,
+    "approach_summary": "field splitting, set operations"
+  },
+  {
+    "program_id": 2,
+    "filename": "judge_2.py",
+    "heuristic_id": 1,
+    "heuristic_name": "Core Food Identity Match",
+    "variant": 2,
+    "status": "success",
+    "attempts": 1,
+    "val_acc": 0.6275,
+    "redundancy": {
+      "combined": 0.5582,
+      "nearest": 7,
+      "code_sim": 0.2426,
+      "err_jaccard": 0.6242
+    },
+    "forced_redundant": false,
+    "approach_summary": "tokenization, field splitting, set operations, stemming"
+  },
+  {
+    "program_id": 3,
+    "filename": "judge_3.py",
+    "heuristic_id": 1,
+    "heuristic_name": "Core Food Identity Match",
+    "variant": 3,
+    "status": "success",
+    "attempts": 2,
+    "val_acc": 0.6177,
+    "redundancy": {
+      "combined": 0.5654,
+      "nearest": 4,
+      "code_sim": 0.3986,
+      "err_jaccard": 0.523
+    },
+    "forced_redundant": false,
+    "approach_summary": "field splitting, set operations"
+  },
+  {
+    "program_id": 4,
+    "filename": "judge_4.py",
+    "heuristic_id": 1,
+    "heuristic_name": "Core Food Identity Match",
+    "variant": 4,
+    "status": "success",
+    "attempts": 2,
+    "val_acc": 0.6316,
+    "redundancy": {
+      "combined": 0.487,
+      "nearest": 6,
+      "code_sim": 0.304,
+      "err_jaccard": 0.4785
+    },
+    "forced_redundant": false,
+    "approach_summary": "comma-region parsing, field splitting, set operations"
+  },
+  {
+    "program_id": 5,
+    "filename": "judge_5.py",
+    "heuristic_id": 2,
+    "heuristic_name": "Preparation-State Equivalence",
+    "variant": 1,
+    "status": "success",
+    "attempts": 1,
+    "val_acc": 0.7053,
+    "redundancy": {
+      "combined": 0.5899,
+      "nearest": 7,
+      "code_sim": 0.3072,
+      "err_jaccard": 0.6232
+    },
+    "forced_redundant": false,
+    "approach_summary": "tokenization, comma-region parsing, field splitting, set operations"
+  },
+  {
+    "program_id": 6,
+    "filename": "judge_6.py",
+    "heuristic_id": 2,
+    "heuristic_name": "Preparation-State Equivalence",
+    "variant": 2,
+    "status": "success",
+    "attempts": 1,
+    "val_acc": 0.6371,
+    "redundancy": {
+      "combined": 0.4492,
+      "nearest": 7,
+      "code_sim": 0.3558,
+      "err_jaccard": 0.3876
+    },
+    "forced_redundant": false,
+    "approach_summary": "tokenization, comma-region parsing, field splitting, stemming"
+  },
+  {
+    "program_id": 7,
+    "filename": "judge_7.py",
+    "heuristic_id": 2,
+    "heuristic_name": "Preparation-State Equivalence",
+    "variant": 3,
+    "status": "success",
+    "attempts": 1,
+    "val_acc": 0.6782,
+    "redundancy": {
+      "combined": 0.0,
+      "nearest": null,
+      "code_sim": 0.0,
+      "err_jaccard": 0.0
+    },
+    "forced_redundant": false,
+    "approach_summary": "tokenization, field splitting, set operations, stemming"
+  },
+  {
+    "program_id": 8,
+    "filename": "judge_8.py",
+    "heuristic_id": 2,
+    "heuristic_name": "Preparation-State Equivalence",
+    "variant": 4,
+    "status": "success",
+    "attempts": 1,
+    "val_acc": 0.65,
+    "redundancy": {
+      "combined": 0.5703,
+      "nearest": 7,
+      "code_sim": 0.3559,
+      "err_jaccard": 0.5605
+    },
+    "forced_redundant": false,
+    "approach_summary": "tokenization, comma-region parsing, field splitting, set operations"
+  },
+  {
+    "program_id": 9,
+    "filename": "judge_9.py",
+    "heuristic_id": 3,
+    "heuristic_name": "Preservation and Form Match",
+    "variant": 1,
+    "status": "success",
+    "attempts": 1,
+    "val_acc": 0.6026,
+    "redundancy": {
+      "combined": 0.4836,
+      "nearest": 6,
+      "code_sim": 0.1793,
+      "err_jaccard": 0.5628
+    },
+    "forced_redundant": false,
+    "approach_summary": "token overlap, field splitting, set operations"
+  },
+  {
+    "program_id": 10,
+    "filename": "judge_10.py",
+    "heuristic_id": 3,
+    "heuristic_name": "Preservation and Form Match",
+    "variant": 2,
+    "status": "success",
+    "attempts": 1,
+    "val_acc": 0.6658,
+    "redundancy": {
+      "combined": 0.6234,
+      "nearest": 5,
+      "code_sim": 0.2904,
+      "err_jaccard": 0.6831
+    },
+    "forced_redundant": false,
+    "approach_summary": "field splitting, set operations, stemming"
+  },
+  {
+    "program_id": 11,
+    "filename": "judge_11.py",
+    "heuristic_id": 3,
+    "heuristic_name": "Preservation and Form Match",
+    "variant": 3,
+    "status": "success",
+    "attempts": 2,
+    "val_acc": 0.6421,
+    "redundancy": {
+      "combined": 0.4973,
+      "nearest": 8,
+      "code_sim": 0.2669,
+      "err_jaccard": 0.5198
+    },
+    "forced_redundant": false,
+    "approach_summary": "char trigrams, field splitting, set operations"
+  },
+  {
+    "program_id": 12,
+    "filename": "judge_12.py",
+    "heuristic_id": 3,
+    "heuristic_name": "Preservation and Form Match",
+    "variant": 4,
+    "status": "success",
+    "attempts": 1,
+    "val_acc": 0.6289,
+    "redundancy": {
+      "combined": 0.6146,
+      "nearest": 10,
+      "code_sim": 0.3414,
+      "err_jaccard": 0.6341
+    },
+    "forced_redundant": false,
+    "approach_summary": "field splitting, set operations, stemming"
+  },
+  {
+    "program_id": 13,
+    "filename": "judge_13.py",
+    "heuristic_id": 4,
+    "heuristic_name": "Nutritional Profile Proximity",
+    "variant": 1,
+    "status": "success",
+    "attempts": 4,
+    "val_acc": 0.5889,
+    "redundancy": {
+      "combined": 0.6116,
+      "nearest": 14,
+      "code_sim": 0.3538,
+      "err_jaccard": 0.6211
+    },
+    "forced_redundant": false,
+    "approach_summary": "tokenization, field splitting, set operations"
+  },
+  {
+    "program_id": 14,
+    "filename": "judge_14.py",
+    "heuristic_id": 4,
+    "heuristic_name": "Nutritional Profile Proximity",
+    "variant": 2,
+    "status": "success",
+    "attempts": 1,
+    "val_acc": 0.5974,
+    "redundancy": {
+      "combined": 0.5172,
+      "nearest": 12,
+      "code_sim": 0.1478,
+      "err_jaccard": 0.6333
+    },
+    "forced_redundant": false,
+    "approach_summary": "token overlap, tokenization, field splitting, set operations"
+  },
+  {
+    "program_id": 15,
+    "filename": "judge_15.py",
+    "heuristic_id": 4,
+    "heuristic_name": "Nutritional Profile Proximity",
+    "variant": 3,
+    "status": "success",
+    "attempts": 1,
+    "val_acc": 0.5737,
+    "redundancy": {
+      "combined": 0.4764,
+      "nearest": 6,
+      "code_sim": 0.2633,
+      "err_jaccard": 0.4925
+    },
+    "forced_redundant": false,
+    "approach_summary": "token overlap, tokenization, field splitting, set operations"
+  },
+  {
+    "program_id": 16,
+    "filename": "judge_16.py",
+    "heuristic_id": 4,
+    "heuristic_name": "Nutritional Profile Proximity",
+    "variant": 4,
+    "status": "success",
+    "attempts": 2,
+    "val_acc": 0.7003,
+    "redundancy": {
+      "combined": 0.5581,
+      "nearest": 19,
+      "code_sim": 0.1177,
+      "err_jaccard": 0.7132
+    },
+    "forced_redundant": false,
+    "approach_summary": "token overlap, tokenization, field splitting, set operations"
+  },
+  {
+    "program_id": 17,
+    "filename": "judge_17.py",
+    "heuristic_id": 5,
+    "heuristic_name": "Specificity and Generality Alignment",
+    "variant": 1,
+    "status": "success",
+    "attempts": 2,
+    "val_acc": 0.6868,
+    "redundancy": {
+      "combined": 0.6096,
+      "nearest": 12,
+      "code_sim": 0.2557,
+      "err_jaccard": 0.6883
+    },
+    "forced_redundant": false,
+    "approach_summary": "field splitting, set operations, stemming"
+  },
+  {
+    "program_id": 18,
+    "filename": "judge_18.py",
+    "heuristic_id": 5,
+    "heuristic_name": "Specificity and Generality Alignment",
+    "variant": 2,
+    "status": "success",
+    "attempts": 1,
+    "val_acc": 0.6737,
+    "redundancy": {
+      "combined": 0.4988,
+      "nearest": 10,
+      "code_sim": 0.1875,
+      "err_jaccard": 0.5786
+    },
+    "forced_redundant": false,
+    "approach_summary": "field splitting, set operations, stemming"
+  },
+  {
+    "program_id": 19,
+    "filename": "judge_19.py",
+    "heuristic_id": 5,
+    "heuristic_name": "Specificity and Generality Alignment",
+    "variant": 3,
+    "status": "success",
+    "attempts": 1,
+    "val_acc": 0.6842,
+    "redundancy": {
+      "combined": 0.6279,
+      "nearest": 18,
+      "code_sim": 0.466,
+      "err_jaccard": 0.5641
+    },
+    "forced_redundant": false,
+    "approach_summary": "field splitting, set operations, stemming"
+  },
+  {
+    "program_id": 20,
+    "filename": "judge_20.py",
+    "heuristic_id": 5,
+    "heuristic_name": "Specificity and Generality Alignment",
+    "variant": 4,
+    "status": "success",
+    "attempts": 1,
+    "val_acc": 0.6026,
+    "redundancy": {
+      "combined": 0.5762,
+      "nearest": 8,
+      "code_sim": 0.3061,
+      "err_jaccard": 0.6045
+    },
+    "forced_redundant": false,
+    "approach_summary": "field splitting, set operations, stemming"
+  },
+  {
+    "program_id": 21,
+    "filename": "judge_21.py",
+    "heuristic_id": 6,
+    "heuristic_name": "Lexical and Token Overlap",
+    "variant": 1,
+    "status": "success",
+    "attempts": 1,
+    "val_acc": 0.6729,
+    "redundancy": {
+      "combined": 0.6028,
+      "nearest": 4,
+      "code_sim": 0.2752,
+      "err_jaccard": 0.6646
+    },
+    "forced_redundant": false,
+    "approach_summary": "token overlap, tokenization, field splitting, set operations"
+  },
+  {
+    "program_id": 22,
+    "filename": "judge_22.py",
+    "heuristic_id": 6,
+    "heuristic_name": "Lexical and Token Overlap",
+    "variant": 2,
+    "status": "success",
+    "attempts": 3,
+    "val_acc": 0.6711,
+    "redundancy": {
+      "combined": 0.6385,
+      "nearest": 21,
+      "code_sim": 0.3467,
+      "err_jaccard": 0.6644
+    },
+    "forced_redundant": false,
+    "approach_summary": "char trigrams, cosine, comma-region parsing, field splitting"
+  },
+  {
+    "program_id": 23,
+    "filename": "judge_23.py",
+    "heuristic_id": 6,
+    "heuristic_name": "Lexical and Token Overlap",
+    "variant": 3,
+    "status": "success",
+    "attempts": 5,
+    "val_acc": 0.6342,
+    "redundancy": {
+      "combined": 0.6539,
+      "nearest": 24,
+      "code_sim": 0.2532,
+      "err_jaccard": 0.7532
+    },
+    "forced_redundant": true,
+    "approach_summary": "tokenization, field splitting, set operations"
+  },
+  {
+    "program_id": 24,
+    "filename": "judge_24.py",
+    "heuristic_id": 6,
+    "heuristic_name": "Lexical and Token Overlap",
+    "variant": 4,
+    "status": "success",
+    "attempts": 1,
+    "val_acc": 0.6553,
+    "redundancy": {
+      "combined": 0.6344,
+      "nearest": 21,
+      "code_sim": 0.4183,
+      "err_jaccard": 0.6076
+    },
+    "forced_redundant": false,
+    "approach_summary": "tokenization, comma-region parsing, field splitting, set operations"
+  },
+  {
+    "program_id": 25,
+    "filename": "judge_25.py",
+    "heuristic_id": 7,
+    "heuristic_name": "Food Category Consistency",
+    "variant": 1,
+    "status": "success",
+    "attempts": 1,
+    "val_acc": 0.6405,
+    "redundancy": {
+      "combined": 0.5787,
+      "nearest": 21,
+      "code_sim": 0.2891,
+      "err_jaccard": 0.6203
+    },
+    "forced_redundant": false,
+    "approach_summary": "token overlap, tokenization, comma-region parsing, field splitting"
+  },
+  {
+    "program_id": 26,
+    "filename": "judge_26.py",
+    "heuristic_id": 7,
+    "heuristic_name": "Food Category Consistency",
+    "variant": 2,
+    "status": "success",
+    "attempts": 1,
+    "val_acc": 0.5579,
+    "redundancy": {
+      "combined": 0.5534,
+      "nearest": 25,
+      "code_sim": 0.4512,
+      "err_jaccard": 0.4683
+    },
+    "forced_redundant": false,
+    "approach_summary": "token overlap, tokenization, field splitting, set operations"
+  },
+  {
+    "program_id": 27,
+    "filename": "judge_27.py",
+    "heuristic_id": 7,
+    "heuristic_name": "Food Category Consistency",
+    "variant": 3,
+    "status": "success",
+    "attempts": 1,
+    "val_acc": 0.6211,
+    "redundancy": {
+      "combined": 0.5644,
+      "nearest": 17,
+      "code_sim": 0.1985,
+      "err_jaccard": 0.6646
+    },
+    "forced_redundant": false,
+    "approach_summary": "token overlap, tokenization, field splitting, set operations"
+  },
+  {
+    "program_id": 28,
+    "filename": "judge_28.py",
+    "heuristic_id": 7,
+    "heuristic_name": "Food Category Consistency",
+    "variant": 4,
+    "status": "success",
+    "attempts": 2,
+    "val_acc": 0.6263,
+    "redundancy": {
+      "combined": 0.5314,
+      "nearest": 18,
+      "code_sim": 0.347,
+      "err_jaccard": 0.5114
+    },
+    "forced_redundant": false,
+    "approach_summary": "field splitting, set operations, stemming"
+  },
+  {
+    "program_id": 29,
+    "filename": "judge_29.py",
+    "heuristic_id": 8,
+    "heuristic_name": "Processing and Additive Difference",
+    "variant": 1,
+    "status": "success",
+    "attempts": 2,
+    "val_acc": 0.6368,
+    "redundancy": {
+      "combined": 0.5555,
+      "nearest": 11,
+      "code_sim": 0.2001,
+      "err_jaccard": 0.6506
+    },
+    "forced_redundant": false,
+    "approach_summary": "char trigrams, comma-region parsing, field splitting, set operations"
+  },
+  {
+    "program_id": 30,
+    "filename": "judge_30.py",
+    "heuristic_id": 8,
+    "heuristic_name": "Processing and Additive Difference",
+    "variant": 2,
+    "status": "success",
+    "attempts": 4,
+    "val_acc": 0.6395,
+    "redundancy": {
+      "combined": 0.4916,
+      "nearest": 4,
+      "code_sim": 0.1922,
+      "err_jaccard": 0.565
+    },
+    "forced_redundant": false,
+    "approach_summary": "field splitting, set operations"
+  },
+  {
+    "program_id": 31,
+    "filename": "judge_31.py",
+    "heuristic_id": 8,
+    "heuristic_name": "Processing and Additive Difference",
+    "variant": 3,
+    "status": "success",
+    "attempts": 4,
+    "val_acc": 0.6316,
+    "redundancy": {
+      "combined": 0.5769,
+      "nearest": 23,
+      "code_sim": 0.2426,
+      "err_jaccard": 0.6509
+    },
+    "forced_redundant": false,
+    "approach_summary": "tokenization, comma-region parsing, field splitting, set operations"
+  },
+  {
+    "program_id": 32,
+    "filename": "judge_32.py",
+    "heuristic_id": 8,
+    "heuristic_name": "Processing and Additive Difference",
+    "variant": 4,
+    "status": "success",
+    "attempts": 2,
+    "val_acc": 0.6632,
+    "redundancy": {
+      "combined": 0.6026,
+      "nearest": 17,
+      "code_sim": 0.2687,
+      "err_jaccard": 0.6689
+    },
+    "forced_redundant": false,
+    "approach_summary": "token overlap, comma-region parsing, field splitting, set operations"
+  },
+  {
+    "program_id": 33,
+    "filename": "judge_33.py",
+    "heuristic_id": 9,
+    "heuristic_name": "Culinary Role Interchangeability",
+    "variant": 1,
+    "status": "success",
+    "attempts": 1,
+    "val_acc": 0.657,
+    "redundancy": {
+      "combined": 0.6171,
+      "nearest": 7,
+      "code_sim": 0.2649,
+      "err_jaccard": 0.6923
+    },
+    "forced_redundant": false,
+    "approach_summary": "field splitting, set operations, stemming"
+  },
+  {
+    "program_id": 34,
+    "filename": "judge_34.py",
+    "heuristic_id": 9,
+    "heuristic_name": "Culinary Role Interchangeability",
+    "variant": 2,
+    "status": "success",
+    "attempts": 1,
+    "val_acc": 0.6579,
+    "redundancy": {
+      "combined": 0.5926,
+      "nearest": 12,
+      "code_sim": 0.2576,
+      "err_jaccard": 0.6626
+    },
+    "forced_redundant": false,
+    "approach_summary": "char trigrams, tokenization, comma-region parsing, field splitting"
+  },
+  {
+    "program_id": 35,
+    "filename": "judge_35.py",
+    "heuristic_id": 9,
+    "heuristic_name": "Culinary Role Interchangeability",
+    "variant": 3,
+    "status": "success",
+    "attempts": 1,
+    "val_acc": 0.6755,
+    "redundancy": {
+      "combined": 0.5895,
+      "nearest": 5,
+      "code_sim": 0.2457,
+      "err_jaccard": 0.6667
+    },
+    "forced_redundant": false,
+    "approach_summary": "tokenization, field splitting, set operations, stemming"
+  },
+  {
+    "program_id": 36,
+    "filename": "judge_36.py",
+    "heuristic_id": 9,
+    "heuristic_name": "Culinary Role Interchangeability",
+    "variant": 4,
+    "status": "success",
+    "attempts": 1,
+    "val_acc": 0.6763,
+    "redundancy": {
+      "combined": 0.6414,
+      "nearest": 34,
+      "code_sim": 0.3525,
+      "err_jaccard": 0.6645
+    },
+    "forced_redundant": false,
+    "approach_summary": "token overlap, tokenization, field splitting, set operations"
+  },
+  {
+    "program_id": 37,
+    "filename": "judge_37.py",
+    "heuristic_id": 10,
+    "heuristic_name": "Modifier and Qualifier Consistency",
+    "variant": 1,
+    "status": "success",
+    "attempts": 1,
+    "val_acc": 0.6526,
+    "redundancy": {
+      "combined": 0.6118,
+      "nearest": 33,
+      "code_sim": 0.3167,
+      "err_jaccard": 0.6478
+    },
+    "forced_redundant": false,
+    "approach_summary": "tokenization, field splitting, set operations, stemming"
+  },
+  {
+    "program_id": 38,
+    "filename": "judge_38.py",
+    "heuristic_id": 10,
+    "heuristic_name": "Modifier and Qualifier Consistency",
+    "variant": 2,
+    "status": "success",
+    "attempts": 1,
+    "val_acc": 0.6789,
+    "redundancy": {
+      "combined": 0.6342,
+      "nearest": 7,
+      "code_sim": 0.3115,
+      "err_jaccard": 0.6835
+    },
+    "forced_redundant": false,
+    "approach_summary": "token overlap, tokenization, comma-region parsing, field splitting"
+  },
+  {
+    "program_id": 39,
+    "filename": "judge_39.py",
+    "heuristic_id": 10,
+    "heuristic_name": "Modifier and Qualifier Consistency",
+    "variant": 3,
+    "status": "success",
+    "attempts": 2,
+    "val_acc": 0.6395,
+    "redundancy": {
+      "combined": 0.6176,
+      "nearest": 38,
+      "code_sim": 0.3403,
+      "err_jaccard": 0.6392
+    },
+    "forced_redundant": false,
+    "approach_summary": "comma-region parsing, field splitting, set operations, stemming"
+  },
+  {
+    "program_id": 40,
+    "filename": "judge_40.py",
+    "heuristic_id": 10,
+    "heuristic_name": "Modifier and Qualifier Consistency",
+    "variant": 4,
+    "status": "success",
+    "attempts": 1,
+    "val_acc": 0.6184,
+    "redundancy": {
+      "combined": 0.6181,
+      "nearest": 38,
+      "code_sim": 0.3708,
+      "err_jaccard": 0.6182
+    },
+    "forced_redundant": false,
+    "approach_summary": "tokenization, field splitting, set operations"
+  },
+  {
+    "program_id": 41,
+    "filename": "judge_41.py",
+    "heuristic_id": 11,
+    "heuristic_name": "Synonym and Alias Resolution",
+    "variant": 1,
+    "status": "success",
+    "attempts": 1,
+    "val_acc": 0.6579,
+    "redundancy": {
+      "combined": 0.6302,
+      "nearest": 36,
+      "code_sim": 0.2831,
+      "err_jaccard": 0.698
+    },
+    "forced_redundant": false,
+    "approach_summary": "field splitting, set operations"
+  },
+  {
+    "program_id": 42,
+    "filename": "judge_42.py",
+    "heuristic_id": 11,
+    "heuristic_name": "Synonym and Alias Resolution",
+    "variant": 2,
+    "status": "success",
+    "attempts": 3,
+    "val_acc": 0.6403,
+    "redundancy": {
+      "combined": 0.609,
+      "nearest": 23,
+      "code_sim": 0.2761,
+      "err_jaccard": 0.6728
+    },
+    "forced_redundant": false,
+    "approach_summary": "field splitting, set operations"
+  },
+  {
+    "program_id": 43,
+    "filename": "judge_43.py",
+    "heuristic_id": 11,
+    "heuristic_name": "Synonym and Alias Resolution",
+    "variant": 3,
+    "status": "success",
+    "attempts": 1,
+    "val_acc": 0.6263,
+    "redundancy": {
+      "combined": 0.5543,
+      "nearest": 15,
+      "code_sim": 0.2326,
+      "err_jaccard": 0.6257
+    },
+    "forced_redundant": false,
+    "approach_summary": "tokenization, field splitting, set operations"
+  },
+  {
+    "program_id": 44,
+    "filename": "judge_44.py",
+    "heuristic_id": 11,
+    "heuristic_name": "Synonym and Alias Resolution",
+    "variant": 4,
+    "status": "success",
+    "attempts": 5,
+    "val_acc": 0.6368,
+    "redundancy": {
+      "combined": 0.6631,
+      "nearest": 7,
+      "code_sim": 0.329,
+      "err_jaccard": 0.7123
+    },
+    "forced_redundant": true,
+    "approach_summary": "tokenization, field splitting, set operations"
+  },
+  {
+    "program_id": 45,
+    "filename": "judge_45.py",
+    "heuristic_id": 12,
+    "heuristic_name": "Head Food Position",
+    "variant": 1,
+    "status": "success",
+    "attempts": 1,
+    "val_acc": 0.5921,
+    "redundancy": {
+      "combined": 0.6463,
+      "nearest": 2,
+      "code_sim": 0.4125,
+      "err_jaccard": 0.6286
+    },
+    "forced_redundant": false,
+    "approach_summary": "token overlap, tokenization, field splitting, set operations"
+  },
+  {
+    "program_id": 46,
+    "filename": "judge_46.py",
+    "heuristic_id": 12,
+    "heuristic_name": "Head Food Position",
+    "variant": 2,
+    "status": "success",
+    "attempts": 1,
+    "val_acc": 0.6316,
+    "redundancy": {
+      "combined": 0.5756,
+      "nearest": 45,
+      "code_sim": 0.4441,
+      "err_jaccard": 0.5051
+    },
+    "forced_redundant": false,
+    "approach_summary": "token overlap, tokenization, field splitting, set operations"
+  },
+  {
+    "program_id": 47,
+    "filename": "judge_47.py",
+    "heuristic_id": 12,
+    "heuristic_name": "Head Food Position",
+    "variant": 3,
+    "status": "success",
+    "attempts": 5,
+    "val_acc": 0.5974,
+    "redundancy": {
+      "combined": 0.6236,
+      "nearest": 45,
+      "code_sim": 0.2909,
+      "err_jaccard": 0.6831
+    },
+    "forced_redundant": false,
+    "approach_summary": "tokenization, field splitting, set operations, plural normalization"
+  },
+  {
+    "program_id": 48,
+    "filename": "judge_48.py",
+    "heuristic_id": 12,
+    "heuristic_name": "Head Food Position",
+    "variant": 4,
+    "status": "success",
+    "attempts": 3,
+    "val_acc": 0.6605,
+    "redundancy": {
+      "combined": 0.557,
+      "nearest": 1,
+      "code_sim": 0.2615,
+      "err_jaccard": 0.609
+    },
+    "forced_redundant": false,
+    "approach_summary": "comma-region parsing, field splitting, set operations"
+  },
+  {
+    "program_id": 49,
+    "filename": "judge_49.py",
+    "heuristic_id": 13,
+    "heuristic_name": "Unstated Added Qualifier",
+    "variant": 1,
+    "status": "success",
+    "attempts": 1,
+    "val_acc": 0.7053,
+    "redundancy": {
+      "combined": 0.596,
+      "nearest": 16,
+      "code_sim": 0.131,
+      "err_jaccard": 0.7578
+    },
+    "forced_redundant": false,
+    "approach_summary": "set operations, regex, stemming"
+  },
+  {
+    "program_id": 50,
+    "filename": "judge_50.py",
+    "heuristic_id": 13,
+    "heuristic_name": "Unstated Added Qualifier",
+    "variant": 2,
+    "status": "success",
+    "attempts": 4,
+    "val_acc": 0.6579,
+    "redundancy": {
+      "combined": 0.556,
+      "nearest": 8,
+      "code_sim": 0.3202,
+      "err_jaccard": 0.5655
+    },
+    "forced_redundant": false,
+    "approach_summary": "tokenization, comma-region parsing, field splitting, set operations"
+  },
+  {
+    "program_id": 51,
+    "filename": "judge_51.py",
+    "heuristic_id": 13,
+    "heuristic_name": "Unstated Added Qualifier",
+    "variant": 3,
+    "status": "success",
+    "attempts": 1,
+    "val_acc": 0.6893,
+    "redundancy": {
+      "combined": 0.6457,
+      "nearest": 49,
+      "code_sim": 0.3545,
+      "err_jaccard": 0.6692
+    },
+    "forced_redundant": false,
+    "approach_summary": "token overlap, tokenization, field splitting, set operations"
+  },
+  {
+    "program_id": 52,
+    "filename": "judge_52.py",
+    "heuristic_id": 13,
+    "heuristic_name": "Unstated Added Qualifier",
+    "variant": 4,
+    "status": "success",
+    "attempts": 2,
+    "val_acc": 0.6763,
+    "redundancy": {
+      "combined": 0.6267,
+      "nearest": 51,
+      "code_sim": 0.3399,
+      "err_jaccard": 0.6525
+    },
+    "forced_redundant": false,
+    "approach_summary": "field splitting, set operations, stemming"
+  },
+  {
+    "program_id": 53,
+    "filename": "judge_53.py",
+    "heuristic_id": 14,
+    "heuristic_name": "Polarity and Negation Conflict",
+    "variant": 1,
+    "status": "success",
+    "attempts": 4,
+    "val_acc": 0.6516,
+    "redundancy": {
+      "combined": 0.5577,
+      "nearest": 21,
+      "code_sim": 0.2195,
+      "err_jaccard": 0.64
+    },
+    "forced_redundant": false,
+    "approach_summary": "token overlap, set operations"
+  },
+  {
+    "program_id": 54,
+    "filename": "judge_54.py",
+    "heuristic_id": 14,
+    "heuristic_name": "Polarity and Negation Conflict",
+    "variant": 2,
+    "status": "success",
+    "attempts": 3,
+    "val_acc": 0.6421,
+    "redundancy": {
+      "combined": 0.6339,
+      "nearest": 55,
+      "code_sim": 0.3491,
+      "err_jaccard": 0.6562
+    },
+    "forced_redundant": false,
+    "approach_summary": "set operations"
+  },
+  {
+    "program_id": 55,
+    "filename": "judge_55.py",
+    "heuristic_id": 14,
+    "heuristic_name": "Polarity and Negation Conflict",
+    "variant": 3,
+    "status": "success",
+    "attempts": 1,
+    "val_acc": 0.6605,
+    "redundancy": {
+      "combined": 0.6422,
+      "nearest": 12,
+      "code_sim": 0.1976,
+      "err_jaccard": 0.7763
+    },
+    "forced_redundant": false,
+    "approach_summary": "token overlap, tokenization, field splitting, set operations"
+  },
+  {
+    "program_id": 56,
+    "filename": "judge_56.py",
+    "heuristic_id": 14,
+    "heuristic_name": "Polarity and Negation Conflict",
+    "variant": 4,
+    "status": "success",
+    "attempts": 1,
+    "val_acc": 0.6553,
+    "redundancy": {
+      "combined": 0.6105,
+      "nearest": 55,
+      "code_sim": 0.3026,
+      "err_jaccard": 0.6561
+    },
+    "forced_redundant": false,
+    "approach_summary": "tokenization, field splitting, set operations, stemming"
+  },
+  {
+    "program_id": 57,
+    "filename": "judge_57.py",
+    "heuristic_id": 15,
+    "heuristic_name": "Brand and Commercial Product",
+    "variant": 1,
+    "status": "success",
+    "attempts": 3,
+    "val_acc": 0.6342,
+    "redundancy": {
+      "combined": 0.5672,
+      "nearest": 29,
+      "code_sim": 0.3184,
+      "err_jaccard": 0.5829
+    },
+    "forced_redundant": false,
+    "approach_summary": "char trigrams, field splitting, set operations"
+  },
+  {
+    "program_id": 58,
+    "filename": "judge_58.py",
+    "heuristic_id": 15,
+    "heuristic_name": "Brand and Commercial Product",
+    "variant": 2,
+    "status": "success",
+    "attempts": 1,
+    "val_acc": 0.6974,
+    "redundancy": {
+      "combined": 0.6392,
+      "nearest": 17,
+      "code_sim": 0.1777,
+      "err_jaccard": 0.7863
+    },
+    "forced_redundant": false,
+    "approach_summary": "tokenization, field splitting, set operations, stemming"
+  },
+  {
+    "program_id": 59,
+    "filename": "judge_59.py",
+    "heuristic_id": 15,
+    "heuristic_name": "Brand and Commercial Product",
+    "variant": 3,
+    "status": "success",
+    "attempts": 2,
+    "val_acc": 0.6526,
+    "redundancy": {
+      "combined": 0.6221,
+      "nearest": 24,
+      "code_sim": 0.1731,
+      "err_jaccard": 0.7651
+    },
+    "forced_redundant": false,
+    "approach_summary": "char trigrams, comma-region parsing, field splitting, set operations"
+  },
+  {
+    "program_id": 60,
+    "filename": "judge_60.py",
+    "heuristic_id": 15,
+    "heuristic_name": "Brand and Commercial Product",
+    "variant": 4,
+    "status": "success",
+    "attempts": 1,
+    "val_acc": 0.6632,
+    "redundancy": {
+      "combined": 0.6453,
+      "nearest": 44,
+      "code_sim": 0.2406,
+      "err_jaccard": 0.75
+    },
+    "forced_redundant": false,
+    "approach_summary": "tokenization, field splitting, set operations, stemming"
+  },
+  {
+    "program_id": 61,
+    "filename": "judge_61.py",
+    "heuristic_id": 16,
+    "heuristic_name": "Single Ingredient vs Composite Dish",
+    "variant": 1,
+    "status": "success",
+    "attempts": 1,
+    "val_acc": 0.6676,
+    "redundancy": {
+      "combined": 0.6386,
+      "nearest": 36,
+      "code_sim": 0.3854,
+      "err_jaccard": 0.637
+    },
+    "forced_redundant": false,
+    "approach_summary": "token overlap, tokenization, comma-region parsing, field splitting"
+  },
+  {
+    "program_id": 62,
+    "filename": "judge_62.py",
+    "heuristic_id": 16,
+    "heuristic_name": "Single Ingredient vs Composite Dish",
+    "variant": 2,
+    "status": "success",
+    "attempts": 2,
+    "val_acc": 0.65,
+    "redundancy": {
+      "combined": 0.6011,
+      "nearest": 24,
+      "code_sim": 0.263,
+      "err_jaccard": 0.6709
+    },
+    "forced_redundant": false,
+    "approach_summary": "field splitting, set operations, stemming"
+  },
+  {
+    "program_id": 63,
+    "filename": "judge_63.py",
+    "heuristic_id": 16,
+    "heuristic_name": "Single Ingredient vs Composite Dish",
+    "variant": 3,
+    "status": "success",
+    "attempts": 1,
+    "val_acc": 0.6085,
+    "redundancy": {
+      "combined": 0.5663,
+      "nearest": 30,
+      "code_sim": 0.3159,
+      "err_jaccard": 0.5833
+    },
+    "forced_redundant": false,
+    "approach_summary": "comma-region parsing, field splitting, set operations, stemming"
+  },
+  {
+    "program_id": 64,
+    "filename": "judge_64.py",
+    "heuristic_id": 16,
+    "heuristic_name": "Single Ingredient vs Composite Dish",
+    "variant": 4,
+    "status": "success",
+    "attempts": 1,
+    "val_acc": 0.6079,
+    "redundancy": {
+      "combined": 0.6447,
+      "nearest": 8,
+      "code_sim": 0.3253,
+      "err_jaccard": 0.6886
+    },
+    "forced_redundant": false,
+    "approach_summary": "token overlap, comma-region parsing, field splitting, set operations"
+  },
+  {
+    "program_id": 65,
+    "filename": "judge_65.py",
+    "heuristic_id": 17,
+    "heuristic_name": "Cooking Method Agreement",
+    "variant": 1,
+    "status": "success",
+    "attempts": 5,
+    "val_acc": 0.6711,
+    "redundancy": {
+      "combined": 0.5019,
+      "nearest": 68,
+      "code_sim": 0.3324,
+      "err_jaccard": 0.4795
+    },
+    "forced_redundant": false,
+    "approach_summary": "char trigrams, field splitting, set operations"
+  },
+  {
+    "program_id": 66,
+    "filename": "judge_66.py",
+    "heuristic_id": 17,
+    "heuristic_name": "Cooking Method Agreement",
+    "variant": 2,
+    "status": "success",
+    "attempts": 4,
+    "val_acc": 0.6974,
+    "redundancy": {
+      "combined": 0.6252,
+      "nearest": 67,
+      "code_sim": 0.4869,
+      "err_jaccard": 0.5455
+    },
+    "forced_redundant": false,
+    "approach_summary": "tokenization, field splitting, set operations, stemming"
+  },
+  {
+    "program_id": 67,
+    "filename": "judge_67.py",
+    "heuristic_id": 17,
+    "heuristic_name": "Cooking Method Agreement",
+    "variant": 3,
+    "status": "success",
+    "attempts": 1,
+    "val_acc": 0.6711,
+    "redundancy": {
+      "combined": 0.6455,
+      "nearest": 12,
+      "code_sim": 0.3811,
+      "err_jaccard": 0.65
+    },
+    "forced_redundant": false,
+    "approach_summary": "tokenization, comma-region parsing, field splitting, set operations"
+  },
+  {
+    "program_id": 68,
+    "filename": "judge_68.py",
+    "heuristic_id": 17,
+    "heuristic_name": "Cooking Method Agreement",
+    "variant": 4,
+    "status": "success",
+    "attempts": 3,
+    "val_acc": 0.6632,
+    "redundancy": {
+      "combined": 0.6017,
+      "nearest": 33,
+      "code_sim": 0.1792,
+      "err_jaccard": 0.7315
+    },
+    "forced_redundant": false,
+    "approach_summary": "char trigrams, field splitting, set operations"
+  },
+  {
+    "program_id": 69,
+    "filename": "judge_69.py",
+    "heuristic_id": 18,
+    "heuristic_name": "Anatomical Part and Cut",
+    "variant": 1,
+    "status": "success",
+    "attempts": 1,
+    "val_acc": 0.6587,
+    "redundancy": {
+      "combined": 0.5938,
+      "nearest": 36,
+      "code_sim": 0.3547,
+      "err_jaccard": 0.5949
+    },
+    "forced_redundant": false,
+    "approach_summary": "token overlap, tokenization, comma-region parsing, field splitting"
+  },
+  {
+    "program_id": 70,
+    "filename": "judge_70.py",
+    "heuristic_id": 18,
+    "heuristic_name": "Anatomical Part and Cut",
+    "variant": 2,
+    "status": "success",
+    "attempts": 2,
+    "val_acc": 0.6,
+    "redundancy": {
+      "combined": 0.4924,
+      "nearest": 7,
+      "code_sim": 0.3736,
+      "err_jaccard": 0.4366
+    },
+    "forced_redundant": false,
+    "approach_summary": "field splitting, set operations, stemming"
+  },
+  {
+    "program_id": 71,
+    "filename": "judge_71.py",
+    "heuristic_id": 18,
+    "heuristic_name": "Anatomical Part and Cut",
+    "variant": 3,
+    "status": "success",
+    "attempts": 5,
+    "val_acc": 0.6289,
+    "redundancy": {
+      "combined": 0.5962,
+      "nearest": 4,
+      "code_sim": 0.3053,
+      "err_jaccard": 0.6337
+    },
+    "forced_redundant": false,
+    "approach_summary": "char trigrams, field splitting, set operations, stemming"
+  },
+  {
+    "program_id": 72,
+    "filename": "judge_72.py",
+    "heuristic_id": 18,
+    "heuristic_name": "Anatomical Part and Cut",
+    "variant": 4,
+    "status": "success",
+    "attempts": 2,
+    "val_acc": 0.6447,
+    "redundancy": {
+      "combined": 0.6298,
+      "nearest": 59,
+      "code_sim": 0.2481,
+      "err_jaccard": 0.7226
+    },
+    "forced_redundant": false,
+    "approach_summary": "tokenization, field splitting, set operations, stemming"
+  },
+  {
+    "program_id": 73,
+    "filename": "judge_73.py",
+    "heuristic_id": 19,
+    "heuristic_name": "Ingredient Detail Coverage",
+    "variant": 1,
+    "status": "success",
+    "attempts": 1,
+    "val_acc": 0.6974,
+    "redundancy": {
+      "combined": 0.6499,
+      "nearest": 5,
+      "code_sim": 0.2739,
+      "err_jaccard": 0.7328
+    },
+    "forced_redundant": false,
+    "approach_summary": "tokenization, comma-region parsing, field splitting, set operations"
+  },
+  {
+    "program_id": 74,
+    "filename": "judge_74.py",
+    "heuristic_id": 19,
+    "heuristic_name": "Ingredient Detail Coverage",
+    "variant": 2,
+    "status": "success",
+    "attempts": 2,
+    "val_acc": 0.672,
+    "redundancy": {
+      "combined": 0.6177,
+      "nearest": 2,
+      "code_sim": 0.2804,
+      "err_jaccard": 0.6821
+    },
+    "forced_redundant": false,
+    "approach_summary": "field splitting, set operations"
+  },
+  {
+    "program_id": 75,
+    "filename": "judge_75.py",
+    "heuristic_id": 19,
+    "heuristic_name": "Ingredient Detail Coverage",
+    "variant": 3,
+    "status": "success",
+    "attempts": 2,
+    "val_acc": 0.6079,
+    "redundancy": {
+      "combined": 0.6362,
+      "nearest": 47,
+      "code_sim": 0.1706,
+      "err_jaccard": 0.787
+    },
+    "forced_redundant": false,
+    "approach_summary": "char trigrams, tokenization, field splitting, set operations"
+  },
+  {
+    "program_id": 76,
+    "filename": "judge_76.py",
+    "heuristic_id": 19,
+    "heuristic_name": "Ingredient Detail Coverage",
+    "variant": 4,
+    "status": "success",
+    "attempts": 1,
+    "val_acc": 0.6807,
+    "redundancy": {
+      "combined": 0.5624,
+      "nearest": 73,
+      "code_sim": 0.3793,
+      "err_jaccard": 0.5325
+    },
+    "forced_redundant": false,
+    "approach_summary": "tokenization, field splitting, set operations"
+  },
+  {
+    "program_id": 77,
+    "filename": "judge_77.py",
+    "heuristic_id": 20,
+    "heuristic_name": "Compound Food Name Integrity",
+    "variant": 1,
+    "status": "success",
+    "attempts": 1,
+    "val_acc": 0.6693,
+    "redundancy": {
+      "combined": 0.6277,
+      "nearest": 41,
+      "code_sim": 0.2364,
+      "err_jaccard": 0.7279
+    },
+    "forced_redundant": false,
+    "approach_summary": "field splitting, set operations, stemming"
+  },
+  {
+    "program_id": 78,
+    "filename": "judge_78.py",
+    "heuristic_id": 20,
+    "heuristic_name": "Compound Food Name Integrity",
+    "variant": 2,
+    "status": "success",
+    "attempts": 4,
+    "val_acc": 0.6055,
+    "redundancy": {
+      "combined": 0.6177,
+      "nearest": 43,
+      "code_sim": 0.386,
+      "err_jaccard": 0.6067
+    },
+    "forced_redundant": false,
+    "approach_summary": "field splitting, set operations"
+  },
+  {
+    "program_id": 79,
+    "filename": "judge_79.py",
+    "heuristic_id": 20,
+    "heuristic_name": "Compound Food Name Integrity",
+    "variant": 3,
+    "status": "success",
+    "attempts": 5,
+    "val_acc": 0.6737,
+    "redundancy": {
+      "combined": 0.6776,
+      "nearest": 21,
+      "code_sim": 0.3371,
+      "err_jaccard": 0.7273
+    },
+    "forced_redundant": true,
+    "approach_summary": "field splitting, set operations"
+  },
+  {
+    "program_id": 80,
+    "filename": "judge_80.py",
+    "heuristic_id": 20,
+    "heuristic_name": "Compound Food Name Integrity",
+    "variant": 4,
+    "status": "success",
+    "attempts": 2,
+    "val_acc": 0.6211,
+    "redundancy": {
+      "combined": 0.6294,
+      "nearest": 41,
+      "code_sim": 0.2612,
+      "err_jaccard": 0.7125
+    },
+    "forced_redundant": false,
+    "approach_summary": "field splitting, set operations"
+  }
+]

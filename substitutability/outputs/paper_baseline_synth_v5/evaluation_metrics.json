@@ -1,0 +1,84 @@
+{
+  "judges_dir": "programs_synth_v5",
+  "val_path": "data_synth_v2/pajama_paper/val.jsonl",
+  "fit_summary": {
+    "task": "substitutability",
+    "n_total_programs": 80,
+    "n_surviving_programs": 80,
+    "best_k": 3,
+    "band": 0.0,
+    "val_best_agreement": 0.7105,
+    "selected_program_ids": [
+      49,
+      5,
+      16
+    ],
+    "selected_thresholds": [
+      0.8,
+      0.85,
+      0.75
+    ],
+    "selected_val_accuracies": [
+      0.7053,
+      0.7053,
+      0.7003
+    ]
+  },
+  "test_metrics": {
+    "accuracy": 0.7173,
+    "precision": 0.7249,
+    "recall": 0.6403,
+    "f1": 0.68,
+    "coverage": 1.0
+  },
+  "majority_baseline": 0.5309,
+  "n_test": 3799,
+  "n_test_covered": 3799,
+  "results": {
+    "test": {
+      "n": 3799,
+      "positive_rate": 0.4691,
+      "metrics_covered": {
+        "accuracy": 0.7173,
+        "precision": 0.7249,
+        "recall": 0.6403,
+        "f1": 0.68,
+        "coverage": 1.0
+      },
+      "accuracy_full": 0.7173,
+      "n_abstained": 0,
+      "majority_baseline": 0.5309
+    },
+    "real": {
+      "n": 943,
+      "positive_rate": 0.7116,
+      "metrics_covered": {
+        "accuracy": 0.8081,
+        "precision": 0.8582,
+        "recall": 0.8748,
+        "f1": 0.8664,
+        "coverage": 1.0
+      },
+      "accuracy_full": 0.8081,
+      "n_abstained": 0,
+      "majority_baseline": 0.7116
+    }
+  },
+  "program_diagnostics": {
+    "selected_program_ids": [
+      49,
+      5,
+      16
+    ],
+    "coverage": [
+      1.0,
+      1.0,
+      0.9961
+    ],
+    "conflicts": [
+      0.2385,
+      0.2385,
+      0.2372
+    ]
+  }
+}

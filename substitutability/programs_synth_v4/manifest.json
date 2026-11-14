@@ -1,0 +1,800 @@
+[
+  {
+    "program_id": 1,
+    "filename": "judge_1.py",
+    "heuristic_id": 1,
+    "heuristic_name": "Core Food Identity Match",
+    "variant": 1,
+    "status": "success",
+    "attempts": 1,
+    "approach_summary": "tokenization, field splitting, set operations, stemming"
+  },
+  {
+    "program_id": 2,
+    "filename": "judge_2.py",
+    "heuristic_id": 1,
+    "heuristic_name": "Core Food Identity Match",
+    "variant": 2,
+    "status": "success",
+    "attempts": 1,
+    "approach_summary": "char trigrams, field splitting"
+  },
+  {
+    "program_id": 3,
+    "filename": "judge_3.py",
+    "heuristic_id": 1,
+    "heuristic_name": "Core Food Identity Match",
+    "variant": 3,
+    "status": "success",
+    "attempts": 1,
+    "approach_summary": "char trigrams, field splitting, stemming"
+  },
+  {
+    "program_id": 4,
+    "filename": "judge_4.py",
+    "heuristic_id": 1,
+    "heuristic_name": "Core Food Identity Match",
+    "variant": 4,
+    "status": "success",
+    "attempts": 1,
+    "approach_summary": "tokenization, field splitting, set operations, stemming"
+  },
+  {
+    "program_id": 5,
+    "filename": "judge_5.py",
+    "heuristic_id": 2,
+    "heuristic_name": "Preparation-State Equivalence",
+    "variant": 1,
+    "status": "success",
+    "attempts": 1,
+    "approach_summary": "tokenization, comma-region parsing, field splitting, set operations"
+  },
+  {
+    "program_id": 6,
+    "filename": "judge_6.py",
+    "heuristic_id": 2,
+    "heuristic_name": "Preparation-State Equivalence",
+    "variant": 2,
+    "status": "success",
+    "attempts": 1,
+    "approach_summary": "char trigrams, tokenization, field splitting, set operations"
+  },
+  {
+    "program_id": 7,
+    "filename": "judge_7.py",
+    "heuristic_id": 2,
+    "heuristic_name": "Preparation-State Equivalence",
+    "variant": 3,
+    "status": "success",
+    "attempts": 2,
+    "approach_summary": "tokenization, field splitting, set operations, stemming"
+  },
+  {
+    "program_id": 8,
+    "filename": "judge_8.py",
+    "heuristic_id": 2,
+    "heuristic_name": "Preparation-State Equivalence",
+    "variant": 4,
+    "status": "failed: Fails directional sanity (good match scored below bad match)",
+    "attempts": 5
+  },
+  {
+    "program_id": 9,
+    "filename": "judge_9.py",
+    "heuristic_id": 3,
+    "heuristic_name": "Preservation and Form Match",
+    "variant": 1,
+    "status": "success",
+    "attempts": 1,
+    "approach_summary": "token overlap, tokenization, comma-region parsing, field splitting"
+  },
+  {
+    "program_id": 10,
+    "filename": "judge_10.py",
+    "heuristic_id": 3,
+    "heuristic_name": "Preservation and Form Match",
+    "variant": 2,
+    "status": "success",
+    "attempts": 1,
+    "approach_summary": "token overlap, char trigrams, tokenization, field splitting"
+  },
+  {
+    "program_id": 11,
+    "filename": "judge_11.py",
+    "heuristic_id": 3,
+    "heuristic_name": "Preservation and Form Match",
+    "variant": 3,
+    "status": "success",
+    "attempts": 2,
+    "approach_summary": "char trigrams, tokenization, field splitting, set operations"
+  },
+  {
+    "program_id": 12,
+    "filename": "judge_12.py",
+    "heuristic_id": 3,
+    "heuristic_name": "Preservation and Form Match",
+    "variant": 4,
+    "status": "success",
+    "attempts": 2,
+    "approach_summary": "char trigrams, tokenization, comma-region parsing, field splitting"
+  },
+  {
+    "program_id": 13,
+    "filename": "judge_13.py",
+    "heuristic_id": 4,
+    "heuristic_name": "Nutritional Profile Proximity",
+    "variant": 1,
+    "status": "success",
+    "attempts": 1,
+    "approach_summary": "token overlap, tokenization, comma-region parsing, field splitting"
+  },
+  {
+    "program_id": 14,
+    "filename": "judge_14.py",
+    "heuristic_id": 4,
+    "heuristic_name": "Nutritional Profile Proximity",
+    "variant": 2,
+    "status": "success",
+    "attempts": 1,
+    "approach_summary": "token overlap, tokenization, field splitting, set operations"
+  },
+  {
+    "program_id": 15,
+    "filename": "judge_15.py",
+    "heuristic_id": 4,
+    "heuristic_name": "Nutritional Profile Proximity",
+    "variant": 3,
+    "status": "success",
+    "attempts": 1,
+    "approach_summary": "tokenization, field splitting, set operations, stemming"
+  },
+  {
+    "program_id": 16,
+    "filename": "judge_16.py",
+    "heuristic_id": 4,
+    "heuristic_name": "Nutritional Profile Proximity",
+    "variant": 4,
+    "status": "success",
+    "attempts": 1,
+    "approach_summary": "token overlap, tokenization, comma-region parsing, field splitting"
+  },
+  {
+    "program_id": 17,
+    "filename": "judge_17.py",
+    "heuristic_id": 5,
+    "heuristic_name": "Specificity and Generality Alignment",
+    "variant": 1,
+    "status": "success",
+    "attempts": 1,
+    "approach_summary": "tokenization, field splitting, set operations, stemming"
+  },
+  {
+    "program_id": 18,
+    "filename": "judge_18.py",
+    "heuristic_id": 5,
+    "heuristic_name": "Specificity and Generality Alignment",
+    "variant": 2,
+    "status": "success",
+    "attempts": 1,
+    "approach_summary": "field splitting, set operations, stemming"
+  },
+  {
+    "program_id": 19,
+    "filename": "judge_19.py",
+    "heuristic_id": 5,
+    "heuristic_name": "Specificity and Generality Alignment",
+    "variant": 3,
+    "status": "success",
+    "attempts": 1,
+    "approach_summary": "tokenization, field splitting, set operations, stemming"
+  },
+  {
+    "program_id": 20,
+    "filename": "judge_20.py",
+    "heuristic_id": 5,
+    "heuristic_name": "Specificity and Generality Alignment",
+    "variant": 4,
+    "status": "success",
+    "attempts": 1,
+    "approach_summary": "tokenization, comma-region parsing, field splitting, set operations"
+  },
+  {
+    "program_id": 21,
+    "filename": "judge_21.py",
+    "heuristic_id": 6,
+    "heuristic_name": "Lexical and Token Overlap",
+    "variant": 1,
+    "status": "success",
+    "attempts": 1,
+    "approach_summary": "token overlap, tokenization, comma-region parsing, field splitting"
+  },
+  {
+    "program_id": 22,
+    "filename": "judge_22.py",
+    "heuristic_id": 6,
+    "heuristic_name": "Lexical and Token Overlap",
+    "variant": 2,
+    "status": "success",
+    "attempts": 1,
+    "approach_summary": "token overlap, tokenization, field splitting, set operations"
+  },
+  {
+    "program_id": 23,
+    "filename": "judge_23.py",
+    "heuristic_id": 6,
+    "heuristic_name": "Lexical and Token Overlap",
+    "variant": 3,
+    "status": "success",
+    "attempts": 1,
+    "approach_summary": "token overlap, char trigrams, tokenization, comma-region parsing"
+  },
+  {
+    "program_id": 24,
+    "filename": "judge_24.py",
+    "heuristic_id": 6,
+    "heuristic_name": "Lexical and Token Overlap",
+    "variant": 4,
+    "status": "success",
+    "attempts": 1,
+    "approach_summary": "char trigrams, tokenization, comma-region parsing, field splitting"
+  },
+  {
+    "program_id": 25,
+    "filename": "judge_25.py",
+    "heuristic_id": 7,
+    "heuristic_name": "Food Category Consistency",
+    "variant": 1,
+    "status": "success",
+    "attempts": 1,
+    "approach_summary": "field splitting, set operations, stemming"
+  },
+  {
+    "program_id": 26,
+    "filename": "judge_26.py",
+    "heuristic_id": 7,
+    "heuristic_name": "Food Category Consistency",
+    "variant": 2,
+    "status": "success",
+    "attempts": 2,
+    "approach_summary": "token overlap, tokenization, field splitting, set operations"
+  },
+  {
+    "program_id": 27,
+    "filename": "judge_27.py",
+    "heuristic_id": 7,
+    "heuristic_name": "Food Category Consistency",
+    "variant": 3,
+    "status": "success",
+    "attempts": 1,
+    "approach_summary": "tokenization, field splitting, set operations"
+  },
+  {
+    "program_id": 28,
+    "filename": "judge_28.py",
+    "heuristic_id": 7,
+    "heuristic_name": "Food Category Consistency",
+    "variant": 4,
+    "status": "success",
+    "attempts": 1,
+    "approach_summary": "token overlap, tokenization, field splitting, set operations"
+  },
+  {
+    "program_id": 29,
+    "filename": "judge_29.py",
+    "heuristic_id": 8,
+    "heuristic_name": "Processing and Additive Difference",
+    "variant": 1,
+    "status": "success",
+    "attempts": 1,
+    "approach_summary": "tokenization, field splitting, set operations"
+  },
+  {
+    "program_id": 30,
+    "filename": "judge_30.py",
+    "heuristic_id": 8,
+    "heuristic_name": "Processing and Additive Difference",
+    "variant": 2,
+    "status": "success",
+    "attempts": 1,
+    "approach_summary": "field splitting, set operations, stemming"
+  },
+  {
+    "program_id": 31,
+    "filename": "judge_31.py",
+    "heuristic_id": 8,
+    "heuristic_name": "Processing and Additive Difference",
+    "variant": 3,
+    "status": "success",
+    "attempts": 1,
+    "approach_summary": "tokenization, field splitting, set operations, stemming"
+  },
+  {
+    "program_id": 32,
+    "filename": "judge_32.py",
+    "heuristic_id": 8,
+    "heuristic_name": "Processing and Additive Difference",
+    "variant": 4,
+    "status": "success",
+    "attempts": 1,
+    "approach_summary": "token overlap, tokenization, field splitting, stemming"
+  },
+  {
+    "program_id": 33,
+    "filename": "judge_33.py",
+    "heuristic_id": 9,
+    "heuristic_name": "Culinary Role Interchangeability",
+    "variant": 1,
+    "status": "success",
+    "attempts": 1,
+    "approach_summary": "tokenization, field splitting, set operations, stemming"
+  },
+  {
+    "program_id": 34,
+    "filename": "judge_34.py",
+    "heuristic_id": 9,
+    "heuristic_name": "Culinary Role Interchangeability",
+    "variant": 2,
+    "status": "success",
+    "attempts": 1,
+    "approach_summary": "cosine, tokenization, field splitting, set operations"
+  },
+  {
+    "program_id": 35,
+    "filename": "judge_35.py",
+    "heuristic_id": 9,
+    "heuristic_name": "Culinary Role Interchangeability",
+    "variant": 3,
+    "status": "success",
+    "attempts": 1,
+    "approach_summary": "field splitting, set operations, stemming"
+  },
+  {
+    "program_id": 36,
+    "filename": "judge_36.py",
+    "heuristic_id": 9,
+    "heuristic_name": "Culinary Role Interchangeability",
+    "variant": 4,
+    "status": "success",
+    "attempts": 1,
+    "approach_summary": "cosine, tokenization, comma-region parsing, field splitting"
+  },
+  {
+    "program_id": 37,
+    "filename": "judge_37.py",
+    "heuristic_id": 10,
+    "heuristic_name": "Modifier and Qualifier Consistency",
+    "variant": 1,
+    "status": "success",
+    "attempts": 1,
+    "approach_summary": "token overlap, tokenization, comma-region parsing, field splitting"
+  },
+  {
+    "program_id": 38,
+    "filename": "judge_38.py",
+    "heuristic_id": 10,
+    "heuristic_name": "Modifier and Qualifier Consistency",
+    "variant": 2,
+    "status": "success",
+    "attempts": 1,
+    "approach_summary": "token overlap, comma-region parsing, field splitting, set operations"
+  },
+  {
+    "program_id": 39,
+    "filename": "judge_39.py",
+    "heuristic_id": 10,
+    "heuristic_name": "Modifier and Qualifier Consistency",
+    "variant": 3,
+    "status": "success",
+    "attempts": 1,
+    "approach_summary": "comma-region parsing, field splitting, set operations, stemming"
+  },
+  {
+    "program_id": 40,
+    "filename": "judge_40.py",
+    "heuristic_id": 10,
+    "heuristic_name": "Modifier and Qualifier Consistency",
+    "variant": 4,
+    "status": "success",
+    "attempts": 1,
+    "approach_summary": "token overlap, char trigrams, comma-region parsing, field splitting"
+  },
+  {
+    "program_id": 41,
+    "filename": "judge_41.py",
+    "heuristic_id": 11,
+    "heuristic_name": "Synonym and Alias Resolution",
+    "variant": 1,
+    "status": "success",
+    "attempts": 1,
+    "approach_summary": "comma-region parsing, field splitting, set operations"
+  },
+  {
+    "program_id": 42,
+    "filename": "judge_42.py",
+    "heuristic_id": 11,
+    "heuristic_name": "Synonym and Alias Resolution",
+    "variant": 2,
+    "status": "success",
+    "attempts": 1,
+    "approach_summary": "comma-region parsing, field splitting, set operations, stemming"
+  },
+  {
+    "program_id": 43,
+    "filename": "judge_43.py",
+    "heuristic_id": 11,
+    "heuristic_name": "Synonym and Alias Resolution",
+    "variant": 3,
+    "status": "success",
+    "attempts": 1,
+    "approach_summary": "token overlap, comma-region parsing, field splitting, set operations"
+  },
+  {
+    "program_id": 44,
+    "filename": "judge_44.py",
+    "heuristic_id": 11,
+    "heuristic_name": "Synonym and Alias Resolution",
+    "variant": 4,
+    "status": "success",
+    "attempts": 1,
+    "approach_summary": "field splitting, set operations, stemming, plural normalization"
+  },
+  {
+    "program_id": 45,
+    "filename": "judge_45.py",
+    "heuristic_id": 12,
+    "heuristic_name": "Head Food Position",
+    "variant": 1,
+    "status": "success",
+    "attempts": 1,
+    "approach_summary": "field splitting, set operations, stemming"
+  },
+  {
+    "program_id": 46,
+    "filename": "judge_46.py",
+    "heuristic_id": 12,
+    "heuristic_name": "Head Food Position",
+    "variant": 2,
+    "status": "success",
+    "attempts": 1,
+    "approach_summary": "token overlap, tokenization, field splitting, set operations"
+  },
+  {
+    "program_id": 47,
+    "filename": "judge_47.py",
+    "heuristic_id": 12,
+    "heuristic_name": "Head Food Position",
+    "variant": 3,
+    "status": "success",
+    "attempts": 1,
+    "approach_summary": "token overlap, tokenization, field splitting"
+  },
+  {
+    "program_id": 48,
+    "filename": "judge_48.py",
+    "heuristic_id": 12,
+    "heuristic_name": "Head Food Position",
+    "variant": 4,
+    "status": "success",
+    "attempts": 1,
+    "approach_summary": "char trigrams, tokenization, field splitting, stemming"
+  },
+  {
+    "program_id": 49,
+    "filename": "judge_49.py",
+    "heuristic_id": 13,
+    "heuristic_name": "Unstated Added Qualifier",
+    "variant": 1,
+    "status": "success",
+    "attempts": 1,
+    "approach_summary": "tokenization, field splitting, set operations, regex"
+  },
+  {
+    "program_id": 50,
+    "filename": "judge_50.py",
+    "heuristic_id": 13,
+    "heuristic_name": "Unstated Added Qualifier",
+    "variant": 2,
+    "status": "success",
+    "attempts": 1,
+    "approach_summary": "token overlap, field splitting, set operations, regex"
+  },
+  {
+    "program_id": 51,
+    "filename": "judge_51.py",
+    "heuristic_id": 13,
+    "heuristic_name": "Unstated Added Qualifier",
+    "variant": 3,
+    "status": "success",
+    "attempts": 1,
+    "approach_summary": "tokenization, field splitting, set operations, regex"
+  },
+  {
+    "program_id": 52,
+    "filename": "judge_52.py",
+    "heuristic_id": 13,
+    "heuristic_name": "Unstated Added Qualifier",
+    "variant": 4,
+    "status": "success",
+    "attempts": 3,
+    "approach_summary": "field splitting, set operations, stemming"
+  },
+  {
+    "program_id": 53,
+    "filename": "judge_53.py",
+    "heuristic_id": 14,
+    "heuristic_name": "Polarity and Negation Conflict",
+    "variant": 1,
+    "status": "success",
+    "attempts": 1,
+    "approach_summary": "token overlap, tokenization, field splitting, set operations"
+  },
+  {
+    "program_id": 54,
+    "filename": "judge_54.py",
+    "heuristic_id": 14,
+    "heuristic_name": "Polarity and Negation Conflict",
+    "variant": 2,
+    "status": "success",
+    "attempts": 1,
+    "approach_summary": "tokenization, field splitting, set operations, regex"
+  },
+  {
+    "program_id": 55,
+    "filename": "judge_55.py",
+    "heuristic_id": 14,
+    "heuristic_name": "Polarity and Negation Conflict",
+    "variant": 3,
+    "status": "success",
+    "attempts": 1,
+    "approach_summary": "tokenization, set operations"
+  },
+  {
+    "program_id": 56,
+    "filename": "judge_56.py",
+    "heuristic_id": 14,
+    "heuristic_name": "Polarity and Negation Conflict",
+    "variant": 4,
+    "status": "success",
+    "attempts": 1,
+    "approach_summary": "field splitting, set operations"
+  },
+  {
+    "program_id": 57,
+    "filename": "judge_57.py",
+    "heuristic_id": 15,
+    "heuristic_name": "Brand and Commercial Product",
+    "variant": 1,
+    "status": "success",
+    "attempts": 1,
+    "approach_summary": "tokenization, field splitting, set operations, stemming"
+  },
+  {
+    "program_id": 58,
+    "filename": "judge_58.py",
+    "heuristic_id": 15,
+    "heuristic_name": "Brand and Commercial Product",
+    "variant": 2,
+    "status": "success",
+    "attempts": 1,
+    "approach_summary": "char trigrams, field splitting, set operations, stemming"
+  },
+  {
+    "program_id": 59,
+    "filename": "judge_59.py",
+    "heuristic_id": 15,
+    "heuristic_name": "Brand and Commercial Product",
+    "variant": 3,
+    "status": "success",
+    "attempts": 2,
+    "approach_summary": "char trigrams, comma-region parsing, field splitting, set operations"
+  },
+  {
+    "program_id": 60,
+    "filename": "judge_60.py",
+    "heuristic_id": 15,
+    "heuristic_name": "Brand and Commercial Product",
+    "variant": 4,
+    "status": "success",
+    "attempts": 2,
+    "approach_summary": "tokenization, field splitting, set operations, stemming"
+  },
+  {
+    "program_id": 61,
+    "filename": "judge_61.py",
+    "heuristic_id": 16,
+    "heuristic_name": "Single Ingredient vs Composite Dish",
+    "variant": 1,
+    "status": "failed: Fails directional sanity (good match scored below bad match)",
+    "attempts": 5
+  },
+  {
+    "program_id": 62,
+    "filename": "judge_62.py",
+    "heuristic_id": 16,
+    "heuristic_name": "Single Ingredient vs Composite Dish",
+    "variant": 2,
+    "status": "success",
+    "attempts": 1,
+    "approach_summary": "token overlap, tokenization, comma-region parsing, field splitting"
+  },
+  {
+    "program_id": 63,
+    "filename": "judge_63.py",
+    "heuristic_id": 16,
+    "heuristic_name": "Single Ingredient vs Composite Dish",
+    "variant": 3,
+    "status": "success",
+    "attempts": 1,
+    "approach_summary": "token overlap, tokenization, comma-region parsing, field splitting"
+  },
+  {
+    "program_id": 64,
+    "filename": "judge_64.py",
+    "heuristic_id": 16,
+    "heuristic_name": "Single Ingredient vs Composite Dish",
+    "variant": 4,
+    "status": "success",
+    "attempts": 3,
+    "approach_summary": "tokenization, field splitting, stemming"
+  },
+  {
+    "program_id": 65,
+    "filename": "judge_65.py",
+    "heuristic_id": 17,
+    "heuristic_name": "Cooking Method Agreement",
+    "variant": 1,
+    "status": "success",
+    "attempts": 1,
+    "approach_summary": "token overlap, tokenization, set operations, stemming"
+  },
+  {
+    "program_id": 66,
+    "filename": "judge_66.py",
+    "heuristic_id": 17,
+    "heuristic_name": "Cooking Method Agreement",
+    "variant": 2,
+    "status": "success",
+    "attempts": 5,
+    "approach_summary": "token overlap, tokenization, set operations"
+  },
+  {
+    "program_id": 67,
+    "filename": "judge_67.py",
+    "heuristic_id": 17,
+    "heuristic_name": "Cooking Method Agreement",
+    "variant": 3,
+    "status": "success",
+    "attempts": 1,
+    "approach_summary": "tokenization, comma-region parsing, field splitting, set operations"
+  },
+  {
+    "program_id": 68,
+    "filename": "judge_68.py",
+    "heuristic_id": 17,
+    "heuristic_name": "Cooking Method Agreement",
+    "variant": 4,
+    "status": "success",
+    "attempts": 4,
+    "approach_summary": "Jaccard, token overlap, tokenization, field splitting"
+  },
+  {
+    "program_id": 69,
+    "filename": "judge_69.py",
+    "heuristic_id": 18,
+    "heuristic_name": "Anatomical Part and Cut",
+    "variant": 1,
+    "status": "success",
+    "attempts": 1,
+    "approach_summary": "token overlap, tokenization, field splitting, set operations"
+  },
+  {
+    "program_id": 70,
+    "filename": "judge_70.py",
+    "heuristic_id": 18,
+    "heuristic_name": "Anatomical Part and Cut",
+    "variant": 2,
+    "status": "success",
+    "attempts": 1,
+    "approach_summary": "tokenization, comma-region parsing, field splitting, set operations"
+  },
+  {
+    "program_id": 71,
+    "filename": "judge_71.py",
+    "heuristic_id": 18,
+    "heuristic_name": "Anatomical Part and Cut",
+    "variant": 3,
+    "status": "success",
+    "attempts": 1,
+    "approach_summary": "tokenization, field splitting, set operations, stemming"
+  },
+  {
+    "program_id": 72,
+    "filename": "judge_72.py",
+    "heuristic_id": 18,
+    "heuristic_name": "Anatomical Part and Cut",
+    "variant": 4,
+    "status": "success",
+    "attempts": 1,
+    "approach_summary": "char trigrams, tokenization, comma-region parsing, field splitting"
+  },
+  {
+    "program_id": 73,
+    "filename": "judge_73.py",
+    "heuristic_id": 19,
+    "heuristic_name": "Ingredient Detail Coverage",
+    "variant": 1,
+    "status": "success",
+    "attempts": 1,
+    "approach_summary": "tokenization, field splitting, set operations, stemming"
+  },
+  {
+    "program_id": 74,
+    "filename": "judge_74.py",
+    "heuristic_id": 19,
+    "heuristic_name": "Ingredient Detail Coverage",
+    "variant": 2,
+    "status": "success",
+    "attempts": 1,
+    "approach_summary": "tokenization, field splitting, set operations, stemming"
+  },
+  {
+    "program_id": 75,
+    "filename": "judge_75.py",
+    "heuristic_id": 19,
+    "heuristic_name": "Ingredient Detail Coverage",
+    "variant": 3,
+    "status": "success",
+    "attempts": 1,
+    "approach_summary": "tokenization, comma-region parsing, field splitting, set operations"
+  },
+  {
+    "program_id": 76,
+    "filename": "judge_76.py",
+    "heuristic_id": 19,
+    "heuristic_name": "Ingredient Detail Coverage",
+    "variant": 4,
+    "status": "success",
+    "attempts": 1,
+    "approach_summary": "char trigrams, tokenization, comma-region parsing, field splitting"
+  },
+  {
+    "program_id": 77,
+    "filename": "judge_77.py",
+    "heuristic_id": 20,
+    "heuristic_name": "Compound Food Name Integrity",
+    "variant": 1,
+    "status": "success",
+    "attempts": 1,
+    "approach_summary": "token overlap, tokenization, comma-region parsing, field splitting"
+  },
+  {
+    "program_id": 78,
+    "filename": "judge_78.py",
+    "heuristic_id": 20,
+    "heuristic_name": "Compound Food Name Integrity",
+    "variant": 2,
+    "status": "success",
+    "attempts": 1,
+    "approach_summary": "tokenization, field splitting, set operations, stemming"
+  },
+  {
+    "program_id": 79,
+    "filename": "judge_79.py",
+    "heuristic_id": 20,
+    "heuristic_name": "Compound Food Name Integrity",
+    "variant": 3,
+    "status": "success",
+    "attempts": 1,
+    "approach_summary": "token overlap, field splitting, set operations, stemming"
+  },
+  {
+    "program_id": 80,
+    "filename": "judge_80.py",
+    "heuristic_id": 20,
+    "heuristic_name": "Compound Food Name Integrity",
+    "variant": 4,
+    "status": "success",
+    "attempts": 1,
+    "approach_summary": "token overlap, tokenization, field splitting, set operations"
+  }
+]

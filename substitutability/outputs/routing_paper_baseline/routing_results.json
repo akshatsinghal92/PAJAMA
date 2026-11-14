@@ -1,0 +1,76 @@
+{
+  "budget": 0.25,
+  "committee_accuracy": {
+    "router": 0.7338,
+    "eval": 0.7255,
+    "real": 0.7455
+  },
+  "n": {
+    "committee_fit": 380,
+    "router_train": 943,
+    "eval": 2856,
+    "real": 943
+  },
+  "committee": {
+    "k": 3,
+    "program_ids": [
+      40,
+      37,
+      33
+    ]
+  },
+  "chosen_by_cv": "GBM (committee features)",
+  "wrong_auc_eval": 0.743,
+  "escalation_needed": {
+    "0.90": 0.39,
+    "0.95": 0.58,
+    "0.99": 0.79
+  },
+  "results": {
+    "random": {
+      "cv_router_set": 0.8004,
+      "eval": 0.7943,
+      "real": 0.8095
+    },
+    "vote variance (selected committee)": {
+      "cv_router_set": 0.8176,
+      "eval": 0.8137,
+      "real": 0.8324
+    },
+    "vote variance (all 80 programs)": {
+      "cv_router_set": 0.8176,
+      "eval": 0.7952,
+      "real": 0.895
+    },
+    "posterior margin": {
+      "cv_router_set": 0.7985,
+      "eval": 0.8015,
+      "real": 0.8547
+    },
+    "LogReg (committee features)": {
+      "cv_router_set": 0.8431,
+      "eval": 0.8351,
+      "real": 0.8674
+    },
+    "LogReg + TF-IDF text": {
+      "cv_router_set": 0.842,
+      "eval": 0.8316,
+      "real": 0.8579
+    },
+    "GBM (committee features)": {
+      "cv_router_set": 0.8664,
+      "eval": 0.8519,
+      "real": 0.8653
+    },
+    "GBM + TF-IDF text": {
+      "cv_router_set": 0.8547,
+      "eval": 0.847,
+      "real": 0.8738
+    },
+    "oracle (upper bound)": {
+      "cv_router_set": 0.9841,
+      "eval": 0.9755,
+      "real": 0.9958
+    }
+  }
+}
