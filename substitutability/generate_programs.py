@@ -233,12 +233,26 @@ def save_state(manifest: list[dict]) -> None:
 # ── Main ─────────────────────────────────────────────────────────────────
 
 def main() -> None:
+    global OUTPUT_DIR, MANIFEST_PATH, MODEL
     ap = argparse.ArgumentParser(description="Synthesize substitutability judge programs.")
     ap.add_argument("--val", default=str(DEFAULT_VAL))
     ap.add_argument("--per-heuristic", type=int, default=PROGRAMS_PER_HEURISTIC)
     ap.add_argument("--num-few-shot", type=int, default=NUM_FEW_SHOT_EXAMPLES)
     ap.add_argument("--seed", type=int, default=SEED)
+    ap.add_argument("--out-dir", default=str(OUTPUT_DIR),
+                    help="Where judge_*.py and manifest.json go (default: programs/)")
+    ap.add_argument("--model", default=MODEL, help="Synthesizer model id")
+    ap.add_argument("--overwrite", action="store_true",
+                    help="Allow writing into an out-dir that already has judge files but no manifest")
     args = ap.parse_args()
+
+    OUTPUT_DIR = Path(args.out_dir).resolve()
+    MANIFEST_PATH = OUTPUT_DIR / "manifest.json"
+    MODEL = args.model
+    if any(OUTPUT_DIR.glob("judge_*.py")) and not MANIFEST_PATH.exists() and not args.overwrite:
+        raise SystemExit(f"{OUTPUT_DIR} already holds judge_*.py files with no manifest.json; "
+                         "they would be overwritten. Pass a new --out-dir, or --overwrite.")
+    print(f"Synthesizer: {MODEL}  ->  {OUTPUT_DIR}")
 
     api_key = os.environ.get("ANTHROPIC_API_KEY")
     if not api_key:
